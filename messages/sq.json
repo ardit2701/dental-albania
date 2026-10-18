@@ -1,0 +1,377 @@
+{
+  "nav": {
+    "home": "Kryefaqja",
+    "about": "Rreth Nesh",
+    "doctors": "Mjekët",
+    "treatments": "Trajtimet",
+    "implants": "Implante Dentare",
+    "crowns": "Kurora Dentare",
+    "veneers": "Faseta Dentare",
+    "allOn6": "All-on-6",
+    "allOn4": "All-on-4",
+    "whitening": "Zbardhim Dhëmbësh",
+    "orthodontics": "Ortodonti",
+    "aligners": "Aligners",
+    "cleaning": "Pastrim Profesional",
+    "beforeAfter": "Para & Pas",
+    "tourism": "Turizëm Dentar",
+    "contact": "Kontakt",
+    "appointment": "Cakto Takim"
+  },
+  "hero": {
+    "badge": "Klinika #1 Dentare në Shqipëri",
+    "title": "Buzëqeshja Juaj",
+    "titleHighlight": "e Përsosur",
+    "titleEnd": "Fillon Këtu",
+    "subtitle": "Trajtim dentar i nivelit botëror me çmime të volitshme. Specializuar në implante, faseta dhe rehabilitim të plotë oral.",
+    "ctaPrimary": "Cakto Takim Falas",
+    "ctaSecondary": "Shiko Rezultatet",
+    "stat1Value": "5,000+",
+    "stat1Label": "Pacientë të Kënaqur",
+    "stat2Value": "15+",
+    "stat2Label": "Vjet Eksperiencë",
+    "stat3Value": "98%",
+    "stat3Label": "Shkallë Suksesi",
+    "trustBarLabel": "Çertifikime & Partnerë"
+  },
+  "services": {
+    "badge": "Shërbimet Tona",
+    "learnMore": "Mëso më shumë",
+    "title": "Trajtimet Tona",
+    "subtitle": "Ofrojmë gamë të plotë të shërbimeve dentare me teknologji të fundit dhe staf të specializuar",
+    "items": [
+      {
+        "title": "Implante Dentare",
+        "desc": "Zëvendësim i përhershëm i dhëmbëve që mungojnë me titaniumit të gradës mjekësore. Rezultate natyrale dhe jetëgjatësi maksimale.",
+        "href": "/treatments/dental-implants"
+      },
+      {
+        "title": "Kurora & Ura",
+        "desc": "Restaurim i dhëmbëve të dëmtuar me kurora porcelani të cilësisë së lartë. Estetike dhe funksionale.",
+        "href": "/treatments/crowns"
+      },
+      {
+        "title": "Faseta Dentare",
+        "desc": "Transformo buzëqeshjen tënde me faseta ultra-të holla porcelani. Ndryshim dramatik, procedurë minimale.",
+        "href": "/treatments/veneers"
+      },
+      {
+        "title": "All-on-6",
+        "desc": "Restaurim i plotë i gojës me 6 implante. Dhëmbë të rinj në 3 ditë, buzëqeshje e re për gjithë jetën.",
+        "href": "/treatments/all-on-6"
+      }
+    ]
+  },
+  "beforeAfter": {
+    "badge": "Transformimet",
+    "before": "PARA",
+    "after": "PAS",
+    "verified": "Verifikuar",
+    "patientPrefix": "Pacienti",
+    "title": "Rezultate Reale",
+    "subtitle": "Transformimet e pacientëve tanë flasin vetë",
+    "cases": [
+      "Implante Dentare - Rast 1",
+      "Faseta Porcelani - Rast 2",
+      "All-on-6 - Rast 3",
+      "Kurora Dentare - Rast 4",
+      "Zbardhim Dhëmbësh - Rast 5",
+      "Ortodonti - Rast 6"
+    ]
+  },
+  "process": {
+    "badge": "Procesi",
+    "step": "Hapi",
+    "photos": [
+      { "label": "Implant Premium", "sub": "Titaniumi i klasit ISO" },
+      { "label": "Kurora Zokiron", "sub": "Ceramikë e klasit lartë" },
+      { "label": "Faseta Emax", "sub": "Buzëqeshja e ëndrrave tuaja" }
+    ],
+    "title": "Si Funksionon",
+    "subtitle": "Procesi ynë i thjeshtë dhe transparent i trajtimit",
+    "tabs": [
+      {
+        "label": "Implante",
+        "steps": [
+          {
+            "title": "Konsultimi Falas",
+            "body": "Vizitoni klinikën tonë për një konsultim të plotë falas. Mjeku do të vlerësojë gjendjen tuaj dhe do të propozojë planin optimal të trajtimit me çmimet e detajuara."
+          },
+          {
+            "title": "Vendosja e Implantit",
+            "body": "Implantin e titaniumit e vendosim me anestezi lokale. Procedura zgjat 45-60 minuta. Do të ndjeni rehat gjatë gjithë procesit."
+          },
+          {
+            "title": "Kurora Finale",
+            "body": "Pas periudhës së shërimit (3-6 muaj), vendosim kurorën finale porcelani. Rezultati duket dhe ndjehet plotësisht natyral."
+          }
+        ]
+      },
+      {
+        "label": "Kurora",
+        "steps": [
+          {
+            "title": "Vlerësimi",
+            "body": "Mjeku vlerëson dhëmbin dhe përcakton nëse kurora është trajtimi i duhur. Marrim imazhe dhe masa digjitale."
+          },
+          {
+            "title": "Përgatitja",
+            "body": "Dhëmbi përgatitet duke hequr shtresën e jashtme. Vendoset kurora provizore gjatë procesit të fabrikimit të kurorës permanente."
+          },
+          {
+            "title": "Vendosja",
+            "body": "Korona porcelani e personalizuar vendoset dhe cementohet. Kontrollojmë kafshimin dhe estetikën. Rezultat i menjëhershëm dhe i qëndrueshëm."
+          }
+        ]
+      },
+      {
+        "label": "Faseta",
+        "steps": [
+          {
+            "title": "Dizajni i Buzëqeshjes",
+            "body": "Krijojmë simulim digjital të buzëqeshjes suaj të re. Shikoni rezultatin para se të fillojë trajtimi. Personalizojmë ngjyrën, formën dhe madhësinë."
+          },
+          {
+            "title": "Përgatitja Minimale",
+            "body": "Heqim vetëm 0.3-0.5mm nga sipërfaqja e dhëmbëve. Kjo është procedura më minimale invazive krahasuar me kurorën klasike."
+          },
+          {
+            "title": "Aplikimi Final",
+            "body": "Faseta të bëra me saktësi laboratorike ngjiten me lidhës dentar special. Buzëqeshja juaj e re është e menjëhershme dhe spektakolare."
+          }
+        ]
+      }
+    ]
+  },
+  "whyUs": {
+    "badge": "Avantazhet Tona",
+    "cta": "Cakto Konsultim Falas",
+    "stats": [
+      { "value": "5,200+", "label": "Pacientë të Kënaqur" },
+      { "value": "15+", "label": "Vite Eksperiencë" },
+      { "value": "98%", "label": "Satisfaksion" },
+      { "value": "4.9★", "label": "Google Reviews" }
+    ],
+    "title": "Pse KOKONA Dental and Maxillofacial Clinic",
+    "subtitle": "Çfarë na dallon nga të tjerët",
+    "cards": [
+      {
+        "icon": "🏆",
+        "title": "Teknologji e Fundit",
+        "desc": "Pajisjet tona më të fundit digjitale, CT Scanner 3D dhe sistemi CAD/CAM garantojnë saktësi maksimale dhe rezultate superiore."
+      },
+      {
+        "icon": "💰",
+        "title": "Çmime të Volitshme",
+        "desc": "Kurseni deri 70% krahasuar me klinkat perëndimore. Cilësi europiane me çmime shqiptare. Pa kosto të fshehura."
+      },
+      {
+        "icon": "✈️",
+        "title": "Paketa Turistike",
+        "desc": "Kujdesemi për gjithçka: hotelin, transfertat dhe turnet turistike. Kombinoni trajtimin dentar me një pushim të mrekullueshëm në Shqipëri."
+      }
+    ]
+  },
+  "doctorsSection": {
+    "badge": "Ekipi Mjekësor",
+    "title": "Mjekët Tanë",
+    "subtitle": "Specialistë të certifikuar me eksperiencë ndërkombëtare",
+    "viewAbout": "Rreth Nesh",
+    "doctors": [
+      {
+        "specialty": "Kirurgji Maxillo-Faciale & Implantologji",
+        "education": "Univ. Tiranë • Specializim 4-vjeçar Kirurgji MF",
+        "extras": ["Anëtar EACMFS që nga 2012", "Trajnime në Londër & Vjenë", "Kirurg në QSUT \"Nënë Tereza\""],
+        "experience": "15+ vjet"
+      },
+      {
+        "specialty": "Ortodonti & Estetikë Dentare",
+        "education": "Univ. Tiranë • CES Ortodonti — Univ. Bordeaux 2, Francë",
+        "extras": ["Aligners & Braces self-ligating", "Trajnim klinik në Francë & MB", "Estetikë dhe Faseta"],
+        "experience": "12+ vjet"
+      }
+    ]
+  },
+  "doctors": {
+    "title": "Ekipi Ynë",
+    "subtitle": "Mjekë të specializuar me eksperiencë ndërkombëtare",
+    "viewAll": "Shiko Të Gjithë",
+    "items": [
+      {
+        "name": "Dr. Arben Krasniqi",
+        "specialty": "Implantologji & Kirurgji Orale"
+      },
+      {
+        "name": "Dr. Elira Hoxha",
+        "specialty": "Estetikë Dentare & Faseta"
+      },
+      {
+        "name": "Dr. Genti Marku",
+        "specialty": "Ortodonti & Aligners"
+      },
+      {
+        "name": "Dr. Mira Duka",
+        "specialty": "Endodonti & Restaurim"
+      }
+    ]
+  },
+  "reviews": {
+    "title": "Çfarë Thonë Pacientët",
+    "rating": "4.9",
+    "ratingLabel": "Vlerësim i Shkëlqyer",
+    "basedOn": "Bazuar në 320+ vlerësime",
+    "items": [
+      {
+        "text": "Shërbim i jashtëzakonshëm! Erdha nga Londra për implante dhe kurrë nuk do të pendohem. Kurseva shumë para dhe mora cilësi shumë më të lartë. Stafi ishte shumë profesional dhe i miqësishëm.",
+        "name": "Sarah Johnson",
+        "date": "Tetor 2024"
+      },
+      {
+        "text": "Ho fatto le faccette qui e sono assolutamente soddisfatto. Il Dr. Elira è stata fantastica, molto professionale e attenta ai dettagli. Il risultato è spettacolare. Tornerò sicuramente.",
+        "name": "Marco Bianchi",
+        "date": "Shtator 2024"
+      },
+      {
+        "text": "Gjithë ekipi ishte i mrekullueshëm. Implanti u vendos pa dhimbje dhe shërimi ishte shumë i shpejtë. Rekomandoj me gjithë zemër. Çmimi ishte edhe shumë i arsyeshëm.",
+        "name": "Blerina Çela",
+        "date": "Gusht 2024"
+      },
+      {
+        "text": "Excellent clinic! I flew from Germany for veneers and the results exceeded my expectations. The team speaks perfect English and made me feel completely at ease throughout the process.",
+        "name": "Thomas Müller",
+        "date": "Korrik 2024"
+      },
+      {
+        "text": "Bëra All-on-6 dhe transformimi është fenomenal. Ndihem njeri tjetër. Mjeku shpjegoi çdo hap dhe ishte shumë i kujdesshëm. Klinika është e pastër dhe moderne. Faleminderit shumë!",
+        "name": "Fatmir Basha",
+        "date": "Qershor 2024"
+      },
+      {
+        "text": "Service impeccable et résultats magnifiques! Je suis venu de Paris pour les implants dentaires. Le prix était incroyable comparé à la France. Je recommande vivement cette clinique.",
+        "name": "Pierre Dubois",
+        "date": "Maj 2024"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Na Kontaktoni",
+    "subtitle": "Jemi këtu për të ndihmuar. Caktoni një konsultim falas sot.",
+    "address": "Rruga Myslym Shyri 123, Tiranë 1001, Shqipëri",
+    "phone": "+355 69 5XX XXXX",
+    "email": "info@dentalcarealbania.com",
+    "hours": "E Hënë - E Shtunë: 09:00 - 19:00",
+    "formTitle": "Cakto Konsultim Falas",
+    "fields": {
+      "firstName": "Emri",
+      "lastName": "Mbiemri",
+      "email": "Email",
+      "phone": "Telefon",
+      "country": "Shteti",
+      "treatment": "Trajtimi i Dëshiruar",
+      "message": "Mesazhi Juaj",
+      "privacy": "Jam dakord me Politikën e Privatësisë",
+      "selectCountry": "Zgjidhni shtetin",
+      "selectTreatment": "Zgjidhni trajtimin",
+      "treatmentOptions": [
+        "Implante Dentare",
+        "Kurora & Ura",
+        "Faseta Dentare",
+        "All-on-6",
+        "All-on-4",
+        "Zbardhim Dhëmbësh",
+        "Ortodonti / Aligners",
+        "Pastrim Profesional",
+        "Tjetër"
+      ]
+    },
+    "submit": "Dërgoni Kërkesën",
+    "submitting": "Duke dërguar...",
+    "successMsg": "Faleminderit! Do t'ju kontaktojmë brenda 24 orëve.",
+    "errorMsg": "Ndodhi një gabim. Ju lutem provoni sërish ose na telefononi."
+  },
+  "footer": {
+    "tagline": "Buzëqeshja juaj e përsosur, çmimi që meriton.",
+    "treatments": {
+      "title": "Trajtimet",
+      "links": [
+        { "label": "Implante Dentare", "href": "/treatments/dental-implants" },
+        { "label": "Kurora Dentare", "href": "/treatments/crowns" },
+        { "label": "Faseta Dentare", "href": "/treatments/veneers" },
+        { "label": "All-on-6", "href": "/treatments/all-on-6" },
+        { "label": "Zbardhim Dhëmbësh", "href": "/treatments" },
+        { "label": "Ortodonti", "href": "/treatments" }
+      ]
+    },
+    "clinic": {
+      "title": "Klinika",
+      "links": [
+        { "label": "Rreth Nesh", "href": "/about" },
+        { "label": "Mjekët", "href": "/about" },
+        { "label": "Para & Pas", "href": "/before-after" },
+        { "label": "Turizëm Dentar", "href": "/dental-tourism" },
+        { "label": "Blog", "href": "/" }
+      ]
+    },
+    "contact": {
+      "title": "Kontakt",
+      "address": "Rruga Myslym Shyri 123, Tiranë",
+      "phone": "+355 69 5XX XXXX",
+      "email": "info@dentalcarealbania.com"
+    },
+    "copyright": "© 2024 KOKONA Dental and Maxillofacial Clinic. Të gjitha të drejtat e rezervuara."
+  },
+  "about": {
+    "title": "Rreth Klinikës",
+    "subtitle": "15 vjet eksperiencë në shërbimin dentar të nivelit ndërkombëtar",
+    "story": "KOKONA Dental and Maxillofacial Clinic u themelua në 2009 me një mision të qartë: t'u ofrojë pacientëve shqiptarë dhe ndërkombëtarë kujdes dentar të nivelit botëror me çmime të volitshme. Sot, me mbi 5,000 pacientë të kënaqur dhe një ekip prej 12 mjekësh të specializuar, jemi klinika dentare lider në Shqipëri.",
+    "mission": "Misioni ynë është të transformojmë buzëqeshjet dhe jetët e pacientëve tanë duke ofruar kujdes dentar të shkëlqyer, teknologji të fundit dhe shërbim të personalizuar."
+  },
+  "treatments": {
+    "title": "Trajtimet Tona",
+    "subtitle": "Gama e plotë e shërbimeve dentare",
+    "implants": {
+      "title": "Implante Dentare",
+      "desc": "Implanti dentar është zgjidhja më e mirë permanente për zëvendësimin e dhëmbëve që mungojnë. I bërë nga titaniumi i gradës mjekësore, implantin integrohet me kockën e nofullës duke krijuar një bazë të fortë për koronën artificiale.",
+      "benefits": ["Jetëgjatësi maksimale (20+ vjet)", "Duket dhe ndjehet natyral", "Pa ndikim tek dhëmbët fqinj", "Ruajtja e kockës së nofullës"]
+    },
+    "crowns": {
+      "title": "Kurora & Ura Dentare",
+      "desc": "Kurora dentare është kapakë mbrojtës që vendoset mbi dhëmbin e dëmtuar. Reston formën, madhësinë dhe funksionin e dhëmbit duke e mbrojtur nga dëmtimet e mëtejshme.",
+      "benefits": ["Reston funksionin e plotë", "Estetikë e lartë", "Material i qëndrueshëm", "Procedurë e shpejtë"]
+    },
+    "veneers": {
+      "title": "Faseta Dentare",
+      "desc": "Faseta janë shtresa ultra-të holla porcelani që ngjiten në sipërfaqen e dhëmbëve. Japin transformim dramatik të buzëqeshjes me ndërhyrje minimale.",
+      "benefits": ["Transformim i menjëhershëm", "Procedurë minimale", "Rezistente ndaj njollave", "Jetëgjatësi 15-20 vjet"]
+    },
+    "allOn6": {
+      "title": "All-on-6 Implante",
+      "desc": "All-on-6 është zgjidhja revolucionare për pacientët që kanë humbur të gjithë dhëmbët ose kanë dhëmbë shumë të dëmtuar. Me vetëm 6 implante mbështesim të gjithë arkadën dentare.",
+      "benefits": ["Dhëmbë të rinj në 3 ditë", "Vetëm 6 implante për gjithë arkadën", "Estetikë superiore", "Rikuperim i shpejtë"]
+    }
+  },
+  "tourism": {
+    "title": "Turizëm Dentar në Shqipëri",
+    "subtitle": "Kombinoni trajtimin dentar me pushim në zemrën e Ballkanit",
+    "desc": "Shqipëria ofron kombinimin e përsosur: kujdes dentar të nivelit europian me çmime 50-70% më të ulëta se Europa Perëndimore, plus destinacione turistike mahnitëse.",
+    "packages": {
+      "title": "Çfarë Përfshin Paketa",
+      "items": [
+        "Transferta nga/në aeroport",
+        "Akomodim hotel 4 yje",
+        "Konsultim falas",
+        "Të gjitha vizitat dentare",
+        "Tur i Tiranës historike",
+        "Opsion plazhi në Rivierën Shqiptare"
+      ]
+    },
+    "savings": {
+      "title": "Sa Kurseni",
+      "items": [
+        { "treatment": "Implant Dentar", "uk": "£2,500", "albania": "£500" },
+        { "treatment": "Faseta (10 copë)", "uk": "£10,000", "albania": "£2,500" },
+        { "treatment": "All-on-6", "uk": "£25,000", "albania": "£7,000" }
+      ]
+    }
+  }
+}

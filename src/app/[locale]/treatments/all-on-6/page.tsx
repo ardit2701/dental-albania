@@ -1,0 +1,79 @@
+import { getTranslations, setRequestLocale } from "next-intl/server";
+import type { Metadata } from "next";
+import PageHero from "@/components/layout/PageHero";
+
+type Props = {
+  params: Promise<{ locale: string }>;
+};
+
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: "All-on-6 Implante",
+    description: "All-on-6 implante dentare në KOKONA Dental and Maxillofacial Clinic. Dhëmbë të rinj në 3 ditë.",
+  };
+}
+
+export default async function AllOn6Page({ params }: Props) {
+  const { locale } = await params;
+  setRequestLocale(locale);
+  const t = await getTranslations("treatments");
+
+  const benefits = [
+    t("allOn6.benefits.0"),
+    t("allOn6.benefits.1"),
+    t("allOn6.benefits.2"),
+    t("allOn6.benefits.3"),
+  ];
+
+  return (
+    <>
+      <PageHero
+        imageSrc="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=1600&q=85"
+        imageAlt="All-on-6 restaurim i plotë"
+        badge="🦷 All-on-6"
+        title={t("allOn6.title")}
+        subtitle={t("allOn6.desc")}
+        variant={1}
+      />
+
+      <section className="py-16 bg-white">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
+            <div>
+              <h2 className="text-2xl font-bold text-gray-900 mb-5">Avantazhet</h2>
+              <ul className="space-y-3">
+                {benefits.map((b) => (
+                  <li key={b} className="flex items-center gap-3 p-3 bg-[#f0fdfa] rounded-xl">
+                    <div className="w-6 h-6 bg-[#0d9488] rounded-full flex items-center justify-center shrink-0">
+                      <svg className="w-3.5 h-3.5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
+                      </svg>
+                    </div>
+                    <span className="text-gray-700 font-medium text-sm">{b}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <div className="bg-gradient-to-br from-[#0d9488] to-[#0f766e] rounded-3xl p-10 text-center">
+              <span className="text-8xl block mb-4">🏆</span>
+              <h3 className="text-white text-xl font-bold mb-2">All-on-6</h3>
+              <p className="text-[#99f6e4] text-sm">Arkadë e plotë · Dhëmbë të rinj</p>
+              <div className="mt-6 bg-white/20 rounded-xl p-4">
+                <p className="text-[#99f6e4] text-sm">Kontaktoni klinikën për ofertë personale</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="mt-12 text-center">
+            <a
+              href="#contact"
+              className="inline-flex items-center gap-2 px-8 py-4 bg-[#0d9488] hover:bg-[#0f766e] text-white font-bold text-base rounded-xl transition-all duration-300 hover:-translate-y-0.5 shadow-lg"
+            >
+              Cakto Konsultim Falas
+            </a>
+          </div>
+        </div>
+      </section>
+    </>
+  );
+}

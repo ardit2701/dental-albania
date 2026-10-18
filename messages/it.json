@@ -1,0 +1,377 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "Chi Siamo",
+    "doctors": "Medici",
+    "treatments": "Trattamenti",
+    "implants": "Impianti Dentali",
+    "crowns": "Corone Dentali",
+    "veneers": "Faccette Dentali",
+    "allOn6": "All-on-6",
+    "allOn4": "All-on-4",
+    "whitening": "Sbiancamento Denti",
+    "orthodontics": "Ortodonzia",
+    "aligners": "Aligners",
+    "cleaning": "Pulizia Professionale",
+    "beforeAfter": "Prima & Dopo",
+    "tourism": "Turismo Dentale",
+    "contact": "Contatto",
+    "appointment": "Prenota Appuntamento"
+  },
+  "hero": {
+    "badge": "La Clinica Dentale #1 in Albania",
+    "title": "Il Tuo Sorriso",
+    "titleHighlight": "Perfetto",
+    "titleEnd": "Inizia Qui",
+    "subtitle": "Cure dentali di livello mondiale a prezzi accessibili. Specializzati in impianti, faccette e riabilitazione orale completa.",
+    "ctaPrimary": "Prenota Consulenza Gratuita",
+    "ctaSecondary": "Vedi i Risultati",
+    "stat1Value": "5.000+",
+    "stat1Label": "Pazienti Soddisfatti",
+    "stat2Value": "15+",
+    "stat2Label": "Anni di Esperienza",
+    "stat3Value": "98%",
+    "stat3Label": "Tasso di Successo",
+    "trustBarLabel": "Certificazioni & Partner"
+  },
+  "services": {
+    "badge": "I Nostri Servizi",
+    "learnMore": "Scopri di più",
+    "title": "I Nostri Trattamenti",
+    "subtitle": "Offriamo una gamma completa di servizi dentali con le ultime tecnologie e personale specializzato",
+    "items": [
+      {
+        "title": "Impianti Dentali",
+        "desc": "Sostituzione permanente dei denti mancanti con titanio di grado medicale. Risultati naturali e massima longevità.",
+        "href": "/treatments/dental-implants"
+      },
+      {
+        "title": "Corone e Ponti",
+        "desc": "Restauro dei denti danneggiati con corone in porcellana di alta qualità. Sia estetiche che funzionali.",
+        "href": "/treatments/crowns"
+      },
+      {
+        "title": "Faccette Dentali",
+        "desc": "Trasforma il tuo sorriso con faccette in porcellana ultra-sottili. Cambiamento drammatico, procedura minima.",
+        "href": "/treatments/veneers"
+      },
+      {
+        "title": "All-on-6",
+        "desc": "Restauro completo della bocca con 6 impianti. Nuovi denti in 3 giorni, nuovo sorriso per tutta la vita.",
+        "href": "/treatments/all-on-6"
+      }
+    ]
+  },
+  "beforeAfter": {
+    "badge": "Trasformazioni",
+    "before": "PRIMA",
+    "after": "DOPO",
+    "verified": "Verificato",
+    "patientPrefix": "Paziente",
+    "title": "Risultati Reali",
+    "subtitle": "Le trasformazioni dei nostri pazienti parlano da sole",
+    "cases": [
+      "Impianti Dentali - Caso 1",
+      "Faccette in Porcellana - Caso 2",
+      "All-on-6 - Caso 3",
+      "Corone Dentali - Caso 4",
+      "Sbiancamento Denti - Caso 5",
+      "Ortodonzia - Caso 6"
+    ]
+  },
+  "process": {
+    "badge": "Il Processo",
+    "step": "Passo",
+    "photos": [
+      { "label": "Impianto Premium", "sub": "Titanio di grado ISO" },
+      { "label": "Corona in Zirconio", "sub": "Ceramica di alta qualità" },
+      { "label": "Faccette Emax", "sub": "Il tuo sorriso da sogno" }
+    ],
+    "title": "Come Funziona",
+    "subtitle": "Il nostro processo di trattamento semplice e trasparente",
+    "tabs": [
+      {
+        "label": "Impianti",
+        "steps": [
+          {
+            "title": "Consulenza Gratuita",
+            "body": "Visita la nostra clinica per una consulenza gratuita completa. Il medico valuterà la tua condizione e proporrà il piano di trattamento ottimale con prezzi dettagliati."
+          },
+          {
+            "title": "Posizionamento dell'Impianto",
+            "body": "L'impianto in titanio viene posizionato in anestesia locale. La procedura dura 45-60 minuti. Sarai a tuo agio durante tutto il processo."
+          },
+          {
+            "title": "Corona Finale",
+            "body": "Dopo il periodo di guarigione (3-6 mesi), posizioniamo la corona definitiva in porcellana. Il risultato appare e si sente completamente naturale."
+          }
+        ]
+      },
+      {
+        "label": "Corone",
+        "steps": [
+          {
+            "title": "Valutazione",
+            "body": "Il medico valuta il dente e determina se una corona è il trattamento giusto. Prendiamo scansioni e impronte digitali."
+          },
+          {
+            "title": "Preparazione",
+            "body": "Il dente viene preparato rimuovendo lo strato esterno. Viene posizionata una corona provvisoria durante la fabbricazione della corona permanente."
+          },
+          {
+            "title": "Posizionamento",
+            "body": "La corona in porcellana personalizzata viene posizionata e cementata. Controlliamo la masticazione e l'estetica. Risultato immediato e duraturo."
+          }
+        ]
+      },
+      {
+        "label": "Faccette",
+        "steps": [
+          {
+            "title": "Design del Sorriso",
+            "body": "Creiamo una simulazione digitale del tuo nuovo sorriso. Vedi il risultato prima che inizi il trattamento. Personalizziamo colore, forma e dimensione."
+          },
+          {
+            "title": "Preparazione Minima",
+            "body": "Rimuoviamo solo 0,3-0,5 mm dalla superficie del dente. Questa è la procedura meno invasiva rispetto alle corone classiche."
+          },
+          {
+            "title": "Applicazione Finale",
+            "body": "Le faccette realizzate con precisione in laboratorio vengono incollate con un adesivo dentale speciale. Il tuo nuovo sorriso è immediato e spettacolare."
+          }
+        ]
+      }
+    ]
+  },
+  "whyUs": {
+    "badge": "I Nostri Vantaggi",
+    "cta": "Prenota Consulenza Gratuita",
+    "stats": [
+      { "value": "5.200+", "label": "Pazienti Soddisfatti" },
+      { "value": "15+", "label": "Anni di Esperienza" },
+      { "value": "98%", "label": "Soddisfazione" },
+      { "value": "4.9★", "label": "Google Reviews" }
+    ],
+    "title": "Perché KOKONA Dental and Maxillofacial Clinic",
+    "subtitle": "Cosa ci distingue dagli altri",
+    "cards": [
+      {
+        "icon": "🏆",
+        "title": "Ultima Tecnologia",
+        "desc": "Le nostre apparecchiature digitali all'avanguardia, TC 3D e sistema CAD/CAM garantiscono la massima precisione e risultati superiori."
+      },
+      {
+        "icon": "💰",
+        "title": "Prezzi Accessibili",
+        "desc": "Risparmia fino al 70% rispetto alle cliniche occidentali. Qualità europea a prezzi albanesi. Nessun costo nascosto."
+      },
+      {
+        "icon": "✈️",
+        "title": "Pacchetti Turistici",
+        "desc": "Ci occupiamo di tutto: hotel, trasferimenti e tour turistici. Combina il tuo trattamento dentale con una splendida vacanza in Albania."
+      }
+    ]
+  },
+  "doctorsSection": {
+    "badge": "Team Medico",
+    "title": "I Nostri Medici",
+    "subtitle": "Specialisti certificati con esperienza internazionale",
+    "viewAbout": "Chi Siamo",
+    "doctors": [
+      {
+        "specialty": "Chirurgia Maxillo-Facciale & Implantologia",
+        "education": "Univ. Tirana • Specializzazione 4 anni Chirurgia MF",
+        "extras": ["Membro EACMFS dal 2012", "Formazione a Londra & Vienna", "Chirurgo presso QSUT 'Madre Teresa'"],
+        "experience": "15+ anni"
+      },
+      {
+        "specialty": "Ortodonzia & Estetica Dentale",
+        "education": "Univ. Tirana • CES Ortodonzia — Univ. Bordeaux 2, Francia",
+        "extras": ["Aligners & Bracket autoliganti", "Formazione clinica in Francia & UK", "Estetica e Faccette"],
+        "experience": "12+ anni"
+      }
+    ]
+  },
+  "doctors": {
+    "title": "Il Nostro Team",
+    "subtitle": "Medici specialisti con esperienza internazionale",
+    "viewAll": "Vedi Tutti",
+    "items": [
+      {
+        "name": "Dr. Arben Krasniqi",
+        "specialty": "Implantologia e Chirurgia Orale"
+      },
+      {
+        "name": "Dr. Elira Hoxha",
+        "specialty": "Estetica Dentale e Faccette"
+      },
+      {
+        "name": "Dr. Genti Marku",
+        "specialty": "Ortodonzia e Aligners"
+      },
+      {
+        "name": "Dr. Mira Duka",
+        "specialty": "Endodonzia e Restauro"
+      }
+    ]
+  },
+  "reviews": {
+    "title": "Cosa Dicono i Pazienti",
+    "rating": "4.9",
+    "ratingLabel": "Valutazione Eccellente",
+    "basedOn": "Basato su 320+ recensioni",
+    "items": [
+      {
+        "text": "Servizio eccezionale! Sono venuta da Londra per gli impianti e non me ne pentirò mai. Ho risparmiato molti soldi e ho ricevuto una qualità molto più alta. Il personale era molto professionale e cordiale.",
+        "name": "Sarah Johnson",
+        "date": "Ottobre 2024"
+      },
+      {
+        "text": "Ho fatto le faccette qui e sono assolutamente soddisfatto. Il Dr. Elira è stata fantastica, molto professionale e attenta ai dettagli. Il risultato è spettacolare. Tornerò sicuramente.",
+        "name": "Marco Bianchi",
+        "date": "Settembre 2024"
+      },
+      {
+        "text": "L'intero team è stato meraviglioso. L'impianto è stato posizionato senza dolore e la guarigione è stata molto rapida. Lo consiglio di cuore. Il prezzo era anche molto ragionevole.",
+        "name": "Blerina Çela",
+        "date": "Agosto 2024"
+      },
+      {
+        "text": "Clinica eccellente! Sono volato dalla Germania per le faccette e i risultati hanno superato le mie aspettative. Il team parla perfettamente italiano e mi ha messo completamente a mio agio.",
+        "name": "Thomas Müller",
+        "date": "Luglio 2024"
+      },
+      {
+        "text": "Ho fatto l'All-on-6 e la trasformazione è fenomenale. Mi sento una persona nuova. Il medico ha spiegato ogni passaggio ed è stato molto premuroso. La clinica è pulita e moderna.",
+        "name": "Fatmir Basha",
+        "date": "Giugno 2024"
+      },
+      {
+        "text": "Service impeccable et résultats magnifiques! Je suis venu de Paris pour les implants dentaires. Le prix était incroyable comparé à la France. Je recommande vivement cette clinique.",
+        "name": "Pierre Dubois",
+        "date": "Maggio 2024"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contattaci",
+    "subtitle": "Siamo qui per aiutare. Prenota una consulenza gratuita oggi.",
+    "address": "Rruga Myslym Shyri 123, Tirana 1001, Albania",
+    "phone": "+355 69 5XX XXXX",
+    "email": "info@dentalcarealbania.com",
+    "hours": "Lunedì - Sabato: 09:00 - 19:00",
+    "formTitle": "Prenota Consulenza Gratuita",
+    "fields": {
+      "firstName": "Nome",
+      "lastName": "Cognome",
+      "email": "Email",
+      "phone": "Telefono",
+      "country": "Paese",
+      "treatment": "Trattamento Desiderato",
+      "message": "Il Tuo Messaggio",
+      "privacy": "Accetto la Privacy Policy",
+      "selectCountry": "Seleziona il paese",
+      "selectTreatment": "Seleziona trattamento",
+      "treatmentOptions": [
+        "Impianti Dentali",
+        "Corone e Ponti",
+        "Faccette Dentali",
+        "All-on-6",
+        "All-on-4",
+        "Sbiancamento Denti",
+        "Ortodonzia / Aligners",
+        "Pulizia Professionale",
+        "Altro"
+      ]
+    },
+    "submit": "Invia Richiesta",
+    "submitting": "Invio in corso...",
+    "successMsg": "Grazie! Ti contatteremo entro 24 ore.",
+    "errorMsg": "Si è verificato un errore. Riprova o chiamaci."
+  },
+  "footer": {
+    "tagline": "Il tuo sorriso perfetto, il prezzo che meriti.",
+    "treatments": {
+      "title": "Trattamenti",
+      "links": [
+        { "label": "Impianti Dentali", "href": "/treatments/dental-implants" },
+        { "label": "Corone Dentali", "href": "/treatments/crowns" },
+        { "label": "Faccette Dentali", "href": "/treatments/veneers" },
+        { "label": "All-on-6", "href": "/treatments/all-on-6" },
+        { "label": "Sbiancamento Denti", "href": "/treatments" },
+        { "label": "Ortodonzia", "href": "/treatments" }
+      ]
+    },
+    "clinic": {
+      "title": "Clinica",
+      "links": [
+        { "label": "Chi Siamo", "href": "/about" },
+        { "label": "Medici", "href": "/about" },
+        { "label": "Prima & Dopo", "href": "/before-after" },
+        { "label": "Turismo Dentale", "href": "/dental-tourism" },
+        { "label": "Blog", "href": "/" }
+      ]
+    },
+    "contact": {
+      "title": "Contatto",
+      "address": "Rruga Myslym Shyri 123, Tirana",
+      "phone": "+355 69 5XX XXXX",
+      "email": "info@dentalcarealbania.com"
+    },
+    "copyright": "© 2024 KOKONA Dental and Maxillofacial Clinic. Tutti i diritti riservati."
+  },
+  "about": {
+    "title": "Sulla Clinica",
+    "subtitle": "15 anni di esperienza nelle cure dentali di livello internazionale",
+    "story": "KOKONA Dental and Maxillofacial Clinic è stata fondata nel 2009 con una missione chiara: offrire ai pazienti albanesi e internazionali cure dentali di livello mondiale a prezzi accessibili. Oggi, con oltre 5.000 pazienti soddisfatti e un team di 12 medici specialisti, siamo la clinica dentale leader in Albania.",
+    "mission": "La nostra missione è trasformare i sorrisi e le vite dei nostri pazienti offrendo eccellenti cure dentali, la tecnologia più recente e un servizio personalizzato."
+  },
+  "treatments": {
+    "title": "I Nostri Trattamenti",
+    "subtitle": "La gamma completa di servizi dentali",
+    "implants": {
+      "title": "Impianti Dentali",
+      "desc": "L'impianto dentale è la migliore soluzione permanente per sostituire i denti mancanti. Realizzato in titanio di grado medicale, l'impianto si integra con l'osso mascellare creando una base solida per la corona artificiale.",
+      "benefits": ["Massima longevità (20+ anni)", "Aspetto e sensazione naturali", "Nessun impatto sui denti adiacenti", "Conservazione dell'osso mascellare"]
+    },
+    "crowns": {
+      "title": "Corone e Ponti Dentali",
+      "desc": "Una corona dentale è un cappuccio protettivo posizionato sopra un dente danneggiato. Ripristina la forma, le dimensioni e la funzione del dente proteggendolo da ulteriori danni.",
+      "benefits": ["Ripristina la piena funzione", "Alta estetica", "Materiale resistente", "Procedura rapida"]
+    },
+    "veneers": {
+      "title": "Faccette Dentali",
+      "desc": "Le faccette sono strati ultra-sottili di porcellana incollati sulla superficie del dente. Danno una trasformazione drammatica del sorriso con un intervento minimo.",
+      "benefits": ["Trasformazione immediata", "Procedura minima", "Resistenti alle macchie", "Longevità 15-20 anni"]
+    },
+    "allOn6": {
+      "title": "Impianti All-on-6",
+      "desc": "All-on-6 è la soluzione rivoluzionaria per i pazienti che hanno perso tutti i denti o hanno denti gravemente danneggiati. Con soli 6 impianti sosteniamo l'intero arco dentale.",
+      "benefits": ["Nuovi denti in 3 giorni", "Solo 6 impianti per l'arcata completa", "Estetica superiore", "Recupero rapido"]
+    }
+  },
+  "tourism": {
+    "title": "Turismo Dentale in Albania",
+    "subtitle": "Combina il trattamento dentale con una vacanza nel cuore dei Balcani",
+    "desc": "L'Albania offre la combinazione perfetta: cure dentali di livello europeo a prezzi del 50-70% inferiori rispetto all'Europa occidentale, più destinazioni turistiche mozzafiato.",
+    "packages": {
+      "title": "Cosa Include il Pacchetto",
+      "items": [
+        "Trasferimenti dall'aeroporto",
+        "Alloggio in hotel 4 stelle",
+        "Consulenza gratuita",
+        "Tutte le visite dentali",
+        "Tour della storica Tirana",
+        "Opzione spiaggia sulla Riviera Albanese"
+      ]
+    },
+    "savings": {
+      "title": "Quanto Risparmi",
+      "items": [
+        { "treatment": "Impianto Dentale", "uk": "€2.800", "albania": "€550" },
+        { "treatment": "Faccette (10 pezzi)", "uk": "€12.000", "albania": "€2.800" },
+        { "treatment": "All-on-6", "uk": "€28.000", "albania": "€8.000" }
+      ]
+    }
+  }
+}

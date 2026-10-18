@@ -1,0 +1,377 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "doctors": "Doctors",
+    "treatments": "Treatments",
+    "implants": "Dental Implants",
+    "crowns": "Dental Crowns",
+    "veneers": "Dental Veneers",
+    "allOn6": "All-on-6",
+    "allOn4": "All-on-4",
+    "whitening": "Teeth Whitening",
+    "orthodontics": "Orthodontics",
+    "aligners": "Aligners",
+    "cleaning": "Professional Cleaning",
+    "beforeAfter": "Before & After",
+    "tourism": "Dental Tourism",
+    "contact": "Contact",
+    "appointment": "Book Appointment"
+  },
+  "hero": {
+    "badge": "Albania's #1 Dental Clinic",
+    "title": "Your Perfect",
+    "titleHighlight": "Smile",
+    "titleEnd": "Starts Here",
+    "subtitle": "World-class dental treatment at affordable prices. Specializing in implants, veneers, and full oral rehabilitation.",
+    "ctaPrimary": "Book Free Consultation",
+    "ctaSecondary": "See Results",
+    "stat1Value": "5,000+",
+    "stat1Label": "Happy Patients",
+    "stat2Value": "15+",
+    "stat2Label": "Years Experience",
+    "stat3Value": "98%",
+    "stat3Label": "Success Rate",
+    "trustBarLabel": "Certifications & Partners"
+  },
+  "services": {
+    "badge": "Our Services",
+    "learnMore": "Learn more",
+    "title": "Our Treatments",
+    "subtitle": "We offer a complete range of dental services with the latest technology and specialized staff",
+    "items": [
+      {
+        "title": "Dental Implants",
+        "desc": "Permanent replacement of missing teeth with medical-grade titanium. Natural results and maximum longevity.",
+        "href": "/treatments/dental-implants"
+      },
+      {
+        "title": "Crowns & Bridges",
+        "desc": "Restoration of damaged teeth with high-quality porcelain crowns. Both aesthetic and functional.",
+        "href": "/treatments/crowns"
+      },
+      {
+        "title": "Dental Veneers",
+        "desc": "Transform your smile with ultra-thin porcelain veneers. Dramatic change, minimal procedure.",
+        "href": "/treatments/veneers"
+      },
+      {
+        "title": "All-on-6",
+        "desc": "Complete mouth restoration with 6 implants. New teeth in 3 days, new smile for life.",
+        "href": "/treatments/all-on-6"
+      }
+    ]
+  },
+  "beforeAfter": {
+    "badge": "Transformations",
+    "before": "BEFORE",
+    "after": "AFTER",
+    "verified": "Verified",
+    "patientPrefix": "Patient",
+    "title": "Real Results",
+    "subtitle": "Our patients' transformations speak for themselves",
+    "cases": [
+      "Dental Implants - Case 1",
+      "Porcelain Veneers - Case 2",
+      "All-on-6 - Case 3",
+      "Dental Crowns - Case 4",
+      "Teeth Whitening - Case 5",
+      "Orthodontics - Case 6"
+    ]
+  },
+  "process": {
+    "badge": "The Process",
+    "step": "Step",
+    "photos": [
+      { "label": "Premium Implant", "sub": "ISO-grade titanium" },
+      { "label": "Zirconia Crown", "sub": "High-grade ceramics" },
+      { "label": "Emax Veneers", "sub": "Your dream smile" }
+    ],
+    "title": "How It Works",
+    "subtitle": "Our simple and transparent treatment process",
+    "tabs": [
+      {
+        "label": "Implants",
+        "steps": [
+          {
+            "title": "Free Consultation",
+            "body": "Visit our clinic for a complete free consultation. The doctor will assess your condition and propose the optimal treatment plan with detailed pricing."
+          },
+          {
+            "title": "Implant Placement",
+            "body": "The titanium implant is placed under local anaesthesia. The procedure takes 45-60 minutes. You will be comfortable throughout the entire process."
+          },
+          {
+            "title": "Final Crown",
+            "body": "After the healing period (3-6 months), we place the final porcelain crown. The result looks and feels completely natural."
+          }
+        ]
+      },
+      {
+        "label": "Crowns",
+        "steps": [
+          {
+            "title": "Assessment",
+            "body": "The doctor assesses the tooth and determines if a crown is the right treatment. We take digital scans and impressions."
+          },
+          {
+            "title": "Preparation",
+            "body": "The tooth is prepared by removing the outer layer. A temporary crown is placed during the fabrication of the permanent crown."
+          },
+          {
+            "title": "Placement",
+            "body": "The custom porcelain crown is placed and cemented. We check the bite and aesthetics. Immediate and lasting result."
+          }
+        ]
+      },
+      {
+        "label": "Veneers",
+        "steps": [
+          {
+            "title": "Smile Design",
+            "body": "We create a digital simulation of your new smile. See the result before treatment begins. We personalise the colour, shape and size."
+          },
+          {
+            "title": "Minimal Preparation",
+            "body": "We remove only 0.3-0.5mm from the tooth surface. This is the least invasive procedure compared to classic crowns."
+          },
+          {
+            "title": "Final Application",
+            "body": "Precision laboratory-made veneers are bonded with special dental adhesive. Your new smile is immediate and spectacular."
+          }
+        ]
+      }
+    ]
+  },
+  "whyUs": {
+    "badge": "Our Advantages",
+    "cta": "Book Free Consultation",
+    "stats": [
+      { "value": "5,200+", "label": "Happy Patients" },
+      { "value": "15+", "label": "Years Experience" },
+      { "value": "98%", "label": "Satisfaction" },
+      { "value": "4.9★", "label": "Google Reviews" }
+    ],
+    "title": "Why KOKONA Dental and Maxillofacial Clinic",
+    "subtitle": "What sets us apart from the rest",
+    "cards": [
+      {
+        "icon": "🏆",
+        "title": "Latest Technology",
+        "desc": "Our state-of-the-art digital equipment, 3D CT Scanner and CAD/CAM system guarantee maximum precision and superior results."
+      },
+      {
+        "icon": "💰",
+        "title": "Affordable Prices",
+        "desc": "Save up to 70% compared to Western clinics. European quality at Albanian prices. No hidden costs."
+      },
+      {
+        "icon": "✈️",
+        "title": "Tourism Packages",
+        "desc": "We take care of everything: hotel, transfers and sightseeing tours. Combine your dental treatment with a wonderful holiday in Albania."
+      }
+    ]
+  },
+  "doctorsSection": {
+    "badge": "Medical Team",
+    "title": "Our Doctors",
+    "subtitle": "Board-certified specialists with international experience",
+    "viewAbout": "About Us",
+    "doctors": [
+      {
+        "specialty": "Maxillo-Facial Surgery & Implantology",
+        "education": "Univ. Tirana • 4-year Specialisation in Maxillo-Facial Surgery",
+        "extras": ["EACMFS Member since 2012", "Training in London & Vienna", "Surgeon at QSUT 'Mother Teresa'"],
+        "experience": "15+ years"
+      },
+      {
+        "specialty": "Orthodontics & Dental Aesthetics",
+        "education": "Univ. Tirana • CES Orthodontics — Univ. Bordeaux 2, France",
+        "extras": ["Aligners & Self-Ligating Braces", "Clinical training in France & UK", "Aesthetics and Veneers"],
+        "experience": "12+ years"
+      }
+    ]
+  },
+  "doctors": {
+    "title": "Our Team",
+    "subtitle": "Specialist doctors with international experience",
+    "viewAll": "View All",
+    "items": [
+      {
+        "name": "Dr. Arben Krasniqi",
+        "specialty": "Implantology & Oral Surgery"
+      },
+      {
+        "name": "Dr. Elira Hoxha",
+        "specialty": "Dental Aesthetics & Veneers"
+      },
+      {
+        "name": "Dr. Genti Marku",
+        "specialty": "Orthodontics & Aligners"
+      },
+      {
+        "name": "Dr. Mira Duka",
+        "specialty": "Endodontics & Restoration"
+      }
+    ]
+  },
+  "reviews": {
+    "title": "What Patients Say",
+    "rating": "4.9",
+    "ratingLabel": "Excellent Rating",
+    "basedOn": "Based on 320+ reviews",
+    "items": [
+      {
+        "text": "Exceptional service! I came from London for implants and I'll never regret it. I saved a lot of money and received much higher quality. The staff was very professional and friendly.",
+        "name": "Sarah Johnson",
+        "date": "October 2024"
+      },
+      {
+        "text": "Ho fatto le faccette qui e sono assolutamente soddisfatto. Il Dr. Elira è stata fantastica, molto professionale e attenta ai dettagli. Il risultato è spettacolare. Tornerò sicuramente.",
+        "name": "Marco Bianchi",
+        "date": "September 2024"
+      },
+      {
+        "text": "The whole team was wonderful. The implant was placed painlessly and healing was very quick. I recommend wholeheartedly. The price was also very reasonable.",
+        "name": "Blerina Çela",
+        "date": "August 2024"
+      },
+      {
+        "text": "Excellent clinic! I flew from Germany for veneers and the results exceeded my expectations. The team speaks perfect English and made me feel completely at ease throughout the process.",
+        "name": "Thomas Müller",
+        "date": "July 2024"
+      },
+      {
+        "text": "I had All-on-6 and the transformation is phenomenal. I feel like a new person. The doctor explained every step and was very caring. The clinic is clean and modern. Thank you so much!",
+        "name": "Fatmir Basha",
+        "date": "June 2024"
+      },
+      {
+        "text": "Service impeccable et résultats magnifiques! Je suis venu de Paris pour les implants dentaires. Le prix était incroyable comparé à la France. Je recommande vivement cette clinique.",
+        "name": "Pierre Dubois",
+        "date": "May 2024"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "We are here to help. Book a free consultation today.",
+    "address": "Rruga Myslym Shyri 123, Tirana 1001, Albania",
+    "phone": "+355 69 5XX XXXX",
+    "email": "info@dentalcarealbania.com",
+    "hours": "Monday - Saturday: 09:00 - 19:00",
+    "formTitle": "Book Free Consultation",
+    "fields": {
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "phone": "Phone",
+      "country": "Country",
+      "treatment": "Desired Treatment",
+      "message": "Your Message",
+      "privacy": "I agree to the Privacy Policy",
+      "selectCountry": "Select your country",
+      "selectTreatment": "Select treatment",
+      "treatmentOptions": [
+        "Dental Implants",
+        "Crowns & Bridges",
+        "Dental Veneers",
+        "All-on-6",
+        "All-on-4",
+        "Teeth Whitening",
+        "Orthodontics / Aligners",
+        "Professional Cleaning",
+        "Other"
+      ]
+    },
+    "submit": "Send Request",
+    "submitting": "Sending...",
+    "successMsg": "Thank you! We will contact you within 24 hours.",
+    "errorMsg": "An error occurred. Please try again or call us."
+  },
+  "footer": {
+    "tagline": "Your perfect smile, the price you deserve.",
+    "treatments": {
+      "title": "Treatments",
+      "links": [
+        { "label": "Dental Implants", "href": "/treatments/dental-implants" },
+        { "label": "Dental Crowns", "href": "/treatments/crowns" },
+        { "label": "Dental Veneers", "href": "/treatments/veneers" },
+        { "label": "All-on-6", "href": "/treatments/all-on-6" },
+        { "label": "Teeth Whitening", "href": "/treatments" },
+        { "label": "Orthodontics", "href": "/treatments" }
+      ]
+    },
+    "clinic": {
+      "title": "Clinic",
+      "links": [
+        { "label": "About Us", "href": "/about" },
+        { "label": "Doctors", "href": "/about" },
+        { "label": "Before & After", "href": "/before-after" },
+        { "label": "Dental Tourism", "href": "/dental-tourism" },
+        { "label": "Blog", "href": "/" }
+      ]
+    },
+    "contact": {
+      "title": "Contact",
+      "address": "Rruga Myslym Shyri 123, Tirana",
+      "phone": "+355 69 5XX XXXX",
+      "email": "info@dentalcarealbania.com"
+    },
+    "copyright": "© 2024 KOKONA Dental and Maxillofacial Clinic. All rights reserved."
+  },
+  "about": {
+    "title": "About the Clinic",
+    "subtitle": "15 years of experience in international-level dental care",
+    "story": "KOKONA Dental and Maxillofacial Clinic was founded in 2009 with a clear mission: to offer Albanian and international patients world-class dental care at affordable prices. Today, with over 5,000 satisfied patients and a team of 12 specialist doctors, we are the leading dental clinic in Albania.",
+    "mission": "Our mission is to transform the smiles and lives of our patients by offering excellent dental care, the latest technology and personalised service."
+  },
+  "treatments": {
+    "title": "Our Treatments",
+    "subtitle": "The full range of dental services",
+    "implants": {
+      "title": "Dental Implants",
+      "desc": "A dental implant is the best permanent solution for replacing missing teeth. Made from medical-grade titanium, the implant integrates with the jawbone creating a strong base for the artificial crown.",
+      "benefits": ["Maximum longevity (20+ years)", "Looks and feels natural", "No impact on adjacent teeth", "Preserves jawbone"]
+    },
+    "crowns": {
+      "title": "Dental Crowns & Bridges",
+      "desc": "A dental crown is a protective cap placed over a damaged tooth. It restores the shape, size and function of the tooth while protecting it from further damage.",
+      "benefits": ["Restores full function", "High aesthetics", "Durable material", "Quick procedure"]
+    },
+    "veneers": {
+      "title": "Dental Veneers",
+      "desc": "Veneers are ultra-thin porcelain layers bonded to the tooth surface. They give a dramatic smile transformation with minimal intervention.",
+      "benefits": ["Instant transformation", "Minimal procedure", "Stain resistant", "Longevity 15-20 years"]
+    },
+    "allOn6": {
+      "title": "All-on-6 Implants",
+      "desc": "All-on-6 is the revolutionary solution for patients who have lost all their teeth or have severely damaged teeth. With just 6 implants we support the entire dental arch.",
+      "benefits": ["New teeth in 3 days", "Only 6 implants for full arch", "Superior aesthetics", "Fast recovery"]
+    }
+  },
+  "tourism": {
+    "title": "Dental Tourism in Albania",
+    "subtitle": "Combine dental treatment with a holiday in the heart of the Balkans",
+    "desc": "Albania offers the perfect combination: European-level dental care at prices 50-70% lower than Western Europe, plus stunning tourist destinations.",
+    "packages": {
+      "title": "What's Included",
+      "items": [
+        "Airport transfers",
+        "4-star hotel accommodation",
+        "Free consultation",
+        "All dental visits",
+        "Tour of historic Tirana",
+        "Optional beach trip to Albanian Riviera"
+      ]
+    },
+    "savings": {
+      "title": "How Much You Save",
+      "items": [
+        { "treatment": "Dental Implant", "uk": "£2,500", "albania": "£500" },
+        { "treatment": "Veneers (10 units)", "uk": "£10,000", "albania": "£2,500" },
+        { "treatment": "All-on-6", "uk": "£25,000", "albania": "£7,000" }
+      ]
+    }
+  }
+}
