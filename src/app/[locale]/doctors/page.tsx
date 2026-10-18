@@ -12,7 +12,7 @@ export async function generateMetadata(): Promise<Metadata> {
   };
 }
 
-const doctors = [
+const doctors: { name: string; title: string; specialty: string; photo: string | null; bio: string; education: { label: string; value: string }[]; expertise: string[]; accent: string; tagClass: string; experience: string }[] = [
   {
     name: "Dr. Arlind Myftari",
     title: "DMD, MD",
@@ -44,7 +44,7 @@ const doctors = [
     name: "Dr. Odeta Shehu",
     title: "DMD",
     specialty: "Ortodonti & Estetikë Dentare",
-    photo: "/doctors/odeta-shehu.jpg",
+    photo: null,
     bio: "Dr. Odeta Shehu është specialiste e Ortodontisë me formim ndërkombëtar të lartë. Pas diplomimit në Universitetin e Tiranës (2009), ajo vazhdoi studimet e specializimit CES (Certificat d'Études Spécialisées) në Ortodonti dhe Ortopedi Dentofaciale pranë Université Bordeaux 2 në Francë (2011), ku njëkohësisht punoi si asistente ortodontike në një klinikë private. Eksperienca e saj ndërkombëtare vazhdoi edhe në Mbretërinë e Bashkuar, duke e bërë atë një nga ortodontistet më të kualifikuara në vend.",
     education: [
       { label: "DMD", value: "Universiteti i Tiranës, 2009" },
@@ -94,20 +94,24 @@ export default async function DoctorsPage({ params }: Props) {
                 className={`bg-white rounded-3xl overflow-hidden shadow-sm border border-gray-100 flex flex-col ${i % 2 === 0 ? "lg:flex-row" : "lg:flex-row-reverse"}`}
               >
                 {/* Photo */}
-                <div className="relative w-full lg:w-80 h-96 lg:h-auto shrink-0">
-                  <Image
-                    src={doctor.photo}
-                    alt={doctor.name}
-                    fill
-                    className="object-cover object-top"
-                    sizes="(max-width: 1024px) 100vw, 320px"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent lg:bg-gradient-to-r lg:from-transparent lg:to-black/10" />
-                  {/* Name overlay on mobile */}
-                  <div className="absolute bottom-4 left-4 lg:hidden">
-                    <p className="text-white font-bold text-xl drop-shadow">{doctor.name}</p>
-                    <p className="text-white/80 text-sm">{doctor.title}</p>
-                  </div>
+                <div className="relative w-full lg:w-80 h-96 lg:h-auto shrink-0 bg-gradient-to-br from-teal-800 to-teal-900">
+                  {doctor.photo && (
+                    <>
+                      <Image
+                        src={doctor.photo}
+                        alt={doctor.name}
+                        fill
+                        className="object-cover object-top"
+                        sizes="(max-width: 1024px) 100vw, 320px"
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent lg:bg-gradient-to-r lg:from-transparent lg:to-black/10" />
+                      {/* Name overlay on mobile */}
+                      <div className="absolute bottom-4 left-4 lg:hidden">
+                        <p className="text-white font-bold text-xl drop-shadow">{doctor.name}</p>
+                        <p className="text-white/80 text-sm">{doctor.title}</p>
+                      </div>
+                    </>
+                  )}
                   {/* Experience badge */}
                   <div className="absolute top-4 right-4 bg-white/90 backdrop-blur-sm text-xs font-bold text-teal-700 px-3 py-1.5 rounded-full shadow">
                     {doctor.experience}
