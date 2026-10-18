@@ -6,7 +6,7 @@ interface DoctorsProps {
   locale: string;
 }
 
-const DOCTOR_STATIC = [
+const DOCTOR_STATIC: { name: string; title: string; photo: string | null; gradient: { from: string; to: string } }[] = [
   {
     name: 'Dr. Arlind Myftari',
     title: 'DMD, MD',
@@ -16,7 +16,7 @@ const DOCTOR_STATIC = [
   {
     name: 'Dr. Odeta Shehu',
     title: 'DMD',
-    photo: '/doctors/odeta-shehu.jpg',
+    photo: null,
     gradient: { from: '#134e4a', to: '#0f766e' },
   },
 ];
@@ -67,13 +67,15 @@ export default async function Doctors({ locale }: DoctorsProps) {
                 className="h-64 relative overflow-hidden"
                 style={{ background: `linear-gradient(135deg, ${doc.gradient.from} 0%, ${doc.gradient.to} 100%)` }}
               >
-                <Image
-                  src={doc.photo}
-                  alt={doc.name}
-                  fill
-                  className="object-cover object-top"
-                  sizes="(max-width: 640px) 100vw, 50vw"
-                />
+                {doc.photo && (
+                  <Image
+                    src={doc.photo}
+                    alt={doc.name}
+                    fill
+                    className="object-cover object-top"
+                    sizes="(max-width: 640px) 100vw, 50vw"
+                  />
+                )}
                 <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent" />
                 <div className="absolute top-3 right-3 bg-white/90 text-xs font-bold text-teal-700 px-2.5 py-1 rounded-full shadow-sm">
                   {t(`doctors.${i}.experience`)}
