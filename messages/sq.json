@@ -16,14 +16,15 @@
     "beforeAfter": "Para & Pas",
     "tourism": "Turizëm Dentar",
     "contact": "Kontakt",
-    "appointment": "Cakto Takim"
+    "appointment": "Cakto Takim",
+    "howItWorks": "Si Procedohet"
   },
   "hero": {
     "badge": "Klinika #1 Dentare në Shqipëri",
     "title": "Buzëqeshja Juaj",
     "titleHighlight": "e Përsosur",
     "titleEnd": "Fillon Këtu",
-    "subtitle": "Trajtim dentar i nivelit botëror me çmime të volitshme. Specializuar në implante, faseta dhe rehabilitim të plotë oral.",
+    "subtitle": "Specializuar në implante, faseta dhe rehabilitim të plotë oral. Rezervoni konsultimin tuaj falas sot.",
     "ctaPrimary": "Cakto Takim Falas",
     "ctaSecondary": "Shiko Rezultatet",
     "stat1Value": "5,000+",
@@ -83,9 +84,18 @@
     "badge": "Procesi",
     "step": "Hapi",
     "photos": [
-      { "label": "Implant Premium", "sub": "Titaniumi i klasit ISO" },
-      { "label": "Kurora Zokiron", "sub": "Ceramikë e klasit lartë" },
-      { "label": "Faseta Emax", "sub": "Buzëqeshja e ëndrrave tuaja" }
+      {
+        "label": "Implant Premium",
+        "sub": "Titaniumi i klasit ISO"
+      },
+      {
+        "label": "Kurora Zokiron",
+        "sub": "Ceramikë e klasit lartë"
+      },
+      {
+        "label": "Faseta Emax",
+        "sub": "Buzëqeshja e ëndrrave tuaja"
+      }
     ],
     "title": "Si Funksionon",
     "subtitle": "Procesi ynë i thjeshtë dhe transparent i trajtimit",
@@ -147,10 +157,22 @@
     "badge": "Avantazhet Tona",
     "cta": "Cakto Konsultim Falas",
     "stats": [
-      { "value": "5,200+", "label": "Pacientë të Kënaqur" },
-      { "value": "15+", "label": "Vite Eksperiencë" },
-      { "value": "98%", "label": "Satisfaksion" },
-      { "value": "4.9★", "label": "Google Reviews" }
+      {
+        "value": "5,200+",
+        "label": "Pacientë të Kënaqur"
+      },
+      {
+        "value": "15+",
+        "label": "Vite Eksperiencë"
+      },
+      {
+        "value": "98%",
+        "label": "Satisfaksion"
+      },
+      {
+        "value": "4.9★",
+        "label": "Google Reviews"
+      }
     ],
     "title": "Pse KOKONA Dental and Maxillofacial Clinic",
     "subtitle": "Çfarë na dallon nga të tjerët",
@@ -161,14 +183,9 @@
         "desc": "Pajisjet tona më të fundit digjitale, CT Scanner 3D dhe sistemi CAD/CAM garantojnë saktësi maksimale dhe rezultate superiore."
       },
       {
-        "icon": "💰",
-        "title": "Çmime të Volitshme",
-        "desc": "Kurseni deri 70% krahasuar me klinkat perëndimore. Cilësi europiane me çmime shqiptare. Pa kosto të fshehura."
-      },
-      {
         "icon": "✈️",
-        "title": "Paketa Turistike",
-        "desc": "Kujdesemi për gjithçka: hotelin, transfertat dhe turnet turistike. Kombinoni trajtimin dentar me një pushim të mrekullueshëm në Shqipëri."
+        "title": "Paketa Turizmi",
+        "desc": "Ne kujdesemi për gjithçka: hotel, transferta dhe ture turistike. Kombinoni trajtimin dentar me një pushim të mrekullueshëm në Shqipëri."
       }
     ]
   },
@@ -181,13 +198,21 @@
       {
         "specialty": "Kirurgji Maxillo-Faciale & Implantologji",
         "education": "Univ. Tiranë • Specializim 4-vjeçar Kirurgji MF",
-        "extras": ["Anëtar EACMFS që nga 2012", "Trajnime në Londër & Vjenë", "Kirurg në QSUT \"Nënë Tereza\""],
+        "extras": [
+          "Anëtar EACMFS që nga 2012",
+          "Trajnime në Londër & Vjenë",
+          "Kirurg në QSUT \"Nënë Tereza\""
+        ],
         "experience": "15+ vjet"
       },
       {
         "specialty": "Ortodonti & Estetikë Dentare",
         "education": "Univ. Tiranë • CES Ortodonti — Univ. Bordeaux 2, Francë",
-        "extras": ["Aligners & Braces self-ligating", "Trajnim klinik në Francë & MB", "Estetikë dhe Faseta"],
+        "extras": [
+          "Aligners & Braces self-ligating",
+          "Trajnim klinik në Francë & MB",
+          "Estetikë dhe Faseta"
+        ],
         "experience": "12+ vjet"
       }
     ]
@@ -290,26 +315,63 @@
     "errorMsg": "Ndodhi një gabim. Ju lutem provoni sërish ose na telefononi."
   },
   "footer": {
-    "tagline": "Buzëqeshja juaj e përsosur, çmimi që meriton.",
+    "tagline": "Buzëqeshja juaj e përsosur, e krijuar me kujdes.",
     "treatments": {
       "title": "Trajtimet",
       "links": [
-        { "label": "Implante Dentare", "href": "/treatments/dental-implants" },
-        { "label": "Kurora Dentare", "href": "/treatments/crowns" },
-        { "label": "Faseta Dentare", "href": "/treatments/veneers" },
-        { "label": "All-on-6", "href": "/treatments/all-on-6" },
-        { "label": "Zbardhim Dhëmbësh", "href": "/treatments" },
-        { "label": "Ortodonti", "href": "/treatments" }
+        {
+          "label": "Implante Dentare",
+          "href": "/treatments/dental-implants"
+        },
+        {
+          "label": "Kurora Dentare",
+          "href": "/treatments/crowns"
+        },
+        {
+          "label": "Faseta Dentare",
+          "href": "/treatments/veneers"
+        },
+        {
+          "label": "All-on-6",
+          "href": "/treatments/all-on-6"
+        },
+        {
+          "label": "Zbardhim Dhëmbësh",
+          "href": "/treatments"
+        },
+        {
+          "label": "Ortodonti",
+          "href": "/treatments"
+        }
       ]
     },
     "clinic": {
       "title": "Klinika",
       "links": [
-        { "label": "Rreth Nesh", "href": "/about" },
-        { "label": "Mjekët", "href": "/about" },
-        { "label": "Para & Pas", "href": "/before-after" },
-        { "label": "Turizëm Dentar", "href": "/dental-tourism" },
-        { "label": "Blog", "href": "/" }
+        {
+          "label": "Rreth Nesh",
+          "href": "/about"
+        },
+        {
+          "label": "Mjekët",
+          "href": "/about"
+        },
+        {
+          "label": "Para & Pas",
+          "href": "/before-after"
+        },
+        {
+          "label": "Turizëm Dentar",
+          "href": "/dental-tourism"
+        },
+        {
+          "label": "Blog",
+          "href": "/"
+        },
+        {
+          "label": "Si Procedohet",
+          "href": "/how-it-works"
+        }
       ]
     },
     "contact": {
@@ -323,7 +385,7 @@
   "about": {
     "title": "Rreth Klinikës",
     "subtitle": "15 vjet eksperiencë në shërbimin dentar të nivelit ndërkombëtar",
-    "story": "KOKONA Dental and Maxillofacial Clinic u themelua në 2009 me një mision të qartë: t'u ofrojë pacientëve shqiptarë dhe ndërkombëtarë kujdes dentar të nivelit botëror me çmime të volitshme. Sot, me mbi 5,000 pacientë të kënaqur dhe një ekip prej 12 mjekësh të specializuar, jemi klinika dentare lider në Shqipëri.",
+    "story": "Maxillodent u themelua në vitin 2009 me një mision të qartë: t'u ofrojë pacientëve shqiptarë dhe ndërkombëtarë kujdes dentar të nivelit botëror. Sot, me mbi 5,000 pacientë të kënaqur dhe një ekip prej 12 mjekësh specialistë, jemi klinika dentare kryesore në Shqipëri.",
     "mission": "Misioni ynë është të transformojmë buzëqeshjet dhe jetët e pacientëve tanë duke ofruar kujdes dentar të shkëlqyer, teknologji të fundit dhe shërbim të personalizuar."
   },
   "treatments": {
@@ -332,28 +394,48 @@
     "implants": {
       "title": "Implante Dentare",
       "desc": "Implanti dentar është zgjidhja më e mirë permanente për zëvendësimin e dhëmbëve që mungojnë. I bërë nga titaniumi i gradës mjekësore, implantin integrohet me kockën e nofullës duke krijuar një bazë të fortë për koronën artificiale.",
-      "benefits": ["Jetëgjatësi maksimale (20+ vjet)", "Duket dhe ndjehet natyral", "Pa ndikim tek dhëmbët fqinj", "Ruajtja e kockës së nofullës"]
+      "benefits": [
+        "Jetëgjatësi maksimale (20+ vjet)",
+        "Duket dhe ndjehet natyral",
+        "Pa ndikim tek dhëmbët fqinj",
+        "Ruajtja e kockës së nofullës"
+      ]
     },
     "crowns": {
       "title": "Kurora & Ura Dentare",
       "desc": "Kurora dentare është kapakë mbrojtës që vendoset mbi dhëmbin e dëmtuar. Reston formën, madhësinë dhe funksionin e dhëmbit duke e mbrojtur nga dëmtimet e mëtejshme.",
-      "benefits": ["Reston funksionin e plotë", "Estetikë e lartë", "Material i qëndrueshëm", "Procedurë e shpejtë"]
+      "benefits": [
+        "Reston funksionin e plotë",
+        "Estetikë e lartë",
+        "Material i qëndrueshëm",
+        "Procedurë e shpejtë"
+      ]
     },
     "veneers": {
       "title": "Faseta Dentare",
       "desc": "Faseta janë shtresa ultra-të holla porcelani që ngjiten në sipërfaqen e dhëmbëve. Japin transformim dramatik të buzëqeshjes me ndërhyrje minimale.",
-      "benefits": ["Transformim i menjëhershëm", "Procedurë minimale", "Rezistente ndaj njollave", "Jetëgjatësi 15-20 vjet"]
+      "benefits": [
+        "Transformim i menjëhershëm",
+        "Procedurë minimale",
+        "Rezistente ndaj njollave",
+        "Jetëgjatësi 15-20 vjet"
+      ]
     },
     "allOn6": {
       "title": "All-on-6 Implante",
       "desc": "All-on-6 është zgjidhja revolucionare për pacientët që kanë humbur të gjithë dhëmbët ose kanë dhëmbë shumë të dëmtuar. Me vetëm 6 implante mbështesim të gjithë arkadën dentare.",
-      "benefits": ["Dhëmbë të rinj në 3 ditë", "Vetëm 6 implante për gjithë arkadën", "Estetikë superiore", "Rikuperim i shpejtë"]
+      "benefits": [
+        "Dhëmbë të rinj në 3 ditë",
+        "Vetëm 6 implante për gjithë arkadën",
+        "Estetikë superiore",
+        "Rikuperim i shpejtë"
+      ]
     }
   },
   "tourism": {
     "title": "Turizëm Dentar në Shqipëri",
     "subtitle": "Kombinoni trajtimin dentar me pushim në zemrën e Ballkanit",
-    "desc": "Shqipëria ofron kombinimin e përsosur: kujdes dentar të nivelit europian me çmime 50-70% më të ulëta se Europa Perëndimore, plus destinacione turistike mahnitëse.",
+    "desc": "Shqipëria ofron kombinimin e përsosur: kujdes dentar të nivelit europian me specialistë të klasit botëror, plus destinacione turistike mahnitëse dhe mikpritje të ngrohtë.",
     "packages": {
       "title": "Çfarë Përfshin Paketa",
       "items": [
@@ -364,13 +446,71 @@
         "Tur i Tiranës historike",
         "Opsion plazhi në Rivierën Shqiptare"
       ]
+    }
+  },
+  "howItWorks": {
+    "meta": {
+      "title": "Si Procedohet — Maxillodent",
+      "desc": "Zbuloni 5 hapat drejt buzëqeshjes suaj të përsosur me Maxillodent. Nga diagnoza deri te kurora finale, ju udhëzojmë në çdo hap."
     },
-    "savings": {
-      "title": "Sa Kurseni",
-      "items": [
-        { "treatment": "Implant Dentar", "uk": "£2,500", "albania": "£500" },
-        { "treatment": "Faseta (10 copë)", "uk": "£10,000", "albania": "£2,500" },
-        { "treatment": "All-on-6", "uk": "£25,000", "albania": "£7,000" }
+    "badge": "📋 Procesi",
+    "title": "Udhëtimi Juaj drejt Buzëqeshjes së Përsosur",
+    "subtitle": "Nga skanimidi i parë deri te kurora juaj finale — ju udhëzojmë në çdo hap",
+    "stepsTitle": "5 Hapat drejt Buzëqeshjes suaj të Re",
+    "stepsSubtitle": "Një proces i qartë dhe transparent, i projektuar rreth komoditetit dhe lehtësisë suaj",
+    "stepLabel": "Hapi",
+    "steps": [
+      {
+        "icon": "🦷",
+        "tag": "Para se të udhëtoni",
+        "title": "Panoreks dhe Diagnoza",
+        "desc": "Fillojmë me një panoreks të plotë, skanim 3D i të gjithë gojës suaj. Dr. Arlind Myftari e shqyrton personalisht dhe harton saktësisht çfarë duhet bërë. Pa supozime, vetëm një plan i qartë."
+      },
+      {
+        "icon": "💻",
+        "tag": "Nga kudo",
+        "title": "Konsultim Online Falas",
+        "desc": "Organizojmë një video-takim që të njiheni me Dr. Arlind fytyrë me fytyrë nga shtëpia juaj. Ai ju shpjegon rezultatet e panoreksit, i përgjigjet pyetjeve tuaja dhe konfirmon planin e trajtimit. Nuk keni nevojë të fluturoni vetëm për një bisedë."
+      },
+      {
+        "icon": "✈️",
+        "tag": "Dita e fluturimit",
+        "title": "Fluturoni në Shqipëri dhe Fillon Trajtimi",
+        "desc": "Mbërrini në Tiranë dhe ne kujdesemi për gjithçka tjetër. Transfertë nga aeroporti, pritje në klinikë dhe faza e parë e operacionit të implanteve. Procedura bëhet nën anestezi lokale dhe shumica e pacientëve habiten se sa e qetë është."
+      },
+      {
+        "icon": "😊",
+        "tag": "Faza e shërimit",
+        "title": "Montohen Dhëmbët Provizorë",
+        "desc": "Menjëherë pas vendosjes së implanteve, montojmë dhëmbë provizorë që të largoheni nga klinika me buzëqeshje të plotë. Ktheheni në shtëpi dukur shkëlqyeshëm ndërkohë që implantet lidhen me kockën gjatë javëve në vijim."
+      },
+      {
+        "icon": "⭐",
+        "tag": "Rezultati final",
+        "title": "Buzëqeshja Juaj e Përhershme",
+        "desc": "Sapo shërimi të përfundojë, ktheheni për kurorët finale. Këto janë copëza porcelani të bëra me porosi, të modeluara sipas formës dhe ngjyrës që ju përshtatet më mirë. Rezultati ndihet krejtësisht natyral dhe është ndërtuar për të zgjatur dhjetëra vjet."
+      }
+    ],
+    "cta": "Rezervoni Konsultimin Falas",
+    "video": {
+      "badge": "🎬 Takoni Dr. Arlind",
+      "title": "Pse të Zgjidhni Maxillodent?",
+      "subtitle": "",
+      "comingSoon": "Video së shpejti",
+      "comingSoonDesc": "Dr. Arlind do t'ju shpjegojë filozofinë e tij dhe pse pacientët tanë vazhdojnë të kthehen.",
+      "points": [
+        {
+          "icon": "🏆",
+          "label": "15+ Vjet Eksperiencë"
+        },
+        {
+          "icon": "🌍",
+          "label": "Pacientë nga 30+ Shtete"
+        },
+        {
+          "icon": "💬",
+          "label": "Flet Anglisht, Italisht & Shqip"
+        }
       ]
     }
   }

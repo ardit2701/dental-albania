@@ -1,25 +1,17 @@
 import { getTranslations } from 'next-intl/server';
 
 const CARD_ICONS = [
-  // Euro/Price icon
-  <svg key="price" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-7 h-7">
-    <circle cx="16" cy="16" r="13" stroke="currentColor" strokeWidth="2" />
-    <path d="M20 11 C18 9 14 9 12 11 C9 13 9 19 12 21 C14 23 18 23 20 21" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
-    <line x1="8" y1="14" x2="18" y2="14" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
-    <line x1="8" y1="18" x2="18" y2="18" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
+  // Technology icon
+  <svg key="tech" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-7 h-7">
+    <rect x="3" y="5" width="26" height="17" rx="2" stroke="currentColor" strokeWidth="2" />
+    <line x1="10" y1="27" x2="22" y2="27" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
+    <line x1="16" y1="22" x2="16" y2="27" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
+    <path d="M9 16 L13 12 L17 15 L21 10" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+    <circle cx="21" cy="10" r="1.5" fill="currentColor" />
   </svg>,
-  // Shield/certification icon
-  <svg key="shield" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-7 h-7">
-    <path d="M16 3 L27 7 L27 16 C27 22 22 27 16 29 C10 27 5 22 5 16 L5 7 Z" fill="currentColor" fillOpacity="0.15" stroke="currentColor" strokeWidth="2" strokeLinejoin="round" />
-    <path d="M11 16 L14 19 L21 12" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
-  </svg>,
-  // Doctor/medical icon
-  <svg key="doc" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-7 h-7">
-    <circle cx="16" cy="9" r="5" stroke="currentColor" strokeWidth="2" />
-    <path d="M6 26 C6 20 10 17 16 17 C22 17 26 20 26 26" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
-    <circle cx="23" cy="20" r="5" fill="currentColor" fillOpacity="0.15" stroke="currentColor" strokeWidth="2" />
-    <line x1="23" y1="18" x2="23" y2="22" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
-    <line x1="21" y1="20" x2="25" y2="20" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
+  // Plane/tourism icon
+  <svg key="plane" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-7 h-7">
+    <path d="M4 20 L14 16 L10 7 L13 6 L21 14 L27 12 C29 11.5 30 13 29 14.5 L21 18 L20 26 L17 27 L15 20 L4 20Z" fill="currentColor" fillOpacity="0.15" stroke="currentColor" strokeWidth="1.8" strokeLinejoin="round" />
   </svg>,
 ];
 
@@ -29,7 +21,6 @@ export default async function WhyUs() {
   const cards = [
     { icon: CARD_ICONS[0], title: t('cards.0.title'), desc: t('cards.0.desc') },
     { icon: CARD_ICONS[1], title: t('cards.1.title'), desc: t('cards.1.desc') },
-    { icon: CARD_ICONS[2], title: t('cards.2.title'), desc: t('cards.2.desc') },
   ];
 
   return (
@@ -61,7 +52,7 @@ export default async function WhyUs() {
         </div>
 
         {/* Cards */}
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mb-14">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-14 max-w-3xl mx-auto w-full">
           {cards.map((card, i) => (
             <div
               key={card.title}

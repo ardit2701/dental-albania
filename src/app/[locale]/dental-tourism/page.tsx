@@ -27,12 +27,6 @@ export default async function DentalTourismPage({ params }: Props) {
     t("packages.items.5"),
   ];
 
-  const savingsItems = [
-    { treatment: t("savings.items.0.treatment"), uk: t("savings.items.0.uk"), albania: t("savings.items.0.albania") },
-    { treatment: t("savings.items.1.treatment"), uk: t("savings.items.1.uk"), albania: t("savings.items.1.albania") },
-    { treatment: t("savings.items.2.treatment"), uk: t("savings.items.2.uk"), albania: t("savings.items.2.albania") },
-  ];
-
   return (
     <>
       <PageHero
@@ -48,8 +42,7 @@ export default async function DentalTourismPage({ params }: Props) {
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <p className="text-lg text-gray-700 mb-12 max-w-3xl">{t("desc")}</p>
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-            {/* Package includes */}
+          <div className="max-w-xl">
             <div className="bg-[#f0fdfa] rounded-2xl p-6 border border-[#0284c7]/20">
               <h2 className="text-xl font-bold text-[#0284c7] mb-5">{t("packages.title")}</h2>
               <ul className="space-y-3">
@@ -64,31 +57,6 @@ export default async function DentalTourismPage({ params }: Props) {
                   </li>
                 ))}
               </ul>
-            </div>
-
-            {/* Savings table */}
-            <div className="bg-gray-50 rounded-2xl p-6 border border-gray-100">
-              <h2 className="text-xl font-bold text-gray-900 mb-5">{t("savings.title")}</h2>
-              <div className="overflow-hidden rounded-xl border border-gray-200">
-                <table className="w-full text-sm">
-                  <thead className="bg-[#0c4a6e] text-white">
-                    <tr>
-                      <th className="text-left px-4 py-3 font-semibold">Trajtimi</th>
-                      <th className="text-center px-3 py-3 font-semibold">UK/EU</th>
-                      <th className="text-center px-3 py-3 font-semibold text-[#7dd3fc]">Albania</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    {savingsItems.map((row, i) => (
-                      <tr key={row.treatment} className={i % 2 === 0 ? "bg-white" : "bg-gray-50"}>
-                        <td className="px-4 py-3 text-gray-700 font-medium">{row.treatment}</td>
-                        <td className="px-3 py-3 text-center text-gray-500 line-through">{row.uk}</td>
-                        <td className="px-3 py-3 text-center font-bold text-[#0284c7]">{row.albania}</td>
-                      </tr>
-                    ))}
-                  </tbody>
-                </table>
-              </div>
             </div>
           </div>
 

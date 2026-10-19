@@ -61,6 +61,7 @@ export default function Header({ locale }: HeaderProps) {
     { label: t("about"), href: `/${locale}/about` },
     { label: t("doctors"), href: `/${locale}/doctors` },
     { label: t("beforeAfter"), href: `/${locale}/before-after` },
+    { label: t("howItWorks"), href: `/${locale}/how-it-works` },
     { label: t("tourism"), href: `/${locale}/dental-tourism` },
   ];
 
@@ -78,10 +79,11 @@ export default function Header({ locale }: HeaderProps) {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 lg:h-20">
           {/* Logo */}
-          <Link href={`/${locale}`} className="flex items-center gap-2" onClick={closeMobile}>
-            <div className="w-9 h-9 rounded-full bg-[#0284c7] flex items-center justify-center">
-              <span className="text-white text-lg">🦷</span>
-            </div>
+          <Link href={`/${locale}`} className="flex items-center gap-2.5" onClick={closeMobile}>
+            <svg width="34" height="34" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M18 6C11 6 6 12 6 19C6 24 8 28 10 34C11.5 38 14 40 17 37C18.5 34 19 29 22 29C25 29 25.5 34 27 37C30 40 32.5 38 34 34C36 28 38 24 38 19C38 12 33 6 26 6C23.5 6 22 8 22 8C22 8 20.5 6 18 6Z" fill="#0284c7"/>
+              <path d="M13 13C13 11 15 9 17 9C19 9 20 10.5 20 12C18 12.5 15 13.5 13 13Z" fill="white" fillOpacity="0.4"/>
+            </svg>
             <span className="text-xl font-bold text-gray-900">
               Maxillo<span className="text-[#0284c7]">dent</span>
             </span>

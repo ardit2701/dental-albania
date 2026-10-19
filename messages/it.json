@@ -16,14 +16,15 @@
     "beforeAfter": "Prima & Dopo",
     "tourism": "Turismo Dentale",
     "contact": "Contatto",
-    "appointment": "Prenota Appuntamento"
+    "appointment": "Prenota Appuntamento",
+    "howItWorks": "Come Funziona"
   },
   "hero": {
     "badge": "La Clinica Dentale #1 in Albania",
     "title": "Il Tuo Sorriso",
     "titleHighlight": "Perfetto",
     "titleEnd": "Inizia Qui",
-    "subtitle": "Cure dentali di livello mondiale a prezzi accessibili. Specializzati in impianti, faccette e riabilitazione orale completa.",
+    "subtitle": "Specializzati in impianti, faccette e riabilitazione orale completa. Prenota oggi la tua consulenza gratuita.",
     "ctaPrimary": "Prenota Consulenza Gratuita",
     "ctaSecondary": "Vedi i Risultati",
     "stat1Value": "5.000+",
@@ -83,9 +84,18 @@
     "badge": "Il Processo",
     "step": "Passo",
     "photos": [
-      { "label": "Impianto Premium", "sub": "Titanio di grado ISO" },
-      { "label": "Corona in Zirconio", "sub": "Ceramica di alta qualità" },
-      { "label": "Faccette Emax", "sub": "Il tuo sorriso da sogno" }
+      {
+        "label": "Impianto Premium",
+        "sub": "Titanio di grado ISO"
+      },
+      {
+        "label": "Corona in Zirconio",
+        "sub": "Ceramica di alta qualità"
+      },
+      {
+        "label": "Faccette Emax",
+        "sub": "Il tuo sorriso da sogno"
+      }
     ],
     "title": "Come Funziona",
     "subtitle": "Il nostro processo di trattamento semplice e trasparente",
@@ -147,10 +157,22 @@
     "badge": "I Nostri Vantaggi",
     "cta": "Prenota Consulenza Gratuita",
     "stats": [
-      { "value": "5.200+", "label": "Pazienti Soddisfatti" },
-      { "value": "15+", "label": "Anni di Esperienza" },
-      { "value": "98%", "label": "Soddisfazione" },
-      { "value": "4.9★", "label": "Google Reviews" }
+      {
+        "value": "5.200+",
+        "label": "Pazienti Soddisfatti"
+      },
+      {
+        "value": "15+",
+        "label": "Anni di Esperienza"
+      },
+      {
+        "value": "98%",
+        "label": "Soddisfazione"
+      },
+      {
+        "value": "4.9★",
+        "label": "Google Reviews"
+      }
     ],
     "title": "Perché KOKONA Dental and Maxillofacial Clinic",
     "subtitle": "Cosa ci distingue dagli altri",
@@ -161,14 +183,9 @@
         "desc": "Le nostre apparecchiature digitali all'avanguardia, TC 3D e sistema CAD/CAM garantiscono la massima precisione e risultati superiori."
       },
       {
-        "icon": "💰",
-        "title": "Prezzi Accessibili",
-        "desc": "Risparmia fino al 70% rispetto alle cliniche occidentali. Qualità europea a prezzi albanesi. Nessun costo nascosto."
-      },
-      {
         "icon": "✈️",
         "title": "Pacchetti Turistici",
-        "desc": "Ci occupiamo di tutto: hotel, trasferimenti e tour turistici. Combina il tuo trattamento dentale con una splendida vacanza in Albania."
+        "desc": "Ci occupiamo di tutto: hotel, trasferimenti e tour turistici. Combina il trattamento dentale con una meravigliosa vacanza in Albania."
       }
     ]
   },
@@ -181,13 +198,21 @@
       {
         "specialty": "Chirurgia Maxillo-Facciale & Implantologia",
         "education": "Univ. Tirana • Specializzazione 4 anni Chirurgia MF",
-        "extras": ["Membro EACMFS dal 2012", "Formazione a Londra & Vienna", "Chirurgo presso QSUT 'Madre Teresa'"],
+        "extras": [
+          "Membro EACMFS dal 2012",
+          "Formazione a Londra & Vienna",
+          "Chirurgo presso QSUT 'Madre Teresa'"
+        ],
         "experience": "15+ anni"
       },
       {
         "specialty": "Ortodonzia & Estetica Dentale",
         "education": "Univ. Tirana • CES Ortodonzia — Univ. Bordeaux 2, Francia",
-        "extras": ["Aligners & Bracket autoliganti", "Formazione clinica in Francia & UK", "Estetica e Faccette"],
+        "extras": [
+          "Aligners & Bracket autoliganti",
+          "Formazione clinica in Francia & UK",
+          "Estetica e Faccette"
+        ],
         "experience": "12+ anni"
       }
     ]
@@ -290,26 +315,63 @@
     "errorMsg": "Si è verificato un errore. Riprova o chiamaci."
   },
   "footer": {
-    "tagline": "Il tuo sorriso perfetto, il prezzo che meriti.",
+    "tagline": "Il tuo sorriso perfetto, realizzato con cura.",
     "treatments": {
       "title": "Trattamenti",
       "links": [
-        { "label": "Impianti Dentali", "href": "/treatments/dental-implants" },
-        { "label": "Corone Dentali", "href": "/treatments/crowns" },
-        { "label": "Faccette Dentali", "href": "/treatments/veneers" },
-        { "label": "All-on-6", "href": "/treatments/all-on-6" },
-        { "label": "Sbiancamento Denti", "href": "/treatments" },
-        { "label": "Ortodonzia", "href": "/treatments" }
+        {
+          "label": "Impianti Dentali",
+          "href": "/treatments/dental-implants"
+        },
+        {
+          "label": "Corone Dentali",
+          "href": "/treatments/crowns"
+        },
+        {
+          "label": "Faccette Dentali",
+          "href": "/treatments/veneers"
+        },
+        {
+          "label": "All-on-6",
+          "href": "/treatments/all-on-6"
+        },
+        {
+          "label": "Sbiancamento Denti",
+          "href": "/treatments"
+        },
+        {
+          "label": "Ortodonzia",
+          "href": "/treatments"
+        }
       ]
     },
     "clinic": {
       "title": "Clinica",
       "links": [
-        { "label": "Chi Siamo", "href": "/about" },
-        { "label": "Medici", "href": "/about" },
-        { "label": "Prima & Dopo", "href": "/before-after" },
-        { "label": "Turismo Dentale", "href": "/dental-tourism" },
-        { "label": "Blog", "href": "/" }
+        {
+          "label": "Chi Siamo",
+          "href": "/about"
+        },
+        {
+          "label": "Medici",
+          "href": "/about"
+        },
+        {
+          "label": "Prima & Dopo",
+          "href": "/before-after"
+        },
+        {
+          "label": "Turismo Dentale",
+          "href": "/dental-tourism"
+        },
+        {
+          "label": "Blog",
+          "href": "/"
+        },
+        {
+          "label": "Come Funziona",
+          "href": "/how-it-works"
+        }
       ]
     },
     "contact": {
@@ -323,7 +385,7 @@
   "about": {
     "title": "Sulla Clinica",
     "subtitle": "15 anni di esperienza nelle cure dentali di livello internazionale",
-    "story": "KOKONA Dental and Maxillofacial Clinic è stata fondata nel 2009 con una missione chiara: offrire ai pazienti albanesi e internazionali cure dentali di livello mondiale a prezzi accessibili. Oggi, con oltre 5.000 pazienti soddisfatti e un team di 12 medici specialisti, siamo la clinica dentale leader in Albania.",
+    "story": "Maxillodent è stata fondata nel 2009 con una missione chiara: offrire ai pazienti albanesi e internazionali cure dentali di livello mondiale. Oggi, con oltre 5.000 pazienti soddisfatti e un team di 12 medici specialisti, siamo la clinica dentale leader in Albania.",
     "mission": "La nostra missione è trasformare i sorrisi e le vite dei nostri pazienti offrendo eccellenti cure dentali, la tecnologia più recente e un servizio personalizzato."
   },
   "treatments": {
@@ -332,28 +394,48 @@
     "implants": {
       "title": "Impianti Dentali",
       "desc": "L'impianto dentale è la migliore soluzione permanente per sostituire i denti mancanti. Realizzato in titanio di grado medicale, l'impianto si integra con l'osso mascellare creando una base solida per la corona artificiale.",
-      "benefits": ["Massima longevità (20+ anni)", "Aspetto e sensazione naturali", "Nessun impatto sui denti adiacenti", "Conservazione dell'osso mascellare"]
+      "benefits": [
+        "Massima longevità (20+ anni)",
+        "Aspetto e sensazione naturali",
+        "Nessun impatto sui denti adiacenti",
+        "Conservazione dell'osso mascellare"
+      ]
     },
     "crowns": {
       "title": "Corone e Ponti Dentali",
       "desc": "Una corona dentale è un cappuccio protettivo posizionato sopra un dente danneggiato. Ripristina la forma, le dimensioni e la funzione del dente proteggendolo da ulteriori danni.",
-      "benefits": ["Ripristina la piena funzione", "Alta estetica", "Materiale resistente", "Procedura rapida"]
+      "benefits": [
+        "Ripristina la piena funzione",
+        "Alta estetica",
+        "Materiale resistente",
+        "Procedura rapida"
+      ]
     },
     "veneers": {
       "title": "Faccette Dentali",
       "desc": "Le faccette sono strati ultra-sottili di porcellana incollati sulla superficie del dente. Danno una trasformazione drammatica del sorriso con un intervento minimo.",
-      "benefits": ["Trasformazione immediata", "Procedura minima", "Resistenti alle macchie", "Longevità 15-20 anni"]
+      "benefits": [
+        "Trasformazione immediata",
+        "Procedura minima",
+        "Resistenti alle macchie",
+        "Longevità 15-20 anni"
+      ]
     },
     "allOn6": {
       "title": "Impianti All-on-6",
       "desc": "All-on-6 è la soluzione rivoluzionaria per i pazienti che hanno perso tutti i denti o hanno denti gravemente danneggiati. Con soli 6 impianti sosteniamo l'intero arco dentale.",
-      "benefits": ["Nuovi denti in 3 giorni", "Solo 6 impianti per l'arcata completa", "Estetica superiore", "Recupero rapido"]
+      "benefits": [
+        "Nuovi denti in 3 giorni",
+        "Solo 6 impianti per l'arcata completa",
+        "Estetica superiore",
+        "Recupero rapido"
+      ]
     }
   },
   "tourism": {
     "title": "Turismo Dentale in Albania",
     "subtitle": "Combina il trattamento dentale con una vacanza nel cuore dei Balcani",
-    "desc": "L'Albania offre la combinazione perfetta: cure dentali di livello europeo a prezzi del 50-70% inferiori rispetto all'Europa occidentale, più destinazioni turistiche mozzafiato.",
+    "desc": "L'Albania offre la combinazione perfetta: cure dentali di livello europeo con specialisti di classe mondiale, oltre a destinazioni turistiche mozzafiato e calorosa ospitalità.",
     "packages": {
       "title": "Cosa Include il Pacchetto",
       "items": [
@@ -364,13 +446,71 @@
         "Tour della storica Tirana",
         "Opzione spiaggia sulla Riviera Albanese"
       ]
+    }
+  },
+  "howItWorks": {
+    "meta": {
+      "title": "Come Funziona — Maxillodent",
+      "desc": "Scopri i 5 passi verso il tuo sorriso perfetto con Maxillodent. Dalla diagnosi alla corona finale, ti guidiamo in ogni fase."
     },
-    "savings": {
-      "title": "Quanto Risparmi",
-      "items": [
-        { "treatment": "Impianto Dentale", "uk": "€2.800", "albania": "€550" },
-        { "treatment": "Faccette (10 pezzi)", "uk": "€12.000", "albania": "€2.800" },
-        { "treatment": "All-on-6", "uk": "€28.000", "albania": "€8.000" }
+    "badge": "📋 Il Processo",
+    "title": "Il Tuo Percorso verso un Sorriso Perfetto",
+    "subtitle": "Dalla prima scansione alla corona finale — ti guidiamo in ogni fase",
+    "stepsTitle": "5 Passi verso il Tuo Nuovo Sorriso",
+    "stepsSubtitle": "Un processo chiaro e trasparente, progettato intorno al tuo comfort e alla tua comodità",
+    "stepLabel": "Passo",
+    "steps": [
+      {
+        "icon": "🦷",
+        "tag": "Prima di viaggiare",
+        "title": "Ortopantomografia e Diagnosi",
+        "desc": "Iniziamo con un'ortopantomografia completa, una scansione 3D dell'intera bocca. Il Dr. Arlind Myftari la esamina personalmente e stabilisce esattamente cosa fare. Niente supposizioni, solo un piano chiaro."
+      },
+      {
+        "icon": "💻",
+        "tag": "Da ovunque",
+        "title": "Consulenza Online Gratuita",
+        "desc": "Organizziamo una videochiamata per farti incontrare il Dr. Arlind faccia a faccia da casa tua. Ti illustra i risultati della radiografia, risponde alle tue domande e conferma il piano di trattamento. Non è necessario volare solo per una chiacchierata."
+      },
+      {
+        "icon": "✈️",
+        "tag": "Giorno del viaggio",
+        "title": "Vola in Albania e Inizia il Trattamento",
+        "desc": "Arrivi a Tirana e noi ci occupiamo di tutto. Trasferimento dall'aeroporto, accoglienza in clinica e prima fase della chirurgia implantare. La procedura viene eseguita in anestesia locale e la maggior parte dei pazienti è sorpresa da quanto sia semplice."
+      },
+      {
+        "icon": "😊",
+        "tag": "Fase di guarigione",
+        "title": "Posizionamento dei Denti Provvisori",
+        "desc": "Subito dopo il posizionamento degli impianti, ti montiamo denti provvisori in modo che tu lasci la clinica con un sorriso completo. Torni a casa con un aspetto splendido mentre gli impianti si integrano con l'osso nelle settimane successive."
+      },
+      {
+        "icon": "⭐",
+        "tag": "Risultato finale",
+        "title": "Il Tuo Sorriso Definitivo",
+        "desc": "Una volta completata la guarigione, torni per le corone definitive. Sono pezzi in porcellana realizzati su misura, modellati sulla forma e il colore che si adattano meglio a te. Il risultato è completamente naturale ed è costruito per durare decenni."
+      }
+    ],
+    "cta": "Prenota la Tua Consulenza Gratuita",
+    "video": {
+      "badge": "🎬 Incontra il Dr. Arlind",
+      "title": "Perché Scegliere Maxillodent?",
+      "subtitle": "",
+      "comingSoon": "Video in arrivo",
+      "comingSoonDesc": "Il Dr. Arlind ti illustrerà la sua filosofia e il perché i nostri pazienti continuano a tornare.",
+      "points": [
+        {
+          "icon": "🏆",
+          "label": "15+ Anni di Esperienza"
+        },
+        {
+          "icon": "🌍",
+          "label": "Pazienti da 30+ Paesi"
+        },
+        {
+          "icon": "💬",
+          "label": "Parla Inglese, Italiano & Albanese"
+        }
       ]
     }
   }
