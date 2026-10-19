@@ -34,16 +34,16 @@ function HappyTooth() {
       <path
         d="M60 8 C38 8 22 26 22 46 C22 60 28 72 30 82 C34 98 32 120 38 132 C41 140 48 143 55 138 C59 135 61 124 60 124 C59 124 61 135 65 138 C72 143 79 140 82 132 C88 120 86 98 90 82 C92 72 98 60 98 46 C98 26 82 8 60 8Z"
         fill="white"
-        stroke="#0d9488"
+        stroke="#0284c7"
         strokeWidth="2"
       />
       <path d="M38 18 C30 28 25 38 25 46" stroke="white" strokeWidth="5" strokeLinecap="round" opacity="0.6" />
-      <circle cx="44" cy="50" r="4.5" fill="#0d9488" />
-      <circle cx="76" cy="50" r="4.5" fill="#0d9488" />
-      <path d="M44 70 Q60 84 76 70" stroke="#0d9488" strokeWidth="3" strokeLinecap="round" fill="none" />
-      <circle cx="88" cy="24" r="4" fill="#0d9488" opacity="0.6" />
-      <circle cx="94" cy="34" r="2.5" fill="#0d9488" opacity="0.4" />
-      <circle cx="82" cy="18" r="2" fill="#0d9488" opacity="0.5" />
+      <circle cx="44" cy="50" r="4.5" fill="#0284c7" />
+      <circle cx="76" cy="50" r="4.5" fill="#0284c7" />
+      <path d="M44 70 Q60 84 76 70" stroke="#0284c7" strokeWidth="3" strokeLinecap="round" fill="none" />
+      <circle cx="88" cy="24" r="4" fill="#0284c7" opacity="0.6" />
+      <circle cx="94" cy="34" r="2.5" fill="#0284c7" opacity="0.4" />
+      <circle cx="82" cy="18" r="2" fill="#0284c7" opacity="0.5" />
     </svg>
   );
 }
@@ -64,7 +64,7 @@ export default function BeforeAfter() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-14 reveal">
-          <div className="inline-flex items-center gap-2 bg-teal-50 border border-teal-200 text-teal-700 px-4 py-1.5 rounded-full text-sm font-semibold mb-4 shadow-sm">
+          <div className="inline-flex items-center gap-2 bg-sky-50 border border-sky-200 text-sky-700 px-4 py-1.5 rounded-full text-sm font-semibold mb-4 shadow-sm">
             {t('badge')}
           </div>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-gray-900 mb-4 tracking-tight">
@@ -104,15 +104,15 @@ export default function BeforeAfter() {
 
                     {/* Vertical divider with arrow */}
                     <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-10 w-9 h-9 bg-white rounded-full shadow-lg border border-gray-100 flex items-center justify-center">
-                      <svg className="w-4 h-4 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <svg className="w-4 h-4 text-sky-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                       </svg>
                     </div>
 
                     {/* After panel */}
-                    <div className="relative bg-gradient-to-br from-teal-500 to-teal-700 flex flex-col items-center justify-center">
+                    <div className="relative bg-gradient-to-br from-sky-500 to-sky-700 flex flex-col items-center justify-center">
                       <HappyTooth />
-                      <span className="absolute top-3 right-3 bg-white/90 text-teal-700 text-xs font-bold px-2.5 py-1 rounded-full tracking-wider shadow-sm">
+                      <span className="absolute top-3 right-3 bg-white/90 text-sky-700 text-xs font-bold px-2.5 py-1 rounded-full tracking-wider shadow-sm">
                         {t('after')}
                       </span>
                     </div>
@@ -124,7 +124,7 @@ export default function BeforeAfter() {
                       <p className="text-sm font-bold text-gray-900">{c.caption}</p>
                       <p className="text-xs text-gray-400 mt-0.5">{c.patient}</p>
                     </div>
-                    <span className="text-xs bg-teal-50 text-teal-700 px-2.5 py-1 rounded-full font-semibold border border-teal-100 flex items-center gap-1">
+                    <span className="text-xs bg-sky-50 text-sky-700 px-2.5 py-1 rounded-full font-semibold border border-sky-100 flex items-center gap-1">
                       <svg className="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
                         <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                       </svg>
@@ -140,7 +140,7 @@ export default function BeforeAfter() {
           <div className="flex justify-center gap-3 mt-2">
             <button
               onClick={() => swiperRef.current?.slidePrev()}
-              className="w-11 h-11 rounded-full bg-white border-2 border-teal-200 text-teal-600 hover:bg-teal-600 hover:text-white hover:border-teal-600 flex items-center justify-center transition-all duration-200 shadow-sm"
+              className="w-11 h-11 rounded-full bg-white border-2 border-sky-200 text-sky-600 hover:bg-sky-600 hover:text-white hover:border-sky-600 flex items-center justify-center transition-all duration-200 shadow-sm"
               aria-label="Previous"
             >
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -149,7 +149,7 @@ export default function BeforeAfter() {
             </button>
             <button
               onClick={() => swiperRef.current?.slideNext()}
-              className="w-11 h-11 rounded-full bg-teal-600 border-2 border-teal-600 text-white hover:bg-teal-700 flex items-center justify-center transition-all duration-200 shadow-sm"
+              className="w-11 h-11 rounded-full bg-sky-600 border-2 border-sky-600 text-white hover:bg-sky-700 flex items-center justify-center transition-all duration-200 shadow-sm"
               aria-label="Next"
             >
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">

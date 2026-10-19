@@ -46,7 +46,7 @@ export default async function CleaningPage({ params }: Props) {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-12">
             {steps.map((step) => (
               <div key={step.num} className="flex gap-4 p-5 bg-gray-50 rounded-2xl border border-gray-100">
-                <span className="text-3xl font-extrabold text-[#0d9488]/20 leading-none shrink-0">{step.num}</span>
+                <span className="text-3xl font-extrabold text-[#0284c7]/20 leading-none shrink-0">{step.num}</span>
                 <div>
                   <h3 className="font-bold text-gray-900 text-sm mb-1">{step.title}</h3>
                   <p className="text-gray-500 text-xs leading-relaxed">{step.desc}</p>
@@ -61,21 +61,21 @@ export default async function CleaningPage({ params }: Props) {
               { icon: "📅", label: "Frekuenca", value: "Çdo 6 muaj" },
               { icon: "📞", label: "Çmimi", value: "Me kontakt" },
             ].map((info) => (
-              <div key={info.label} className="bg-gradient-to-br from-[#0d9488] to-[#134e4a] rounded-2xl p-5 text-center">
+              <div key={info.label} className="bg-gradient-to-br from-[#0284c7] to-[#0c4a6e] rounded-2xl p-5 text-center">
                 <span className="text-2xl block mb-2">{info.icon}</span>
-                <p className="text-teal-200 text-xs font-medium">{info.label}</p>
+                <p className="text-sky-200 text-xs font-medium">{info.label}</p>
                 <p className="text-white font-bold text-lg">{info.value}</p>
               </div>
             ))}
           </div>
 
-          <div className="bg-teal-50 border border-teal-100 rounded-2xl p-6 text-center">
+          <div className="bg-sky-50 border border-sky-100 rounded-2xl p-6 text-center">
             <p className="text-gray-700 text-sm mb-4">
               Pastrimi profesional parandalon karijes, sëmundjet e mishrave dhe rrënjëve. Rekomandohet nga OBSh çdo 6 muaj.
             </p>
             <a
               href="#contact"
-              className="inline-flex items-center gap-2 px-8 py-4 bg-[#0d9488] hover:bg-[#0f766e] text-white font-bold text-base rounded-xl transition-all duration-300 hover:-translate-y-0.5 shadow-lg"
+              className="inline-flex items-center gap-2 px-8 py-4 bg-[#0284c7] hover:bg-[#0369a1] text-white font-bold text-base rounded-xl transition-all duration-300 hover:-translate-y-0.5 shadow-lg"
             >
               Rezervo Takimin
             </a>

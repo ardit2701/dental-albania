@@ -31,7 +31,7 @@ export default async function TreatmentsPage({ params }: Props) {
         t("implants.benefits.3"),
       ],
       href: `/${locale}/treatments/dental-implants`,
-      color: "from-[#0d9488] to-[#134e4a]",
+      color: "from-[#0284c7] to-[#0c4a6e]",
     },
     {
       icon: "👑",
@@ -44,7 +44,7 @@ export default async function TreatmentsPage({ params }: Props) {
         t("crowns.benefits.3"),
       ],
       href: `/${locale}/treatments/crowns`,
-      color: "from-[#134e4a] to-[#0f766e]",
+      color: "from-[#0c4a6e] to-[#0369a1]",
     },
     {
       icon: "✨",
@@ -57,7 +57,7 @@ export default async function TreatmentsPage({ params }: Props) {
         t("veneers.benefits.3"),
       ],
       href: `/${locale}/treatments/veneers`,
-      color: "from-[#0f766e] to-[#0d9488]",
+      color: "from-[#0369a1] to-[#0284c7]",
     },
     {
       icon: "🏆",
@@ -70,7 +70,7 @@ export default async function TreatmentsPage({ params }: Props) {
         t("allOn6.benefits.3"),
       ],
       href: `/${locale}/treatments/all-on-6`,
-      color: "from-[#0d9488] to-[#0f766e]",
+      color: "from-[#0284c7] to-[#0369a1]",
     },
   ];
 
@@ -102,7 +102,7 @@ export default async function TreatmentsPage({ params }: Props) {
                   <ul className="space-y-2 mb-5">
                     {treatment.benefits.map((b) => (
                       <li key={b} className="flex items-center gap-2 text-sm text-gray-700">
-                        <svg className="w-4 h-4 text-[#0d9488] shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <svg className="w-4 h-4 text-[#0284c7] shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M5 13l4 4L19 7" />
                         </svg>
                         {b}
@@ -111,7 +111,7 @@ export default async function TreatmentsPage({ params }: Props) {
                   </ul>
                   <Link
                     href={treatment.href}
-                    className="inline-flex items-center gap-2 px-5 py-2.5 bg-[#0d9488] hover:bg-[#0f766e] text-white font-semibold text-sm rounded-xl transition-colors"
+                    className="inline-flex items-center gap-2 px-5 py-2.5 bg-[#0284c7] hover:bg-[#0369a1] text-white font-semibold text-sm rounded-xl transition-colors"
                   >
                     Mëso Më Shumë
                     <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">

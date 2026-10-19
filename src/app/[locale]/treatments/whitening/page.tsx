@@ -60,13 +60,13 @@ export default async function WhiteningPage({ params }: Props) {
                     badge: "Rezultat Max",
                   },
                 ].map((opt) => (
-                  <div key={opt.title} className="border border-gray-100 rounded-2xl p-5 flex gap-4 items-start hover:border-teal-200 hover:bg-teal-50/30 transition-colors">
+                  <div key={opt.title} className="border border-gray-100 rounded-2xl p-5 flex gap-4 items-start hover:border-sky-200 hover:bg-sky-50/30 transition-colors">
                     <span className="text-2xl">{opt.icon}</span>
                     <div className="flex-1">
                       <div className="flex items-center gap-2 mb-1">
                         <h3 className="font-bold text-gray-900 text-sm">{opt.title}</h3>
                         {opt.badge && (
-                          <span className="bg-[#0d9488] text-white text-[10px] font-bold px-2 py-0.5 rounded-full">{opt.badge}</span>
+                          <span className="bg-[#0284c7] text-white text-[10px] font-bold px-2 py-0.5 rounded-full">{opt.badge}</span>
                         )}
                       </div>
                       <p className="text-gray-500 text-xs">{opt.desc}</p>
@@ -92,7 +92,7 @@ export default async function WhiteningPage({ params }: Props) {
           <div className="text-center">
             <a
               href="#contact"
-              className="inline-flex items-center gap-2 px-8 py-4 bg-[#0d9488] hover:bg-[#0f766e] text-white font-bold text-base rounded-xl transition-all duration-300 hover:-translate-y-0.5 shadow-lg"
+              className="inline-flex items-center gap-2 px-8 py-4 bg-[#0284c7] hover:bg-[#0369a1] text-white font-bold text-base rounded-xl transition-all duration-300 hover:-translate-y-0.5 shadow-lg"
             >
               Cakto Konsultim Falas
             </a>

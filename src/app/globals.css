@@ -3,10 +3,10 @@
 @tailwind utilities;
 
 :root {
-  --primary: #0d9488;
-  --primary-dark: #0f766e;
-  --primary-light: #ccfbf1;
-  --dark: #134e4a;
+  --primary: #0284c7;
+  --primary-dark: #0369a1;
+  --primary-light: #e0f2fe;
+  --dark: #0c4a6e;
 }
 
 html { scroll-behavior: smooth; }
@@ -70,13 +70,13 @@ body { -webkit-font-smoothing: antialiased; }
 .accordion-body.open { max-height: 300px; opacity: 1; }
 
 /* Swiper overrides */
-.swiper-pagination-bullet-active { background-color: #0d9488 !important; }
+.swiper-pagination-bullet-active { background-color: #0284c7 !important; }
 .swiper-pagination-bullet { background-color: #cbd5e1; opacity: 1; width: 8px; height: 8px; }
 .dental-swiper .swiper-pagination { margin-top: 24px; position: relative; }
 
 /* Gradient text */
 .gradient-text {
-  background: linear-gradient(135deg, #0d9488 0%, #134e4a 100%);
+  background: linear-gradient(135deg, #0284c7 0%, #0c4a6e 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;

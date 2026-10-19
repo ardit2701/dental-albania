@@ -78,7 +78,7 @@ export default function TreatmentProcess() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-12 reveal">
-          <div className="inline-flex items-center gap-2 bg-teal-50 border border-teal-200 text-teal-700 px-4 py-1.5 rounded-full text-sm font-semibold mb-4 shadow-sm">
+          <div className="inline-flex items-center gap-2 bg-sky-50 border border-sky-200 text-sky-700 px-4 py-1.5 rounded-full text-sm font-semibold mb-4 shadow-sm">
             {t('badge')}
           </div>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-gray-900 mb-4 tracking-tight">
@@ -96,11 +96,11 @@ export default function TreatmentProcess() {
                 onClick={() => handleTabChange(idx)}
                 className={`inline-flex items-center gap-2 px-5 py-2.5 rounded-xl text-sm font-semibold transition-all duration-200 ${
                   activeTab === idx
-                    ? 'bg-teal-600 text-white shadow-md'
-                    : 'text-gray-600 hover:text-teal-700 hover:bg-teal-50'
+                    ? 'bg-sky-600 text-white shadow-md'
+                    : 'text-gray-600 hover:text-sky-700 hover:bg-sky-50'
                 }`}
               >
-                <span className={activeTab === idx ? 'text-white' : 'text-teal-600'}>
+                <span className={activeTab === idx ? 'text-white' : 'text-sky-600'}>
                   {TAB_ICONS[idx]}
                 </span>
                 {tab.label}
@@ -119,11 +119,11 @@ export default function TreatmentProcess() {
                 <div key={idx} className="flex items-center gap-2">
                   <div
                     className={`w-2.5 h-2.5 rounded-full transition-all duration-300 ${
-                      openStep === idx ? 'bg-teal-600 scale-125' : openStep !== null && openStep > idx ? 'bg-teal-300' : 'bg-gray-200'
+                      openStep === idx ? 'bg-sky-600 scale-125' : openStep !== null && openStep > idx ? 'bg-sky-300' : 'bg-gray-200'
                     }`}
                   />
                   {idx < tabs[activeTab].steps.length - 1 && (
-                    <div className={`h-px w-8 transition-colors duration-300 ${openStep !== null && openStep > idx ? 'bg-teal-300' : 'bg-gray-200'}`} />
+                    <div className={`h-px w-8 transition-colors duration-300 ${openStep !== null && openStep > idx ? 'bg-sky-300' : 'bg-gray-200'}`} />
                   )}
                 </div>
               ))}
@@ -137,7 +137,7 @@ export default function TreatmentProcess() {
                 key={`${activeTab}-${idx}`}
                 className={`bg-white rounded-2xl border transition-all duration-300 overflow-hidden ${
                   openStep === idx
-                    ? 'border-teal-200 shadow-lg shadow-teal-50'
+                    ? 'border-sky-200 shadow-lg shadow-sky-50'
                     : 'border-gray-100 shadow-sm hover:border-gray-200'
                 }`}
               >
@@ -148,18 +148,18 @@ export default function TreatmentProcess() {
                   <span
                     className={`w-10 h-10 rounded-xl flex items-center justify-center text-sm font-bold shrink-0 transition-all duration-200 ${
                       openStep === idx
-                        ? 'bg-teal-600 text-white shadow-md shadow-teal-200'
-                        : 'bg-gray-100 text-gray-500 group-hover:bg-teal-50 group-hover:text-teal-600'
+                        ? 'bg-sky-600 text-white shadow-md shadow-sky-200'
+                        : 'bg-gray-100 text-gray-500 group-hover:bg-sky-50 group-hover:text-sky-600'
                     }`}
                   >
                     {idx + 1}
                   </span>
-                  <span className={`font-semibold flex-1 transition-colors ${openStep === idx ? 'text-teal-700' : 'text-gray-800 group-hover:text-teal-700'}`}>
+                  <span className={`font-semibold flex-1 transition-colors ${openStep === idx ? 'text-sky-700' : 'text-gray-800 group-hover:text-sky-700'}`}>
                     {step.title}
                   </span>
                   <svg
                     className={`w-5 h-5 shrink-0 transition-all duration-300 ${
-                      openStep === idx ? 'rotate-180 text-teal-600' : 'text-gray-300'
+                      openStep === idx ? 'rotate-180 text-sky-600' : 'text-gray-300'
                     }`}
                     fill="none"
                     viewBox="0 0 24 24"
@@ -191,12 +191,12 @@ export default function TreatmentProcess() {
                 sizes="(max-width: 768px) 90vw, 400px"
               />
               {/* Gradient overlay bottom */}
-              <div className="absolute inset-0 bg-gradient-to-t from-[#134e4a]/80 via-transparent to-transparent" />
+              <div className="absolute inset-0 bg-gradient-to-t from-[#0c4a6e]/80 via-transparent to-transparent" />
 
               {/* Caption */}
               <div className="absolute bottom-0 left-0 right-0 p-5">
                 <p className="text-white font-bold text-base">{t(`photos.${activeTab}.label`)}</p>
-                <p className="text-teal-200 text-sm mt-0.5">{t(`photos.${activeTab}.sub`)}</p>
+                <p className="text-sky-200 text-sm mt-0.5">{t(`photos.${activeTab}.sub`)}</p>
               </div>
 
               {/* Step dots indicator */}

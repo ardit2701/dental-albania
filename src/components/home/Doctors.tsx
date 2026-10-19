@@ -11,13 +11,13 @@ const DOCTOR_STATIC: { name: string; title: string; photo: string | null; gradie
     name: 'Dr. Arlind Myftari',
     title: 'DMD, MD',
     photo: '/doctors/arlind-myftari.png',
-    gradient: { from: '#0d9488', to: '#134e4a' },
+    gradient: { from: '#0284c7', to: '#0c4a6e' },
   },
   {
     name: 'Dr. Odeta Shehu',
     title: 'DMD',
     photo: null,
-    gradient: { from: '#134e4a', to: '#0f766e' },
+    gradient: { from: '#0c4a6e', to: '#0369a1' },
   },
 ];
 
@@ -28,15 +28,15 @@ export default async function Doctors({ locale }: DoctorsProps) {
     <section id="doctors" className="py-20 lg:py-28 bg-white relative overflow-hidden">
       <div
         className="absolute inset-0 opacity-[0.03] pointer-events-none"
-        style={{ backgroundImage: 'radial-gradient(circle, #0d9488 1px, transparent 1px)', backgroundSize: '32px 32px' }}
+        style={{ backgroundImage: 'radial-gradient(circle, #0284c7 1px, transparent 1px)', backgroundSize: '32px 32px' }}
       />
-      <div className="absolute top-0 right-0 w-96 h-96 bg-teal-50 rounded-full blur-3xl opacity-50 pointer-events-none -translate-y-1/3 translate-x-1/3" />
+      <div className="absolute top-0 right-0 w-96 h-96 bg-sky-50 rounded-full blur-3xl opacity-50 pointer-events-none -translate-y-1/3 translate-x-1/3" />
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-5 mb-14 reveal">
           <div>
-            <div className="inline-flex items-center gap-2 bg-teal-50 border border-teal-200 text-teal-700 px-4 py-1.5 rounded-full text-sm font-semibold mb-3 shadow-sm">
+            <div className="inline-flex items-center gap-2 bg-sky-50 border border-sky-200 text-sky-700 px-4 py-1.5 rounded-full text-sm font-semibold mb-3 shadow-sm">
               {t('badge')}
             </div>
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-gray-900 tracking-tight">
@@ -46,7 +46,7 @@ export default async function Doctors({ locale }: DoctorsProps) {
           </div>
           <Link
             href={`/${locale}/about`}
-            className="shrink-0 inline-flex items-center gap-2 px-6 py-3 border-2 border-teal-200 text-teal-700 hover:bg-teal-600 hover:text-white hover:border-teal-600 font-semibold rounded-xl transition-all duration-200 shadow-sm hover:shadow-md"
+            className="shrink-0 inline-flex items-center gap-2 px-6 py-3 border-2 border-sky-200 text-sky-700 hover:bg-sky-600 hover:text-white hover:border-sky-600 font-semibold rounded-xl transition-all duration-200 shadow-sm hover:shadow-md"
           >
             {t('viewAbout')}
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -77,7 +77,7 @@ export default async function Doctors({ locale }: DoctorsProps) {
                   />
                 )}
                 <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent" />
-                <div className="absolute top-3 right-3 bg-white/90 text-xs font-bold text-teal-700 px-2.5 py-1 rounded-full shadow-sm">
+                <div className="absolute top-3 right-3 bg-white/90 text-xs font-bold text-sky-700 px-2.5 py-1 rounded-full shadow-sm">
                   {t(`doctors.${i}.experience`)}
                 </div>
                 <div className="absolute top-3 left-3 bg-black/30 backdrop-blur-sm text-white text-[10px] font-semibold px-2 py-1 rounded-full">
@@ -87,10 +87,10 @@ export default async function Doctors({ locale }: DoctorsProps) {
 
               {/* Info */}
               <div className="p-5">
-                <h3 className="font-bold text-gray-900 text-lg group-hover:text-teal-700 transition-colors mb-1">
+                <h3 className="font-bold text-gray-900 text-lg group-hover:text-sky-700 transition-colors mb-1">
                   {doc.name}
                 </h3>
-                <span className="inline-flex items-center gap-1.5 bg-teal-50 text-teal-700 text-xs font-semibold px-3 py-1.5 rounded-full border border-teal-100 mb-3">
+                <span className="inline-flex items-center gap-1.5 bg-sky-50 text-sky-700 text-xs font-semibold px-3 py-1.5 rounded-full border border-sky-100 mb-3">
                   <svg className="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                   </svg>
@@ -100,7 +100,7 @@ export default async function Doctors({ locale }: DoctorsProps) {
                 <ul className="space-y-1.5">
                   {([0, 1, 2] as const).map((j) => (
                     <li key={j} className="flex items-center gap-2 text-xs text-gray-600">
-                      <div className="w-1.5 h-1.5 rounded-full bg-teal-400 shrink-0" />
+                      <div className="w-1.5 h-1.5 rounded-full bg-sky-400 shrink-0" />
                       {t(`doctors.${i}.extras.${j}`)}
                     </li>
                   ))}

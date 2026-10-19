@@ -35,22 +35,22 @@ export default async function AboutPage({ params }: Props) {
               <h2 className="text-3xl font-bold text-gray-900 mb-4">Historia Jonë</h2>
               <p className="text-gray-600 leading-relaxed">{t("story")}</p>
             </div>
-            <div className="bg-gradient-to-br from-[#0d9488] to-[#134e4a] rounded-3xl p-8 text-center aspect-square flex flex-col items-center justify-center">
+            <div className="bg-gradient-to-br from-[#0284c7] to-[#0c4a6e] rounded-3xl p-8 text-center aspect-square flex flex-col items-center justify-center">
               <span className="text-8xl mb-4">🏥</span>
               <p className="text-white text-xl font-bold">KOKONA Dental and Maxillofacial Clinic</p>
-              <p className="text-[#99f6e4] mt-2">Themeluar 1992</p>
+              <p className="text-[#bae6fd] mt-2">Themeluar 1992</p>
             </div>
           </div>
 
-          <div className="mt-12 bg-[#f0fdfa] rounded-2xl p-8 border border-[#0d9488]/20">
-            <h3 className="text-xl font-bold text-[#0d9488] mb-3">Misioni Ynë</h3>
+          <div className="mt-12 bg-[#f0fdfa] rounded-2xl p-8 border border-[#0284c7]/20">
+            <h3 className="text-xl font-bold text-[#0284c7] mb-3">Misioni Ynë</h3>
             <p className="text-gray-700 leading-relaxed">{t("mission")}</p>
           </div>
         </div>
       </section>
 
       {/* Stats */}
-      <section className="py-16 bg-[#134e4a]">
+      <section className="py-16 bg-[#0c4a6e]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 text-center">
             {[
@@ -60,8 +60,8 @@ export default async function AboutPage({ params }: Props) {
               { value: "4.9★", label: "Google Reviews" },
             ].map((stat) => (
               <div key={stat.label} className="bg-white/10 rounded-2xl p-6">
-                <div className="text-3xl font-extrabold text-[#5eead4] mb-1">{stat.value}</div>
-                <div className="text-[#99f6e4] text-sm">{stat.label}</div>
+                <div className="text-3xl font-extrabold text-[#7dd3fc] mb-1">{stat.value}</div>
+                <div className="text-[#bae6fd] text-sm">{stat.label}</div>
               </div>
             ))}
           </div>

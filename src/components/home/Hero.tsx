@@ -90,11 +90,11 @@ function FloatingTooth({ className, size = 120, style }: { className: string; si
           </filter>
           <linearGradient id="toothGrad" x1="0" y1="0" x2="1" y2="1">
             <stop offset="0%" stopColor="#e0fdf4" />
-            <stop offset="100%" stopColor="#99f6e4" />
+            <stop offset="100%" stopColor="#bae6fd" />
           </linearGradient>
           <linearGradient id="rootGrad" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="0%" stopColor="#5eead4" />
-            <stop offset="100%" stopColor="#0d9488" />
+            <stop offset="0%" stopColor="#7dd3fc" />
+            <stop offset="100%" stopColor="#0284c7" />
           </linearGradient>
         </defs>
         {/* Crown */}
@@ -144,12 +144,12 @@ export default function Hero({ locale }: HeroProps) {
       <section className="relative w-full h-screen min-h-[600px] max-h-[960px] overflow-hidden flex items-center justify-center">
 
         {/* Dark gradient background */}
-        <div className="absolute inset-0 bg-gradient-to-br from-[#020d0c] via-[#041f1e] to-[#071a18]" />
+        <div className="absolute inset-0 bg-gradient-to-br from-[#020c14] via-[#071e2e] to-[#05172a]" />
 
         {/* Radial glow spots */}
-        <div className="absolute top-1/3 left-1/4 w-96 h-96 bg-teal-600/10 rounded-full blur-[100px] pointer-events-none" />
-        <div className="absolute bottom-1/4 right-1/4 w-80 h-80 bg-teal-500/8 rounded-full blur-[80px] pointer-events-none" />
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[300px] bg-teal-900/20 rounded-full blur-[120px] pointer-events-none" />
+        <div className="absolute top-1/3 left-1/4 w-96 h-96 bg-sky-600/10 rounded-full blur-[100px] pointer-events-none" />
+        <div className="absolute bottom-1/4 right-1/4 w-80 h-80 bg-sky-500/8 rounded-full blur-[80px] pointer-events-none" />
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[300px] bg-sky-900/20 rounded-full blur-[120px] pointer-events-none" />
 
         {/* Animated particles */}
         <ParticleCanvas />
@@ -181,7 +181,7 @@ export default function Hero({ locale }: HeroProps) {
           {/* Headline */}
           <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-extrabold text-white leading-[1.08] tracking-tight mb-6 drop-shadow-2xl">
             {t('title')}{' '}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-300 to-emerald-300">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-sky-300 to-emerald-300">
               {t('titleHighlight')}
             </span>
             <br className="hidden sm:block" />
@@ -196,7 +196,7 @@ export default function Hero({ locale }: HeroProps) {
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16">
             <a
               href="#contact"
-              className="group inline-flex items-center gap-2.5 px-8 py-4 bg-teal-500 hover:bg-teal-400 text-white font-bold text-base rounded-full shadow-lg shadow-teal-900/50 transition-all duration-300 hover:-translate-y-0.5 hover:shadow-teal-500/30 hover:shadow-xl"
+              className="group inline-flex items-center gap-2.5 px-8 py-4 bg-sky-500 hover:bg-sky-400 text-white font-bold text-base rounded-full shadow-lg shadow-sky-900/50 transition-all duration-300 hover:-translate-y-0.5 hover:shadow-sky-500/30 hover:shadow-xl"
             >
               {t('ctaPrimary')}
               <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -219,7 +219,7 @@ export default function Hero({ locale }: HeroProps) {
               { val: `${success}%`,                    label: t('stat3Label') },
             ].map((s, i) => (
               <div key={i} className="text-center">
-                <div className="text-2xl sm:text-3xl font-extrabold text-teal-300">{s.val}</div>
+                <div className="text-2xl sm:text-3xl font-extrabold text-sky-300">{s.val}</div>
                 <div className="text-xs sm:text-sm text-white/40 mt-0.5 font-medium tracking-wide">{s.label}</div>
               </div>
             ))}
@@ -229,16 +229,16 @@ export default function Hero({ locale }: HeroProps) {
       </section>
 
       {/* Trust bar */}
-      <div className="bg-[#041f1e] border-b border-teal-900/50 py-4">
+      <div className="bg-[#071e2e] border-b border-sky-900/50 py-4">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-8">
-            <p className="text-xs font-semibold text-teal-700 uppercase tracking-widest whitespace-nowrap">
+            <p className="text-xs font-semibold text-sky-700 uppercase tracking-widest whitespace-nowrap">
               {t('trustBarLabel')}
             </p>
-            <div className="w-px h-5 bg-teal-800 hidden sm:block" />
+            <div className="w-px h-5 bg-sky-800 hidden sm:block" />
             <div className="flex flex-wrap justify-center sm:justify-start items-center gap-6 sm:gap-10">
               {['ISO 9001', 'CE Mark', 'EDA Member', 'ADA Standards', 'SGS Verified'].map(p => (
-                <span key={p} className="text-sm font-bold text-teal-700 hover:text-teal-400 transition-colors cursor-default tracking-tight">{p}</span>
+                <span key={p} className="text-sm font-bold text-sky-700 hover:text-sky-400 transition-colors cursor-default tracking-tight">{p}</span>
               ))}
             </div>
           </div>

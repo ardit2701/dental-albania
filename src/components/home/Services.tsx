@@ -20,9 +20,9 @@ const SERVICE_DATA = [
     ),
     img: 'https://images.unsplash.com/photo-1606265752439-1f18756aa5fc?auto=format&fit=crop&w=600&q=60',
     imgAlt: 'Implante dentare',
-    accent: 'from-teal-600 to-teal-800',
-    iconColor: 'bg-teal-500/20 text-teal-200',
-    linkColor: 'text-teal-600',
+    accent: 'from-sky-600 to-sky-800',
+    iconColor: 'bg-sky-500/20 text-sky-200',
+    linkColor: 'text-sky-600',
     href: (locale: string) => `/${locale}/treatments/dental-implants`,
   },
   {
@@ -94,7 +94,7 @@ export default async function Services({ locale }: ServicesProps) {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-14 reveal">
-          <div className="inline-flex items-center gap-2 bg-teal-50 border border-teal-200 text-teal-700 px-4 py-1.5 rounded-full text-sm font-semibold mb-4 shadow-sm">
+          <div className="inline-flex items-center gap-2 bg-sky-50 border border-sky-200 text-sky-700 px-4 py-1.5 rounded-full text-sm font-semibold mb-4 shadow-sm">
             {t('badge')}
           </div>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-gray-900 mb-4 tracking-tight">
@@ -109,7 +109,7 @@ export default async function Services({ locale }: ServicesProps) {
             <Link
               key={service.title}
               href={service.href(locale)}
-              className={`reveal group bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl border border-gray-100 hover:border-teal-200 transition-all duration-300 hover:-translate-y-2 flex flex-col cursor-pointer delay-${i}`}
+              className={`reveal group bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl border border-gray-100 hover:border-sky-200 transition-all duration-300 hover:-translate-y-2 flex flex-col cursor-pointer delay-${i}`}
             >
               {/* Image area */}
               <div className="relative h-40 overflow-hidden">
@@ -131,7 +131,7 @@ export default async function Services({ locale }: ServicesProps) {
 
               {/* Content */}
               <div className="p-5 flex flex-col flex-1">
-                <h3 className="text-base font-bold text-gray-900 mb-2 group-hover:text-teal-700 transition-colors">
+                <h3 className="text-base font-bold text-gray-900 mb-2 group-hover:text-sky-700 transition-colors">
                   {service.title}
                 </h3>
                 <p className="text-sm text-gray-500 leading-relaxed flex-1">{service.desc}</p>

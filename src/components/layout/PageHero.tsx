@@ -37,7 +37,7 @@ export default function PageHero({
       </div>
 
       {/* Gradient overlay */}
-      <div className="absolute inset-0 bg-gradient-to-r from-[#134e4a]/80 via-[#0d9488]/50 to-transparent" />
+      <div className="absolute inset-0 bg-gradient-to-r from-[#0c4a6e]/80 via-[#0284c7]/50 to-transparent" />
       <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-black/10" />
 
       {/* Content */}
@@ -60,7 +60,7 @@ export default function PageHero({
             {cta && (
               <a
                 href={cta.href}
-                className="inline-flex items-center gap-2 px-6 py-3 bg-teal-500 hover:bg-teal-400 text-white font-bold rounded-xl shadow-lg transition-all duration-300 hover:-translate-y-0.5"
+                className="inline-flex items-center gap-2 px-6 py-3 bg-sky-500 hover:bg-sky-400 text-white font-bold rounded-xl shadow-lg transition-all duration-300 hover:-translate-y-0.5"
               >
                 {cta.label}
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">

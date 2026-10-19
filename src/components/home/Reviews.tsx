@@ -24,7 +24,7 @@ function StarRating({ count = 5 }: { count?: number }) {
 }
 
 const AVATAR_COLORS = [
-  'from-teal-500 to-teal-700',
+  'from-sky-500 to-sky-700',
   'from-violet-500 to-violet-700',
   'from-amber-500 to-amber-700',
   'from-sky-500 to-sky-700',
@@ -47,7 +47,7 @@ export default function Reviews() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-12 reveal">
-          <div className="inline-flex items-center gap-2 bg-teal-50 border border-teal-200 text-teal-700 px-4 py-1.5 rounded-full text-sm font-semibold mb-4 shadow-sm">
+          <div className="inline-flex items-center gap-2 bg-sky-50 border border-sky-200 text-sky-700 px-4 py-1.5 rounded-full text-sm font-semibold mb-4 shadow-sm">
             Vlerësimet
           </div>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-gray-900 mb-8 tracking-tight">
@@ -80,15 +80,15 @@ export default function Reviews() {
             <div className="text-center sm:text-left">
               <StarRating count={5} />
               <p className="text-sm text-gray-500 mt-1.5">{t('basedOn')}</p>
-              <p className="text-xs text-teal-600 font-semibold mt-0.5">{t('ratingLabel')}</p>
+              <p className="text-xs text-sky-600 font-semibold mt-0.5">{t('ratingLabel')}</p>
             </div>
 
             <div className="hidden sm:block w-px h-14 bg-gray-100" />
 
             {/* Trust indicator */}
             <div className="flex items-center gap-3">
-              <div className="w-10 h-10 bg-teal-50 rounded-xl flex items-center justify-center">
-                <svg className="w-5 h-5 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <div className="w-10 h-10 bg-sky-50 rounded-xl flex items-center justify-center">
+                <svg className="w-5 h-5 text-sky-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                 </svg>
               </div>
@@ -122,7 +122,7 @@ export default function Reviews() {
                   <StarRating count={5} />
 
                   {/* Quote mark */}
-                  <div className="mt-3 mb-1 text-teal-100">
+                  <div className="mt-3 mb-1 text-sky-100">
                     <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
                       <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
                     </svg>

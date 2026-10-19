@@ -79,11 +79,11 @@ export default function Header({ locale }: HeaderProps) {
         <div className="flex items-center justify-between h-16 lg:h-20">
           {/* Logo */}
           <Link href={`/${locale}`} className="flex items-center gap-2" onClick={closeMobile}>
-            <div className="w-9 h-9 rounded-full bg-[#0d9488] flex items-center justify-center">
+            <div className="w-9 h-9 rounded-full bg-[#0284c7] flex items-center justify-center">
               <span className="text-white text-lg">🦷</span>
             </div>
             <span className="text-xl font-bold text-gray-900">
-              KOKONA <span className="text-[#0d9488]">Dental</span>
+              Maxillo<span className="text-[#0284c7]">dent</span>
             </span>
           </Link>
 
@@ -91,7 +91,7 @@ export default function Header({ locale }: HeaderProps) {
           <nav className="hidden lg:flex items-center gap-1" ref={dropdownRef}>
             <Link
               href={`/${locale}`}
-              className="px-3 py-2 text-sm font-medium text-gray-700 hover:text-[#0d9488] transition-colors"
+              className="px-3 py-2 text-sm font-medium text-gray-700 hover:text-[#0284c7] transition-colors"
             >
               {t("home")}
             </Link>
@@ -99,7 +99,7 @@ export default function Header({ locale }: HeaderProps) {
             {/* Treatments Dropdown */}
             <div className="relative">
               <button
-                className="flex items-center gap-1 px-3 py-2 text-sm font-medium text-gray-700 hover:text-[#0d9488] transition-colors"
+                className="flex items-center gap-1 px-3 py-2 text-sm font-medium text-gray-700 hover:text-[#0284c7] transition-colors"
                 onMouseEnter={() => setDesktopDropdown("treatments")}
                 onMouseLeave={() => setDesktopDropdown(null)}
               >
@@ -118,7 +118,7 @@ export default function Header({ locale }: HeaderProps) {
                     <Link
                       key={link.label}
                       href={link.href}
-                      className="block px-4 py-2 text-sm text-gray-700 hover:bg-[#f0fdfa] hover:text-[#0d9488] transition-colors"
+                      className="block px-4 py-2 text-sm text-gray-700 hover:bg-[#f0fdfa] hover:text-[#0284c7] transition-colors"
                     >
                       {link.label}
                     </Link>
@@ -130,7 +130,7 @@ export default function Header({ locale }: HeaderProps) {
             {/* About Dropdown */}
             <div className="relative">
               <button
-                className="flex items-center gap-1 px-3 py-2 text-sm font-medium text-gray-700 hover:text-[#0d9488] transition-colors"
+                className="flex items-center gap-1 px-3 py-2 text-sm font-medium text-gray-700 hover:text-[#0284c7] transition-colors"
                 onMouseEnter={() => setDesktopDropdown("about")}
                 onMouseLeave={() => setDesktopDropdown(null)}
               >
@@ -149,7 +149,7 @@ export default function Header({ locale }: HeaderProps) {
                     <Link
                       key={link.label}
                       href={link.href}
-                      className="block px-4 py-2 text-sm text-gray-700 hover:bg-[#f0fdfa] hover:text-[#0d9488] transition-colors"
+                      className="block px-4 py-2 text-sm text-gray-700 hover:bg-[#f0fdfa] hover:text-[#0284c7] transition-colors"
                     >
                       {link.label}
                     </Link>
@@ -160,7 +160,7 @@ export default function Header({ locale }: HeaderProps) {
 
             <Link
               href={`/${locale}/contact`}
-              className="px-3 py-2 text-sm font-medium text-gray-700 hover:text-[#0d9488] transition-colors"
+              className="px-3 py-2 text-sm font-medium text-gray-700 hover:text-[#0284c7] transition-colors"
             >
               {t("contact")}
             </Link>
@@ -174,7 +174,7 @@ export default function Header({ locale }: HeaderProps) {
                   title={loc.label}
                   className={`px-2 py-1 rounded-lg text-sm transition-all ${
                     locale === loc.code
-                      ? "bg-[#0d9488] text-white"
+                      ? "bg-[#0284c7] text-white"
                       : "text-gray-600 hover:bg-gray-100"
                   }`}
                 >
@@ -185,7 +185,7 @@ export default function Header({ locale }: HeaderProps) {
 
             <Link
               href="#contact"
-              className="ml-3 px-4 py-2 bg-[#0d9488] hover:bg-[#0f766e] text-white text-sm font-semibold rounded-lg transition-colors"
+              className="ml-3 px-4 py-2 bg-[#0284c7] hover:bg-[#0369a1] text-white text-sm font-semibold rounded-lg transition-colors"
             >
               {t("appointment")}
             </Link>
@@ -199,7 +199,7 @@ export default function Header({ locale }: HeaderProps) {
                   key={loc.code}
                   onClick={() => switchLocale(loc.code)}
                   className={`px-1.5 py-1 rounded text-xs transition-all ${
-                    locale === loc.code ? "bg-[#0d9488] text-white" : "text-gray-600"
+                    locale === loc.code ? "bg-[#0284c7] text-white" : "text-gray-600"
                   }`}
                 >
                   {loc.flag}
@@ -228,7 +228,7 @@ export default function Header({ locale }: HeaderProps) {
             <Link
               href={`/${locale}`}
               onClick={closeMobile}
-              className="block px-3 py-3 text-gray-700 font-medium hover:text-[#0d9488] hover:bg-[#f0fdfa] rounded-lg transition-colors"
+              className="block px-3 py-3 text-gray-700 font-medium hover:text-[#0284c7] hover:bg-[#f0fdfa] rounded-lg transition-colors"
             >
               {t("home")}
             </Link>
@@ -237,7 +237,7 @@ export default function Header({ locale }: HeaderProps) {
             <div>
               <button
                 onClick={() => setMobileDropdown(mobileDropdown === "treatments" ? null : "treatments")}
-                className="w-full flex items-center justify-between px-3 py-3 text-gray-700 font-medium hover:text-[#0d9488] hover:bg-[#f0fdfa] rounded-lg transition-colors"
+                className="w-full flex items-center justify-between px-3 py-3 text-gray-700 font-medium hover:text-[#0284c7] hover:bg-[#f0fdfa] rounded-lg transition-colors"
               >
                 {t("treatments")}
                 <svg
@@ -250,13 +250,13 @@ export default function Header({ locale }: HeaderProps) {
                 </svg>
               </button>
               {mobileDropdown === "treatments" && (
-                <div className="ml-4 border-l-2 border-[#0d9488] pl-3 mt-1 space-y-1">
+                <div className="ml-4 border-l-2 border-[#0284c7] pl-3 mt-1 space-y-1">
                   {treatmentsLinks.map((link) => (
                     <Link
                       key={link.label}
                       href={link.href}
                       onClick={closeMobile}
-                      className="block py-2 px-2 text-sm text-gray-600 hover:text-[#0d9488] transition-colors"
+                      className="block py-2 px-2 text-sm text-gray-600 hover:text-[#0284c7] transition-colors"
                     >
                       {link.label}
                     </Link>
@@ -269,7 +269,7 @@ export default function Header({ locale }: HeaderProps) {
             <div>
               <button
                 onClick={() => setMobileDropdown(mobileDropdown === "about" ? null : "about")}
-                className="w-full flex items-center justify-between px-3 py-3 text-gray-700 font-medium hover:text-[#0d9488] hover:bg-[#f0fdfa] rounded-lg transition-colors"
+                className="w-full flex items-center justify-between px-3 py-3 text-gray-700 font-medium hover:text-[#0284c7] hover:bg-[#f0fdfa] rounded-lg transition-colors"
               >
                 {t("about")}
                 <svg
@@ -282,13 +282,13 @@ export default function Header({ locale }: HeaderProps) {
                 </svg>
               </button>
               {mobileDropdown === "about" && (
-                <div className="ml-4 border-l-2 border-[#0d9488] pl-3 mt-1 space-y-1">
+                <div className="ml-4 border-l-2 border-[#0284c7] pl-3 mt-1 space-y-1">
                   {aboutLinks.map((link) => (
                     <Link
                       key={link.label}
                       href={link.href}
                       onClick={closeMobile}
-                      className="block py-2 px-2 text-sm text-gray-600 hover:text-[#0d9488] transition-colors"
+                      className="block py-2 px-2 text-sm text-gray-600 hover:text-[#0284c7] transition-colors"
                     >
                       {link.label}
                     </Link>
@@ -300,7 +300,7 @@ export default function Header({ locale }: HeaderProps) {
             <Link
               href={`/${locale}/contact`}
               onClick={closeMobile}
-              className="block px-3 py-3 text-gray-700 font-medium hover:text-[#0d9488] hover:bg-[#f0fdfa] rounded-lg transition-colors"
+              className="block px-3 py-3 text-gray-700 font-medium hover:text-[#0284c7] hover:bg-[#f0fdfa] rounded-lg transition-colors"
             >
               {t("contact")}
             </Link>
@@ -309,7 +309,7 @@ export default function Header({ locale }: HeaderProps) {
               <Link
                 href="#contact"
                 onClick={closeMobile}
-                className="block w-full text-center px-4 py-3 bg-[#0d9488] hover:bg-[#0f766e] text-white font-semibold rounded-xl transition-colors"
+                className="block w-full text-center px-4 py-3 bg-[#0284c7] hover:bg-[#0369a1] text-white font-semibold rounded-xl transition-colors"
               >
                 {t("appointment")}
               </Link>

@@ -4,7 +4,7 @@ import { useState, useEffect, useRef } from "react";
 
 const WHATSAPP_OPTIONS = [
   { flag: "🇦🇱", lang: "Shqip", number: "355695000000" },
-  { flag: "🇬🇧", lang: "English", number: "447465695213" },
+  { flag: "🇬🇧", lang: "English", number: "447459296228" },
   { flag: "🇮🇹", lang: "Italiano", number: "355675022335" },
 ];
 
@@ -27,9 +27,9 @@ export default function WhatsAppButton() {
       {/* Popup */}
       {open && (
         <div className="bg-white rounded-2xl shadow-2xl border border-gray-100 overflow-hidden w-56 sm:w-64 animate-in slide-in-from-bottom-4 duration-200">
-          <div className="bg-[#0d9488] px-4 py-3">
+          <div className="bg-[#0284c7] px-4 py-3">
             <p className="text-white font-semibold text-sm">Chat on WhatsApp</p>
-            <p className="text-[#99f6e4] text-xs mt-0.5">Zgjidhni gjuhën</p>
+            <p className="text-[#bae6fd] text-xs mt-0.5">Zgjidhni gjuhën</p>
           </div>
           <div className="p-2">
             {WHATSAPP_OPTIONS.map((opt) => (
@@ -42,7 +42,7 @@ export default function WhatsAppButton() {
               >
                 <span className="text-2xl">{opt.flag}</span>
                 <div>
-                  <p className="text-sm font-medium text-gray-800 group-hover:text-[#0d9488] transition-colors">
+                  <p className="text-sm font-medium text-gray-800 group-hover:text-[#0284c7] transition-colors">
                     {opt.lang}
                   </p>
                   <p className="text-xs text-gray-500">+{opt.number}</p>

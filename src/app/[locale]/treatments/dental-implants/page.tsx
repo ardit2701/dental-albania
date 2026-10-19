@@ -38,13 +38,13 @@ export default async function DentalImplantsPage({ params }: Props) {
       />
 
       {/* Brand trust bar */}
-      <div className="bg-gradient-to-r from-[#041f1e] to-[#0d9488]/90 py-5">
+      <div className="bg-gradient-to-r from-[#071e2e] to-[#0284c7]/90 py-5">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-10 text-center">
-          <p className="text-teal-200 text-xs font-semibold uppercase tracking-widest">Punojmë me brendet #1 botërore</p>
-          <div className="hidden sm:block w-px h-6 bg-teal-700" />
+          <p className="text-sky-200 text-xs font-semibold uppercase tracking-widest">Punojmë me brendet #1 botërore</p>
+          <div className="hidden sm:block w-px h-6 bg-sky-700" />
           <div className="flex items-center gap-8">
             {/* Straumann */}
-            <div className="flex items-center gap-2.5">
+            <a href="https://www.straumann.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2.5 hover:opacity-80 transition-opacity">
               <div className="w-9 h-9 bg-white rounded-full flex items-center justify-center shadow-md shrink-0">
                 <svg viewBox="0 0 36 36" fill="none" className="w-5 h-5">
                   <circle cx="18" cy="18" r="16" fill="#003087" />
@@ -54,12 +54,12 @@ export default async function DentalImplantsPage({ params }: Props) {
               </div>
               <div className="text-left">
                 <p className="text-white font-bold text-sm leading-none">Straumann®</p>
-                <p className="text-teal-300 text-[10px]">Swiss Quality · Est. 1954</p>
+                <p className="text-sky-300 text-[10px]">Swiss Quality · Est. 1954</p>
               </div>
-            </div>
-            <div className="w-px h-8 bg-teal-700" />
+            </a>
+            <div className="w-px h-8 bg-sky-700" />
             {/* Neodent */}
-            <div className="flex items-center gap-2.5">
+            <a href="https://www.neodent.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2.5 hover:opacity-80 transition-opacity">
               <div className="w-9 h-9 bg-white rounded-full flex items-center justify-center shadow-md shrink-0">
                 <svg viewBox="0 0 36 36" fill="none" className="w-5 h-5">
                   <circle cx="18" cy="18" r="16" fill="#00843D" />
@@ -68,9 +68,9 @@ export default async function DentalImplantsPage({ params }: Props) {
               </div>
               <div className="text-left">
                 <p className="text-white font-bold text-sm leading-none">Neodent®</p>
-                <p className="text-teal-300 text-[10px]">Straumann Group · Brazil</p>
+                <p className="text-sky-300 text-[10px]">Straumann Group · Brazil</p>
               </div>
-            </div>
+            </a>
           </div>
         </div>
       </div>
@@ -81,7 +81,7 @@ export default async function DentalImplantsPage({ params }: Props) {
           {/* Brand comparison cards */}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 mb-12">
             {/* Straumann */}
-            <div className="border-2 border-blue-100 rounded-2xl p-6 bg-gradient-to-br from-blue-50 to-white">
+            <a href="https://www.straumann.com" target="_blank" rel="noopener noreferrer" className="border-2 border-blue-100 rounded-2xl p-6 bg-gradient-to-br from-blue-50 to-white hover:border-blue-300 hover:shadow-md transition-all block">
               <div className="flex items-center gap-3 mb-4">
                 <div className="w-10 h-10 bg-[#003087] rounded-xl flex items-center justify-center shrink-0">
                   <svg viewBox="0 0 24 24" fill="none" className="w-5 h-5">
@@ -111,10 +111,10 @@ export default async function DentalImplantsPage({ params }: Props) {
                   </li>
                 ))}
               </ul>
-            </div>
+            </a>
 
             {/* Neodent */}
-            <div className="border-2 border-green-100 rounded-2xl p-6 bg-gradient-to-br from-green-50 to-white">
+            <a href="https://www.neodent.com" target="_blank" rel="noopener noreferrer" className="border-2 border-green-100 rounded-2xl p-6 bg-gradient-to-br from-green-50 to-white hover:border-green-300 hover:shadow-md transition-all block">
               <div className="flex items-center gap-3 mb-4">
                 <div className="w-10 h-10 bg-[#00843D] rounded-xl flex items-center justify-center shrink-0">
                   <svg viewBox="0 0 24 24" fill="none" className="w-5 h-5">
@@ -142,7 +142,7 @@ export default async function DentalImplantsPage({ params }: Props) {
                   </li>
                 ))}
               </ul>
-            </div>
+            </a>
           </div>
 
           {/* Benefits + info card */}
@@ -152,7 +152,7 @@ export default async function DentalImplantsPage({ params }: Props) {
               <ul className="space-y-3">
                 {benefits.map((b) => (
                   <li key={b} className="flex items-center gap-3 p-3 bg-[#f0fdfa] rounded-xl">
-                    <div className="w-6 h-6 bg-[#0d9488] rounded-full flex items-center justify-center shrink-0">
+                    <div className="w-6 h-6 bg-[#0284c7] rounded-full flex items-center justify-center shrink-0">
                       <svg className="w-3.5 h-3.5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
                       </svg>
@@ -162,10 +162,10 @@ export default async function DentalImplantsPage({ params }: Props) {
                 ))}
               </ul>
             </div>
-            <div className="bg-gradient-to-br from-[#0d9488] to-[#134e4a] rounded-3xl p-8 text-center">
+            <div className="bg-gradient-to-br from-[#0284c7] to-[#0c4a6e] rounded-3xl p-8 text-center">
               <span className="text-7xl block mb-4">🦷</span>
               <h3 className="text-white text-xl font-bold mb-1">Implante Titanium</h3>
-              <p className="text-teal-200 text-sm mb-4">Gradë Mjekësore · ISO Certified</p>
+              <p className="text-sky-200 text-sm mb-4">Gradë Mjekësore · ISO Certified</p>
               <div className="space-y-2 text-sm text-left">
                 {[
                   { label: "Konsultim", val: "Falas" },
@@ -174,19 +174,19 @@ export default async function DentalImplantsPage({ params }: Props) {
                   { label: "Anestezi", val: "Lokale" },
                 ].map((r) => (
                   <div key={r.label} className="flex justify-between bg-white/10 rounded-lg px-3 py-2">
-                    <span className="text-teal-200">{r.label}</span>
+                    <span className="text-sky-200">{r.label}</span>
                     <span className="text-white font-bold">{r.val}</span>
                   </div>
                 ))}
               </div>
-              <p className="text-teal-200 text-xs mt-4">Për çmime kontaktoni klinikën — oferta personalizohet sipas rastit tuaj.</p>
+              <p className="text-sky-200 text-xs mt-4">Për çmime kontaktoni klinikën — oferta personalizohet sipas rastit tuaj.</p>
             </div>
           </div>
 
           <div className="mt-12 text-center">
             <a
               href="#contact"
-              className="inline-flex items-center gap-2 px-8 py-4 bg-[#0d9488] hover:bg-[#0f766e] text-white font-bold text-base rounded-xl transition-all duration-300 hover:-translate-y-0.5 shadow-lg"
+              className="inline-flex items-center gap-2 px-8 py-4 bg-[#0284c7] hover:bg-[#0369a1] text-white font-bold text-base rounded-xl transition-all duration-300 hover:-translate-y-0.5 shadow-lg"
             >
               Cakto Konsultim Falas
             </a>

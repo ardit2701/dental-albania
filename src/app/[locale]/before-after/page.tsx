@@ -14,12 +14,12 @@ export async function generateMetadata(): Promise<Metadata> {
 }
 
 const CASES = [
-  { emoji: "🦷", treatment: "Implante Dentare", before: "Dhëmb i humbur", after: "Implant titanium", color: "from-[#0d9488] to-[#134e4a]" },
-  { emoji: "✨", treatment: "Faseta Porcelani", before: "Dhëmbë të çngjyrosur", after: "Buzëqeshje e bardhë", color: "from-[#134e4a] to-[#0f766e]" },
-  { emoji: "🏆", treatment: "All-on-6", before: "Dhëmbë të dëmtuar", after: "Arkadë e re", color: "from-[#0f766e] to-[#0d9488]" },
-  { emoji: "👑", treatment: "Kurora Dentare", before: "Dhëmb i thyer", after: "Kurorë porcelani", color: "from-[#0d9488] to-[#0f766e]" },
-  { emoji: "😁", treatment: "Zbardhim", before: "Njolla kafeje", after: "Dhëmbë të bardhë", color: "from-[#134e4a] to-[#0d9488]" },
-  { emoji: "⭐", treatment: "Ortodonti", before: "Dhëmbë të shtrembër", after: "Rreshtim perfekt", color: "from-[#0f766e] to-[#134e4a]" },
+  { emoji: "🦷", treatment: "Implante Dentare", before: "Dhëmb i humbur", after: "Implant titanium", color: "from-[#0284c7] to-[#0c4a6e]" },
+  { emoji: "✨", treatment: "Faseta Porcelani", before: "Dhëmbë të çngjyrosur", after: "Buzëqeshje e bardhë", color: "from-[#0c4a6e] to-[#0369a1]" },
+  { emoji: "🏆", treatment: "All-on-6", before: "Dhëmbë të dëmtuar", after: "Arkadë e re", color: "from-[#0369a1] to-[#0284c7]" },
+  { emoji: "👑", treatment: "Kurora Dentare", before: "Dhëmb i thyer", after: "Kurorë porcelani", color: "from-[#0284c7] to-[#0369a1]" },
+  { emoji: "😁", treatment: "Zbardhim", before: "Njolla kafeje", after: "Dhëmbë të bardhë", color: "from-[#0c4a6e] to-[#0284c7]" },
+  { emoji: "⭐", treatment: "Ortodonti", before: "Dhëmbë të shtrembër", after: "Rreshtim perfekt", color: "from-[#0369a1] to-[#0c4a6e]" },
 ];
 
 export default async function BeforeAfterPage({ params }: Props) {
@@ -51,7 +51,7 @@ export default async function BeforeAfterPage({ params }: Props) {
                   </div>
                   <div className={`relative bg-gradient-to-br ${c.color} flex flex-col items-center justify-center`}>
                     <span className="text-4xl">{c.emoji}</span>
-                    <span className="absolute top-2 right-2 bg-white/90 text-[#0d9488] text-xs font-bold px-2 py-0.5 rounded-full">PAS</span>
+                    <span className="absolute top-2 right-2 bg-white/90 text-[#0284c7] text-xs font-bold px-2 py-0.5 rounded-full">PAS</span>
                     <span className="absolute bottom-2 text-xs text-white text-center px-2">{c.after}</span>
                   </div>
                 </div>

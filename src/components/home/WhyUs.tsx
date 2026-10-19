@@ -35,7 +35,7 @@ export default async function WhyUs() {
   return (
     <section id="why-us" className="py-20 lg:py-28 relative overflow-hidden">
       {/* Dark teal bg */}
-      <div className="absolute inset-0 bg-gradient-to-br from-[#134e4a] via-teal-800 to-[#0d9488]" />
+      <div className="absolute inset-0 bg-gradient-to-br from-[#0c4a6e] via-sky-800 to-[#0284c7]" />
       {/* Decorative circles */}
       <div className="absolute -top-20 -right-20 w-96 h-96 bg-white/5 rounded-full blur-3xl pointer-events-none" />
       <div className="absolute -bottom-20 -left-20 w-80 h-80 bg-white/5 rounded-full blur-3xl pointer-events-none" />
@@ -51,13 +51,13 @@ export default async function WhyUs() {
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-14 reveal">
-          <div className="inline-flex items-center gap-2 bg-white/10 border border-white/20 text-teal-200 px-4 py-1.5 rounded-full text-sm font-semibold mb-4">
+          <div className="inline-flex items-center gap-2 bg-white/10 border border-white/20 text-sky-200 px-4 py-1.5 rounded-full text-sm font-semibold mb-4">
             {t('badge')}
           </div>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white mb-4 tracking-tight">
             {t('title')}
           </h2>
-          <p className="text-lg text-teal-200 max-w-2xl mx-auto leading-relaxed">{t('subtitle')}</p>
+          <p className="text-lg text-sky-200 max-w-2xl mx-auto leading-relaxed">{t('subtitle')}</p>
         </div>
 
         {/* Cards */}
@@ -67,11 +67,11 @@ export default async function WhyUs() {
               key={card.title}
               className={`reveal group bg-white/10 hover:bg-white/[0.15] backdrop-blur-sm rounded-2xl p-7 border border-white/15 hover:border-white/30 transition-all duration-300 hover:-translate-y-2 cursor-default delay-${i}`}
             >
-              <div className="w-14 h-14 bg-teal-500/30 group-hover:bg-teal-500/40 rounded-2xl flex items-center justify-center mb-6 transition-colors duration-300 text-teal-200">
+              <div className="w-14 h-14 bg-sky-500/30 group-hover:bg-sky-500/40 rounded-2xl flex items-center justify-center mb-6 transition-colors duration-300 text-sky-200">
                 {card.icon}
               </div>
               <h3 className="text-lg font-bold text-white mb-3">{card.title}</h3>
-              <p className="text-teal-100/80 leading-relaxed text-sm">{card.desc}</p>
+              <p className="text-sky-100/80 leading-relaxed text-sm">{card.desc}</p>
             </div>
           ))}
         </div>
@@ -81,7 +81,7 @@ export default async function WhyUs() {
           {([0, 1, 2, 3] as const).map((i) => (
             <div key={i}>
               <p className="text-2xl font-extrabold text-white">{t(`stats.${i}.value`)}</p>
-              <p className="text-teal-200 text-sm mt-0.5 font-medium">{t(`stats.${i}.label`)}</p>
+              <p className="text-sky-200 text-sm mt-0.5 font-medium">{t(`stats.${i}.label`)}</p>
             </div>
           ))}
         </div>
@@ -90,7 +90,7 @@ export default async function WhyUs() {
         <div className="text-center mt-10 reveal delay-4">
           <a
             href="#contact"
-            className="inline-flex items-center gap-2 px-8 py-4 bg-white text-teal-700 hover:bg-teal-50 font-bold text-base rounded-xl shadow-lg transition-all duration-300 hover:-translate-y-0.5 hover:shadow-xl"
+            className="inline-flex items-center gap-2 px-8 py-4 bg-white text-sky-700 hover:bg-sky-50 font-bold text-base rounded-xl shadow-lg transition-all duration-300 hover:-translate-y-0.5 hover:shadow-xl"
           >
             {t('cta')}
             <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">

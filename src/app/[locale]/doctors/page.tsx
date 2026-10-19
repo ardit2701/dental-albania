@@ -62,8 +62,8 @@ const doctors: { name: string; title: string; specialty: string; photo: string |
       "Trajtim endodontik (kanale rrënjore)",
       "Dentistri konservative",
     ],
-    accent: "#0d9488",
-    tagClass: "bg-teal-50 text-teal-700 border-teal-100",
+    accent: "#0284c7",
+    tagClass: "bg-sky-50 text-sky-700 border-sky-100",
     experience: "12+ vjet",
   },
 ];
@@ -94,7 +94,7 @@ export default async function DoctorsPage({ params }: Props) {
                 className={`bg-white rounded-3xl overflow-hidden shadow-sm border border-gray-100 flex flex-col ${i % 2 === 0 ? "lg:flex-row" : "lg:flex-row-reverse"}`}
               >
                 {/* Photo */}
-                <div className="relative w-full lg:w-80 h-96 lg:h-auto shrink-0 bg-gradient-to-br from-teal-800 to-teal-900">
+                <div className="relative w-full lg:w-80 h-96 lg:h-auto shrink-0 bg-gradient-to-br from-sky-800 to-sky-900">
                   {doctor.photo && (
                     <>
                       <Image
@@ -113,7 +113,7 @@ export default async function DoctorsPage({ params }: Props) {
                     </>
                   )}
                   {/* Experience badge */}
-                  <div className="absolute top-4 right-4 bg-white/90 backdrop-blur-sm text-xs font-bold text-teal-700 px-3 py-1.5 rounded-full shadow">
+                  <div className="absolute top-4 right-4 bg-white/90 backdrop-blur-sm text-xs font-bold text-sky-700 px-3 py-1.5 rounded-full shadow">
                     {doctor.experience}
                   </div>
                 </div>
