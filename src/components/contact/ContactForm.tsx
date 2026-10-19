@@ -316,7 +316,7 @@ export default function ContactForm() {
             {/* Map */}
             <div className="rounded-2xl overflow-hidden border border-gray-100 shadow-sm h-64 lg:h-72">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2996.1234567890!2d19.8187!3d41.3275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDHCsDE5JzM5LjAiTiAxOcKwNDknMDcuMiJF!5e0!3m2!1sen!2sal!4v1234567890"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2996.0!2d19.8167!3d41.3317!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13503102fd577cbb%3A0x3d628b7f5e6fce1c!2sRruga+e+Barrikadave%2C+Tirana%2C+Albania!5e0!3m2!1sen!2sal!4v1700000000000"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}

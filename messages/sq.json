@@ -282,7 +282,7 @@
   "contact": {
     "title": "Na Kontaktoni",
     "subtitle": "Jemi këtu për të ndihmuar. Caktoni një konsultim falas sot.",
-    "address": "Rruga Myslym Shyri 123, Tiranë 1001, Shqipëri",
+    "address": "Rruga e Barrikadave, Tiranë, Shqipëri",
     "phone": "+355 69 5XX XXXX",
     "email": "info@maxillodent.al",
     "hours": "E Hënë - E Shtunë: 09:00 - 19:00",
@@ -382,7 +382,7 @@
     },
     "contact": {
       "title": "Kontakt",
-      "address": "Rruga Myslym Shyri 123, Tiranë",
+      "address": "Rruga e Barrikadave, Tiranë, Shqipëri",
       "phone": "+355 69 5XX XXXX",
       "email": "info@maxillodent.al",
       "phoneALPlaceholder": "Së shpejti"
