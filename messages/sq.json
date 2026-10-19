@@ -17,7 +17,8 @@
     "tourism": "Turizëm Dentar",
     "contact": "Kontakt",
     "appointment": "Cakto Takim",
-    "howItWorks": "Si Procedohet"
+    "howItWorks": "Si Procedohet",
+    "phoneALPlaceholder": "Së shpejti"
   },
   "hero": {
     "badge": "Klinika #1 Dentare në Shqipëri",
@@ -312,7 +313,12 @@
     "submit": "Dërgoni Kërkesën",
     "submitting": "Duke dërguar...",
     "successMsg": "Faleminderit! Do t'ju kontaktojmë brenda 24 orëve.",
-    "errorMsg": "Ndodhi një gabim. Ju lutem provoni sërish ose na telefononi."
+    "errorMsg": "Ndodhi një gabim. Ju lutem provoni sërish ose na telefononi.",
+    "phoneUK": "+44 7459 296228",
+    "phoneUKLabel": "Jashtë Shqipërisë (UK)",
+    "phoneAL": "",
+    "phoneALLabel": "Brenda Shqipërisë",
+    "phoneALPlaceholder": "Së shpejti"
   },
   "footer": {
     "tagline": "Buzëqeshja juaj e përsosur, e krijuar me kujdes.",
@@ -378,7 +384,8 @@
       "title": "Kontakt",
       "address": "Rruga Myslym Shyri 123, Tiranë",
       "phone": "+355 69 5XX XXXX",
-      "email": "info@maxillodent.al"
+      "email": "info@maxillodent.al",
+      "phoneALPlaceholder": "Së shpejti"
     },
     "copyright": "© 2024 KOKONA Dental and Maxillofacial Clinic. Të gjitha të drejtat e rezervuara."
   },
@@ -511,7 +518,31 @@
           "icon": "💬",
           "label": "Flet Anglisht, Italisht & Shqip"
         }
-      ]
+      ],
+      "bio": {
+        "title": "Rreth Dr. Arlind Myftarit",
+        "subtitle": "Kirurg Maksilofacial & Pedagog Universitar",
+        "body1": "Dr. Arlind Myftari është një nga specialistët më të respektuar dentar dhe maksilofacial të Shqipërisë, me mbi 15 vjet eksperiencë klinike. Lista e tij e pacientëve përfshin figura të shquara publike, ndër të cilët Kryeministri i Shqipërisë dhe shumë personalitete të tjera të njohura, dëshmi e besimit të lartë që i jepet ekspertizës së tij.",
+        "body2": "Përtej punës klinike, Dr. Myftari është pedagog universitar, duke u dhënë njohuritë dhe precizionin kirurgjik brezit të ri të profesionistëve dentar. Angazhimi i tij akademik pasqyron bindjen se ekselenca në stomatologji ndërtohet jo vetëm në klinikë, por edhe në arsim.",
+        "credentials": [
+          {
+            "icon": "🎓",
+            "label": "Pedagog Universitar në Kirurgji Dentare"
+          },
+          {
+            "icon": "🏛️",
+            "label": "Ka trajtuar Kryeministrin e Shqipërisë dhe shumë figura të tjera publike"
+          },
+          {
+            "icon": "🌍",
+            "label": "Pacientë nga 30+ shtete të botës"
+          },
+          {
+            "icon": "⭐",
+            "label": "15+ vjet ekspertizë maksilofaciale"
+          }
+        ]
+      }
     }
   }
 }

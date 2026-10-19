@@ -185,6 +185,18 @@ export default function Header({ locale }: HeaderProps) {
               ))}
             </div>
 
+            {/* Phone numbers */}
+            <div className="ml-3 flex flex-col items-end gap-0.5 border-l pl-3 border-gray-200">
+              <a href="tel:+447459296228" className="flex items-center gap-1.5 text-xs text-gray-600 hover:text-[#0284c7] transition-colors font-medium">
+                <span className="text-[10px] bg-gray-100 rounded px-1 py-0.5 text-gray-500">🇬🇧 UK</span>
+                +44 7459 296228
+              </a>
+              <span className="flex items-center gap-1.5 text-xs text-gray-400 font-medium">
+                <span className="text-[10px] bg-gray-100 rounded px-1 py-0.5 text-gray-400">🇦🇱 AL</span>
+                {t("phoneALPlaceholder")}
+              </span>
+            </div>
+
             <Link
               href="#contact"
               className="ml-3 px-4 py-2 bg-[#0284c7] hover:bg-[#0369a1] text-white text-sm font-semibold rounded-lg transition-colors"
@@ -307,7 +319,7 @@ export default function Header({ locale }: HeaderProps) {
               {t("contact")}
             </Link>
 
-            <div className="pt-2 pb-1">
+            <div className="pt-2 pb-1 space-y-2">
               <Link
                 href="#contact"
                 onClick={closeMobile}
@@ -315,6 +327,16 @@ export default function Header({ locale }: HeaderProps) {
               >
                 {t("appointment")}
               </Link>
+              <a
+                href="tel:+447459296228"
+                onClick={closeMobile}
+                className="flex items-center justify-center gap-2 w-full px-4 py-3 border border-[#0284c7] text-[#0284c7] font-semibold rounded-xl hover:bg-[#0284c7]/5 transition-colors text-sm"
+              >
+                🇬🇧 +44 7459 296228
+              </a>
+              <div className="flex items-center justify-center gap-2 w-full px-4 py-3 border border-gray-200 text-gray-400 rounded-xl text-sm">
+                🇦🇱 {t("phoneALPlaceholder")}
+              </div>
             </div>
           </div>
         </div>

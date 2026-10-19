@@ -17,7 +17,8 @@
     "tourism": "Turismo Dentale",
     "contact": "Contatto",
     "appointment": "Prenota Appuntamento",
-    "howItWorks": "Come Funziona"
+    "howItWorks": "Come Funziona",
+    "phoneALPlaceholder": "Prossimamente"
   },
   "hero": {
     "badge": "La Clinica Dentale #1 in Albania",
@@ -312,7 +313,12 @@
     "submit": "Invia Richiesta",
     "submitting": "Invio in corso...",
     "successMsg": "Grazie! Ti contatteremo entro 24 ore.",
-    "errorMsg": "Si è verificato un errore. Riprova o chiamaci."
+    "errorMsg": "Si è verificato un errore. Riprova o chiamaci.",
+    "phoneUK": "+44 7459 296228",
+    "phoneUKLabel": "Fuori dall'Albania (UK)",
+    "phoneAL": "",
+    "phoneALLabel": "In Albania",
+    "phoneALPlaceholder": "Prossimamente"
   },
   "footer": {
     "tagline": "Il tuo sorriso perfetto, realizzato con cura.",
@@ -378,7 +384,8 @@
       "title": "Contatto",
       "address": "Rruga Myslym Shyri 123, Tirana",
       "phone": "+355 69 5XX XXXX",
-      "email": "info@maxillodent.al"
+      "email": "info@maxillodent.al",
+      "phoneALPlaceholder": "Prossimamente"
     },
     "copyright": "© 2024 KOKONA Dental and Maxillofacial Clinic. Tutti i diritti riservati."
   },
@@ -511,7 +518,31 @@
           "icon": "💬",
           "label": "Parla Inglese, Italiano & Albanese"
         }
-      ]
+      ],
+      "bio": {
+        "title": "Il Dr. Arlind Myftari",
+        "subtitle": "Chirurgo Maxillofacciale & Docente Universitario",
+        "body1": "Il Dr. Arlind Myftari è uno dei più rispettati specialisti dentali e maxillofacciali d'Albania, con oltre 15 anni di esperienza clinica. La sua lista di pazienti include importanti figure pubbliche, tra cui il Primo Ministro dell'Albania e molte altre personalità di rilievo, una testimonianza della fiducia che i colleghi e il grande pubblico ripongono nella sua competenza.",
+        "body2": "Oltre alla sua attività clinica, il Dr. Myftari è docente universitario, trasmettendo le sue conoscenze e la sua precisione chirurgica alla nuova generazione di professionisti dentali. Il suo impegno accademico riflette la convinzione che l'eccellenza in odontoiatria si costruisce non solo in clinica, ma anche nell'istruzione.",
+        "credentials": [
+          {
+            "icon": "🎓",
+            "label": "Docente Universitario in Chirurgia Dentale"
+          },
+          {
+            "icon": "🏛️",
+            "label": "Ha trattato il Primo Ministro albanese e molte altre figure pubbliche di rilievo"
+          },
+          {
+            "icon": "🌍",
+            "label": "Pazienti da oltre 30 paesi nel mondo"
+          },
+          {
+            "icon": "⭐",
+            "label": "15+ anni di esperienza maxillofacciale"
+          }
+        ]
+      }
     }
   }
 }

@@ -116,13 +116,26 @@ export default async function HowItWorksPage({ params }: Props) {
             </video>
           </div>
 
-          <div className="mt-10 grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-3xl mx-auto text-center">
-            {[0, 1, 2].map((i) => (
-              <div key={i} className="bg-white/10 rounded-xl p-5 border border-white/10">
-                <p className="text-2xl mb-2">{t(`video.points.${i}.icon`)}</p>
-                <p className="text-white font-semibold text-sm">{t(`video.points.${i}.label`)}</p>
-              </div>
-            ))}
+          {/* Dr. Arlind Bio */}
+          <div className="mt-16 max-w-3xl mx-auto">
+            <div className="text-center mb-8">
+              <h3 className="text-2xl sm:text-3xl font-extrabold text-white mb-1">{t("video.bio.title")}</h3>
+              <p className="text-[#7dd3fc] font-semibold text-sm tracking-wide uppercase">{t("video.bio.subtitle")}</p>
+            </div>
+
+            <div className="bg-white/10 border border-white/15 rounded-2xl p-7 space-y-4 mb-8">
+              <p className="text-sky-100 leading-relaxed text-sm sm:text-base">{t("video.bio.body1")}</p>
+              <p className="text-sky-100 leading-relaxed text-sm sm:text-base">{t("video.bio.body2")}</p>
+            </div>
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              {[0, 1, 2, 3].map((i) => (
+                <div key={i} className="flex items-start gap-3 bg-white/10 border border-white/10 rounded-xl p-4">
+                  <span className="text-2xl shrink-0">{t(`video.bio.credentials.${i}.icon`)}</span>
+                  <p className="text-white text-sm font-medium leading-snug">{t(`video.bio.credentials.${i}.label`)}</p>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </section>

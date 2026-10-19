@@ -17,7 +17,8 @@
     "tourism": "Dental Tourism",
     "contact": "Contact",
     "appointment": "Book Appointment",
-    "howItWorks": "How It Works"
+    "howItWorks": "How It Works",
+    "phoneALPlaceholder": "Coming soon"
   },
   "hero": {
     "badge": "Albania's #1 Dental Clinic",
@@ -312,7 +313,12 @@
     "submit": "Send Request",
     "submitting": "Sending...",
     "successMsg": "Thank you! We will contact you within 24 hours.",
-    "errorMsg": "An error occurred. Please try again or call us."
+    "errorMsg": "An error occurred. Please try again or call us.",
+    "phoneUK": "+44 7459 296228",
+    "phoneUKLabel": "Outside Albania (UK)",
+    "phoneAL": "",
+    "phoneALLabel": "Inside Albania",
+    "phoneALPlaceholder": "Coming soon"
   },
   "footer": {
     "tagline": "Your perfect smile, crafted with care.",
@@ -378,7 +384,8 @@
       "title": "Contact",
       "address": "Rruga Myslym Shyri 123, Tirana",
       "phone": "+355 69 5XX XXXX",
-      "email": "info@maxillodent.al"
+      "email": "info@maxillodent.al",
+      "phoneALPlaceholder": "Coming soon"
     },
     "copyright": "© 2024 KOKONA Dental and Maxillofacial Clinic. All rights reserved."
   },
@@ -511,7 +518,31 @@
           "icon": "💬",
           "label": "Speaks English, Italian & Albanian"
         }
-      ]
+      ],
+      "bio": {
+        "title": "About Dr. Arlind Myftari",
+        "subtitle": "Maxillofacial Surgeon & University Professor",
+        "body1": "Dr. Arlind Myftari is one of Albania's most respected dental and maxillofacial specialists, with over 15 years of clinical experience treating patients from across Europe and beyond. His patient list includes prominent public figures, among them the Prime Minister of Albania and many other well-known personalities, a testament to the trust and confidence his peers and the broader public place in his expertise.",
+        "body2": "Beyond his clinical work, Dr. Myftari serves as a university lecturer, passing on his knowledge and surgical precision to the next generation of dental professionals. His academic commitment reflects a belief that excellence in dentistry is built not just in the clinic, but in education.",
+        "credentials": [
+          {
+            "icon": "🎓",
+            "label": "University Lecturer in Dental Surgery"
+          },
+          {
+            "icon": "🏛️",
+            "label": "Treated the Prime Minister of Albania and many other public figures as well"
+          },
+          {
+            "icon": "🌍",
+            "label": "Patients from 30+ countries worldwide"
+          },
+          {
+            "icon": "⭐",
+            "label": "15+ years of maxillofacial expertise"
+          }
+        ]
+      }
     }
   }
 }
