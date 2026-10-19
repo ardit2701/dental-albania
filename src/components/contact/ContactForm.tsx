@@ -42,10 +42,13 @@ export default function ContactForm() {
 
   const onSubmit = async (data: FormData) => {
     setStatus("loading");
-    // Simulate EmailJS send (replace with actual EmailJS credentials)
     try {
-      await new Promise((resolve) => setTimeout(resolve, 1500));
-      console.log("Form data:", data);
+      const res = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(data),
+      });
+      if (!res.ok) throw new Error('Failed');
       setStatus("success");
       reset();
     } catch {
@@ -269,7 +272,7 @@ export default function ContactForm() {
                     ),
                     label: "Email",
                     value: t("email"),
-                    href: "mailto:info@kokonadental.al",
+                    href: "mailto:info@maxillodent.al",
                   },
                   {
                     icon: (
