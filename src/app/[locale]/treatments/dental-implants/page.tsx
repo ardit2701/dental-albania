@@ -99,7 +99,7 @@ export default async function DentalImplantsPage({ params }: Props) {
               <ul className="space-y-2 text-sm text-gray-600">
                 {[
                   "Titanium SLA® Surface — integrim më i shpejtë",
-                  "Garanci gjatë gjithë jetës (Lifetime Guarantee)",
+                  "Garanci e përjetshme",
                   "Mbi 70 vjet kërkime shkencore",
                   "I disponueshëm në 100+ vende",
                 ].map((f) => (
@@ -170,7 +170,7 @@ export default async function DentalImplantsPage({ params }: Props) {
                 {[
                   { label: "Konsultim", val: "Falas" },
                   { label: "Procedura", val: "1 ditë" },
-                  { label: "Garanci", val: "Gjatëjetësor" },
+                  { label: "Garanci", val: "E përjetshme" },
                   { label: "Anestezi", val: "Lokale" },
                 ].map((r) => (
                   <div key={r.label} className="flex justify-between bg-white/10 rounded-lg px-3 py-2">
@@ -185,7 +185,7 @@ export default async function DentalImplantsPage({ params }: Props) {
 
           <div className="mt-12 text-center">
             <a
-              href="#contact"
+              href={`/${locale}/contact`}
               className="inline-flex items-center gap-2 px-8 py-4 bg-[#0284c7] hover:bg-[#0369a1] text-white font-bold text-base rounded-xl transition-all duration-300 hover:-translate-y-0.5 shadow-lg"
             >
               Cakto Konsultim Falas

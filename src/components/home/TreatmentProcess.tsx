@@ -41,32 +41,13 @@ export default function TreatmentProcess() {
   const [openStep, setOpenStep] = useState<number | null>(0);
   const bodyRefs = useRef<Array<HTMLDivElement | null>>([]);
 
-  const tabs = [
-    {
-      label: t('tabs.0.label'),
-      steps: [
-        { title: t('tabs.0.steps.0.title'), body: t('tabs.0.steps.0.body') },
-        { title: t('tabs.0.steps.1.title'), body: t('tabs.0.steps.1.body') },
-        { title: t('tabs.0.steps.2.title'), body: t('tabs.0.steps.2.body') },
-      ],
-    },
-    {
-      label: t('tabs.1.label'),
-      steps: [
-        { title: t('tabs.1.steps.0.title'), body: t('tabs.1.steps.0.body') },
-        { title: t('tabs.1.steps.1.title'), body: t('tabs.1.steps.1.body') },
-        { title: t('tabs.1.steps.2.title'), body: t('tabs.1.steps.2.body') },
-      ],
-    },
-    {
-      label: t('tabs.2.label'),
-      steps: [
-        { title: t('tabs.2.steps.0.title'), body: t('tabs.2.steps.0.body') },
-        { title: t('tabs.2.steps.1.title'), body: t('tabs.2.steps.1.body') },
-        { title: t('tabs.2.steps.2.title'), body: t('tabs.2.steps.2.body') },
-      ],
-    },
-  ];
+  const tabs = [0, 1, 2].map((ti) => ({
+    label: t(`tabs.${ti}.label`),
+    steps: [0, 1, 2, 3, 4].map((si) => ({
+      title: t(`tabs.${ti}.steps.${si}.title`),
+      body: t(`tabs.${ti}.steps.${si}.body`),
+    })),
+  }));
 
   const handleTabChange = (idx: number) => {
     setActiveTab(idx);

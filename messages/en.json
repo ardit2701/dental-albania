@@ -105,16 +105,24 @@
         "label": "Implants",
         "steps": [
           {
-            "title": "Free Consultation",
-            "body": "Visit our clinic for a complete free consultation. The doctor will assess your condition and propose the optimal treatment plan with detailed pricing."
+            "title": "Panoramic X-Ray & Diagnosis",
+            "body": "We start with a full 3D scan of your mouth. Dr. Arlind reviews it personally and maps out a clear treatment plan tailored to your case."
           },
           {
-            "title": "Implant Placement",
-            "body": "The titanium implant is placed under local anaesthesia. The procedure takes 45-60 minutes. You will be comfortable throughout the entire process."
+            "title": "Free Online Consultation",
+            "body": "We set up a video call so you can meet the doctor from home. He walks you through the results, answers your questions and confirms the plan. No need to travel just for a chat."
           },
           {
-            "title": "Final Crown",
-            "body": "After the healing period (3-6 months), we place the final porcelain crown. The result looks and feels completely natural."
+            "title": "Fly to Albania & Implant Surgery",
+            "body": "You arrive in Tirana and we take care of everything. Airport pickup, clinic welcome and the implant surgery, done under local anaesthetic, comfortable and precise."
+          },
+          {
+            "title": "Temporary Teeth Fitted",
+            "body": "Right after surgery, temporary teeth are fitted so you leave the clinic with a full smile. You head home looking great while the implants bond with the bone."
+          },
+          {
+            "title": "Final Crown Placed",
+            "body": "Once healing is complete, your custom porcelain crowns are placed. The result feels completely natural and is built to last for decades."
           }
         ]
       },
@@ -122,16 +130,24 @@
         "label": "Crowns",
         "steps": [
           {
-            "title": "Assessment",
-            "body": "The doctor assesses the tooth and determines if a crown is the right treatment. We take digital scans and impressions."
+            "title": "X-Ray & Assessment",
+            "body": "We take a full digital scan and Dr. Arlind assesses the condition of the tooth to confirm a crown is the right solution for you."
           },
           {
-            "title": "Preparation",
-            "body": "The tooth is prepared by removing the outer layer. A temporary crown is placed during the fabrication of the permanent crown."
+            "title": "Free Online Consultation",
+            "body": "A video call with the doctor where he explains the procedure, answers all your questions and gives you a clear picture of what to expect."
           },
           {
-            "title": "Placement",
-            "body": "The custom porcelain crown is placed and cemented. We check the bite and aesthetics. Immediate and lasting result."
+            "title": "Fly to Albania & Tooth Preparation",
+            "body": "You arrive and we begin. The tooth is shaped to receive the crown. A temporary crown is placed while your permanent one is crafted in the lab."
+          },
+          {
+            "title": "Temporary Crown Fitted",
+            "body": "You wear the temporary crown comfortably while the lab produces your final piece to the exact shape, size and shade you agreed on."
+          },
+          {
+            "title": "Final Porcelain Crown Placed",
+            "body": "Your permanent crown is bonded in place. We check the fit, bite and aesthetics. The result looks and feels like a natural tooth."
           }
         ]
       },
@@ -139,16 +155,24 @@
         "label": "Veneers",
         "steps": [
           {
-            "title": "Smile Design",
-            "body": "We create a digital simulation of your new smile. See the result before treatment begins. We personalise the colour, shape and size."
+            "title": "Smile Design Consultation",
+            "body": "We create a digital preview of your new smile before anything is touched. You choose the colour, shape and size. You see the result before we begin."
           },
           {
-            "title": "Minimal Preparation",
-            "body": "We remove only 0.3-0.5mm from the tooth surface. This is the least invasive procedure compared to classic crowns."
+            "title": "Free Online Consultation",
+            "body": "A video call to go over your smile design, answer questions and confirm you are comfortable with the plan before booking your trip."
           },
           {
-            "title": "Final Application",
-            "body": "Precision laboratory-made veneers are bonded with special dental adhesive. Your new smile is immediate and spectacular."
+            "title": "Fly to Albania & Preparation",
+            "body": "You arrive and treatment begins. We remove only 0.3-0.5mm from the tooth surface, the least invasive approach compared to traditional crowns."
+          },
+          {
+            "title": "Temporary Veneers Fitted",
+            "body": "Temporary veneers go on so you can preview the final look in real life. Any small adjustments are made before the permanent ones are produced."
+          },
+          {
+            "title": "Final Veneers Bonded",
+            "body": "Your precision lab-made veneers are bonded with specialist adhesive. The transformation is immediate, natural and built to last."
           }
         ]
       }
@@ -307,6 +331,7 @@
         "Teeth Whitening",
         "Orthodontics / Aligners",
         "Professional Cleaning",
+        "Dental Tourism Package",
         "Other"
       ]
     },
@@ -462,7 +487,7 @@
     },
     "badge": "📋 The Process",
     "title": "Your Journey to a Perfect Smile",
-    "subtitle": "From the first scan to your final crown — we guide you through every step",
+    "subtitle": "From the first scan to your final crown, we guide you through every step",
     "stepsTitle": "5 Steps to Your New Smile",
     "stepsSubtitle": "A clear, transparent process designed around your comfort and convenience",
     "stepLabel": "Step",
@@ -522,8 +547,8 @@
       "bio": {
         "title": "About Dr. Arlind Myftari",
         "subtitle": "Maxillofacial Surgeon & University Professor",
-        "body1": "Dr. Arlind Myftari is one of Albania's most respected dental and maxillofacial specialists, with over 15 years of clinical experience treating patients from across Europe and beyond. His patient list includes prominent public figures, among them the Prime Minister of Albania and many other well-known personalities, a testament to the trust and confidence his peers and the broader public place in his expertise.",
-        "body2": "Beyond his clinical work, Dr. Myftari serves as a university lecturer, passing on his knowledge and surgical precision to the next generation of dental professionals. His academic commitment reflects a belief that excellence in dentistry is built not just in the clinic, but in education.",
+        "body1": "Dr. Arlind Myftari is a dental and maxillofacial specialist with over 15 years of experience, known for his personalised approach and results that speak for themselves. He trained in Europe, works with premium implant systems trusted across the continent, and has built a reputation that travels well beyond Albania's borders. His patients come from the UK, Italy, Germany, Switzerland and beyond, many of them referred by someone who had already sat in his chair.",
+        "body2": "Outside the clinic, Dr. Myftari teaches at university level, training the next generation of dental surgeons. It says something about a doctor when his peers trust him to shape the profession. His approach is straightforward: listen carefully, explain clearly, and never recommend more than what the patient actually needs.",
         "credentials": [
           {
             "icon": "🎓",
@@ -531,7 +556,7 @@
           },
           {
             "icon": "🏛️",
-            "label": "Treated the Prime Minister of Albania and many other public figures as well"
+            "label": "Over 5,000 patients successfully treated"
           },
           {
             "icon": "🌍",

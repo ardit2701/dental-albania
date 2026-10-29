@@ -105,16 +105,24 @@
         "label": "Implante",
         "steps": [
           {
-            "title": "Konsultimi Falas",
-            "body": "Vizitoni klinikën tonë për një konsultim të plotë falas. Mjeku do të vlerësojë gjendjen tuaj dhe do të propozojë planin optimal të trajtimit me çmimet e detajuara."
+            "title": "Panoreks & Diagnoza",
+            "body": "Fillojmë me një skanim 3D të plotë të gojës. Dr. Arlind e shqyrton personalisht dhe harton një plan trajtimi të qartë të përshtatur me rastin tuaj."
           },
           {
-            "title": "Vendosja e Implantit",
-            "body": "Implantin e titaniumit e vendosim me anestezi lokale. Procedura zgjat 45-60 minuta. Do të ndjeni rehat gjatë gjithë procesit."
+            "title": "Konsultim Online Falas",
+            "body": "Organizojmë një video-takim që të takoni mjekun nga shtëpia. Ai ju shpjegon rezultatet, u përgjigjet pyetjeve dhe konfirmon planin. Nuk keni nevojë të udhëtoni vetëm për një bisedë."
           },
           {
-            "title": "Kurora Finale",
-            "body": "Pas periudhës së shërimit (3-6 muaj), vendosim kurorën finale porcelani. Rezultati duket dhe ndjehet plotësisht natyral."
+            "title": "Fluturoni në Shqipëri & Operacioni",
+            "body": "Mbërrini në Tiranë dhe ne kujdesemi për gjithçka. Transfertë nga aeroporti, pritje në klinikë dhe operacioni i implantit, nën anestezi lokale, komodisht dhe me saktësi."
+          },
+          {
+            "title": "Montohen Dhëmbët Provizorë",
+            "body": "Menjëherë pas operacionit montohen dhëmbë provizorë që të largoheni me buzëqeshje të plotë. Ktheheni në shtëpi shkëlqyeshëm ndërkohë që implantet integrohen."
+          },
+          {
+            "title": "Vendoset Kurora Finale",
+            "body": "Sapo shërimi përfundon, kurorët tuaja prej porcelani montohen. Rezultati ndihet krejtësisht natyral dhe qëndron për dhjetëra vjet."
           }
         ]
       },
@@ -122,16 +130,24 @@
         "label": "Kurora",
         "steps": [
           {
-            "title": "Vlerësimi",
-            "body": "Mjeku vlerëson dhëmbin dhe përcakton nëse kurora është trajtimi i duhur. Marrim imazhe dhe masa digjitale."
+            "title": "Radiografi & Vlerësim",
+            "body": "Bëjmë një skanim të plotë dixhital dhe Dr. Arlind vlerëson gjendjen e dhëmbit për të konfirmuar nëse kurora është zgjidhja e duhur për ju."
           },
           {
-            "title": "Përgatitja",
-            "body": "Dhëmbi përgatitet duke hequr shtresën e jashtme. Vendoset kurora provizore gjatë procesit të fabrikimit të kurorës permanente."
+            "title": "Konsultim Online Falas",
+            "body": "Video-takim me mjekun ku shpjegon procedurën, i përgjigjet të gjitha pyetjeve dhe ju jep një pamje të qartë të asaj çfarë duhet pritur."
           },
           {
-            "title": "Vendosja",
-            "body": "Korona porcelani e personalizuar vendoset dhe cementohet. Kontrollojmë kafshimin dhe estetikën. Rezultat i menjëhershëm dhe i qëndrueshëm."
+            "title": "Fluturoni & Përgatitja e Dhëmbit",
+            "body": "Mbërrini dhe fillojmë. Dhëmbi përgatitet për të pritur kurorën. Montohet një kurorë provizore ndërsa ajo përfundimtare prodhohet në laborator."
+          },
+          {
+            "title": "Kurora Provizore",
+            "body": "E mbani kurorën provizore komodisht ndërkohë që laboratori prodhon atë finale sipas formës, madhësisë dhe ngjyrës së rënë dakord."
+          },
+          {
+            "title": "Kurora Finale prej Porcelani",
+            "body": "Kurora juaj permanente ngjiset në vend. Kontrollojmë montimin, kafshimin dhe estetikën. Rezultati duket dhe ndihet si dhëmb natyral."
           }
         ]
       },
@@ -140,15 +156,23 @@
         "steps": [
           {
             "title": "Dizajni i Buzëqeshjes",
-            "body": "Krijojmë simulim digjital të buzëqeshjes suaj të re. Shikoni rezultatin para se të fillojë trajtimi. Personalizojmë ngjyrën, formën dhe madhësinë."
+            "body": "Krijojmë një pamje paraprake dixhitale të buzëqeshjes suaj të re para se të preket ndonjë gjë. Zgjidhni ngjyrën, formën dhe madhësinë. Shihni rezultatin para se të fillojmë."
           },
           {
-            "title": "Përgatitja Minimale",
-            "body": "Heqim vetëm 0.3-0.5mm nga sipërfaqja e dhëmbëve. Kjo është procedura më minimale invazive krahasuar me kurorën klasike."
+            "title": "Konsultim Online Falas",
+            "body": "Video-takim për të shqyrtuar dizajnin e buzëqeshjes, për t'iu përgjigjur pyetjeve dhe për të konfirmuar planin para se të rezervoni udhëtimin."
           },
           {
-            "title": "Aplikimi Final",
-            "body": "Faseta të bëra me saktësi laboratorike ngjiten me lidhës dentar special. Buzëqeshja juaj e re është e menjëhershme dhe spektakolare."
+            "title": "Fluturoni & Përgatitja",
+            "body": "Mbërrini dhe fillon trajtimi. Heqim vetëm 0.3-0.5mm nga sipërfaqja e dhëmbit, qasja më pak invazive krahasuar me kurorët tradicionale."
+          },
+          {
+            "title": "Faseta Provizore",
+            "body": "Fasetat provizore montohen që të shihni pamjen finale në jetën reale. Çdo rregullim i vogël bëhet para se të prodhohen ato permanente."
+          },
+          {
+            "title": "Fasetat Finale Ngjiten",
+            "body": "Fasetat tuaja të bëra me saktësi laboratorike ngjiten me ngjitës specialist. Transformimi është i menjëhershëm, natyral dhe qëndrueshëm."
           }
         ]
       }
@@ -307,6 +331,7 @@
         "Zbardhim Dhëmbësh",
         "Ortodonti / Aligners",
         "Pastrim Profesional",
+        "Paketë Turizëm Dentar",
         "Tjetër"
       ]
     },
@@ -462,7 +487,7 @@
     },
     "badge": "📋 Procesi",
     "title": "Udhëtimi Juaj drejt Buzëqeshjes së Përsosur",
-    "subtitle": "Nga skanimidi i parë deri te kurora juaj finale — ju udhëzojmë në çdo hap",
+    "subtitle": "Nga skanimidi i parë deri te kurora juaj finale, ju udhëzojmë në çdo hap",
     "stepsTitle": "5 Hapat drejt Buzëqeshjes suaj të Re",
     "stepsSubtitle": "Një proces i qartë dhe transparent, i projektuar rreth komoditetit dhe lehtësisë suaj",
     "stepLabel": "Hapi",
@@ -522,8 +547,8 @@
       "bio": {
         "title": "Rreth Dr. Arlind Myftarit",
         "subtitle": "Kirurg Maksilofacial & Pedagog Universitar",
-        "body1": "Dr. Arlind Myftari është një nga specialistët më të respektuar dentar dhe maksilofacial të Shqipërisë, me mbi 15 vjet eksperiencë klinike. Lista e tij e pacientëve përfshin figura të shquara publike, ndër të cilët Kryeministri i Shqipërisë dhe shumë personalitete të tjera të njohura, dëshmi e besimit të lartë që i jepet ekspertizës së tij.",
-        "body2": "Përtej punës klinike, Dr. Myftari është pedagog universitar, duke u dhënë njohuritë dhe precizionin kirurgjik brezit të ri të profesionistëve dentar. Angazhimi i tij akademik pasqyron bindjen se ekselenca në stomatologji ndërtohet jo vetëm në klinikë, por edhe në arsim.",
+        "body1": "Dr. Arlind Myftari është specialist dentar dhe maksilofacial me mbi 15 vjet eksperiencë, i njohur për kujdesin e tij të personalizuar dhe rezultate që flasin vetë. U formua në Europë, punon me sisteme implantesh premium të besuara në të gjithë kontinentin dhe ka ndërtuar një reputacion që shtrihet shumë përtej kufijve të Shqipërisë. Pacientët e tij vijnë nga Britania e Madhe, Italia, Gjermania, Zvicra dhe më gjerë, shumë prej tyre të referuar nga dikush që tashmë kishte qenë te ai.",
+        "body2": "Jashtë klinikës, Dr. Myftari jep mësim në nivel universitar, duke trajnuar brezin e ardhshëm të kirurgëve dentarë. Thotë shumë për një mjek kur kolegët e tij i besojnë formimin e profesionit. Qasja e tij është e thjeshtë: dëgjo me kujdes, shpjego qartë dhe mos rekomando kurrë më shumë se çfarë pacienti ka vërtet nevojë.",
         "credentials": [
           {
             "icon": "🎓",
@@ -531,7 +556,7 @@
           },
           {
             "icon": "🏛️",
-            "label": "Ka trajtuar Kryeministrin e Shqipërisë dhe shumë figura të tjera publike"
+            "label": "Mbi 5,000 pacientë të trajtuar me sukses"
           },
           {
             "icon": "🌍",

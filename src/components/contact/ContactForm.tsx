@@ -60,17 +60,7 @@ export default function ContactForm() {
     "w-full px-4 py-3 bg-white border border-gray-200 rounded-xl text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#0284c7] focus:border-transparent transition-all text-sm";
   const errorClass = "text-red-500 text-xs mt-1";
 
-  const treatmentOptions = [
-    t("fields.treatmentOptions.0"),
-    t("fields.treatmentOptions.1"),
-    t("fields.treatmentOptions.2"),
-    t("fields.treatmentOptions.3"),
-    t("fields.treatmentOptions.4"),
-    t("fields.treatmentOptions.5"),
-    t("fields.treatmentOptions.6"),
-    t("fields.treatmentOptions.7"),
-    t("fields.treatmentOptions.8"),
-  ];
+  const treatmentOptions = [0,1,2,3,4,5,6,7,8,9].map((i) => t(`fields.treatmentOptions.${i}`));
 
   return (
     <section id="contact" className="py-16 lg:py-24 bg-white">

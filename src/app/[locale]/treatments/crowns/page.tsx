@@ -67,7 +67,7 @@ export default async function CrownsPage({ params }: Props) {
 
           <div className="mt-12 text-center">
             <a
-              href="#contact"
+              href={`/${locale}/contact`}
               className="inline-flex items-center gap-2 px-8 py-4 bg-[#0284c7] hover:bg-[#0369a1] text-white font-bold text-base rounded-xl transition-all duration-300 hover:-translate-y-0.5 shadow-lg"
             >
               Cakto Konsultim Falas

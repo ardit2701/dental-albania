@@ -105,16 +105,24 @@
         "label": "Impianti",
         "steps": [
           {
-            "title": "Consulenza Gratuita",
-            "body": "Visita la nostra clinica per una consulenza gratuita completa. Il medico valuterà la tua condizione e proporrà il piano di trattamento ottimale con prezzi dettagliati."
+            "title": "Ortopantomografia & Diagnosi",
+            "body": "Iniziamo con una scansione 3D completa della bocca. Il Dr. Arlind la esamina personalmente e elabora un piano di trattamento chiaro e personalizzato."
           },
           {
-            "title": "Posizionamento dell'Impianto",
-            "body": "L'impianto in titanio viene posizionato in anestesia locale. La procedura dura 45-60 minuti. Sarai a tuo agio durante tutto il processo."
+            "title": "Consulenza Online Gratuita",
+            "body": "Organizziamo una videochiamata per incontrare il medico da casa. Illustra i risultati, risponde alle domande e conferma il piano. Nessun viaggio necessario per una semplice conversazione."
           },
           {
-            "title": "Corona Finale",
-            "body": "Dopo il periodo di guarigione (3-6 mesi), posizioniamo la corona definitiva in porcellana. Il risultato appare e si sente completamente naturale."
+            "title": "Vola in Albania & Intervento",
+            "body": "Arrivi a Tirana e noi ci occupiamo di tutto. Trasferimento dall'aeroporto, accoglienza in clinica e intervento implantare sotto anestesia locale, confortevole e preciso."
+          },
+          {
+            "title": "Denti Provvisori Posizionati",
+            "body": "Subito dopo l'intervento vengono montati denti provvisori in modo da lasciare la clinica con un sorriso completo mentre gli impianti si integrano."
+          },
+          {
+            "title": "Corona Definitiva Posizionata",
+            "body": "Una volta completata la guarigione, le corone in porcellana personalizzate vengono posizionate. Il risultato è completamente naturale e dura per decenni."
           }
         ]
       },
@@ -122,16 +130,24 @@
         "label": "Corone",
         "steps": [
           {
-            "title": "Valutazione",
-            "body": "Il medico valuta il dente e determina se una corona è il trattamento giusto. Prendiamo scansioni e impronte digitali."
+            "title": "Radiografia & Valutazione",
+            "body": "Eseguiamo una scansione digitale completa e il Dr. Arlind valuta le condizioni del dente per confermare che la corona sia la soluzione giusta."
           },
           {
-            "title": "Preparazione",
-            "body": "Il dente viene preparato rimuovendo lo strato esterno. Viene posizionata una corona provvisoria durante la fabbricazione della corona permanente."
+            "title": "Consulenza Online Gratuita",
+            "body": "Una videochiamata con il medico per spiegare la procedura, rispondere a tutte le domande e darti un quadro chiaro di cosa aspettarti."
           },
           {
-            "title": "Posizionamento",
-            "body": "La corona in porcellana personalizzata viene posizionata e cementata. Controlliamo la masticazione e l'estetica. Risultato immediato e duraturo."
+            "title": "Vola in Albania & Preparazione",
+            "body": "Arrivi e iniziamo. Il dente viene preparato per accogliere la corona. Viene posizionata una corona provvisoria mentre quella definitiva viene realizzata in laboratorio."
+          },
+          {
+            "title": "Corona Provvisoria",
+            "body": "Indossi la corona provvisoria comodamente mentre il laboratorio produce quella definitiva con la forma, dimensione e colore concordati."
+          },
+          {
+            "title": "Corona Definitiva in Porcellana",
+            "body": "La corona permanente viene cementata. Controlliamo adattamento, morso ed estetica. Il risultato sembra e si sente come un dente naturale."
           }
         ]
       },
@@ -139,16 +155,24 @@
         "label": "Faccette",
         "steps": [
           {
-            "title": "Design del Sorriso",
-            "body": "Creiamo una simulazione digitale del tuo nuovo sorriso. Vedi il risultato prima che inizi il trattamento. Personalizziamo colore, forma e dimensione."
+            "title": "Smile Design",
+            "body": "Creiamo un'anteprima digitale del tuo nuovo sorriso prima di toccare qualsiasi cosa. Scegli colore, forma e dimensione. Vedi il risultato prima di iniziare."
           },
           {
-            "title": "Preparazione Minima",
-            "body": "Rimuoviamo solo 0,3-0,5 mm dalla superficie del dente. Questa è la procedura meno invasiva rispetto alle corone classiche."
+            "title": "Consulenza Online Gratuita",
+            "body": "Una videochiamata per esaminare il tuo smile design, rispondere alle domande e confermare il piano prima di prenotare il viaggio."
           },
           {
-            "title": "Applicazione Finale",
-            "body": "Le faccette realizzate con precisione in laboratorio vengono incollate con un adesivo dentale speciale. Il tuo nuovo sorriso è immediato e spettacolare."
+            "title": "Vola in Albania & Preparazione",
+            "body": "Arrivi e il trattamento inizia. Rimuoviamo solo 0,3-0,5 mm dalla superficie del dente, l'approccio meno invasivo rispetto alle corone tradizionali."
+          },
+          {
+            "title": "Faccette Provvisorie",
+            "body": "Vengono posizionate faccette provvisorie per vedere l'aspetto finale nella vita reale. Eventuali piccole correzioni vengono apportate prima di produrre quelle permanenti."
+          },
+          {
+            "title": "Faccette Definitive Incollate",
+            "body": "Le faccette realizzate con precisione in laboratorio vengono incollate con adesivo specializzato. La trasformazione è immediata, naturale e duratura."
           }
         ]
       }
@@ -307,6 +331,7 @@
         "Sbiancamento Denti",
         "Ortodonzia / Aligners",
         "Pulizia Professionale",
+        "Pacchetto Turismo Dentale",
         "Altro"
       ]
     },
@@ -462,7 +487,7 @@
     },
     "badge": "📋 Il Processo",
     "title": "Il Tuo Percorso verso un Sorriso Perfetto",
-    "subtitle": "Dalla prima scansione alla corona finale — ti guidiamo in ogni fase",
+    "subtitle": "Dalla prima scansione alla corona finale, ti guidiamo in ogni fase",
     "stepsTitle": "5 Passi verso il Tuo Nuovo Sorriso",
     "stepsSubtitle": "Un processo chiaro e trasparente, progettato intorno al tuo comfort e alla tua comodità",
     "stepLabel": "Passo",
@@ -522,8 +547,8 @@
       "bio": {
         "title": "Il Dr. Arlind Myftari",
         "subtitle": "Chirurgo Maxillofacciale & Docente Universitario",
-        "body1": "Il Dr. Arlind Myftari è uno dei più rispettati specialisti dentali e maxillofacciali d'Albania, con oltre 15 anni di esperienza clinica. La sua lista di pazienti include importanti figure pubbliche, tra cui il Primo Ministro dell'Albania e molte altre personalità di rilievo, una testimonianza della fiducia che i colleghi e il grande pubblico ripongono nella sua competenza.",
-        "body2": "Oltre alla sua attività clinica, il Dr. Myftari è docente universitario, trasmettendo le sue conoscenze e la sua precisione chirurgica alla nuova generazione di professionisti dentali. Il suo impegno accademico riflette la convinzione che l'eccellenza in odontoiatria si costruisce non solo in clinica, ma anche nell'istruzione.",
+        "body1": "Il Dr. Arlind Myftari è uno specialista dentale e maxillofacciale con oltre 15 anni di esperienza, noto per il suo approccio personalizzato e per risultati che parlano da soli. Si è formato in Europa, lavora con sistemi implantari premium affidabili in tutto il continente e ha costruito una reputazione che va ben oltre i confini dell'Albania. I suoi pazienti vengono da Regno Unito, Italia, Germania, Svizzera e non solo, molti di loro indirizzati da qualcuno che era già stato da lui.",
+        "body2": "Fuori dalla clinica, il Dr. Myftari insegna a livello universitario, formando la prossima generazione di chirurghi dentali. Dice molto di un medico quando i suoi colleghi si fidano di lui per plasmare la professione. Il suo approccio è semplice: ascoltare attentamente, spiegare chiaramente e non raccomandare mai più di quanto il paziente abbia realmente bisogno.",
         "credentials": [
           {
             "icon": "🎓",
@@ -531,7 +556,7 @@
           },
           {
             "icon": "🏛️",
-            "label": "Ha trattato il Primo Ministro albanese e molte altre figure pubbliche di rilievo"
+            "label": "Oltre 5.000 pazienti trattati con successo"
           },
           {
             "icon": "🌍",
