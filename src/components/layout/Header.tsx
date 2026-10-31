@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { useRouter, usePathname } from "next/navigation";
 
@@ -79,14 +80,9 @@ export default function Header({ locale }: HeaderProps) {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 lg:h-20">
           {/* Logo */}
-          <Link href={`/${locale}`} className="flex items-center gap-2.5" onClick={closeMobile}>
-            <svg width="34" height="34" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M18 6C11 6 6 12 6 19C6 24 8 28 10 34C11.5 38 14 40 17 37C18.5 34 19 29 22 29C25 29 25.5 34 27 37C30 40 32.5 38 34 34C36 28 38 24 38 19C38 12 33 6 26 6C23.5 6 22 8 22 8C22 8 20.5 6 18 6Z" fill="#0284c7"/>
-              <path d="M13 13C13 11 15 9 17 9C19 9 20 10.5 20 12C18 12.5 15 13.5 13 13Z" fill="white" fillOpacity="0.4"/>
-            </svg>
-            <span className="text-xl font-bold text-gray-900">
-              Maxillo<span className="text-[#0284c7]">dent</span>
-            </span>
+          <Link href={`/${locale}`} className="flex items-center" onClick={closeMobile}>
+            <Image src="/logo-icon.png" alt="Maxillodent Logo" width={40} height={40} className="object-contain" priority />
+            <span className="ml-2 text-xl font-bold text-gray-900">Maxillo<span className="text-[#0284c7]">dent</span></span>
           </Link>
 
           {/* Desktop Nav */}

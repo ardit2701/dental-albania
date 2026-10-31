@@ -1,5 +1,6 @@
 import { getTranslations } from "next-intl/server";
 import Link from "next/link";
+import Image from "next/image";
 
 interface FooterProps {
   locale: string;
@@ -33,15 +34,7 @@ export default async function Footer({ locale }: FooterProps) {
           {/* Brand */}
           <div className="sm:col-span-2 lg:col-span-1">
             <Link href={`/${locale}`} className="inline-block mb-4">
-              <svg width="88" height="88" viewBox="0 0 130 130" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="65" cy="65" r="60" fill="#0284c7" stroke="#7dd3fc" strokeWidth="2"/>
-                <circle cx="65" cy="65" r="52" fill="none" stroke="rgba(255,255,255,0.18)" strokeWidth="1"/>
-                <path d="M56 28C47 28 40 35 40 44C40 51 43 57 46 66C48 72 52 75 56 71C58 67 59 60 65 60C71 60 72 67 74 71C78 75 82 72 84 66C87 57 90 51 90 44C90 35 83 28 74 28C70 28 68 31 65 31C62 31 60 28 56 28Z" fill="white"/>
-                <path d="M49 37C49 34 52 31 55 31C58 31 60 33.5 60 36C57 37 52 38 49 37Z" fill="white" fillOpacity="0.28"/>
-                <text x="65" y="97" fontFamily="Inter, Arial, sans-serif" fontWeight="700" fontSize="10.5" fill="white" letterSpacing="3" textAnchor="middle">MAXILLODENT</text>
-                <circle cx="22" cy="97" r="2.2" fill="rgba(255,255,255,0.45)"/>
-                <circle cx="108" cy="97" r="2.2" fill="rgba(255,255,255,0.45)"/>
-              </svg>
+              <Image src="/logo-footer.png" alt="Maxillodent Logo" width={120} height={120} className="object-contain" />
             </Link>
             <p className="text-[#bae6fd] text-sm leading-relaxed mb-6">
               {t("tagline")}
