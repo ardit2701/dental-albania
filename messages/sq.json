@@ -569,5 +569,85 @@
         ]
       }
     }
+  },
+  "doctorsPage": {
+    "badge": "Ekipi Mjekësor",
+    "title": "Mjekët Tanë Specialistë",
+    "subtitle": "Specialistë të certifikuar ndërkombëtarisht, të përkushtuar ndaj cilësisë dhe kujdesit për çdo pacient.",
+    "educationLabel": "Edukimi & Trajnimi",
+    "expertiseLabel": "Fushat e Ekspertizës",
+    "appointmentBtn": "Cakto Konsultim",
+    "doctors": [
+      {
+        "specialty": "Kirurgji Maxillo-Faciale & Implantologji",
+        "experience": "15+ vjet",
+        "bio": "Dr. Arlind Myftari është specialist i Kirurgjisë Maxillo-Faciale me mbi 15 vjet eksperiencë klinike. Pas diplomimit në Universitetin e Tiranës (2007), ai kreu një specializim 4-vjeçar të plotë në Kirurgji Maxillo-Faciale, duke u bërë një nga mjekët më të kualifikuar në fushën e implantologjisë dhe kirurgjisë orale në Shqipëri. Gjatë karrierës së tij, Dr. Myftari ka ndjekur kurse të avancuara në Londër dhe Vjenë, duke qëndruar i përditësuar me teknikat më të reja kirurgjikale.",
+        "education": [
+          {
+            "label": "DMD & MD",
+            "value": "Universiteti i Tiranës, 2007"
+          },
+          {
+            "label": "Specializim 4-vjeçar",
+            "value": "Kirurgji Maxillo-Faciale"
+          },
+          {
+            "label": "Trajnime ndërkombëtare",
+            "value": "Londër, Angli & Vjenë, Austri"
+          },
+          {
+            "label": "Anëtarësi profesionale",
+            "value": "EACMFS (që nga 2012)"
+          },
+          {
+            "label": "Pozicion",
+            "value": "Kirurg në QSUT 'Nënë Tereza', Tiranë"
+          }
+        ],
+        "expertise": [
+          "Implante dentare & overdentures",
+          "Kirurgji orale dhe maksilofaciale",
+          "Augmentim i kockës (bone grafting)",
+          "Trajtim i traumave faciale",
+          "Kirurgji estetike faciale",
+          "Onkologji kokë & qafë",
+          "Ekstraksione kirurgjikale",
+          "Ngritje sinusi (Sinus Lifting)"
+        ]
+      },
+      {
+        "specialty": "Ortodonti & Estetikë Dentare",
+        "experience": "12+ vjet",
+        "bio": "Dr. Odeta Shehu është specialiste e Ortodontisë me formim ndërkombëtar të lartë. Pas diplomimit në Universitetin e Tiranës (2009), ajo vazhdoi studimet e specializimit CES në Ortodonti dhe Ortopedi Dentofaciale pranë Université Bordeaux 2 në Francë (2011), ku njëkohësisht punoi si asistente ortodontike në një klinikë private. Eksperienca e saj ndërkombëtare vazhdoi edhe në Mbretërinë e Bashkuar, duke e bërë atë një nga ortodontistet më të kualifikuara në vend.",
+        "education": [
+          {
+            "label": "DMD",
+            "value": "Universiteti i Tiranës, 2009"
+          },
+          {
+            "label": "CES Ortodonti",
+            "value": "Université Bordeaux 2, Francë, 2011"
+          },
+          {
+            "label": "Eksperiencë klinike",
+            "value": "Klinikë private ortodontike, Bordeaux, Francë"
+          },
+          {
+            "label": "Ndërkombëtare",
+            "value": "Facial Clinic, Leicester, Mbretëria e Bashkuar"
+          }
+        ],
+        "expertise": [
+          "Aligners transparentë (Invisalign-type)",
+          "Aparate self-ligating metalike & ceramike",
+          "Trajtim ortodontik fëmijë & të rritur",
+          "Ortopedi dento-faciale",
+          "Trajtim TMJ (çrregullime të nofullës)",
+          "Faseta & estetikë dentare",
+          "Trajtim endodontik (kanale rrënjore)",
+          "Dentistri konservative"
+        ]
+      }
+    ]
   }
 }

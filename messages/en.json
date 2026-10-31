@@ -569,5 +569,85 @@
         ]
       }
     }
+  },
+  "doctorsPage": {
+    "badge": "Medical Team",
+    "title": "Our Specialist Doctors",
+    "subtitle": "Internationally certified specialists dedicated to quality and personalised care for every patient.",
+    "educationLabel": "Education & Training",
+    "expertiseLabel": "Areas of Expertise",
+    "appointmentBtn": "Book a Consultation",
+    "doctors": [
+      {
+        "specialty": "Maxillo-Facial Surgery & Implantology",
+        "experience": "15+ years",
+        "bio": "Dr. Arlind Myftari is a specialist in Maxillo-Facial Surgery with over 15 years of clinical experience. After graduating from the University of Tirana (2007), he completed a full 4-year specialisation in Maxillo-Facial Surgery, becoming one of the most qualified practitioners in the field of implantology and oral surgery in Albania. Throughout his career, Dr. Myftari has attended advanced courses in London and Vienna, staying up to date with the latest surgical techniques.",
+        "education": [
+          {
+            "label": "DMD & MD",
+            "value": "University of Tirana, 2007"
+          },
+          {
+            "label": "4-year Specialisation",
+            "value": "Maxillo-Facial Surgery"
+          },
+          {
+            "label": "International Training",
+            "value": "London, UK & Vienna, Austria"
+          },
+          {
+            "label": "Professional Membership",
+            "value": "EACMFS (since 2012)"
+          },
+          {
+            "label": "Position",
+            "value": "Surgeon at QSUT 'Mother Teresa', Tirana"
+          }
+        ],
+        "expertise": [
+          "Dental implants & overdentures",
+          "Oral and maxillofacial surgery",
+          "Bone augmentation (bone grafting)",
+          "Facial trauma treatment",
+          "Facial aesthetic surgery",
+          "Head & neck oncology",
+          "Surgical extractions",
+          "Sinus lifting"
+        ]
+      },
+      {
+        "specialty": "Orthodontics & Dental Aesthetics",
+        "experience": "12+ years",
+        "bio": "Dr. Odeta Shehu is a specialist in Orthodontics with a high level of international training. After graduating from the University of Tirana (2009), she pursued a CES (Certificat d'Études Spécialisées) in Orthodontics and Dentofacial Orthopaedics at Université Bordeaux 2 in France (2011), where she also worked as an orthodontic assistant in a private clinic. Her international experience extended to the United Kingdom, making her one of the most qualified orthodontists in the country.",
+        "education": [
+          {
+            "label": "DMD",
+            "value": "University of Tirana, 2009"
+          },
+          {
+            "label": "CES Orthodontics",
+            "value": "Université Bordeaux 2, France, 2011"
+          },
+          {
+            "label": "Clinical Experience",
+            "value": "Private orthodontic clinic, Bordeaux, France"
+          },
+          {
+            "label": "International",
+            "value": "Facial Clinic, Leicester, United Kingdom"
+          }
+        ],
+        "expertise": [
+          "Clear aligners (Invisalign-type)",
+          "Self-ligating metal & ceramic braces",
+          "Orthodontic treatment for children & adults",
+          "Dentofacial orthopaedics",
+          "TMJ treatment (jaw disorders)",
+          "Veneers & dental aesthetics",
+          "Endodontic treatment (root canals)",
+          "Conservative dentistry"
+        ]
+      }
+    ]
   }
 }

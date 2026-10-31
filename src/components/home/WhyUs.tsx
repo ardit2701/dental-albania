@@ -1,4 +1,6 @@
 import { getTranslations } from 'next-intl/server';
+import Link from 'next/link';
+import StarField from '@/components/ui/StarField';
 
 const CARD_ICONS = [
   // Technology icon
@@ -15,29 +17,20 @@ const CARD_ICONS = [
   </svg>,
 ];
 
-export default async function WhyUs() {
+export default async function WhyUs({ locale }: { locale: string }) {
   const t = await getTranslations('whyUs');
 
   const cards = [
-    { icon: CARD_ICONS[0], title: t('cards.0.title'), desc: t('cards.0.desc') },
-    { icon: CARD_ICONS[1], title: t('cards.1.title'), desc: t('cards.1.desc') },
+    { icon: CARD_ICONS[0], title: t('cards.0.title'), desc: t('cards.0.desc'), href: `/${locale}/about` },
+    { icon: CARD_ICONS[1], title: t('cards.1.title'), desc: t('cards.1.desc'), href: `/${locale}/dental-tourism` },
   ];
 
   return (
     <section id="why-us" className="py-20 lg:py-28 relative overflow-hidden">
       {/* Dark teal bg */}
-      <div className="absolute inset-0 bg-gradient-to-br from-[#0c4a6e] via-sky-800 to-[#0284c7]" />
-      {/* Decorative circles */}
-      <div className="absolute -top-20 -right-20 w-96 h-96 bg-white/5 rounded-full blur-3xl pointer-events-none" />
-      <div className="absolute -bottom-20 -left-20 w-80 h-80 bg-white/5 rounded-full blur-3xl pointer-events-none" />
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] border border-white/5 rounded-full pointer-events-none" />
-      {/* Dot pattern */}
-      <div className="absolute inset-0 opacity-5 pointer-events-none"
-        style={{
-          backgroundImage: 'radial-gradient(circle, white 1px, transparent 1px)',
-          backgroundSize: '28px 28px',
-        }}
-      />
+      <div className="absolute inset-0 bg-gradient-to-br from-[#071e2e] via-[#0c3a56] to-[#0284c7]/60" />
+      {/* Animated starfield */}
+      <StarField />
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
@@ -54,16 +47,17 @@ export default async function WhyUs() {
         {/* Cards */}
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-14 max-w-3xl mx-auto w-full">
           {cards.map((card, i) => (
-            <div
+            <Link
               key={card.title}
-              className={`reveal group bg-white/10 hover:bg-white/[0.15] backdrop-blur-sm rounded-2xl p-7 border border-white/15 hover:border-white/30 transition-all duration-300 hover:-translate-y-2 cursor-default delay-${i}`}
+              href={card.href}
+              className={`reveal group bg-white/10 hover:bg-white/[0.15] backdrop-blur-sm rounded-2xl p-7 border border-white/15 hover:border-white/30 transition-all duration-300 hover:-translate-y-2 delay-${i} block`}
             >
               <div className="w-14 h-14 bg-sky-500/30 group-hover:bg-sky-500/40 rounded-2xl flex items-center justify-center mb-6 transition-colors duration-300 text-sky-200">
                 {card.icon}
               </div>
               <h3 className="text-lg font-bold text-white mb-3">{card.title}</h3>
               <p className="text-sky-100/80 leading-relaxed text-sm">{card.desc}</p>
-            </div>
+            </Link>
           ))}
         </div>
 

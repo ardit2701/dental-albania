@@ -1,6 +1,7 @@
 import { getTranslations } from "next-intl/server";
 import Link from "next/link";
 import Image from "next/image";
+import StarField from "@/components/ui/StarField";
 
 interface FooterProps {
   locale: string;
@@ -28,8 +29,10 @@ export default async function Footer({ locale }: FooterProps) {
   ];
 
   return (
-    <footer className="bg-[#0c4a6e] text-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
+    <footer className="relative bg-[#071e2e] text-white overflow-hidden">
+      {/* Animated starfield */}
+      <StarField />
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
           {/* Brand */}
           <div className="sm:col-span-2 lg:col-span-1">
