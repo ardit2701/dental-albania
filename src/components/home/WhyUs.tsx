@@ -1,6 +1,7 @@
 import { getTranslations } from 'next-intl/server';
 import Link from 'next/link';
 import StarField from '@/components/ui/StarField';
+import AutoPlayVideo from '@/components/ui/AutoPlayVideo';
 
 const CARD_ICONS = [
   // Technology icon
@@ -59,6 +60,16 @@ export default async function WhyUs({ locale }: { locale: string }) {
               <p className="text-sky-100/80 leading-relaxed text-sm">{card.desc}</p>
             </Link>
           ))}
+        </div>
+
+        {/* Clinic tour video */}
+        <div className="reveal mb-14 max-w-4xl mx-auto">
+          <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-white/10">
+            <AutoPlayVideo
+              src="/clinic-tour.mp4"
+              className="w-full h-auto block"
+            />
+          </div>
         </div>
 
         {/* Bottom stats bar */}

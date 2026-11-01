@@ -1,6 +1,7 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import type { Metadata } from "next";
 import PageHero from "@/components/layout/PageHero";
+import AutoPlayVideo from "@/components/ui/AutoPlayVideo";
 
 type Props = { params: Promise<{ locale: string }> };
 
@@ -100,20 +101,11 @@ export default async function HowItWorksPage({ params }: Props) {
       <section className="py-20 bg-[#0c4a6e]">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <div className="inline-flex items-center gap-2 bg-white/10 border border-white/20 text-sky-200 px-4 py-1.5 rounded-full text-sm font-semibold mb-4">
-              {t("video.badge")}
-            </div>
-            <h2 className="text-3xl sm:text-4xl font-extrabold text-white mb-4">{t("video.title")}</h2>
+<h2 className="text-3xl sm:text-4xl font-extrabold text-white mb-4">{t("video.title")}</h2>
           </div>
 
-          <div className="relative rounded-2xl overflow-hidden shadow-2xl bg-black max-w-xs mx-auto">
-            <video
-              className="w-full h-auto block"
-              controls
-              playsInline
-            >
-              <source src="/dr-arlind-intro.mp4" type="video/mp4" />
-            </video>
+          <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-white/10 max-w-4xl mx-auto">
+            <AutoPlayVideo src="/clinic-tour.mp4" className="w-full h-auto block" />
           </div>
 
           {/* Dr. Arlind Bio */}

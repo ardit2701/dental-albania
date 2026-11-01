@@ -23,10 +23,10 @@ export default async function HomePage({ params }: Props) {
       <Suspense fallback={<div className="py-16 bg-white" />}>
         <BeforeAfter />
       </Suspense>
+      <WhyUs locale={locale} />
       <Suspense fallback={<div className="py-16 bg-gray-50" />}>
         <TreatmentProcess />
       </Suspense>
-      <WhyUs locale={locale} />
       <Doctors locale={locale} />
       <Suspense fallback={<div className="py-16 bg-gray-50" />}>
         <Reviews />
