@@ -466,6 +466,40 @@
         "Superior aesthetics",
         "Fast recovery"
       ]
+    },
+    "learnMore": "Learn More",
+    "badge": "🦷 Our Treatments",
+    "heroTitle": "Dental & Maxillofacial Treatments",
+    "heroSubtitle": "We offer a complete range of treatments with the latest technology and specialized doctors.",
+    "orthodontics": {
+      "title": "Orthodontics",
+      "desc": "Dental braces and transparent aligners for perfectly aligned teeth and a beautiful smile.",
+      "benefits": [
+        "Metal and transparent braces",
+        "Invisalign aligners",
+        "Optimized treatment time",
+        "Long-lasting results"
+      ]
+    },
+    "whitening": {
+      "title": "Teeth Whitening",
+      "desc": "Professional whitening with LED technology and certified gel. A bright smile in just 1 hour.",
+      "benefits": [
+        "LED Zoom technology",
+        "Immediate results",
+        "Safe and painless",
+        "Effect up to 2 years"
+      ]
+    },
+    "cleaning": {
+      "title": "Professional Cleaning",
+      "desc": "Deep professional cleaning with ultrasound descaling, polishing and fluoride application for optimal oral health.",
+      "benefits": [
+        "Ultrasound descaling",
+        "Professional polishing",
+        "Fluoride application",
+        "Oral hygiene guidance"
+      ]
     }
   },
   "tourism": {

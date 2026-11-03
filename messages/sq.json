@@ -466,6 +466,40 @@
         "Estetikë superiore",
         "Rikuperim i shpejtë"
       ]
+    },
+    "learnMore": "Mëso Më Shumë",
+    "badge": "🦷 Trajtimet Tona",
+    "heroTitle": "Trajtimet Dentare & Maxillofaciale",
+    "heroSubtitle": "Ofrojmë gamën e plotë të trajtimeve me teknologji të fundit dhe mjekë të specializuar.",
+    "orthodontics": {
+      "title": "Ortodonti",
+      "desc": "Aparate dentare dhe aligners transparentë për dhëmbë të rreshtuar perfektisht dhe një buzëqeshje të bukur.",
+      "benefits": [
+        "Aparate metalike dhe transparente",
+        "Aligners Invisalign",
+        "Kohë trajtimi e optimizuar",
+        "Rezultate afatgjata"
+      ]
+    },
+    "whitening": {
+      "title": "Zbardhim Dhëmbësh",
+      "desc": "Zbardhim profesional me teknologji LED dhe gel të certifikuar. Buzëqeshje e ndritshme në vetëm 1 orë.",
+      "benefits": [
+        "Teknologji LED Zoom",
+        "Rezultate të menjëhershme",
+        "I sigurt dhe pa dhimbje",
+        "Efekt deri 2 vjet"
+      ]
+    },
+    "cleaning": {
+      "title": "Pastrim Profesional",
+      "desc": "Pastrim i thellë profesional me detartaj ultrasound, polisim dhe aplikim fluoridi për shëndet optimal oral.",
+      "benefits": [
+        "Detartaj ultrasound",
+        "Polisim profesional",
+        "Aplikim fluoridi",
+        "Udhëzime higjiena orale"
+      ]
     }
   },
   "tourism": {

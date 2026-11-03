@@ -466,6 +466,40 @@
         "Estetica superiore",
         "Recupero rapido"
       ]
+    },
+    "learnMore": "Scopri di Più",
+    "badge": "🦷 I Nostri Trattamenti",
+    "heroTitle": "Trattamenti Dentali & Maxillofacciali",
+    "heroSubtitle": "Offriamo una gamma completa di trattamenti con la tecnologia più recente e medici specializzati.",
+    "orthodontics": {
+      "title": "Ortodonzia",
+      "desc": "Apparecchi dentali e allineatori trasparenti per denti perfettamente allineati e un sorriso bellissimo.",
+      "benefits": [
+        "Apparecchi metallici e trasparenti",
+        "Allineatori Invisalign",
+        "Tempi di trattamento ottimizzati",
+        "Risultati duraturi"
+      ]
+    },
+    "whitening": {
+      "title": "Sbiancamento Denti",
+      "desc": "Sbiancamento professionale con tecnologia LED e gel certificato. Sorriso luminoso in solo 1 ora.",
+      "benefits": [
+        "Tecnologia LED Zoom",
+        "Risultati immediati",
+        "Sicuro e indolore",
+        "Effetto fino a 2 anni"
+      ]
+    },
+    "cleaning": {
+      "title": "Pulizia Professionale",
+      "desc": "Pulizia profonda professionale con detartrasi a ultrasuoni, lucidatura e applicazione di fluoro per una salute orale ottimale.",
+      "benefits": [
+        "Detartrasi a ultrasuoni",
+        "Lucidatura professionale",
+        "Applicazione di fluoro",
+        "Guida all'igiene orale"
+      ]
     }
   },
   "tourism": {
