@@ -1,5 +1,6 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import type { Metadata } from "next";
+import Image from "next/image";
 import PageHero from "@/components/layout/PageHero";
 
 type Props = { params: Promise<{ locale: string }> };
@@ -19,8 +20,8 @@ export default async function AboutPage({ params }: Props) {
   return (
     <>
       <PageHero
-        imageSrc="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=1600&q=85"
-        imageAlt="Klinika KOKONA Dental"
+        imageSrc="/clinic/clinic-0128.jpg"
+        imageAlt="Klinika Maxillodent - Sallë Pritje"
         badge="🏥 Rreth Nesh"
         title={t("title")}
         subtitle={t("subtitle")}
@@ -35,16 +36,34 @@ export default async function AboutPage({ params }: Props) {
               <h2 className="text-3xl font-bold text-gray-900 mb-4">Historia Jonë</h2>
               <p className="text-gray-600 leading-relaxed">{t("story")}</p>
             </div>
-            <div className="bg-gradient-to-br from-[#0284c7] to-[#0c4a6e] rounded-3xl p-8 text-center aspect-square flex flex-col items-center justify-center">
-              <span className="text-8xl mb-4">🏥</span>
-              <p className="text-white text-xl font-bold">KOKONA Dental and Maxillofacial Clinic</p>
-              <p className="text-[#bae6fd] mt-2">Themeluar 1992</p>
+            <div className="rounded-3xl overflow-hidden shadow-xl">
+              <Image
+                src="/clinic/clinic-0119.jpg"
+                alt="Kabineti dentar Maxillodent"
+                width={700}
+                height={700}
+                className="w-full h-full object-cover"
+              />
             </div>
           </div>
 
           <div className="mt-12 bg-[#f0fdfa] rounded-2xl p-8 border border-[#0284c7]/20">
             <h3 className="text-xl font-bold text-[#0284c7] mb-3">Misioni Ynë</h3>
             <p className="text-gray-700 leading-relaxed">{t("mission")}</p>
+          </div>
+        </div>
+      </section>
+
+      {/* Clinic Gallery */}
+      <section className="py-12 bg-gray-50">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-2xl font-bold text-gray-900 mb-6 text-center">Ambientet e Klinikes</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+            {["/clinic/clinic-0120.jpg", "/clinic/clinic-0122.jpg", "/clinic/clinic-0128.jpg"].map((src, i) => (
+              <div key={i} className="rounded-2xl overflow-hidden shadow-md aspect-[4/3]">
+                <Image src={src} alt={`Klinika Maxillodent ${i + 1}`} width={600} height={450} className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+              </div>
+            ))}
           </div>
         </div>
       </section>

@@ -25,8 +25,8 @@ export default async function WhiteningPage({ params }: Props) {
   return (
     <>
       <PageHero
-        imageSrc="https://images.unsplash.com/photo-1598256989800-fe5f95da9787?auto=format&fit=crop&w=1600&q=85"
-        imageAlt="Zbardhim profesional dhëmbësh"
+        imageSrc="/clinic/clinic-0120.jpg"
+        imageAlt="Kabineti dentar Maxillodent - Zbardhim"
         badge="✨ Zbardhim Dhëmbësh"
         title="Buzëqeshje e Ndritshme në 1 Orë"
         subtitle="Zbardhim profesional me teknologji LED dhe gel të certifikuar. Rezultate të menjëhershme dhe të sigurta."

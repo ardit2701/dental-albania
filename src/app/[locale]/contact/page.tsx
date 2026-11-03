@@ -21,8 +21,8 @@ export default async function ContactPage({ params }: Props) {
   return (
     <>
       <PageHero
-        imageSrc="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=1600&q=85"
-        imageAlt="Konsultim dentar"
+        imageSrc="/clinic/clinic-0122.jpg"
+        imageAlt="Klinika Maxillodent - Kabinet dentar"
         badge="📞 Na Kontaktoni"
         title="Caktoni Takimin Tuaj"
         subtitle="Ekipi ynë është i gatshëm t'ju ofrojë konsultimin falas dhe planin e trajtimit."

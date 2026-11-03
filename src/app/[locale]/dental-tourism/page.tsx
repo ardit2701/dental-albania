@@ -30,8 +30,8 @@ export default async function DentalTourismPage({ params }: Props) {
   return (
     <>
       <PageHero
-        imageSrc="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1600&q=85"
-        imageAlt="Turizëm dentar në Shqipëri"
+        imageSrc="/clinic/clinic-0121.jpg"
+        imageAlt="Klinika Maxillodent - Kabinet modern"
         badge="✈️ Turizëm Dentar"
         title={t("title")}
         subtitle={t("subtitle")}

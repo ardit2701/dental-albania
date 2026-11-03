@@ -27,8 +27,8 @@ export default async function HowItWorksPage({ params }: Props) {
   return (
     <>
       <PageHero
-        imageSrc="https://images.unsplash.com/photo-1606811841689-23dfddce3e95?auto=format&fit=crop&w=1600&q=85"
-        imageAlt="Si funksionon procesi dentar"
+        imageSrc="/clinic/clinic-0120.jpg"
+        imageAlt="Kabineti dentar Maxillodent"
         badge={t("badge")}
         title={t("title")}
         subtitle={t("subtitle")}
@@ -104,7 +104,7 @@ export default async function HowItWorksPage({ params }: Props) {
 <h2 className="text-3xl sm:text-4xl font-extrabold text-white mb-4">{t("video.title")}</h2>
           </div>
 
-          <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-white/10 max-w-4xl mx-auto">
+          <div className="relative overflow-hidden shadow-2xl border border-white/10 sm:rounded-2xl -mx-4 sm:mx-auto sm:max-w-4xl">
             <AutoPlayVideo src="/clinic-tour.mp4" className="w-full h-auto block" />
           </div>
 

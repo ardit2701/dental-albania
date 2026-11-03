@@ -28,8 +28,8 @@ export default async function AllOn6Page({ params }: Props) {
   return (
     <>
       <PageHero
-        imageSrc="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=1600&q=85"
-        imageAlt="All-on-6 restaurim i plotë"
+        imageSrc="/clinic/clinic-0119.jpg"
+        imageAlt="Kabineti dentar Maxillodent - All-on-6"
         badge="🦷 All-on-6"
         title={t("allOn6.title")}
         subtitle={t("allOn6.desc")}

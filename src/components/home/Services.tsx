@@ -154,3 +154,4 @@ export default async function Services({ locale }: ServicesProps) {
     </section>
   );
 }
+
