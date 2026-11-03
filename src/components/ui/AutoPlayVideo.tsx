@@ -11,6 +11,13 @@ export default function AutoPlayVideo({ src, className = '' }: AutoPlayVideoProp
   const ref = useRef<HTMLVideoElement>(null);
   const [muted, setMuted] = useState(true);
 
+  const clearMediaSession = () => {
+    if ('mediaSession' in navigator) {
+      navigator.mediaSession.metadata = null;
+      navigator.mediaSession.playbackState = 'none';
+    }
+  };
+
   useEffect(() => {
     const video = ref.current;
     if (!video) return;
@@ -20,13 +27,13 @@ export default function AutoPlayVideo({ src, className = '' }: AutoPlayVideoProp
         if (entry.isIntersecting) {
           video.muted = false;
           video.play().catch(() => {
-            // Browser blocked sound — fall back to muted
             video.muted = true;
             setMuted(true);
             video.play().catch(() => {});
           });
         } else {
           video.pause();
+          clearMediaSession();
         }
       },
       { threshold: 0.3 }
@@ -36,6 +43,7 @@ export default function AutoPlayVideo({ src, className = '' }: AutoPlayVideoProp
     return () => {
       observer.disconnect();
       video.pause();
+      clearMediaSession();
     };
   }, []);
 
@@ -55,6 +63,8 @@ export default function AutoPlayVideo({ src, className = '' }: AutoPlayVideoProp
         loop
         playsInline
         preload="none"
+        disablePictureInPicture
+        x-webkit-airplay="deny"
       />
       <button
         onClick={toggleMute}
