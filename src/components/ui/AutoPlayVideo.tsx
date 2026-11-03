@@ -11,42 +11,22 @@ export default function AutoPlayVideo({ src, className = '' }: AutoPlayVideoProp
   const ref = useRef<HTMLVideoElement>(null);
   const [muted, setMuted] = useState(true);
 
-  const clearMediaSession = () => {
-    if (!('mediaSession' in navigator)) return;
-    navigator.mediaSession.metadata = null;
-    navigator.mediaSession.playbackState = 'none';
-    // iOS trick: play a silent audio to evict the video from Control Center
-    try {
-      const silence = new Audio('data:audio/wav;base64,UklGRigAAABXQVZFZm10IBIAAAABAAEARKwAAIhYAQACABAAAABkYXRhAgAAAAEA');
-      silence.volume = 0;
-      silence.play().then(() => silence.pause()).catch(() => {});
-    } catch {}
-  };
-
   useEffect(() => {
     const video = ref.current;
     if (!video) return;
-
-    const handleVisibilityChange = () => {
-      if (document.hidden) {
-        video.pause();
-        clearMediaSession();
-      }
-    };
-    document.addEventListener('visibilitychange', handleVisibilityChange);
 
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
           video.muted = false;
           video.play().catch(() => {
+            // Browser blocked sound — fall back to muted
             video.muted = true;
             setMuted(true);
             video.play().catch(() => {});
           });
         } else {
           video.pause();
-          clearMediaSession();
         }
       },
       { threshold: 0.3 }
@@ -55,9 +35,7 @@ export default function AutoPlayVideo({ src, className = '' }: AutoPlayVideoProp
     observer.observe(video);
     return () => {
       observer.disconnect();
-      document.removeEventListener('visibilitychange', handleVisibilityChange);
       video.pause();
-      clearMediaSession();
     };
   }, []);
 
@@ -77,8 +55,6 @@ export default function AutoPlayVideo({ src, className = '' }: AutoPlayVideoProp
         loop
         playsInline
         preload="none"
-        disablePictureInPicture
-        x-webkit-airplay="deny"
       />
       <button
         onClick={toggleMute}
