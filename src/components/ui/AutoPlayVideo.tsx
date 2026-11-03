@@ -9,7 +9,7 @@ interface AutoPlayVideoProps {
 
 export default function AutoPlayVideo({ src, className = '' }: AutoPlayVideoProps) {
   const ref = useRef<HTMLVideoElement>(null);
-  const [muted, setMuted] = useState(true); // always starts muted (iOS requirement)
+  const [muted, setMuted] = useState(true);
 
   useEffect(() => {
     const video = ref.current;
@@ -18,7 +18,13 @@ export default function AutoPlayVideo({ src, className = '' }: AutoPlayVideoProp
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
-          video.play().catch(() => {});
+          video.muted = false;
+          video.play().catch(() => {
+            // Browser blocked sound — fall back to muted
+            video.muted = true;
+            setMuted(true);
+            video.play().catch(() => {});
+          });
         } else {
           video.pause();
         }
@@ -48,8 +54,7 @@ export default function AutoPlayVideo({ src, className = '' }: AutoPlayVideoProp
         className={className}
         loop
         playsInline
-        muted
-        preload="metadata"
+        preload="none"
       />
       <button
         onClick={toggleMute}
