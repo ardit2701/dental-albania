@@ -62,7 +62,10 @@
         "desc": "Restaurim i plotë i gojës me 6 implante. Dhëmbë të rinj në 3 ditë, buzëqeshje e re për gjithë jetën.",
         "href": "/treatments/all-on-6"
       }
-    ]
+    ],
+    "clinicBadge": "Klinika jonë",
+    "clinicTitle": "Zbulo të gjitha trajtimet tona",
+    "clinicBtn": "Shiko të gjitha"
   },
   "beforeAfter": {
     "badge": "Transformimet",
@@ -343,7 +346,8 @@
     "phoneUKLabel": "Jashtë Shqipërisë (UK)",
     "phoneAL": "",
     "phoneALLabel": "Brenda Shqipërisë",
-    "phoneALPlaceholder": "Së shpejti"
+    "phoneALPlaceholder": "Së shpejti",
+    "infoTitle": "Informacion Kontakti"
   },
   "footer": {
     "tagline": "Buzëqeshja juaj e përsosur, e krijuar me kujdes.",

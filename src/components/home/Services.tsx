@@ -121,8 +121,10 @@ export default async function Services({ locale }: ServicesProps) {
                   sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
                   loading="lazy"
                 />
-                {/* Dark gradient overlay */}
-                <div className={`absolute inset-0 bg-gradient-to-br ${service.accent} opacity-60`} />
+                {/* Subtle color tint */}
+                <div className={`absolute inset-0 bg-gradient-to-br ${service.accent} opacity-20`} />
+                {/* Bottom gradient to protect icon */}
+                <div className="absolute inset-x-0 bottom-0 h-16 bg-gradient-to-t from-black/50 to-transparent" />
                 {/* Icon on top of image */}
                 <div className={`absolute bottom-3 left-3 w-10 h-10 rounded-xl flex items-center justify-center ${service.iconColor} backdrop-blur-sm`}>
                   {service.icon}
@@ -150,6 +152,24 @@ export default async function Services({ locale }: ServicesProps) {
             </Link>
           ))}
         </div>
+
+        {/* Clinic panoramic CTA */}
+        <Link href={`/${locale}/treatments`} className="reveal group relative mt-6 h-56 rounded-2xl overflow-hidden block shadow-md hover:shadow-xl transition-shadow duration-300">
+          <Image src="/clinic/clinic-0119.jpg" alt="Klinika Maxillodent" fill className="object-cover object-center group-hover:scale-105 transition-transform duration-700" quality={75} loading="lazy" />
+          <div className="absolute inset-0 bg-gradient-to-r from-[#071e2e]/92 via-[#0c4a6e]/30 to-transparent" />
+          <div className="absolute inset-0 flex flex-col sm:flex-row items-center justify-between px-8 sm:px-12 py-6 gap-4">
+            <div>
+              <p className="text-sky-300 text-sm font-semibold uppercase tracking-widest mb-1">{t('clinicBadge')}</p>
+              <h3 className="text-white text-2xl sm:text-3xl font-extrabold leading-tight">{t('clinicTitle')}</h3>
+            </div>
+            <div className="shrink-0 flex items-center gap-2 bg-white text-[#0284c7] font-bold px-6 py-3 rounded-xl group-hover:bg-sky-50 transition-colors">
+              {t('clinicBtn')}
+              <svg className="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+              </svg>
+            </div>
+          </div>
+        </Link>
       </div>
     </section>
   );

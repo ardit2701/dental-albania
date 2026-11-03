@@ -62,7 +62,10 @@
         "desc": "Restauro completo della bocca con 6 impianti. Nuovi denti in 3 giorni, nuovo sorriso per tutta la vita.",
         "href": "/treatments/all-on-6"
       }
-    ]
+    ],
+    "clinicBadge": "La nostra clinica",
+    "clinicTitle": "Scopri tutti i nostri trattamenti",
+    "clinicBtn": "Vedi tutti"
   },
   "beforeAfter": {
     "badge": "Trasformazioni",
@@ -343,7 +346,8 @@
     "phoneUKLabel": "Fuori dall'Albania (UK)",
     "phoneAL": "",
     "phoneALLabel": "In Albania",
-    "phoneALPlaceholder": "Prossimamente"
+    "phoneALPlaceholder": "Prossimamente",
+    "infoTitle": "Informazioni di Contatto"
   },
   "footer": {
     "tagline": "Il tuo sorriso perfetto, realizzato con cura.",

@@ -62,7 +62,10 @@
         "desc": "Complete mouth restoration with 6 implants. New teeth in 3 days, new smile for life.",
         "href": "/treatments/all-on-6"
       }
-    ]
+    ],
+    "clinicBadge": "Our clinic",
+    "clinicTitle": "Explore all our treatments",
+    "clinicBtn": "View all"
   },
   "beforeAfter": {
     "badge": "Transformations",
@@ -343,7 +346,8 @@
     "phoneUKLabel": "Outside Albania (UK)",
     "phoneAL": "",
     "phoneALLabel": "Inside Albania",
-    "phoneALPlaceholder": "Coming soon"
+    "phoneALPlaceholder": "Coming soon",
+    "infoTitle": "Contact Information"
   },
   "footer": {
     "tagline": "Your perfect smile, crafted with care.",
