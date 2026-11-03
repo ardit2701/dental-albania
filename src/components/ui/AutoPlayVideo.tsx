@@ -29,7 +29,7 @@ export default function AutoPlayVideo({ src, className = '' }: AutoPlayVideoProp
           video.pause();
         }
       },
-      { threshold: 0.3 }
+      { threshold: 0.1 }
     );
 
     observer.observe(video);
