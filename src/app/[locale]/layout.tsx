@@ -27,20 +27,28 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   return {
     title: {
-      default: "KOKONA Dental and Maxillofacial Clinic - Klinika Dentare Nr.1 në Shqipëri",
-      template: "%s | KOKONA Dental and Maxillofacial Clinic",
+      default: "Maxillodent Dental and Maxillofacial Clinic - Klinika Dentare Nr.1 në Shqipëri",
+      template: "%s | Maxillodent Dental and Maxillofacial Clinic",
     },
     description: t("subtitle"),
     keywords: [
+      "Maxillodent",
+      "Maxillodent klinik",
+      "Maxillodent Albania",
       "dental clinic Albania",
       "implante dentare",
       "faseta dentare",
       "dental tourism Albania",
       "klinika dentare Tiranë",
+      "klinika maxillodent",
     ],
     openGraph: {
-      siteName: "KOKONA Dental and Maxillofacial Clinic",
+      siteName: "Maxillodent Dental and Maxillofacial Clinic",
       locale: locale,
+    },
+    icons: {
+      icon: "/logo-icon.png",
+      apple: "/logo-icon.png",
     },
   };
 }
@@ -60,8 +68,34 @@ export default async function LocaleLayout({ children, params }: Props) {
 
   const messages = await getMessages();
 
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Dentist",
+    name: "Maxillodent Dental and Maxillofacial Clinic",
+    alternateName: "Maxillodent",
+    url: "https://www.maxillodent.al",
+    logo: "https://www.maxillodent.al/logo-icon.png",
+    image: "https://www.maxillodent.al/logo-icon.png",
+    description: "Klinika Dentare dhe Maxillofaciale Nr.1 në Shqipëri. Implante dentare, faseta, ortodonci dhe turizëm dentar.",
+    address: {
+      "@type": "PostalAddress",
+      addressLocality: "Tiranë",
+      addressCountry: "AL",
+    },
+    telephone: "+355",
+    priceRange: "$$",
+    medicalSpecialty: "Dentistry",
+    sameAs: ["https://www.maxillodent.al"],
+  };
+
   return (
     <html lang={locale} className={inter.variable}>
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+      </head>
       <body className="min-h-screen flex flex-col">
         <NextIntlClientProvider messages={messages}>
           <Header locale={locale} />
