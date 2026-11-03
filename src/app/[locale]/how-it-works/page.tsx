@@ -105,7 +105,7 @@ export default async function HowItWorksPage({ params }: Props) {
           </div>
 
           <div className="relative overflow-hidden shadow-2xl border border-white/10 sm:rounded-2xl -mx-4 sm:mx-auto sm:max-w-4xl">
-            <AutoPlayVideo src="/clinic-tour.mp4" className="w-full h-auto block" />
+            <AutoPlayVideo key={locale} src="/clinic-tour.mp4" className="w-full h-auto block" />
           </div>
 
           {/* Dr. Arlind Bio */}

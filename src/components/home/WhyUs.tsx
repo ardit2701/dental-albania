@@ -66,6 +66,7 @@ export default async function WhyUs({ locale }: { locale: string }) {
         <div className="reveal mb-14 max-w-4xl mx-auto">
           <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-white/10">
             <AutoPlayVideo
+              key={locale}
               src="/clinic-tour.mp4"
               className="w-full h-auto block"
             />
