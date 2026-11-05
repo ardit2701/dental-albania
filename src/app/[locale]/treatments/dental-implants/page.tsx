@@ -6,10 +6,12 @@ type Props = {
   params: Promise<{ locale: string }>;
 };
 
-export async function generateMetadata(): Promise<Metadata> {
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "treatments" });
   return {
-    title: "Implante Dentare",
-    description: "Implante dentare Straumann & Neodent të cilësisë botërore në Tiranë, Shqipëri. Çmime të volitshme.",
+    title: t("implants.metaTitle"),
+    description: t("implants.metaDesc"),
   };
 }
 
@@ -18,29 +20,30 @@ export default async function DentalImplantsPage({ params }: Props) {
   setRequestLocale(locale);
   const t = await getTranslations("treatments");
 
-  const benefits = [
-    t("implants.benefits.0"),
-    t("implants.benefits.1"),
-    t("implants.benefits.2"),
-    t("implants.benefits.3"),
-  ];
+  const benefits = [0,1,2,3].map((i) => (t as any)(`implants.benefits.${i}`));
+  const straumannFeatures = [0,1,2,3].map((i) => (t as any)(`implants.straumannFeatures.${i}`));
+  const neodentFeatures = [0,1,2,3].map((i) => (t as any)(`implants.neodentFeatures.${i}`));
+  const infoRows = [0,1,2,3].map((i) => ({
+    label: (t as any)(`implants.infoRows.${i}.label`),
+    val: (t as any)(`implants.infoRows.${i}.val`),
+  }));
 
   return (
     <>
       <PageHero
         imageSrc="https://images.unsplash.com/photo-1606265752439-1f18756aa5fc?auto=format&fit=crop&w=1600&q=85"
-        imageAlt="Implante dentare profesionale"
-        badge="🔩 Implante Dentare"
+        imageAlt={t("implants.metaTitle")}
+        badge={t("implants.badge")}
         title={t("implants.title")}
         subtitle={t("implants.desc")}
         variant={1}
-        cta={{ label: "Konsultim Falas", href: "#contact" }}
+        cta={{ label: t("bookFree"), href: "#contact" }}
       />
 
       {/* Brand trust bar */}
       <div className="bg-gradient-to-r from-[#071e2e] to-[#0284c7]/90 py-5">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-10 text-center">
-          <p className="text-sky-200 text-xs font-semibold uppercase tracking-widest">Punojmë me brendet #1 botërore</p>
+          <p className="text-sky-200 text-xs font-semibold uppercase tracking-widest">{t("topBrandsLabel")}</p>
           <div className="hidden sm:block w-px h-6 bg-sky-700" />
           <div className="flex items-center gap-8">
             {/* Straumann */}
@@ -92,17 +95,12 @@ export default async function DentalImplantsPage({ params }: Props) {
                 </div>
                 <div>
                   <h3 className="font-extrabold text-gray-900 text-base">Straumann®</h3>
-                  <p className="text-blue-600 text-xs font-semibold">Premium · Swiss Made</p>
+                  <p className="text-blue-600 text-xs font-semibold">{t("implants.straumannSubtitle")}</p>
                 </div>
-                <span className="ml-auto bg-blue-100 text-blue-700 text-[10px] font-bold px-2 py-0.5 rounded-full">Nr. 1 Botë</span>
+                <span className="ml-auto bg-blue-100 text-blue-700 text-[10px] font-bold px-2 py-0.5 rounded-full">{t("implants.worldNo1")}</span>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                {[
-                  "Titanium SLA® Surface — integrim më i shpejtë",
-                  "Garanci e përjetshme",
-                  "Mbi 70 vjet kërkime shkencore",
-                  "I disponueshëm në 100+ vende",
-                ].map((f) => (
+                {straumannFeatures.map((f) => (
                   <li key={f} className="flex items-start gap-2">
                     <svg className="w-4 h-4 text-blue-500 mt-0.5 shrink-0" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
@@ -123,17 +121,12 @@ export default async function DentalImplantsPage({ params }: Props) {
                 </div>
                 <div>
                   <h3 className="font-extrabold text-gray-900 text-base">Neodent®</h3>
-                  <p className="text-green-600 text-xs font-semibold">Straumann Group · Raport i Lartë Cilësi/Çmim</p>
+                  <p className="text-green-600 text-xs font-semibold">Straumann Group · {t("implants.neodentQuality")}</p>
                 </div>
                 <span className="ml-auto bg-green-100 text-green-700 text-[10px] font-bold px-2 py-0.5 rounded-full">Best Value</span>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
-                {[
-                  "Pjesë e grupit Straumann — standarde identike",
-                  "Teknologji Acqua Surface® — osseointegrim optimal",
-                  "Raport i shkëlqyer cilësi/vlerë pa kompromentuar standardet",
-                  "Zgjidhja ideale për All-on-4 / All-on-6",
-                ].map((f) => (
+                {neodentFeatures.map((f) => (
                   <li key={f} className="flex items-start gap-2">
                     <svg className="w-4 h-4 text-green-500 mt-0.5 shrink-0" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
@@ -148,7 +141,7 @@ export default async function DentalImplantsPage({ params }: Props) {
           {/* Benefits + info card */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
             <div>
-              <h2 className="text-2xl font-bold text-gray-900 mb-5">Avantazhet e Implanteve</h2>
+              <h2 className="text-2xl font-bold text-gray-900 mb-5">{t("benefitsTitle")}</h2>
               <ul className="space-y-3">
                 {benefits.map((b) => (
                   <li key={b} className="flex items-center gap-3 p-3 bg-[#f0fdfa] rounded-xl">
@@ -164,22 +157,17 @@ export default async function DentalImplantsPage({ params }: Props) {
             </div>
             <div className="bg-gradient-to-br from-[#0284c7] to-[#0c4a6e] rounded-3xl p-8 text-center">
               <span className="text-7xl block mb-4">🦷</span>
-              <h3 className="text-white text-xl font-bold mb-1">Implante Titanium</h3>
-              <p className="text-sky-200 text-sm mb-4">Gradë Mjekësore · ISO Certified</p>
+              <h3 className="text-white text-xl font-bold mb-1">{t("implants.cardTitle")}</h3>
+              <p className="text-sky-200 text-sm mb-4">{t("implants.cardSubtitle")}</p>
               <div className="space-y-2 text-sm text-left">
-                {[
-                  { label: "Konsultim", val: "Falas" },
-                  { label: "Procedura", val: "1 ditë" },
-                  { label: "Garanci", val: "E përjetshme" },
-                  { label: "Anestezi", val: "Lokale" },
-                ].map((r) => (
+                {infoRows.map((r) => (
                   <div key={r.label} className="flex justify-between bg-white/10 rounded-lg px-3 py-2">
                     <span className="text-sky-200">{r.label}</span>
                     <span className="text-white font-bold">{r.val}</span>
                   </div>
                 ))}
               </div>
-              <p className="text-sky-200 text-xs mt-4">Për çmime kontaktoni klinikën — oferta personalizohet sipas rastit tuaj.</p>
+              <p className="text-sky-200 text-xs mt-4">{t("implants.priceNote")}</p>
             </div>
           </div>
 

@@ -23,14 +23,15 @@ type Props = {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
   setRequestLocale(locale);
-  const t = await getTranslations({ locale, namespace: "hero" });
+  const tHero = await getTranslations({ locale, namespace: "hero" });
+  const tLayout = await getTranslations({ locale, namespace: "layout" });
 
   return {
     title: {
-      default: "Maxillodent Dental and Maxillofacial Clinic - Klinika Dentare Nr.1 në Shqipëri",
+      default: `Maxillodent Dental and Maxillofacial Clinic - ${tLayout("siteTagline")}`,
       template: "%s | Maxillodent Dental and Maxillofacial Clinic",
     },
-    description: t("subtitle"),
+    description: tHero("subtitle"),
     keywords: [
       "Maxillodent",
       "Maxillodent klinik",
@@ -67,6 +68,7 @@ export default async function LocaleLayout({ children, params }: Props) {
   setRequestLocale(locale);
 
   const messages = await getMessages();
+  const tLayout = await getTranslations({ locale, namespace: "layout" });
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -76,7 +78,7 @@ export default async function LocaleLayout({ children, params }: Props) {
     url: "https://www.maxillodent.al",
     logo: "https://www.maxillodent.al/logo-icon.png",
     image: "https://www.maxillodent.al/logo-icon.png",
-    description: "Klinika Dentare dhe Maxillofaciale Nr.1 në Shqipëri. Implante dentare, faseta, ortodonci dhe turizëm dentar.",
+    description: tLayout("siteDescription"),
     address: {
       "@type": "PostalAddress",
       addressLocality: "Tiranë",

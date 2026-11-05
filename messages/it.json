@@ -82,7 +82,44 @@
       "Corone Dentali - Caso 4",
       "Sbiancamento Denti - Caso 5",
       "Ortodonzia - Caso 6"
-    ]
+    ],
+    "caseDetails": [
+      {
+        "treatment": "Impianti Dentali",
+        "before": "Dente mancante",
+        "after": "Impianto in titanio"
+      },
+      {
+        "treatment": "Faccette in Porcellana",
+        "before": "Denti scoloriti",
+        "after": "Sorriso bianco"
+      },
+      {
+        "treatment": "All-on-6",
+        "before": "Denti danneggiati",
+        "after": "Nuovo arco"
+      },
+      {
+        "treatment": "Corone Dentali",
+        "before": "Dente rotto",
+        "after": "Corona in porcellana"
+      },
+      {
+        "treatment": "Sbiancamento",
+        "before": "Macchie da caffè",
+        "after": "Denti bianchi"
+      },
+      {
+        "treatment": "Ortodonzia",
+        "before": "Denti storti",
+        "after": "Allineamento perfetto"
+      }
+    ],
+    "metaTitle": "Prima & Dopo",
+    "metaDesc": "Guarda le trasformazioni reali dei nostri pazienti.",
+    "heroBadge": "📸 Prima & Dopo",
+    "heroTitle": "Trasformazioni Reali dei Pazienti",
+    "heroSubtitle": "Ogni caso mostra il lavoro del nostro team e la fiducia dei pazienti."
   },
   "process": {
     "badge": "Il Processo",
@@ -304,7 +341,8 @@
         "name": "Pierre Dubois",
         "date": "Maggio 2024"
       }
-    ]
+    ],
+    "badge": "Recensioni"
   },
   "contact": {
     "title": "Contattaci",
@@ -336,7 +374,8 @@
         "Pulizia Professionale",
         "Pacchetto Turismo Dentale",
         "Altro"
-      ]
+      ],
+      "messagePlaceholder": "Scrivi il tuo messaggio..."
     },
     "submit": "Invia Richiesta",
     "submitting": "Invio in corso...",
@@ -351,7 +390,20 @@
     "badge": "Contatti",
     "addressLabel": "Indirizzo",
     "emailLabel": "Email",
-    "hoursLabel": "Orari"
+    "hoursLabel": "Orari",
+    "metaTitle": "Contatto",
+    "metaDesc": "Contattaci per prenotare la tua consulenza gratuita.",
+    "heroBadge": "📞 Contattaci",
+    "heroTitle": "Prenota il Tuo Appuntamento",
+    "heroSubtitle": "Il nostro team è pronto a offrirti una consulenza gratuita e un piano di trattamento.",
+    "validation": {
+      "firstName": "Il nome deve avere almeno 2 caratteri",
+      "lastName": "Il cognome deve avere almeno 2 caratteri",
+      "email": "Inserisci un indirizzo email valido",
+      "country": "Seleziona il tuo paese",
+      "treatment": "Seleziona un trattamento",
+      "privacy": "Devi accettare la Privacy Policy"
+    }
   },
   "footer": {
     "tagline": "Il tuo sorriso perfetto, realizzato con cura.",
@@ -454,81 +506,197 @@
     "title": "I Nostri Trattamenti",
     "subtitle": "La gamma completa di servizi dentali",
     "implants": {
-      "title": "Impianti Dentali",
-      "desc": "L'impianto dentale è la migliore soluzione permanente per sostituire i denti mancanti. Realizzato in titanio di grado medicale, l'impianto si integra con l'osso mascellare creando una base solida per la corona artificiale.",
-      "benefits": [
-        "Massima longevità (20+ anni)",
-        "Aspetto e sensazione naturali",
-        "Nessun impatto sui denti adiacenti",
-        "Conservazione dell'osso mascellare"
-      ]
+      "badge": "🔩 Impianti Dentali",
+      "cardTitle": "Impianti in Titanio",
+      "worldNo1": "Nr. 1 al Mondo",
+      "straumannSubtitle": "Premium · Swiss Made",
+      "straumannFeatures": [
+        "Superficie Titanium SLA® — osseointegrazione più rapida",
+        "Garanzia a vita",
+        "Oltre 70 anni di ricerca scientifica",
+        "Disponibile in 100+ paesi"
+      ],
+      "neodentQuality": "Alto Rapporto Qualità/Prezzo",
+      "neodentFeatures": [
+        "Parte del gruppo Straumann — standard identici",
+        "Tecnologia Acqua Surface® — osseointegrazione ottimale",
+        "Eccellente rapporto qualità/valore senza compromettere gli standard",
+        "Soluzione ideale per All-on-4 / All-on-6"
+      ],
+      "cardSubtitle": "Grado Medico · Certificato ISO",
+      "infoRows": [
+        {
+          "label": "Consulenza",
+          "val": "Gratuita"
+        },
+        {
+          "label": "Procedura",
+          "val": "1 giorno"
+        },
+        {
+          "label": "Garanzia",
+          "val": "A vita"
+        },
+        {
+          "label": "Anestesia",
+          "val": "Locale"
+        }
+      ],
+      "priceNote": "Per i prezzi, contattare la clinica — l'offerta è personalizzata in base al tuo caso.",
+      "metaTitle": "Impianti Dentali Straumann & Neodent - Tirana, Albania",
+      "metaDesc": "Impianti dentali Straumann & Neodent di classe mondiale a Tirana, Albania. Prezzi convenienti, garanzia a vita."
     },
     "crowns": {
-      "title": "Corone e Ponti Dentali",
-      "desc": "Una corona dentale è un cappuccio protettivo posizionato sopra un dente danneggiato. Ripristina la forma, le dimensioni e la funzione del dente proteggendolo da ulteriori danni.",
-      "benefits": [
-        "Ripristina la piena funzione",
-        "Alta estetica",
-        "Materiale resistente",
-        "Procedura rapida"
-      ]
+      "badge": "👑 Corone Dentali"
     },
     "veneers": {
-      "title": "Faccette Dentali",
-      "desc": "Le faccette sono strati ultra-sottili di porcellana incollati sulla superficie del dente. Danno una trasformazione drammatica del sorriso con un intervento minimo.",
-      "benefits": [
-        "Trasformazione immediata",
-        "Procedura minima",
-        "Resistenti alle macchie",
-        "Longevità 15-20 anni"
-      ]
+      "badge": "✨ Faccette Emax",
+      "cardTitle": "Faccette in Porcellana"
     },
     "allOn6": {
-      "title": "Impianti All-on-6",
-      "desc": "All-on-6 è la soluzione rivoluzionaria per i pazienti che hanno perso tutti i denti o hanno denti gravemente danneggiati. Con soli 6 impianti sosteniamo l'intero arco dentale.",
-      "benefits": [
-        "Nuovi denti in 3 giorni",
-        "Solo 6 impianti per l'arcata completa",
-        "Estetica superiore",
-        "Recupero rapido"
-      ]
+      "badge": "🦷 All-on-6"
     },
     "learnMore": "Scopri di Più",
     "badge": "🦷 I Nostri Trattamenti",
     "heroTitle": "Trattamenti Dentali & Maxillofacciali",
     "heroSubtitle": "Offriamo una gamma completa di trattamenti con la tecnologia più recente e medici specializzati.",
     "orthodontics": {
-      "title": "Ortodonzia",
-      "desc": "Apparecchi dentali e allineatori trasparenti per denti perfettamente allineati e un sorriso bellissimo.",
+      "badge": "😁 Ortodonzia",
+      "heroTitle": "Denti Perfettamente Allineati",
+      "heroSubtitle": "Apparecchi ortodontici e aligner trasparenti per un sorriso bello e sano.",
+      "whatWeOffer": "Cosa offriamo",
+      "desc": "L'ortodonzia moderna permette di raddrizzare i denti senza influenzare negativamente la vita quotidiana. Con le ultime tecnologie e i nostri ortodontisti specializzati, ogni trattamento è pianificato con precisione.",
       "benefits": [
-        "Apparecchi metallici e trasparenti",
-        "Allineatori Invisalign",
-        "Tempi di trattamento ottimizzati",
-        "Risultati duraturi"
+        "Denti perfettamente allineati",
+        "Apparecchi tradizionali metallici e ceramici",
+        "Aligner trasparenti (Invisalign)",
+        "Trattamento per tutte le età",
+        "Controllo regolare ogni 4-6 settimane",
+        "Risultati visibili dai primi 6 mesi"
+      ],
+      "metaTitle": "Ortodonzia",
+      "metaDesc": "Trattamento ortodontico professionale. Apparecchi e aligner Invisalign a Tirana, Albania.",
+      "options": [
+        {
+          "icon": "🔩",
+          "title": "Apparecchio Metallico",
+          "desc": "La soluzione classica e più efficace. Ideale per casi complessi."
+        },
+        {
+          "icon": "🪄",
+          "title": "Apparecchio in Ceramica",
+          "desc": "Discreto ed estetico. Stessa efficacia degli apparecchi metallici."
+        },
+        {
+          "icon": "✨",
+          "title": "Aligner Trasparenti",
+          "desc": "Quasi invisibili. Rimovibili durante i pasti e la pulizia."
+        }
       ]
     },
     "whitening": {
-      "title": "Sbiancamento Denti",
-      "desc": "Sbiancamento professionale con tecnologia LED e gel certificato. Sorriso luminoso in solo 1 ora.",
-      "benefits": [
-        "Tecnologia LED Zoom",
-        "Risultati immediati",
-        "Sicuro e indolore",
-        "Effetto fino a 2 anni"
+      "badge": "✨ Sbiancamento Denti",
+      "heroTitle": "Sorriso Luminoso in 1 Ora",
+      "heroSubtitle": "Sbiancamento professionale con tecnologia LED e gel certificato. Risultati immediati e sicuri.",
+      "ourSolutions": "Le Nostre Soluzioni",
+      "faqTitle": "Domande Frequenti",
+      "popular": "Più Popolare",
+      "maxResult": "Risultato Max",
+      "metaTitle": "Sbiancamento Denti",
+      "metaDesc": "Sbiancamento professionale dei denti. Sorriso luminoso entro 1 ora a Tirana, Albania.",
+      "options": [
+        {
+          "icon": "💡",
+          "title": "Sbiancamento in Clinica (Zoom)",
+          "desc": "Procedura di 1 ora con luce LED. Risultati immediatamente visibili.",
+          "badge": "popular"
+        },
+        {
+          "icon": "🏠",
+          "title": "Kit per Casa",
+          "desc": "Mascherine personalizzate + gel professionale. Trattamento di 2 settimane.",
+          "badge": null
+        },
+        {
+          "icon": "⚡",
+          "title": "Combinazione (Clinica + Casa)",
+          "desc": "Risultato massimo: inizio in clinica, mantenimento a casa.",
+          "badge": "max"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Quanto durano i risultati?",
+          "a": "I risultati durano 1-3 anni con una corretta manutenzione e pulizia regolare."
+        },
+        {
+          "q": "La procedura fa male?",
+          "a": "No, la procedura è completamente indolore. Alcuni pazienti possono avvertire una lieve sensibilità transitoria."
+        },
+        {
+          "q": "Di quante tonalità si schiariscono i denti?",
+          "a": "In media 6-10 tonalità più luminose rispetto al colore iniziale."
+        },
+        {
+          "q": "Posso farlo se ho corone?",
+          "a": "Lo sbiancamento non influisce su corone o faccette. Vi consiglieremo durante la consulenza."
+        }
       ]
     },
     "cleaning": {
-      "title": "Pulizia Professionale",
-      "desc": "Pulizia profonda professionale con detartrasi a ultrasuoni, lucidatura e applicazione di fluoro per una salute orale ottimale.",
-      "benefits": [
-        "Detartrasi a ultrasuoni",
-        "Lucidatura professionale",
-        "Applicazione di fluoro",
-        "Guida all'igiene orale"
+      "badge": "🪥 Pulizia Professionale",
+      "heroTitle": "Igiene Orale di Alto Livello",
+      "heroSubtitle": "Pulizia professionale dei denti ogni 6 mesi — la migliore protezione contro carie e malattie gengivali.",
+      "howTitle": "Come Si Svolge la Procedura",
+      "howDesc": "Il nostro processo in 4 fasi garantisce la massima pulizia e il tuo comfort durante tutto il trattamento.",
+      "footerText": "La pulizia professionale previene carie, malattie gengivali e radicolari. Raccomandata dall'OMS ogni 6 mesi.",
+      "metaTitle": "Pulizia Professionale",
+      "metaDesc": "Pulizia professionale dei denti (detartrasi). Igiene orale completa a Tirana, Albania.",
+      "steps": [
+        {
+          "num": "01",
+          "title": "Esame Completo",
+          "desc": "Si controlla la condizione di denti e gengive prima della procedura."
+        },
+        {
+          "num": "02",
+          "title": "Detartrasi a Ultrasuoni",
+          "desc": "Rimozione del tartaro con attrezzature ad ultrasuoni sofisticate."
+        },
+        {
+          "num": "03",
+          "title": "Lucidatura",
+          "desc": "Lucidatura delle superfici dentali per rimuovere le macchie."
+        },
+        {
+          "num": "04",
+          "title": "Fluoro & Istruzioni",
+          "desc": "Applicazione del fluoro e istruzioni per la corretta igiene orale."
+        }
+      ],
+      "infoItems": [
+        {
+          "icon": "⏱️",
+          "label": "Durata",
+          "value": "45-60 min"
+        },
+        {
+          "icon": "📅",
+          "label": "Frequenza",
+          "value": "Ogni 6 mesi"
+        },
+        {
+          "icon": "📞",
+          "label": "Prezzo",
+          "value": "Contattaci"
+        }
       ]
     },
     "bookFree": "Prenota una Consulenza Gratuita",
-    "bookNow": "Prenota Ora"
+    "bookNow": "Prenota Ora",
+    "benefitsTitle": "Vantaggi",
+    "contactForQuote": "Contatta la clinica per un'offerta personalizzata",
+    "topBrandsLabel": "Lavoriamo con i brand #1 al mondo"
   },
   "tourism": {
     "title": "Turismo Dentale in Albania",
@@ -727,5 +895,9 @@
     "title": "Chatta su WhatsApp",
     "subtitle": "Scegli la lingua",
     "comingSoon": "Prossimamente"
+  },
+  "layout": {
+    "siteTagline": "La Clinica Dentale Nr.1 in Albania",
+    "siteDescription": "La Clinica Dentale e Maxillofacciale Nr.1 in Albania. Impianti dentali, faccette, ortodonzia e turismo dentale."
   }
 }

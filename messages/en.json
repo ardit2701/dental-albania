@@ -82,7 +82,44 @@
       "Dental Crowns - Case 4",
       "Teeth Whitening - Case 5",
       "Orthodontics - Case 6"
-    ]
+    ],
+    "caseDetails": [
+      {
+        "treatment": "Dental Implants",
+        "before": "Missing tooth",
+        "after": "Titanium implant"
+      },
+      {
+        "treatment": "Porcelain Veneers",
+        "before": "Discoloured teeth",
+        "after": "White smile"
+      },
+      {
+        "treatment": "All-on-6",
+        "before": "Damaged teeth",
+        "after": "New arch"
+      },
+      {
+        "treatment": "Dental Crowns",
+        "before": "Broken tooth",
+        "after": "Porcelain crown"
+      },
+      {
+        "treatment": "Whitening",
+        "before": "Coffee stains",
+        "after": "White teeth"
+      },
+      {
+        "treatment": "Orthodontics",
+        "before": "Crooked teeth",
+        "after": "Perfect alignment"
+      }
+    ],
+    "metaTitle": "Before & After",
+    "metaDesc": "See the real transformations of our patients.",
+    "heroBadge": "📸 Before & After",
+    "heroTitle": "Real Patient Transformations",
+    "heroSubtitle": "Every case shows our team's work and our patients' trust."
   },
   "process": {
     "badge": "The Process",
@@ -304,7 +341,8 @@
         "name": "Pierre Dubois",
         "date": "May 2024"
       }
-    ]
+    ],
+    "badge": "Reviews"
   },
   "contact": {
     "title": "Contact Us",
@@ -336,7 +374,8 @@
         "Professional Cleaning",
         "Dental Tourism Package",
         "Other"
-      ]
+      ],
+      "messagePlaceholder": "Write your message..."
     },
     "submit": "Send Request",
     "submitting": "Sending...",
@@ -351,7 +390,20 @@
     "badge": "Contact",
     "addressLabel": "Address",
     "emailLabel": "Email",
-    "hoursLabel": "Hours"
+    "hoursLabel": "Hours",
+    "metaTitle": "Contact",
+    "metaDesc": "Contact us to book your free consultation.",
+    "heroBadge": "📞 Contact Us",
+    "heroTitle": "Book Your Appointment",
+    "heroSubtitle": "Our team is ready to offer you a free consultation and treatment plan.",
+    "validation": {
+      "firstName": "First name must be at least 2 characters",
+      "lastName": "Last name must be at least 2 characters",
+      "email": "Please enter a valid email address",
+      "country": "Please select your country",
+      "treatment": "Please select a treatment",
+      "privacy": "You must accept the Privacy Policy"
+    }
   },
   "footer": {
     "tagline": "Your perfect smile, crafted with care.",
@@ -454,81 +506,197 @@
     "title": "Our Treatments",
     "subtitle": "The full range of dental services",
     "implants": {
-      "title": "Dental Implants",
-      "desc": "A dental implant is the best permanent solution for replacing missing teeth. Made from medical-grade titanium, the implant integrates with the jawbone creating a strong base for the artificial crown.",
-      "benefits": [
-        "Maximum longevity (20+ years)",
-        "Looks and feels natural",
-        "No impact on adjacent teeth",
-        "Preserves jawbone"
-      ]
+      "badge": "🔩 Dental Implants",
+      "cardTitle": "Titanium Implants",
+      "worldNo1": "World #1",
+      "straumannSubtitle": "Premium · Swiss Made",
+      "straumannFeatures": [
+        "Titanium SLA® Surface — fastest osseointegration",
+        "Lifetime warranty",
+        "Over 70 years of scientific research",
+        "Available in 100+ countries"
+      ],
+      "neodentQuality": "High Quality/Price Ratio",
+      "neodentFeatures": [
+        "Part of the Straumann Group — identical standards",
+        "Acqua Surface® technology — optimal osseointegration",
+        "Excellent quality/value ratio without compromising standards",
+        "Ideal solution for All-on-4 / All-on-6"
+      ],
+      "cardSubtitle": "Medical Grade · ISO Certified",
+      "infoRows": [
+        {
+          "label": "Consultation",
+          "val": "Free"
+        },
+        {
+          "label": "Procedure",
+          "val": "1 day"
+        },
+        {
+          "label": "Warranty",
+          "val": "Lifetime"
+        },
+        {
+          "label": "Anesthesia",
+          "val": "Local"
+        }
+      ],
+      "priceNote": "For pricing, contact the clinic — the offer is personalised to your case.",
+      "metaTitle": "Dental Implants Straumann & Neodent - Tirana, Albania",
+      "metaDesc": "World-class Straumann & Neodent dental implants in Tirana, Albania. Affordable prices, lifetime warranty."
     },
     "crowns": {
-      "title": "Dental Crowns & Bridges",
-      "desc": "A dental crown is a protective cap placed over a damaged tooth. It restores the shape, size and function of the tooth while protecting it from further damage.",
-      "benefits": [
-        "Restores full function",
-        "High aesthetics",
-        "Durable material",
-        "Quick procedure"
-      ]
+      "badge": "👑 Dental Crowns"
     },
     "veneers": {
-      "title": "Dental Veneers",
-      "desc": "Veneers are ultra-thin porcelain layers bonded to the tooth surface. They give a dramatic smile transformation with minimal intervention.",
-      "benefits": [
-        "Instant transformation",
-        "Minimal procedure",
-        "Stain resistant",
-        "Longevity 15-20 years"
-      ]
+      "badge": "✨ Emax Veneers",
+      "cardTitle": "Porcelain Veneers"
     },
     "allOn6": {
-      "title": "All-on-6 Implants",
-      "desc": "All-on-6 is the revolutionary solution for patients who have lost all their teeth or have severely damaged teeth. With just 6 implants we support the entire dental arch.",
-      "benefits": [
-        "New teeth in 3 days",
-        "Only 6 implants for full arch",
-        "Superior aesthetics",
-        "Fast recovery"
-      ]
+      "badge": "🦷 All-on-6"
     },
     "learnMore": "Learn More",
     "badge": "🦷 Our Treatments",
     "heroTitle": "Dental & Maxillofacial Treatments",
     "heroSubtitle": "We offer a complete range of treatments with the latest technology and specialized doctors.",
     "orthodontics": {
-      "title": "Orthodontics",
-      "desc": "Dental braces and transparent aligners for perfectly aligned teeth and a beautiful smile.",
+      "badge": "😁 Orthodontics",
+      "heroTitle": "Perfectly Aligned Teeth",
+      "heroSubtitle": "Traditional braces and clear aligners for a beautiful, healthy smile.",
+      "whatWeOffer": "What we offer",
+      "desc": "Modern orthodontics allows you to straighten teeth without affecting your daily life. With the latest technology and our specialist orthodontists, every treatment is planned with precision.",
       "benefits": [
-        "Metal and transparent braces",
-        "Invisalign aligners",
-        "Optimized treatment time",
-        "Long-lasting results"
+        "Perfectly aligned teeth",
+        "Traditional metal & ceramic braces",
+        "Clear aligners (Invisalign)",
+        "Treatment for all ages",
+        "Regular check-up every 4-6 weeks",
+        "Visible results from the first 6 months"
+      ],
+      "metaTitle": "Orthodontics",
+      "metaDesc": "Professional orthodontic treatment. Braces and Invisalign aligners in Tirana, Albania.",
+      "options": [
+        {
+          "icon": "🔩",
+          "title": "Metal Braces",
+          "desc": "The classic and most effective solution. Ideal for complex cases."
+        },
+        {
+          "icon": "🪄",
+          "title": "Ceramic Braces",
+          "desc": "Discreet and aesthetic. Same effectiveness as metal braces."
+        },
+        {
+          "icon": "✨",
+          "title": "Clear Aligners",
+          "desc": "Almost invisible. Removable during eating and cleaning."
+        }
       ]
     },
     "whitening": {
-      "title": "Teeth Whitening",
-      "desc": "Professional whitening with LED technology and certified gel. A bright smile in just 1 hour.",
-      "benefits": [
-        "LED Zoom technology",
-        "Immediate results",
-        "Safe and painless",
-        "Effect up to 2 years"
+      "badge": "✨ Teeth Whitening",
+      "heroTitle": "Bright Smile in 1 Hour",
+      "heroSubtitle": "Professional whitening with LED technology and certified gel. Immediate and safe results.",
+      "ourSolutions": "Our Solutions",
+      "faqTitle": "Frequently Asked Questions",
+      "popular": "Most Popular",
+      "maxResult": "Max Result",
+      "metaTitle": "Teeth Whitening",
+      "metaDesc": "Professional teeth whitening. Bright smile within 1 hour in Tirana, Albania.",
+      "options": [
+        {
+          "icon": "💡",
+          "title": "In-Clinic Whitening (Zoom)",
+          "desc": "1-hour procedure with LED light. Immediately visible results.",
+          "badge": "popular"
+        },
+        {
+          "icon": "🏠",
+          "title": "Home Kit",
+          "desc": "Personalised moulds + professional gel. 2-week treatment.",
+          "badge": null
+        },
+        {
+          "icon": "⚡",
+          "title": "Combination (Clinic + Home)",
+          "desc": "Maximum result: start in clinic, maintain at home.",
+          "badge": "max"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "How long do results last?",
+          "a": "Results last 1-3 years with proper maintenance and regular cleaning."
+        },
+        {
+          "q": "Is the procedure painful?",
+          "a": "No, the procedure is completely painless. Some patients may feel mild transient sensitivity."
+        },
+        {
+          "q": "How many shades whiter?",
+          "a": "On average 6-10 shades brighter compared to the initial colour."
+        },
+        {
+          "q": "Can I do it if I have crowns?",
+          "a": "Whitening does not affect crowns or veneers. We will advise you during consultation."
+        }
       ]
     },
     "cleaning": {
-      "title": "Professional Cleaning",
-      "desc": "Deep professional cleaning with ultrasound descaling, polishing and fluoride application for optimal oral health.",
-      "benefits": [
-        "Ultrasound descaling",
-        "Professional polishing",
-        "Fluoride application",
-        "Oral hygiene guidance"
+      "badge": "🪥 Professional Cleaning",
+      "heroTitle": "High-Level Oral Hygiene",
+      "heroSubtitle": "Professional teeth cleaning every 6 months — the best protection against cavities and gum disease.",
+      "howTitle": "How the Procedure Works",
+      "howDesc": "Our 4-step process guarantees maximum cleanliness and your comfort throughout the treatment.",
+      "footerText": "Professional cleaning prevents cavities, gum and root diseases. Recommended by WHO every 6 months.",
+      "metaTitle": "Professional Cleaning",
+      "metaDesc": "Professional teeth cleaning (scaling). Complete oral hygiene in Tirana, Albania.",
+      "steps": [
+        {
+          "num": "01",
+          "title": "Full Examination",
+          "desc": "The condition of teeth and gums is checked before the procedure."
+        },
+        {
+          "num": "02",
+          "title": "Ultrasound Scaling",
+          "desc": "Removal of tartar (calculus) with sophisticated ultrasonic equipment."
+        },
+        {
+          "num": "03",
+          "title": "Polishing",
+          "desc": "Polishing of tooth surfaces to remove stains."
+        },
+        {
+          "num": "04",
+          "title": "Fluoride & Guidance",
+          "desc": "Fluoride application and oral hygiene instructions."
+        }
+      ],
+      "infoItems": [
+        {
+          "icon": "⏱️",
+          "label": "Duration",
+          "value": "45-60 min"
+        },
+        {
+          "icon": "📅",
+          "label": "Frequency",
+          "value": "Every 6 months"
+        },
+        {
+          "icon": "📞",
+          "label": "Price",
+          "value": "Contact us"
+        }
       ]
     },
     "bookFree": "Book a Free Consultation",
-    "bookNow": "Book Now"
+    "bookNow": "Book Now",
+    "benefitsTitle": "Benefits",
+    "contactForQuote": "Contact the clinic for a personal offer",
+    "topBrandsLabel": "We work with the world's #1 brands"
   },
   "tourism": {
     "title": "Dental Tourism in Albania",
@@ -727,5 +895,9 @@
     "title": "Chat on WhatsApp",
     "subtitle": "Choose your language",
     "comingSoon": "Coming soon"
+  },
+  "layout": {
+    "siteTagline": "Albania's #1 Dental Clinic",
+    "siteDescription": "Albania's #1 Dental and Maxillofacial Clinic. Dental implants, veneers, orthodontics and dental tourism."
   }
 }

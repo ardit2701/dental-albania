@@ -4,10 +4,12 @@ import PageHero from "@/components/layout/PageHero";
 
 type Props = { params: Promise<{ locale: string }> };
 
-export async function generateMetadata(): Promise<Metadata> {
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "treatments" });
   return {
-    title: "Zbardhim Dhëmbësh",
-    description: "Zbardhim profesional i dhëmbëve. Buzëqeshje e ndritshme brenda 1 ore në Tiranë, Shqipëri.",
+    title: t("whitening.metaTitle"),
+    description: t("whitening.metaDesc"),
   };
 }
 
@@ -16,21 +18,26 @@ export default async function WhiteningPage({ params }: Props) {
   setRequestLocale(locale);
   const t = await getTranslations("treatments");
 
-  const faqs = [
-    { q: "Sa kohë zgjat efekti?", a: "Efekti zgjat 1-3 vjet me mirëmbajtje të duhur dhe pastrim të rregullt." },
-    { q: "A dhemb procedura?", a: "Jo, procedura është plotësisht e dhimbshme. Disa pacientë ndjejnë ndjeshmëri të lehtë kalimtare." },
-    { q: "Sa tone ndriçohen dhëmbët?", a: "Mesatarisht 6-10 tone më të ndritshëm krahasuar me ngjyrën fillestare." },
-    { q: "A mund ta bëj nëse kam kurora?", a: "Zbardhimi nuk ndikon tek kurora apo faseta. Do t'ju këshillojmë gjatë konsultimit." },
-  ];
+  const options = [0,1,2].map((i) => ({
+    icon: (t as any)(`whitening.options.${i}.icon`),
+    title: (t as any)(`whitening.options.${i}.title`),
+    desc: (t as any)(`whitening.options.${i}.desc`),
+    badge: (t as any)(`whitening.options.${i}.badge`),
+  }));
+
+  const faqs = [0,1,2,3].map((i) => ({
+    q: (t as any)(`whitening.faqs.${i}.q`),
+    a: (t as any)(`whitening.faqs.${i}.a`),
+  }));
 
   return (
     <>
       <PageHero
         imageSrc="/clinic/clinic-0120.jpg"
-        imageAlt="Kabineti dentar Maxillodent - Zbardhim"
-        badge="✨ Zbardhim Dhëmbësh"
-        title="Buzëqeshje e Ndritshme në 1 Orë"
-        subtitle="Zbardhim profesional me teknologji LED dhe gel të certifikuar. Rezultate të menjëhershme dhe të sigurta."
+        imageAlt={t("whitening.metaTitle")}
+        badge={t("whitening.badge")}
+        title={t("whitening.heroTitle")}
+        subtitle={t("whitening.heroSubtitle")}
         variant={1}
         cta={{ label: t("bookNow"), href: "#contact" }}
       />
@@ -39,35 +46,19 @@ export default async function WhiteningPage({ params }: Props) {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start mb-14">
             <div>
-              <h2 className="text-2xl font-bold text-gray-900 mb-5">Zgjidhjet Tona</h2>
+              <h2 className="text-2xl font-bold text-gray-900 mb-5">{t("whitening.ourSolutions")}</h2>
               <div className="space-y-4">
-                {[
-                  {
-                    icon: "💡",
-                    title: "Zbardhim në Klinikë (Zoom)",
-                    desc: "Procedurë 1-orëshe me dritë LED. Rezultate menjëherë të dukshme.",
-                    badge: "Më Popullor",
-                  },
-                  {
-                    icon: "🏠",
-                    title: "Kit për Shtëpi",
-                    desc: "Kallëpe të personalizuara + gel profesional. Trajtim 2-javësh.",
-                    badge: null,
-                  },
-                  {
-                    icon: "⚡",
-                    title: "Kombinim (Klinikë + Shtëpi)",
-                    desc: "Rezultati maksimal: fillim në klinikë, mirëmbajtje në shtëpi.",
-                    badge: "Rezultat Max",
-                  },
-                ].map((opt) => (
+                {options.map((opt) => (
                   <div key={opt.title} className="border border-gray-100 rounded-2xl p-5 flex gap-4 items-start hover:border-sky-200 hover:bg-sky-50/30 transition-colors">
                     <span className="text-2xl">{opt.icon}</span>
                     <div className="flex-1">
                       <div className="flex items-center gap-2 mb-1">
                         <h3 className="font-bold text-gray-900 text-sm">{opt.title}</h3>
-                        {opt.badge && (
-                          <span className="bg-[#0284c7] text-white text-[10px] font-bold px-2 py-0.5 rounded-full">{opt.badge}</span>
+                        {opt.badge === 'popular' && (
+                          <span className="bg-[#0284c7] text-white text-[10px] font-bold px-2 py-0.5 rounded-full">{t("whitening.popular")}</span>
+                        )}
+                        {opt.badge === 'max' && (
+                          <span className="bg-[#0284c7] text-white text-[10px] font-bold px-2 py-0.5 rounded-full">{t("whitening.maxResult")}</span>
                         )}
                       </div>
                       <p className="text-gray-500 text-xs">{opt.desc}</p>
@@ -78,7 +69,7 @@ export default async function WhiteningPage({ params }: Props) {
             </div>
 
             <div>
-              <h2 className="text-2xl font-bold text-gray-900 mb-5">Pyetje të Shpeshta</h2>
+              <h2 className="text-2xl font-bold text-gray-900 mb-5">{t("whitening.faqTitle")}</h2>
               <div className="space-y-3">
                 {faqs.map((faq) => (
                   <div key={faq.q} className="bg-gray-50 rounded-xl p-4">

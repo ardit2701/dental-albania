@@ -82,7 +82,44 @@
       "Kurora Dentare - Rast 4",
       "Zbardhim Dhëmbësh - Rast 5",
       "Ortodonti - Rast 6"
-    ]
+    ],
+    "caseDetails": [
+      {
+        "treatment": "Implante Dentare",
+        "before": "Dhëmb i humbur",
+        "after": "Implant titanium"
+      },
+      {
+        "treatment": "Faseta Porcelani",
+        "before": "Dhëmbë të çngjyrosur",
+        "after": "Buzëqeshje e bardhë"
+      },
+      {
+        "treatment": "All-on-6",
+        "before": "Dhëmbë të dëmtuar",
+        "after": "Arkadë e re"
+      },
+      {
+        "treatment": "Kurora Dentare",
+        "before": "Dhëmb i thyer",
+        "after": "Kurorë porcelani"
+      },
+      {
+        "treatment": "Zbardhim",
+        "before": "Njolla kafeje",
+        "after": "Dhëmbë të bardhë"
+      },
+      {
+        "treatment": "Ortodonti",
+        "before": "Dhëmbë të shtrembër",
+        "after": "Rreshtim perfekt"
+      }
+    ],
+    "metaTitle": "Para & Pas",
+    "metaDesc": "Shikoni transformimet reale të pacientëve tanë.",
+    "heroBadge": "📸 Para & Pas",
+    "heroTitle": "Transformimet Reale të Pacientëve Tanë",
+    "heroSubtitle": "Çdo rast tregon punën e ekipit tonë dhe besimin e pacientëve."
   },
   "process": {
     "badge": "Procesi",
@@ -304,7 +341,8 @@
         "name": "Pierre Dubois",
         "date": "Maj 2024"
       }
-    ]
+    ],
+    "badge": "Vlerësimet"
   },
   "contact": {
     "title": "Na Kontaktoni",
@@ -336,7 +374,8 @@
         "Pastrim Profesional",
         "Paketë Turizëm Dentar",
         "Tjetër"
-      ]
+      ],
+      "messagePlaceholder": "Shkruani mesazhin tuaj..."
     },
     "submit": "Dërgoni Kërkesën",
     "submitting": "Duke dërguar...",
@@ -351,7 +390,20 @@
     "badge": "Kontakti",
     "addressLabel": "Adresa",
     "emailLabel": "Email",
-    "hoursLabel": "Orari"
+    "hoursLabel": "Orari",
+    "metaTitle": "Kontakt",
+    "metaDesc": "Na kontaktoni për të caktuar konsultimin tuaj falas.",
+    "heroBadge": "📞 Na Kontaktoni",
+    "heroTitle": "Caktoni Takimin Tuaj",
+    "heroSubtitle": "Ekipi ynë është i gatshëm t'ju ofrojë konsultimin falas dhe planin e trajtimit.",
+    "validation": {
+      "firstName": "Emri duhet të ketë të paktën 2 karaktere",
+      "lastName": "Mbiemri duhet të ketë të paktën 2 karaktere",
+      "email": "Email adresa nuk është e vlefshme",
+      "country": "Ju lutem zgjidhni shtetin",
+      "treatment": "Ju lutem zgjidhni trajtimin",
+      "privacy": "Duhet të pranoni Politikën e Privatësisë"
+    }
   },
   "footer": {
     "tagline": "Buzëqeshja juaj e përsosur, e krijuar me kujdes.",
@@ -454,81 +506,197 @@
     "title": "Trajtimet Tona",
     "subtitle": "Gama e plotë e shërbimeve dentare",
     "implants": {
-      "title": "Implante Dentare",
-      "desc": "Implanti dentar është zgjidhja më e mirë permanente për zëvendësimin e dhëmbëve që mungojnë. I bërë nga titaniumi i gradës mjekësore, implantin integrohet me kockën e nofullës duke krijuar një bazë të fortë për koronën artificiale.",
-      "benefits": [
-        "Jetëgjatësi maksimale (20+ vjet)",
-        "Duket dhe ndjehet natyral",
-        "Pa ndikim tek dhëmbët fqinj",
-        "Ruajtja e kockës së nofullës"
-      ]
+      "badge": "🔩 Implante Dentare",
+      "cardTitle": "Implante Titanium",
+      "worldNo1": "Nr. 1 Botë",
+      "straumannSubtitle": "Premium · Swiss Made",
+      "straumannFeatures": [
+        "Titanium SLA® Surface — integrim më i shpejtë",
+        "Garanci e përjetshme",
+        "Mbi 70 vjet kërkime shkencore",
+        "I disponueshëm në 100+ vende"
+      ],
+      "neodentQuality": "Raport i Lartë Cilësi/Çmim",
+      "neodentFeatures": [
+        "Pjesë e grupit Straumann — standarde identike",
+        "Teknologji Acqua Surface® — osseointegrim optimal",
+        "Raport i shkëlqyer cilësi/vlerë pa kompromentuar standardet",
+        "Zgjidhja ideale për All-on-4 / All-on-6"
+      ],
+      "cardSubtitle": "Gradë Mjekësore · ISO Certified",
+      "infoRows": [
+        {
+          "label": "Konsultim",
+          "val": "Falas"
+        },
+        {
+          "label": "Procedura",
+          "val": "1 ditë"
+        },
+        {
+          "label": "Garanci",
+          "val": "E përjetshme"
+        },
+        {
+          "label": "Anestezi",
+          "val": "Lokale"
+        }
+      ],
+      "priceNote": "Për çmime kontaktoni klinikën — oferta personalizohet sipas rastit tuaj.",
+      "metaTitle": "Implante Dentare Straumann & Neodent - Tiranë",
+      "metaDesc": "Implante dentare Straumann & Neodent të cilësisë botërore në Tiranë, Shqipëri. Çmime të volitshme, garanci e përjetshme."
     },
     "crowns": {
-      "title": "Kurora & Ura Dentare",
-      "desc": "Kurora dentare është kapakë mbrojtës që vendoset mbi dhëmbin e dëmtuar. Reston formën, madhësinë dhe funksionin e dhëmbit duke e mbrojtur nga dëmtimet e mëtejshme.",
-      "benefits": [
-        "Reston funksionin e plotë",
-        "Estetikë e lartë",
-        "Material i qëndrueshëm",
-        "Procedurë e shpejtë"
-      ]
+      "badge": "👑 Kurorë Dentare"
     },
     "veneers": {
-      "title": "Faseta Dentare",
-      "desc": "Faseta janë shtresa ultra-të holla porcelani që ngjiten në sipërfaqen e dhëmbëve. Japin transformim dramatik të buzëqeshjes me ndërhyrje minimale.",
-      "benefits": [
-        "Transformim i menjëhershëm",
-        "Procedurë minimale",
-        "Rezistente ndaj njollave",
-        "Jetëgjatësi 15-20 vjet"
-      ]
+      "badge": "✨ Faseta Emax",
+      "cardTitle": "Faseta Porcelani"
     },
     "allOn6": {
-      "title": "All-on-6 Implante",
-      "desc": "All-on-6 është zgjidhja revolucionare për pacientët që kanë humbur të gjithë dhëmbët ose kanë dhëmbë shumë të dëmtuar. Me vetëm 6 implante mbështesim të gjithë arkadën dentare.",
-      "benefits": [
-        "Dhëmbë të rinj në 3 ditë",
-        "Vetëm 6 implante për gjithë arkadën",
-        "Estetikë superiore",
-        "Rikuperim i shpejtë"
-      ]
+      "badge": "🦷 All-on-6"
     },
     "learnMore": "Mëso Më Shumë",
     "badge": "🦷 Trajtimet Tona",
     "heroTitle": "Trajtimet Dentare & Maxillofaciale",
     "heroSubtitle": "Ofrojmë gamën e plotë të trajtimeve me teknologji të fundit dhe mjekë të specializuar.",
     "orthodontics": {
-      "title": "Ortodonti",
-      "desc": "Aparate dentare dhe aligners transparentë për dhëmbë të rreshtuar perfektisht dhe një buzëqeshje të bukur.",
+      "badge": "😁 Ortodonti",
+      "heroTitle": "Dhëmbë të Rreshtuar Perfektisht",
+      "heroSubtitle": "Aparate dentare dhe aligners transparentë për një buzëqeshje të bukur dhe të shëndetshme.",
+      "whatWeOffer": "Çfarë ofrojmë",
+      "desc": "Ortodontia moderne mundëson rreshtimin e dhëmbëve pa ndikuar negativisht në jetën tuaj të përditshme. Me teknologjinë e fundit dhe ortodontistët tanë të specializuar, çdo trajtim planifikohet me saktësi.",
       "benefits": [
-        "Aparate metalike dhe transparente",
-        "Aligners Invisalign",
-        "Kohë trajtimi e optimizuar",
-        "Rezultate afatgjata"
+        "Rreshtim i përsosur i dhëmbëve",
+        "Aparate tradicionale metalike & ceramike",
+        "Aligners transparentë (Invisalign)",
+        "Trajtim për të gjitha moshat",
+        "Kontroll i rregullt çdo 4-6 javë",
+        "Rezultate të dukshme nga 6 muajt e parë"
+      ],
+      "metaTitle": "Ortodonti",
+      "metaDesc": "Trajtim ortodontik profesional. Aparate dentare dhe aligners invisalign në Tiranë, Shqipëri.",
+      "options": [
+        {
+          "icon": "🔩",
+          "title": "Aparate Metalike",
+          "desc": "Zgjidhja klasike dhe më e efektshme. Idealë për raste komplekse."
+        },
+        {
+          "icon": "🪄",
+          "title": "Aparate Ceramike",
+          "desc": "Diskrete dhe estetike. Efektivitet i njëjtë me aparatet metalike."
+        },
+        {
+          "icon": "✨",
+          "title": "Aligners Transparentë",
+          "desc": "Pothuajse të padukshëm. Hiqen gjatë ngrënies dhe pastrimeve."
+        }
       ]
     },
     "whitening": {
-      "title": "Zbardhim Dhëmbësh",
-      "desc": "Zbardhim profesional me teknologji LED dhe gel të certifikuar. Buzëqeshje e ndritshme në vetëm 1 orë.",
-      "benefits": [
-        "Teknologji LED Zoom",
-        "Rezultate të menjëhershme",
-        "I sigurt dhe pa dhimbje",
-        "Efekt deri 2 vjet"
+      "badge": "✨ Zbardhim Dhëmbësh",
+      "heroTitle": "Buzëqeshje e Ndritshme në 1 Orë",
+      "heroSubtitle": "Zbardhim profesional me teknologji LED dhe gel të certifikuar. Rezultate të menjëhershme dhe të sigurta.",
+      "ourSolutions": "Zgjidhjet Tona",
+      "faqTitle": "Pyetje të Shpeshta",
+      "popular": "Më Popullor",
+      "maxResult": "Rezultat Max",
+      "metaTitle": "Zbardhim Dhëmbësh",
+      "metaDesc": "Zbardhim profesional i dhëmbëve. Buzëqeshje e ndritshme brenda 1 ore në Tiranë, Shqipëri.",
+      "options": [
+        {
+          "icon": "💡",
+          "title": "Zbardhim në Klinikë (Zoom)",
+          "desc": "Procedurë 1-orëshe me dritë LED. Rezultate menjëherë të dukshme.",
+          "badge": "popular"
+        },
+        {
+          "icon": "🏠",
+          "title": "Kit për Shtëpi",
+          "desc": "Kallëpe të personalizuara + gel profesional. Trajtim 2-javësh.",
+          "badge": null
+        },
+        {
+          "icon": "⚡",
+          "title": "Kombinim (Klinikë + Shtëpi)",
+          "desc": "Rezultati maksimal: fillim në klinikë, mirëmbajtje në shtëpi.",
+          "badge": "max"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Sa kohë zgjat efekti?",
+          "a": "Efekti zgjat 1-3 vjet me mirëmbajtje të duhur dhe pastrim të rregullt."
+        },
+        {
+          "q": "A dhemb procedura?",
+          "a": "Jo, procedura është plotësisht e dhimbshme. Disa pacientë ndjejnë ndjeshmëri të lehtë kalimtare."
+        },
+        {
+          "q": "Sa tone ndriçohen dhëmbët?",
+          "a": "Mesatarisht 6-10 tone më të ndritshëm krahasuar me ngjyrën fillestare."
+        },
+        {
+          "q": "A mund ta bëj nëse kam kurora?",
+          "a": "Zbardhimi nuk ndikon tek kurora apo faseta. Do t'ju këshillojmë gjatë konsultimit."
+        }
       ]
     },
     "cleaning": {
-      "title": "Pastrim Profesional",
-      "desc": "Pastrim i thellë profesional me detartaj ultrasound, polisim dhe aplikim fluoridi për shëndet optimal oral.",
-      "benefits": [
-        "Detartaj ultrasound",
-        "Polisim profesional",
-        "Aplikim fluoridi",
-        "Udhëzime higjiena orale"
+      "badge": "🪥 Pastrim Profesional",
+      "heroTitle": "Higjienë Orale e Nivelit të Lartë",
+      "heroSubtitle": "Pastrim profesional i dhëmbëve çdo 6 muaj — mbrojtja më e mirë kundër karijes dhe sëmundjeve të mishrave.",
+      "howTitle": "Si Kryhet Procedura",
+      "howDesc": "Procesi ynë 4-hapësh garanton pastërtinë maksimale dhe komfortin tuaj gjatë gjithë trajtimit.",
+      "footerText": "Pastrimi profesional parandalon karijes, sëmundjet e mishrave dhe rrënjëve. Rekomandohet nga OBSh çdo 6 muaj.",
+      "metaTitle": "Pastrim Profesional",
+      "metaDesc": "Pastrim profesional i dhëmbëve (detartaj). Higjienë orale e plotë në Tiranë, Shqipëri.",
+      "steps": [
+        {
+          "num": "01",
+          "title": "Ekzaminim i Plotë",
+          "desc": "Kontrollohet gjendja e dhëmbëve dhe mishrave para procedurës."
+        },
+        {
+          "num": "02",
+          "title": "Detartaj Ultrasound",
+          "desc": "Heqja e gurëzave (tartarit) me pajisje ultrasonike të sofistikuara."
+        },
+        {
+          "num": "03",
+          "title": "Polisim",
+          "desc": "Polisim i sipërfaqes së dhëmbëve për heqjen e njollave."
+        },
+        {
+          "num": "04",
+          "title": "Fluorid & Udhëzime",
+          "desc": "Aplikim fluoridi dhe udhëzime për higjienë orale të duhur."
+        }
+      ],
+      "infoItems": [
+        {
+          "icon": "⏱️",
+          "label": "Kohëzgjatja",
+          "value": "45-60 min"
+        },
+        {
+          "icon": "📅",
+          "label": "Frekuenca",
+          "value": "Çdo 6 muaj"
+        },
+        {
+          "icon": "📞",
+          "label": "Çmimi",
+          "value": "Me kontakt"
+        }
       ]
     },
     "bookFree": "Cakto Konsultim Falas",
-    "bookNow": "Rezervo Tani"
+    "bookNow": "Rezervo Tani",
+    "benefitsTitle": "Avantazhet",
+    "contactForQuote": "Kontaktoni klinikën për ofertë personale",
+    "topBrandsLabel": "Punojmë me brendet #1 botërore"
   },
   "tourism": {
     "title": "Turizëm Dentar në Shqipëri",
@@ -727,5 +895,9 @@
     "title": "Bisedo në WhatsApp",
     "subtitle": "Zgjidhni gjuhën",
     "comingSoon": "Së shpejti · Coming soon"
+  },
+  "layout": {
+    "siteTagline": "Klinika Dentare Nr.1 në Shqipëri",
+    "siteDescription": "Klinika Dentare dhe Maxillofaciale Nr.1 në Shqipëri. Implante dentare, faseta, ortodonci dhe turizëm dentar."
   }
 }

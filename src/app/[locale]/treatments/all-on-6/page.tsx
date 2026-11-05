@@ -30,7 +30,7 @@ export default async function AllOn6Page({ params }: Props) {
       <PageHero
         imageSrc="/clinic/clinic-0119.jpg"
         imageAlt="Kabineti dentar Maxillodent - All-on-6"
-        badge="🦷 All-on-6"
+        badge={t("allOn6.badge")}
         title={t("allOn6.title")}
         subtitle={t("allOn6.desc")}
         variant={1}
@@ -40,7 +40,7 @@ export default async function AllOn6Page({ params }: Props) {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
             <div>
-              <h2 className="text-2xl font-bold text-gray-900 mb-5">Avantazhet</h2>
+              <h2 className="text-2xl font-bold text-gray-900 mb-5">{t("benefitsTitle")}</h2>
               <ul className="space-y-3">
                 {benefits.map((b) => (
                   <li key={b} className="flex items-center gap-3 p-3 bg-[#f0fdfa] rounded-xl">
@@ -59,7 +59,7 @@ export default async function AllOn6Page({ params }: Props) {
               <h3 className="text-white text-xl font-bold mb-2">All-on-6</h3>
               <p className="text-[#bae6fd] text-sm">Arkadë e plotë · Dhëmbë të rinj</p>
               <div className="mt-6 bg-white/20 rounded-xl p-4">
-                <p className="text-[#bae6fd] text-sm">Kontaktoni klinikën për ofertë personale</p>
+                <p className="text-[#bae6fd] text-sm">{t("contactForQuote")}</p>
               </div>
             </div>
           </div>

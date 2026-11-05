@@ -48,7 +48,7 @@ export default function Reviews() {
         {/* Header */}
         <div className="text-center mb-12 reveal">
           <div className="inline-flex items-center gap-2 bg-sky-50 border border-sky-200 text-sky-700 px-4 py-1.5 rounded-full text-sm font-semibold mb-4 shadow-sm">
-            Vlerësimet
+            {t('badge')}
           </div>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-gray-900 mb-8 tracking-tight">
             {t('title')}

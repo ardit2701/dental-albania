@@ -4,10 +4,12 @@ import PageHero from "@/components/layout/PageHero";
 
 type Props = { params: Promise<{ locale: string }> };
 
-export async function generateMetadata(): Promise<Metadata> {
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "treatments" });
   return {
-    title: "Ortodonti",
-    description: "Trajtim ortodontik profesional. Aparate dentare dhe aligners invisalign në Tiranë, Shqipëri.",
+    title: t("orthodontics.metaTitle"),
+    description: t("orthodontics.metaDesc"),
   };
 }
 
@@ -16,36 +18,31 @@ export default async function OrthodonticsPage({ params }: Props) {
   setRequestLocale(locale);
   const t = await getTranslations("treatments");
 
-  const benefits = [
-    "Rreshtim i përsosur i dhëmbëve",
-    "Aparate tradicionale metalike & ceramike",
-    "Aligners transparentë (Invisalign)",
-    "Trajtim për të gjitha moshat",
-    "Kontroll i rregullt çdo 4-6 javë",
-    "Rezultate të dukshme nga 6 muajt e parë",
-  ];
+  const benefits = [0,1,2,3,4,5].map((i) => t(`orthodontics.benefits.${i}` as any));
+  const options = [0,1,2].map((i) => ({
+    icon: (t as any)(`orthodontics.options.${i}.icon`),
+    title: (t as any)(`orthodontics.options.${i}.title`),
+    desc: (t as any)(`orthodontics.options.${i}.desc`),
+  }));
 
   return (
     <>
       <PageHero
         imageSrc="https://images.unsplash.com/photo-1606811971618-4486d14f3f99?auto=format&fit=crop&w=1600&q=85"
-        imageAlt="Ortodonti profesionale"
-        badge="😁 Ortodonti"
-        title="Dhëmbë të Rreshtuar Perfektisht"
-        subtitle="Aparate dentare dhe aligners transparentë për një buzëqeshje të bukur dhe të shëndetshme."
+        imageAlt={t("orthodontics.metaTitle")}
+        badge={t("orthodontics.badge")}
+        title={t("orthodontics.heroTitle")}
+        subtitle={t("orthodontics.heroSubtitle")}
         variant={2}
-        cta={{ label: "Konsultim Falas", href: "#contact" }}
+        cta={{ label: t("bookFree"), href: "#contact" }}
       />
 
       <section className="py-16 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
             <div>
-              <h2 className="text-2xl font-bold text-gray-900 mb-2">Çfarë ofrojmë</h2>
-              <p className="text-gray-500 mb-6 text-sm leading-relaxed">
-                Ortodontia moderne mundëson rreshtimin e dhëmbëve pa ndikuar negativisht në jetën tuaj të përditshme.
-                Me teknologjinë e fundit dhe ortodontistët tanë të specializuar, çdo trajtim planifikohet me saktësi.
-              </p>
+              <h2 className="text-2xl font-bold text-gray-900 mb-2">{t("orthodontics.whatWeOffer")}</h2>
+              <p className="text-gray-500 mb-6 text-sm leading-relaxed">{t("orthodontics.desc")}</p>
               <ul className="space-y-3">
                 {benefits.map((b) => (
                   <li key={b} className="flex items-center gap-3 p-3 bg-[#f0fdfa] rounded-xl">
@@ -61,11 +58,7 @@ export default async function OrthodonticsPage({ params }: Props) {
             </div>
 
             <div className="space-y-4">
-              {[
-                { icon: "🔩", title: "Aparate Metalike", desc: "Zgjidhja klasike dhe më e efektshme. Idealë për raste komplekse." },
-                { icon: "🪄", title: "Aparate Ceramike", desc: "Diskrete dhe estetike. Efektivitet i njëjtë me aparatet metalike." },
-                { icon: "✨", title: "Aligners Transparentë", desc: "Pothuajse të padukshëm. Hiqen gjatë ngrënies dhe pastrimeve." },
-              ].map((opt) => (
+              {options.map((opt) => (
                 <div key={opt.title} className="bg-gradient-to-br from-sky-50 to-white border border-sky-100 rounded-2xl p-5 flex gap-4 items-start">
                   <span className="text-3xl">{opt.icon}</span>
                   <div className="flex-1">

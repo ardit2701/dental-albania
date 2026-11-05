@@ -15,22 +15,42 @@ const COUNTRIES = [
   "United Kingdom", "United States", "Canada", "Australia", "Other"
 ];
 
-const schema = z.object({
-  firstName: z.string().min(2, "Emri duhet të ketë të paktën 2 karaktere"),
-  lastName: z.string().min(2, "Mbiemri duhet të ketë të paktën 2 karaktere"),
-  email: z.string().email("Email adresa nuk është e vlefshme"),
-  phone: z.string().optional(),
-  country: z.string().min(1, "Ju lutem zgjidhni shtetin"),
-  treatment: z.string().min(1, "Ju lutem zgjidhni trajtimin"),
-  message: z.string().optional(),
-  privacy: z.boolean().refine((v) => v === true, "Duhet të pranoni Politikën e Privatësisë"),
-});
+type FormData = {
+  firstName: string;
+  lastName: string;
+  email: string;
+  phone?: string;
+  country: string;
+  treatment: string;
+  message?: string;
+  privacy: boolean;
+};
 
-type FormData = z.infer<typeof schema>;
+function createSchema(v: { firstName: string; lastName: string; email: string; country: string; treatment: string; privacy: string }) {
+  return z.object({
+    firstName: z.string().min(2, v.firstName),
+    lastName: z.string().min(2, v.lastName),
+    email: z.string().email(v.email),
+    phone: z.string().optional(),
+    country: z.string().min(1, v.country),
+    treatment: z.string().min(1, v.treatment),
+    message: z.string().optional(),
+    privacy: z.boolean().refine((val) => val === true, v.privacy),
+  });
+}
 
 export default function ContactForm() {
   const t = useTranslations("contact");
   const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
+
+  const schema = createSchema({
+    firstName: t("validation.firstName"),
+    lastName: t("validation.lastName"),
+    email: t("validation.email"),
+    country: t("validation.country"),
+    treatment: t("validation.treatment"),
+    privacy: t("validation.privacy"),
+  });
 
   const {
     register,
@@ -187,7 +207,7 @@ export default function ContactForm() {
                   <textarea
                     {...register("message")}
                     rows={4}
-                    placeholder="Shkruani mesazhin tuaj..."
+                    placeholder={t("fields.messagePlaceholder")}
                     className={`${inputClass} resize-none`}
                   />
                 </div>
