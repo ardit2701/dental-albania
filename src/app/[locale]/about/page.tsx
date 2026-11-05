@@ -28,7 +28,7 @@ export default async function AboutPage({ params }: Props) {
     <>
       <PageHero
         imageSrc="/clinic/clinic-0128.jpg"
-        imageAlt="Klinika Maxillodent - Sallë Pritje"
+        imageAlt={t("heroImageAlt")}
         badge={t("badge")}
         title={t("title")}
         subtitle={t("subtitle")}
@@ -46,7 +46,7 @@ export default async function AboutPage({ params }: Props) {
             <div className="rounded-3xl overflow-hidden shadow-xl">
               <Image
                 src="/clinic/clinic-0119.jpg"
-                alt="Kabineti dentar Maxillodent"
+                alt={t("storyImageAlt")}
                 width={700}
                 height={700}
                 className="w-full h-full object-cover"
@@ -68,7 +68,7 @@ export default async function AboutPage({ params }: Props) {
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
             {["/clinic/clinic-0120.jpg", "/clinic/clinic-0122.jpg", "/clinic/clinic-0128.jpg"].map((src, i) => (
               <div key={i} className="rounded-2xl overflow-hidden shadow-md aspect-[4/3]">
-                <Image src={src} alt={`Klinika Maxillodent ${i + 1}`} width={600} height={450} className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+                <Image src={src} alt={`${t("galleryImageAlt")} ${i + 1}`} width={600} height={450} className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
               </div>
             ))}
           </div>

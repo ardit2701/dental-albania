@@ -403,7 +403,8 @@
       "country": "Seleziona il tuo paese",
       "treatment": "Seleziona un trattamento",
       "privacy": "Devi accettare la Privacy Policy"
-    }
+    },
+    "heroImageAlt": "Maxillodent - Studio dentistico"
   },
   "footer": {
     "tagline": "Il tuo sorriso perfetto, realizzato con cura.",
@@ -500,7 +501,10 @@
         "value": "4.9★",
         "label": "Google Reviews"
       }
-    ]
+    ],
+    "heroImageAlt": "Clinica Maxillodent - Sala d'attesa",
+    "storyImageAlt": "Studio dentistico Maxillodent",
+    "galleryImageAlt": "Clinica Maxillodent"
   },
   "treatments": {
     "title": "I Nostri Trattamenti",
@@ -547,14 +551,22 @@
       "metaDesc": "Impianti dentali Straumann & Neodent di classe mondiale a Tirana, Albania. Prezzi convenienti, garanzia a vita."
     },
     "crowns": {
-      "badge": "👑 Corone Dentali"
+      "badge": "👑 Corone Dentali",
+      "metaTitle": "Corone e Ponti Dentali - Tirana, Albania",
+      "metaDesc": "Corone e ponti dentali di alta qualità da Maxillodent, Tirana. Materiali premium, risultati naturali.",
+      "cardTitle": "Corone in Porcellana"
     },
     "veneers": {
       "badge": "✨ Faccette Emax",
-      "cardTitle": "Faccette in Porcellana"
+      "cardTitle": "Faccette in Porcellana",
+      "metaTitle": "Faccette Dentali - Tirana, Albania",
+      "metaDesc": "Faccette in porcellana da Maxillodent. Trasforma il tuo sorriso con faccette ultra-sottili E-Max."
     },
     "allOn6": {
-      "badge": "🦷 All-on-6"
+      "badge": "🦷 All-on-6",
+      "metaTitle": "Impianti All-on-6 - Tirana, Albania",
+      "metaDesc": "Impianti All-on-6 da Maxillodent. Nuovi denti in 3 giorni. Consulenza gratuita.",
+      "cardSubtitle": "Arcata completa · Nuovi denti"
     },
     "learnMore": "Scopri di Più",
     "badge": "🦷 I Nostri Trattamenti",
@@ -696,7 +708,8 @@
     "bookNow": "Prenota Ora",
     "benefitsTitle": "Vantaggi",
     "contactForQuote": "Contatta la clinica per un'offerta personalizzata",
-    "topBrandsLabel": "Lavoriamo con i brand #1 al mondo"
+    "topBrandsLabel": "Lavoriamo con i brand #1 al mondo",
+    "heroImageAlt": "Trattamenti dentali Maxillodent"
   },
   "tourism": {
     "title": "Turismo Dentale in Albania",
@@ -714,7 +727,8 @@
       ]
     },
     "badge": "✈️ Turismo Dentale",
-    "cta": "Prenota il Tuo Pacchetto"
+    "cta": "Prenota il Tuo Pacchetto",
+    "heroImageAlt": "Clinica Maxillodent - Studio moderno"
   },
   "howItWorks": {
     "meta": {
@@ -804,7 +818,8 @@
           }
         ]
       }
-    }
+    },
+    "heroImageAlt": "Studio dentistico Maxillodent"
   },
   "doctorsPage": {
     "badge": "Team Medico",
@@ -889,7 +904,9 @@
   "common": {
     "bookFree": "Prenota una Consulenza Gratuita",
     "bookNow": "Prenota Ora",
-    "bookAppointment": "Prenota un Appuntamento"
+    "bookAppointment": "Prenota un Appuntamento",
+    "muteVideo": "Silenzia video",
+    "unmuteVideo": "Attiva audio"
   },
   "whatsapp": {
     "title": "Chatta su WhatsApp",

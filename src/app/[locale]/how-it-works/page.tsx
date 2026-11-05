@@ -28,7 +28,7 @@ export default async function HowItWorksPage({ params }: Props) {
     <>
       <PageHero
         imageSrc="/clinic/clinic-0120.jpg"
-        imageAlt="Kabineti dentar Maxillodent"
+        imageAlt={t("heroImageAlt")}
         badge={t("badge")}
         title={t("title")}
         subtitle={t("subtitle")}

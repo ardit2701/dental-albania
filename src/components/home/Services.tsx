@@ -19,7 +19,6 @@ const SERVICE_DATA = [
       </svg>
     ),
     img: 'https://images.unsplash.com/photo-1606265752439-1f18756aa5fc?auto=format&fit=crop&w=600&q=60',
-    imgAlt: 'Implante dentare',
     accent: 'from-sky-600 to-sky-800',
     iconColor: 'bg-sky-500/20 text-sky-200',
     linkColor: 'text-sky-600',
@@ -37,7 +36,6 @@ const SERVICE_DATA = [
       </svg>
     ),
     img: 'https://images.unsplash.com/photo-1609840114035-3c981b782dfe?auto=format&fit=crop&w=600&q=60',
-    imgAlt: 'Kurora dentare',
     accent: 'from-amber-600 to-amber-800',
     iconColor: 'bg-amber-500/20 text-amber-200',
     linkColor: 'text-amber-600',
@@ -53,7 +51,6 @@ const SERVICE_DATA = [
       </svg>
     ),
     img: 'https://images.unsplash.com/photo-1607613009820-a29f7bb81c04?auto=format&fit=crop&w=600&q=60',
-    imgAlt: 'Faseta dentare',
     accent: 'from-violet-600 to-violet-800',
     iconColor: 'bg-violet-500/20 text-violet-200',
     linkColor: 'text-violet-600',
@@ -71,7 +68,6 @@ const SERVICE_DATA = [
       </svg>
     ),
     img: 'https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=600&q=60',
-    imgAlt: 'All-on-6 implante',
     accent: 'from-sky-600 to-sky-800',
     iconColor: 'bg-sky-500/20 text-sky-200',
     linkColor: 'text-sky-600',
@@ -115,7 +111,7 @@ export default async function Services({ locale }: ServicesProps) {
               <div className="relative h-40 overflow-hidden">
                 <Image
                   src={service.img}
-                  alt={service.imgAlt}
+                  alt={service.title}
                   fill
                   className="object-cover transition-transform duration-500 group-hover:scale-105"
                   sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
@@ -155,7 +151,7 @@ export default async function Services({ locale }: ServicesProps) {
 
         {/* Clinic panoramic CTA */}
         <Link href={`/${locale}/treatments`} className="reveal group relative mt-6 h-56 rounded-2xl overflow-hidden block shadow-md hover:shadow-xl transition-shadow duration-300">
-          <Image src="/clinic/clinic-0119.jpg" alt="Klinika Maxillodent" fill className="object-cover object-center group-hover:scale-105 transition-transform duration-700" quality={75} loading="lazy" />
+          <Image src="/clinic/clinic-0119.jpg" alt={t('clinicTitle')} fill className="object-cover object-center group-hover:scale-105 transition-transform duration-700" quality={75} loading="lazy" />
           <div className="absolute inset-0 bg-gradient-to-r from-[#071e2e]/92 via-[#0c4a6e]/30 to-transparent" />
           <div className="absolute inset-0 flex flex-col sm:flex-row items-center justify-between px-8 sm:px-12 py-6 gap-4">
             <div>

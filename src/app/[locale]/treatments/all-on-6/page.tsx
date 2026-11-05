@@ -6,10 +6,12 @@ type Props = {
   params: Promise<{ locale: string }>;
 };
 
-export async function generateMetadata(): Promise<Metadata> {
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "treatments" });
   return {
-    title: "All-on-6 Implante",
-    description: "All-on-6 implante dentare në Maxillodent. Dhëmbë të rinj në 3 ditë.",
+    title: t("allOn6.metaTitle"),
+    description: t("allOn6.metaDesc"),
   };
 }
 
@@ -29,7 +31,7 @@ export default async function AllOn6Page({ params }: Props) {
     <>
       <PageHero
         imageSrc="/clinic/clinic-0119.jpg"
-        imageAlt="Kabineti dentar Maxillodent - All-on-6"
+        imageAlt={t("allOn6.metaTitle")}
         badge={t("allOn6.badge")}
         title={t("allOn6.title")}
         subtitle={t("allOn6.desc")}
@@ -57,7 +59,7 @@ export default async function AllOn6Page({ params }: Props) {
             <div className="bg-gradient-to-br from-[#0284c7] to-[#0369a1] rounded-3xl p-10 text-center">
               <span className="text-8xl block mb-4">🏆</span>
               <h3 className="text-white text-xl font-bold mb-2">All-on-6</h3>
-              <p className="text-[#bae6fd] text-sm">Arkadë e plotë · Dhëmbë të rinj</p>
+              <p className="text-[#bae6fd] text-sm">{t("allOn6.cardSubtitle")}</p>
               <div className="mt-6 bg-white/20 rounded-xl p-4">
                 <p className="text-[#bae6fd] text-sm">{t("contactForQuote")}</p>
               </div>

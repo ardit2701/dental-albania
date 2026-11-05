@@ -403,7 +403,8 @@
       "country": "Ju lutem zgjidhni shtetin",
       "treatment": "Ju lutem zgjidhni trajtimin",
       "privacy": "Duhet të pranoni Politikën e Privatësisë"
-    }
+    },
+    "heroImageAlt": "Klinika Maxillodent - Kabinet dentar"
   },
   "footer": {
     "tagline": "Buzëqeshja juaj e përsosur, e krijuar me kujdes.",
@@ -500,7 +501,10 @@
         "value": "4.9★",
         "label": "Google Reviews"
       }
-    ]
+    ],
+    "heroImageAlt": "Klinika Maxillodent - Sallë Pritje",
+    "storyImageAlt": "Kabineti dentar Maxillodent",
+    "galleryImageAlt": "Klinika Maxillodent"
   },
   "treatments": {
     "title": "Trajtimet Tona",
@@ -547,14 +551,22 @@
       "metaDesc": "Implante dentare Straumann & Neodent të cilësisë botërore në Tiranë, Shqipëri. Çmime të volitshme, garanci e përjetshme."
     },
     "crowns": {
-      "badge": "👑 Kurorë Dentare"
+      "badge": "👑 Kurorë Dentare",
+      "metaTitle": "Kurora Dentare Porcelani - Tiranë",
+      "metaDesc": "Kurora dhe ura dentare cilësore në Maxillodent, Tiranë. Materiale premium, rezultate natyrale.",
+      "cardTitle": "Kurora Porcelani"
     },
     "veneers": {
       "badge": "✨ Faseta Emax",
-      "cardTitle": "Faseta Porcelani"
+      "cardTitle": "Faseta Porcelani",
+      "metaTitle": "Faseta Dentare Porcelani - Tiranë",
+      "metaDesc": "Faseta porcelani në Maxillodent. Transformoni buzëqeshjen tuaj me faseta ultra-thin E-Max."
     },
     "allOn6": {
-      "badge": "🦷 All-on-6"
+      "badge": "🦷 All-on-6",
+      "metaTitle": "All-on-6 Implante Dentare - Tiranë",
+      "metaDesc": "All-on-6 implante dentare në Maxillodent. Dhëmbë të rinj në 3 ditë. Konsultim falas.",
+      "cardSubtitle": "Arkadë e plotë · Dhëmbë të rinj"
     },
     "learnMore": "Mëso Më Shumë",
     "badge": "🦷 Trajtimet Tona",
@@ -696,7 +708,8 @@
     "bookNow": "Rezervo Tani",
     "benefitsTitle": "Avantazhet",
     "contactForQuote": "Kontaktoni klinikën për ofertë personale",
-    "topBrandsLabel": "Punojmë me brendet #1 botërore"
+    "topBrandsLabel": "Punojmë me brendet #1 botërore",
+    "heroImageAlt": "Trajtimet dentare Maxillodent"
   },
   "tourism": {
     "title": "Turizëm Dentar në Shqipëri",
@@ -714,7 +727,8 @@
       ]
     },
     "badge": "✈️ Turizëm Dentar",
-    "cta": "Rezervo Paketën Tënde"
+    "cta": "Rezervo Paketën Tënde",
+    "heroImageAlt": "Klinika Maxillodent - Kabinet modern"
   },
   "howItWorks": {
     "meta": {
@@ -804,7 +818,8 @@
           }
         ]
       }
-    }
+    },
+    "heroImageAlt": "Kabineti dentar Maxillodent"
   },
   "doctorsPage": {
     "badge": "Ekipi Mjekësor",
@@ -889,7 +904,9 @@
   "common": {
     "bookFree": "Cakto Konsultim Falas",
     "bookNow": "Rezervo Tani",
-    "bookAppointment": "Rezervo Takimin"
+    "bookAppointment": "Rezervo Takimin",
+    "muteVideo": "Hiq zërin",
+    "unmuteVideo": "Aktivizo zërin"
   },
   "whatsapp": {
     "title": "Bisedo në WhatsApp",

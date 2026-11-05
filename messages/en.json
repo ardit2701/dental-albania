@@ -403,7 +403,8 @@
       "country": "Please select your country",
       "treatment": "Please select a treatment",
       "privacy": "You must accept the Privacy Policy"
-    }
+    },
+    "heroImageAlt": "Maxillodent - Dental office"
   },
   "footer": {
     "tagline": "Your perfect smile, crafted with care.",
@@ -500,7 +501,10 @@
         "value": "4.9★",
         "label": "Google Reviews"
       }
-    ]
+    ],
+    "heroImageAlt": "Maxillodent Clinic - Waiting Room",
+    "storyImageAlt": "Maxillodent dental office",
+    "galleryImageAlt": "Maxillodent Clinic"
   },
   "treatments": {
     "title": "Our Treatments",
@@ -547,14 +551,22 @@
       "metaDesc": "World-class Straumann & Neodent dental implants in Tirana, Albania. Affordable prices, lifetime warranty."
     },
     "crowns": {
-      "badge": "👑 Dental Crowns"
+      "badge": "👑 Dental Crowns",
+      "metaTitle": "Dental Crowns & Bridges - Tirana, Albania",
+      "metaDesc": "High-quality dental crowns and bridges at Maxillodent, Tirana. Premium materials, natural results.",
+      "cardTitle": "Porcelain Crowns"
     },
     "veneers": {
       "badge": "✨ Emax Veneers",
-      "cardTitle": "Porcelain Veneers"
+      "cardTitle": "Porcelain Veneers",
+      "metaTitle": "Dental Veneers - Tirana, Albania",
+      "metaDesc": "Porcelain veneers at Maxillodent. Transform your smile with ultra-thin E-Max veneers."
     },
     "allOn6": {
-      "badge": "🦷 All-on-6"
+      "badge": "🦷 All-on-6",
+      "metaTitle": "All-on-6 Dental Implants - Tirana, Albania",
+      "metaDesc": "All-on-6 dental implants at Maxillodent. New teeth in 3 days. Free consultation.",
+      "cardSubtitle": "Full arch · New teeth"
     },
     "learnMore": "Learn More",
     "badge": "🦷 Our Treatments",
@@ -696,7 +708,8 @@
     "bookNow": "Book Now",
     "benefitsTitle": "Benefits",
     "contactForQuote": "Contact the clinic for a personal offer",
-    "topBrandsLabel": "We work with the world's #1 brands"
+    "topBrandsLabel": "We work with the world's #1 brands",
+    "heroImageAlt": "Maxillodent dental treatments"
   },
   "tourism": {
     "title": "Dental Tourism in Albania",
@@ -714,7 +727,8 @@
       ]
     },
     "badge": "✈️ Dental Tourism",
-    "cta": "Book Your Package"
+    "cta": "Book Your Package",
+    "heroImageAlt": "Maxillodent Clinic - Modern practice"
   },
   "howItWorks": {
     "meta": {
@@ -804,7 +818,8 @@
           }
         ]
       }
-    }
+    },
+    "heroImageAlt": "Maxillodent dental office"
   },
   "doctorsPage": {
     "badge": "Medical Team",
@@ -889,7 +904,9 @@
   "common": {
     "bookFree": "Book a Free Consultation",
     "bookNow": "Book Now",
-    "bookAppointment": "Book an Appointment"
+    "bookAppointment": "Book an Appointment",
+    "muteVideo": "Mute video",
+    "unmuteVideo": "Unmute video"
   },
   "whatsapp": {
     "title": "Chat on WhatsApp",

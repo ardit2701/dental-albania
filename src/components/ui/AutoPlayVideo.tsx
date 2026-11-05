@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useRef, useState } from 'react';
+import { useTranslations } from 'next-intl';
 
 interface AutoPlayVideoProps {
   src: string;
@@ -8,6 +9,7 @@ interface AutoPlayVideoProps {
 }
 
 export default function AutoPlayVideo({ src, className = '' }: AutoPlayVideoProps) {
+  const t = useTranslations('common');
   const ref = useRef<HTMLVideoElement>(null);
   const [muted, setMuted] = useState(true);
 
@@ -59,7 +61,7 @@ export default function AutoPlayVideo({ src, className = '' }: AutoPlayVideoProp
       <button
         onClick={toggleMute}
         className="absolute bottom-3 right-3 w-10 h-10 rounded-full bg-black/50 hover:bg-black/75 backdrop-blur-sm flex items-center justify-center transition-all opacity-70 group-hover:opacity-100"
-        aria-label={muted ? 'Aktivizo zërin' : 'Hiq zërin'}
+        aria-label={muted ? t('unmuteVideo') : t('muteVideo')}
       >
         {muted ? (
           <svg className="w-5 h-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">

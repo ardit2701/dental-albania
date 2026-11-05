@@ -33,7 +33,7 @@ export default async function DentalTourismPage({ params }: Props) {
     <>
       <PageHero
         imageSrc="/clinic/clinic-0121.jpg"
-        imageAlt="Klinika Maxillodent - Kabinet modern"
+        imageAlt={t("heroImageAlt")}
         badge={t("badge")}
         title={t("title")}
         subtitle={t("subtitle")}

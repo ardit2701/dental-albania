@@ -25,7 +25,7 @@ export default async function ContactPage({ params }: Props) {
     <>
       <PageHero
         imageSrc="/clinic/clinic-0122.jpg"
-        imageAlt="Maxillodent - Kabinet dentar"
+        imageAlt={t("heroImageAlt")}
         badge={t("heroBadge")}
         title={t("heroTitle")}
         subtitle={t("heroSubtitle")}

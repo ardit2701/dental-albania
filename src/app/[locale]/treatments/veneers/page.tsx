@@ -6,10 +6,12 @@ type Props = {
   params: Promise<{ locale: string }>;
 };
 
-export async function generateMetadata(): Promise<Metadata> {
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "treatments" });
   return {
-    title: "Faseta Dentare",
-    description: "Faseta porcelani në Maxillodent. Transformoni buzëqeshjen tuaj.",
+    title: t("veneers.metaTitle"),
+    description: t("veneers.metaDesc"),
   };
 }
 
@@ -29,7 +31,7 @@ export default async function VeneersPage({ params }: Props) {
     <>
       <PageHero
         imageSrc="https://images.unsplash.com/photo-1606811971618-4486d14f3f99?auto=format&fit=crop&w=1600&q=85"
-        imageAlt="Faseta dentare Emax"
+        imageAlt={t("veneers.metaTitle")}
         badge={t("veneers.badge")}
         title={t("veneers.title")}
         subtitle={t("veneers.desc")}

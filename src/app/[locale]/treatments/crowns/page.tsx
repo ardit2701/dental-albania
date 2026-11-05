@@ -6,10 +6,12 @@ type Props = {
   params: Promise<{ locale: string }>;
 };
 
-export async function generateMetadata(): Promise<Metadata> {
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "treatments" });
   return {
-    title: "Kurora Dentare",
-    description: "Kurora dhe ura dentare cilësore në Maxillodent, Tiranë.",
+    title: t("crowns.metaTitle"),
+    description: t("crowns.metaDesc"),
   };
 }
 
@@ -29,7 +31,7 @@ export default async function CrownsPage({ params }: Props) {
     <>
       <PageHero
         imageSrc="https://images.unsplash.com/photo-1606811971618-4486d14f3f99?auto=format&fit=crop&w=1600&q=85"
-        imageAlt="Kurorë dentare porcelani"
+        imageAlt={t("crowns.metaTitle")}
         badge={t("crowns.badge")}
         title={t("crowns.title")}
         subtitle={t("crowns.desc")}
@@ -57,7 +59,7 @@ export default async function CrownsPage({ params }: Props) {
             </div>
             <div className="bg-gradient-to-br from-[#0c4a6e] to-[#0369a1] rounded-3xl p-10 text-center">
               <span className="text-8xl block mb-4">👑</span>
-              <h3 className="text-white text-xl font-bold mb-2">Kurora Porcelani</h3>
+              <h3 className="text-white text-xl font-bold mb-2">{t("crowns.cardTitle")}</h3>
               <p className="text-[#bae6fd] text-sm">E-Max · Zirconia · PFM</p>
               <div className="mt-6 bg-white/20 rounded-xl p-4">
                 <p className="text-[#bae6fd] text-sm">{t("contactForQuote")}</p>
