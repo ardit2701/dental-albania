@@ -37,7 +37,7 @@ export default async function DentalImplantsPage({ params }: Props) {
         title={t("implants.title")}
         subtitle={t("implants.desc")}
         variant={1}
-        cta={{ label: t("bookFree"), href: "#contact" }}
+        cta={{ label: t("bookFree"), href: `/${locale}/contact` }}
       />
 
       {/* Brand trust bar */}

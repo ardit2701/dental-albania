@@ -39,7 +39,7 @@ export default async function CleaningPage({ params }: Props) {
         title={t("cleaning.heroTitle")}
         subtitle={t("cleaning.heroSubtitle")}
         variant={3}
-        cta={{ label: t("bookNow"), href: "#contact" }}
+        cta={{ label: t("bookNow"), href: `/${locale}/contact` }}
       />
 
       <section className="py-16 bg-white">

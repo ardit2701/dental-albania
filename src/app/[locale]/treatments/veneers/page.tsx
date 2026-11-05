@@ -36,7 +36,7 @@ export default async function VeneersPage({ params }: Props) {
         title={t("veneers.title")}
         subtitle={t("veneers.desc")}
         variant={3}
-        cta={{ label: t("bookFree"), href: "#contact" }}
+        cta={{ label: t("bookFree"), href: `/${locale}/contact` }}
       />
 
       <section className="py-16 bg-white">

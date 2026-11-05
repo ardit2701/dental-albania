@@ -36,7 +36,7 @@ export default async function CrownsPage({ params }: Props) {
         title={t("crowns.title")}
         subtitle={t("crowns.desc")}
         variant={2}
-        cta={{ label: t("bookFree"), href: "#contact" }}
+        cta={{ label: t("bookFree"), href: `/${locale}/contact` }}
       />
 
       <section className="py-16 bg-white">

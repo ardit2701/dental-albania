@@ -31,7 +31,7 @@ export default async function AllOn4Page({ params }: Props) {
         title={t("allOn4.title")}
         subtitle={t("allOn4.desc")}
         variant={1}
-        cta={{ label: t("bookFree"), href: "#contact" }}
+        cta={{ label: t("bookFree"), href: `/${locale}/contact` }}
       />
 
       <section className="py-16 bg-white">

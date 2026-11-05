@@ -34,7 +34,7 @@ export default async function OrthodonticsPage({ params }: Props) {
         title={t("orthodontics.heroTitle")}
         subtitle={t("orthodontics.heroSubtitle")}
         variant={2}
-        cta={{ label: t("bookFree"), href: "#contact" }}
+        cta={{ label: t("bookFree"), href: `/${locale}/contact` }}
       />
 
       <section className="py-16 bg-white">

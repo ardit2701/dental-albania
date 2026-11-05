@@ -47,7 +47,7 @@ export default async function DoctorsPage({ params }: Props) {
         title={t("title")}
         subtitle={t("subtitle")}
         variant={2}
-        cta={{ label: t("appointmentBtn"), href: "#contact" }}
+        cta={{ label: t("appointmentBtn"), href: `/${locale}/contact` }}
       />
 
       <section className="py-20 bg-gray-50">

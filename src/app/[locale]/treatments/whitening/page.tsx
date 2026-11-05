@@ -39,7 +39,7 @@ export default async function WhiteningPage({ params }: Props) {
         title={t("whitening.heroTitle")}
         subtitle={t("whitening.heroSubtitle")}
         variant={1}
-        cta={{ label: t("bookNow"), href: "#contact" }}
+        cta={{ label: t("bookNow"), href: `/${locale}/contact` }}
       />
 
       <section className="py-16 bg-white">
