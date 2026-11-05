@@ -722,5 +722,10 @@
     "bookFree": "Cakto Konsultim Falas",
     "bookNow": "Rezervo Tani",
     "bookAppointment": "Rezervo Takimin"
+  },
+  "whatsapp": {
+    "title": "Bisedo në WhatsApp",
+    "subtitle": "Zgjidhni gjuhën",
+    "comingSoon": "Së shpejti · Coming soon"
   }
 }

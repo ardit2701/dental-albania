@@ -722,5 +722,10 @@
     "bookFree": "Prenota una Consulenza Gratuita",
     "bookNow": "Prenota Ora",
     "bookAppointment": "Prenota un Appuntamento"
+  },
+  "whatsapp": {
+    "title": "Chatta su WhatsApp",
+    "subtitle": "Scegli la lingua",
+    "comingSoon": "Prossimamente"
   }
 }

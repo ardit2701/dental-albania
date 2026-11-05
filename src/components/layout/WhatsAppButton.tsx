@@ -1,12 +1,14 @@
 "use client";
 
 import { useState, useEffect, useRef } from "react";
+import { useTranslations } from "next-intl";
 
 const WHATSAPP_ACTIVE = [
   { flag: "🇬🇧", lang: "English", number: "447459296228" },
 ];
 
 export default function WhatsAppButton() {
+  const t = useTranslations("whatsapp");
   const [open, setOpen] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
 
@@ -26,8 +28,8 @@ export default function WhatsAppButton() {
       {open && (
         <div className="bg-white rounded-2xl shadow-2xl border border-gray-100 overflow-hidden w-56 sm:w-64 animate-in slide-in-from-bottom-4 duration-200">
           <div className="bg-[#0284c7] px-4 py-3">
-            <p className="text-white font-semibold text-sm">Chat on WhatsApp</p>
-            <p className="text-[#bae6fd] text-xs mt-0.5">Zgjidhni gjuhën</p>
+            <p className="text-white font-semibold text-sm">{t("title")}</p>
+            <p className="text-[#bae6fd] text-xs mt-0.5">{t("subtitle")}</p>
           </div>
           <div className="p-2">
             {/* Albanian - coming soon */}
@@ -35,7 +37,7 @@ export default function WhatsAppButton() {
               <span className="text-2xl">🇦🇱</span>
               <div>
                 <p className="text-sm font-medium text-gray-800">Shqip</p>
-                <p className="text-xs text-gray-400">Së shpejti · Coming soon</p>
+                <p className="text-xs text-gray-400">{t("comingSoon")}</p>
               </div>
             </div>
             {/* Active options */}

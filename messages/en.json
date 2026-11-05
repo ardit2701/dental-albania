@@ -722,5 +722,10 @@
     "bookFree": "Book a Free Consultation",
     "bookNow": "Book Now",
     "bookAppointment": "Book an Appointment"
+  },
+  "whatsapp": {
+    "title": "Chat on WhatsApp",
+    "subtitle": "Choose your language",
+    "comingSoon": "Coming soon"
   }
 }
