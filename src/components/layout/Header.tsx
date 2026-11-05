@@ -52,6 +52,7 @@ export default function Header({ locale }: HeaderProps) {
     { label: t("implants"), href: `/${locale}/treatments/dental-implants` },
     { label: t("crowns"), href: `/${locale}/treatments/crowns` },
     { label: t("veneers"), href: `/${locale}/treatments/veneers` },
+    { label: t("allOn4"), href: `/${locale}/treatments/all-on-4` },
     { label: t("allOn6"), href: `/${locale}/treatments/all-on-6` },
     { label: t("whitening"), href: `/${locale}/treatments/whitening` },
     { label: t("orthodontics"), href: `/${locale}/treatments/orthodontics` },

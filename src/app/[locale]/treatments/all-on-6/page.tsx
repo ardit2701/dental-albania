@@ -61,7 +61,7 @@ export default async function AllOn6Page({ params }: Props) {
               <h3 className="text-white text-xl font-bold mb-2">All-on-6</h3>
               <p className="text-[#bae6fd] text-sm">{t("allOn6.cardSubtitle")}</p>
               <div className="mt-6 bg-white/20 rounded-xl p-4">
-                <p className="text-[#bae6fd] text-sm">{t("contactForQuote")}</p>
+                <p className="text-[#bae6fd] text-sm">{t("allOn6.priceNote")}</p>
               </div>
             </div>
           </div>

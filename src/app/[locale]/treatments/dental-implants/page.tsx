@@ -97,7 +97,10 @@ export default async function DentalImplantsPage({ params }: Props) {
                   <h3 className="font-extrabold text-gray-900 text-base">Straumann®</h3>
                   <p className="text-blue-600 text-xs font-semibold">{t("implants.straumannSubtitle")}</p>
                 </div>
-                <span className="ml-auto bg-blue-100 text-blue-700 text-[10px] font-bold px-2 py-0.5 rounded-full">{t("implants.worldNo1")}</span>
+                <div className="ml-auto flex flex-col items-end gap-1">
+                  <span className="bg-blue-100 text-blue-700 text-[10px] font-bold px-2 py-0.5 rounded-full">{t("implants.worldNo1")}</span>
+                  <span className="bg-blue-600 text-white text-[11px] font-extrabold px-2 py-0.5 rounded-full">{t("implants.straumannPrice")}</span>
+                </div>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
                 {straumannFeatures.map((f) => (
@@ -123,7 +126,10 @@ export default async function DentalImplantsPage({ params }: Props) {
                   <h3 className="font-extrabold text-gray-900 text-base">Neodent®</h3>
                   <p className="text-green-600 text-xs font-semibold">Straumann Group · {t("implants.neodentQuality")}</p>
                 </div>
-                <span className="ml-auto bg-green-100 text-green-700 text-[10px] font-bold px-2 py-0.5 rounded-full">Best Value</span>
+                <div className="ml-auto flex flex-col items-end gap-1">
+                  <span className="bg-green-100 text-green-700 text-[10px] font-bold px-2 py-0.5 rounded-full">Best Value</span>
+                  <span className="bg-green-600 text-white text-[11px] font-extrabold px-2 py-0.5 rounded-full">{t("implants.neodentPrice")}</span>
+                </div>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
                 {neodentFeatures.map((f) => (

@@ -126,7 +126,7 @@ export default function TreatmentProcess() {
           >
             {tabs[activeTab].steps.map((step, idx) => (
               <SwiperSlide key={`${activeTab}-${idx}`}>
-                <div className="relative w-full" style={{ aspectRatio: '16/9' }}>
+                <div className="relative w-full aspect-[3/4] sm:aspect-[4/3] lg:aspect-video">
                   <Image
                     src={STEP_PHOTOS[activeTab][idx]}
                     alt={step.title}
@@ -136,34 +136,34 @@ export default function TreatmentProcess() {
                     priority={idx === 0}
                   />
                   {/* Dark gradient overlay */}
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/30 to-transparent" />
 
                   {/* Step number badge */}
-                  <div className="absolute top-6 left-6">
-                    <div className="w-12 h-12 rounded-2xl bg-sky-600 shadow-lg flex items-center justify-center">
-                      <span className="text-white font-extrabold text-lg">{idx + 1}</span>
+                  <div className="absolute top-4 left-4 sm:top-6 sm:left-6">
+                    <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-2xl bg-sky-600 shadow-lg flex items-center justify-center">
+                      <span className="text-white font-extrabold text-base sm:text-lg">{idx + 1}</span>
                     </div>
                   </div>
 
                   {/* Progress dots top right */}
-                  <div className="absolute top-6 right-6 flex gap-2">
+                  <div className="absolute top-4 right-4 sm:top-6 sm:right-6 flex gap-2">
                     {tabs[activeTab].steps.map((_, di) => (
                       <button
                         key={di}
                         onClick={() => { swiperRef.current?.slideTo(di); }}
                         className={`rounded-full transition-all duration-300 ${
-                          activeStep === di ? 'bg-white w-6 h-2.5' : 'bg-white/40 w-2.5 h-2.5'
+                          activeStep === di ? 'bg-white w-5 h-2' : 'bg-white/40 w-2 h-2'
                         }`}
                       />
                     ))}
                   </div>
 
                   {/* Text overlay bottom */}
-                  <div className="absolute bottom-0 left-0 right-0 p-6 sm:p-10">
-                    <p className="text-sky-300 text-sm font-semibold mb-1 uppercase tracking-wider">
+                  <div className="absolute bottom-0 left-0 right-0 p-5 sm:p-8 lg:p-10">
+                    <p className="text-sky-300 text-xs sm:text-sm font-semibold mb-1.5 uppercase tracking-wider">
                       {t('step')} {idx + 1} / {tabs[activeTab].steps.length}
                     </p>
-                    <h3 className="text-white font-extrabold text-xl sm:text-2xl mb-2">{step.title}</h3>
+                    <h3 className="text-white font-extrabold text-lg sm:text-2xl mb-2 leading-tight">{step.title}</h3>
                     <p className="text-white/80 text-sm sm:text-base leading-relaxed max-w-2xl">{step.body}</p>
                   </div>
                 </div>

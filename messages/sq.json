@@ -428,7 +428,7 @@
           "href": "/treatments/all-on-6"
         },
         {
-          "label": "Zbardhim Dhëmbësh",
+          "label": "All-on-4",
           "href": "/treatments"
         },
         {
@@ -548,25 +548,60 @@
       ],
       "priceNote": "Për çmime kontaktoni klinikën — oferta personalizohet sipas rastit tuaj.",
       "metaTitle": "Implante Dentare Straumann & Neodent - Tiranë",
-      "metaDesc": "Implante dentare Straumann & Neodent të cilësisë botërore në Tiranë, Shqipëri. Çmime të volitshme, garanci e përjetshme."
+      "metaDesc": "Implante dentare Straumann & Neodent të cilësisë botërore në Tiranë, Shqipëri. Çmime të volitshme, garanci e përjetshme.",
+      "straumannPrice": "nga £800 / implant",
+      "neodentPrice": "nga £500 / implant",
+      "title": "Implante Dentare",
+      "desc": "Implante Straumann & Neodent të cilësisë botërore. Zëvendësim i përhershëm i dhëmbëve.",
+      "benefits": [
+        "Rezultat natyral dhe i përhershëm",
+        "Procedurë brenda 1 dite",
+        "Garanci e përjetshme",
+        "Markat #1 botërore: Straumann & Neodent"
+      ]
     },
     "crowns": {
       "badge": "👑 Kurorë Dentare",
       "metaTitle": "Kurora Dentare Porcelani - Tiranë",
       "metaDesc": "Kurora dhe ura dentare cilësore në Maxillodent, Tiranë. Materiale premium, rezultate natyrale.",
-      "cardTitle": "Kurora Porcelani"
+      "cardTitle": "Kurora Porcelani",
+      "title": "Kurora Dentare",
+      "desc": "Kurora dhe ura porcelani cilësi të lartë. Rezultate natyrale dhe estetike.",
+      "benefits": [
+        "Materiale premium: E-Max, Zirconia, PFM",
+        "Rezistente dhe estetike",
+        "Procedurë e shpejtë",
+        "Jetëgjatësi e lartë"
+      ]
     },
     "veneers": {
       "badge": "✨ Faseta Emax",
       "cardTitle": "Faseta Porcelani",
       "metaTitle": "Faseta Dentare Porcelani - Tiranë",
-      "metaDesc": "Faseta porcelani në Maxillodent. Transformoni buzëqeshjen tuaj me faseta ultra-thin E-Max."
+      "metaDesc": "Faseta porcelani në Maxillodent. Transformoni buzëqeshjen tuaj me faseta ultra-thin E-Max.",
+      "title": "Faseta Dentare",
+      "desc": "Faseta ultra-thin porcelani. Transformoni buzëqeshjen tuaj në mënyrë minimalisht invazive.",
+      "benefits": [
+        "Ultra-thin — ruajnë dhëmbin natyral",
+        "Rezultate të menjëhershme",
+        "E-Max dhe Lumineers",
+        "Jetëgjatësi 10-15 vjet"
+      ]
     },
     "allOn6": {
       "badge": "🦷 All-on-6",
       "metaTitle": "All-on-6 Implante Dentare - Tiranë",
       "metaDesc": "All-on-6 implante dentare në Maxillodent. Dhëmbë të rinj në 3 ditë. Konsultim falas.",
-      "cardSubtitle": "Arkadë e plotë · Dhëmbë të rinj"
+      "cardSubtitle": "Arkadë e plotë · Dhëmbë të rinj",
+      "priceNote": "E diskutueshme — pas një telefonatë falas me doktorin",
+      "title": "All-on-6 — Dhëmbë të Rinj",
+      "desc": "Zgjidhja përfundimtare për humbjen totale të dhëmbëve. 6 implante mbajnë një arkadë të plotë.",
+      "benefits": [
+        "6 implante për stabilitet maksimal",
+        "Procedurë e shpejtë — brenda 1 dite",
+        "Dhëmbë natyralë dhe funksionalë",
+        "Garanci afatgjatë"
+      ]
     },
     "learnMore": "Mëso Më Shumë",
     "badge": "🦷 Trajtimet Tona",
@@ -604,7 +639,8 @@
           "title": "Aligners Transparentë",
           "desc": "Pothuajse të padukshëm. Hiqen gjatë ngrënies dhe pastrimeve."
         }
-      ]
+      ],
+      "title": "Dhëmbë të Rreshtuar Perfektisht"
     },
     "whitening": {
       "badge": "✨ Zbardhim Dhëmbësh",
@@ -653,6 +689,14 @@
           "q": "A mund ta bëj nëse kam kurora?",
           "a": "Zbardhimi nuk ndikon tek kurora apo faseta. Do t'ju këshillojmë gjatë konsultimit."
         }
+      ],
+      "title": "Buzëqeshje e Ndritshme në 1 Orë",
+      "desc": "Zbardhim profesional me teknologji LED dhe gel të certifikuar. Rezultate të menjëhershme dhe të sigurta.",
+      "benefits": [
+        "Rezultate të menjëhershme",
+        "Pa dhimbje",
+        "Sigurt dhe efektiv",
+        "Efekt deri 2 vjet"
       ]
     },
     "cleaning": {
@@ -702,6 +746,14 @@
           "label": "Çmimi",
           "value": "Me kontakt"
         }
+      ],
+      "title": "Higjienë Orale e Nivelit të Lartë",
+      "desc": "Pastrim profesional i dhëmbëve çdo 6 muaj — mbrojtja më e mirë kundër karijes dhe sëmundjeve të mishrave.",
+      "benefits": [
+        "Heqja e gurës dhe pllakës",
+        "Parandalon karieset",
+        "Frymë e freskët",
+        "Gingiva të shëndetshme"
       ]
     },
     "bookFree": "Cakto Konsultim Falas",
@@ -709,7 +761,23 @@
     "benefitsTitle": "Avantazhet",
     "contactForQuote": "Kontaktoni klinikën për ofertë personale",
     "topBrandsLabel": "Punojmë me brendet #1 botërore",
-    "heroImageAlt": "Trajtimet dentare Maxillodent"
+    "heroImageAlt": "Trajtimet dentare Maxillodent",
+    "allOn4": {
+      "metaTitle": "All-on-4 Implante Dentare — Tiranë",
+      "metaDesc": "All-on-4 implante dentare në Maxillodent. Arcade e plotë me vetëm 4 implante. Konsultim falas.",
+      "heroImageAlt": "All-on-4 implante dentare Maxillodent",
+      "badge": "🦷 All-on-4",
+      "title": "All-on-4 — Arcade e Plotë",
+      "desc": "Zgjidhja ideale për ata që kanë humbur shumicën e dhëmbëve. 4 implante mbajnë një arkadë të plotë.",
+      "cardSubtitle": "Arkadë e plotë · 4 Implante",
+      "priceNote": "E diskutueshme — pas një telefonatë falas me doktorin",
+      "benefits": [
+        "Vetëm 4 implante për arkadë të plotë",
+        "Procedurë e shpejtë — brenda 1 dite",
+        "Kosto më e ulët se All-on-6",
+        "Funksion normal i kafshimit dhe të folurit"
+      ]
+    }
   },
   "tourism": {
     "title": "Turizëm Dentar në Shqipëri",

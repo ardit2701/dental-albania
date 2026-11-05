@@ -21,6 +21,7 @@ const TREATMENT_IMAGES = [
   "https://images.unsplash.com/photo-1606265752439-1f18756aa5fc?auto=format&fit=crop&w=600&q=70",
   "https://images.unsplash.com/photo-1609840114035-3c981b782dfe?auto=format&fit=crop&w=600&q=70",
   "https://images.unsplash.com/photo-1607613009820-a29f7bb81c04?auto=format&fit=crop&w=600&q=70",
+  "/clinic/clinic-0122.jpg",
   "https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=600&q=70",
   "https://images.unsplash.com/photo-1606811971618-4486d14f3f99?auto=format&fit=crop&w=600&q=70",
   "/clinic/clinic-0120.jpg",
@@ -49,23 +50,28 @@ export default async function TreatmentsPage({ params }: Props) {
       href: `/${locale}/treatments/veneers`,
     },
     {
-      key: "allOn6",
+      key: "allOn4",
       img: TREATMENT_IMAGES[3],
+      href: `/${locale}/treatments/all-on-4`,
+    },
+    {
+      key: "allOn6",
+      img: TREATMENT_IMAGES[4],
       href: `/${locale}/treatments/all-on-6`,
     },
     {
       key: "orthodontics",
-      img: TREATMENT_IMAGES[4],
+      img: TREATMENT_IMAGES[5],
       href: `/${locale}/treatments/orthodontics`,
     },
     {
       key: "whitening",
-      img: TREATMENT_IMAGES[5],
+      img: TREATMENT_IMAGES[6],
       href: `/${locale}/treatments/whitening`,
     },
     {
       key: "cleaning",
-      img: TREATMENT_IMAGES[6],
+      img: TREATMENT_IMAGES[7],
       href: `/${locale}/treatments/cleaning`,
     },
   ];

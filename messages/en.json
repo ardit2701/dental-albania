@@ -428,7 +428,7 @@
           "href": "/treatments/all-on-6"
         },
         {
-          "label": "Teeth Whitening",
+          "label": "All-on-4",
           "href": "/treatments"
         },
         {
@@ -548,25 +548,60 @@
       ],
       "priceNote": "For pricing, contact the clinic — the offer is personalised to your case.",
       "metaTitle": "Dental Implants Straumann & Neodent - Tirana, Albania",
-      "metaDesc": "World-class Straumann & Neodent dental implants in Tirana, Albania. Affordable prices, lifetime warranty."
+      "metaDesc": "World-class Straumann & Neodent dental implants in Tirana, Albania. Affordable prices, lifetime warranty.",
+      "straumannPrice": "from £800 / implant",
+      "neodentPrice": "from £500 / implant",
+      "title": "Dental Implants",
+      "desc": "World-class Straumann & Neodent implants. A permanent replacement for missing teeth.",
+      "benefits": [
+        "Natural and permanent result",
+        "Procedure within 1 day",
+        "Lifetime warranty",
+        "World's #1 brands: Straumann & Neodent"
+      ]
     },
     "crowns": {
       "badge": "👑 Dental Crowns",
       "metaTitle": "Dental Crowns & Bridges - Tirana, Albania",
       "metaDesc": "High-quality dental crowns and bridges at Maxillodent, Tirana. Premium materials, natural results.",
-      "cardTitle": "Porcelain Crowns"
+      "cardTitle": "Porcelain Crowns",
+      "title": "Dental Crowns & Bridges",
+      "desc": "High-quality porcelain crowns and bridges. Natural and aesthetic results.",
+      "benefits": [
+        "Premium materials: E-Max, Zirconia, PFM",
+        "Durable and aesthetic",
+        "Fast procedure",
+        "Long-lasting results"
+      ]
     },
     "veneers": {
       "badge": "✨ Emax Veneers",
       "cardTitle": "Porcelain Veneers",
       "metaTitle": "Dental Veneers - Tirana, Albania",
-      "metaDesc": "Porcelain veneers at Maxillodent. Transform your smile with ultra-thin E-Max veneers."
+      "metaDesc": "Porcelain veneers at Maxillodent. Transform your smile with ultra-thin E-Max veneers.",
+      "title": "Dental Veneers",
+      "desc": "Ultra-thin porcelain veneers. Transform your smile with minimal invasiveness.",
+      "benefits": [
+        "Ultra-thin — preserves natural tooth",
+        "Immediate results",
+        "E-Max and Lumineers",
+        "10-15 year lifespan"
+      ]
     },
     "allOn6": {
       "badge": "🦷 All-on-6",
       "metaTitle": "All-on-6 Dental Implants - Tirana, Albania",
       "metaDesc": "All-on-6 dental implants at Maxillodent. New teeth in 3 days. Free consultation.",
-      "cardSubtitle": "Full arch · New teeth"
+      "cardSubtitle": "Full arch · New teeth",
+      "priceNote": "Negotiable — after a free phone call with the doctor",
+      "title": "All-on-6 — New Teeth",
+      "desc": "The ultimate solution for total tooth loss. 6 implants support a full arch with maximum stability.",
+      "benefits": [
+        "6 implants for maximum stability",
+        "Fast procedure — within 1 day",
+        "Natural-looking and functional teeth",
+        "Long-term warranty"
+      ]
     },
     "learnMore": "Learn More",
     "badge": "🦷 Our Treatments",
@@ -604,7 +639,8 @@
           "title": "Clear Aligners",
           "desc": "Almost invisible. Removable during eating and cleaning."
         }
-      ]
+      ],
+      "title": "Perfectly Aligned Teeth"
     },
     "whitening": {
       "badge": "✨ Teeth Whitening",
@@ -653,6 +689,14 @@
           "q": "Can I do it if I have crowns?",
           "a": "Whitening does not affect crowns or veneers. We will advise you during consultation."
         }
+      ],
+      "title": "Bright Smile in 1 Hour",
+      "desc": "Professional whitening with LED technology and certified gel. Immediate and safe results.",
+      "benefits": [
+        "Immediate results",
+        "Pain-free",
+        "Safe and effective",
+        "Effect lasts up to 2 years"
       ]
     },
     "cleaning": {
@@ -702,6 +746,14 @@
           "label": "Price",
           "value": "Contact us"
         }
+      ],
+      "title": "High-Level Oral Hygiene",
+      "desc": "Professional teeth cleaning every 6 months — the best protection against cavities and gum disease.",
+      "benefits": [
+        "Removes tartar and plaque",
+        "Prevents cavities",
+        "Fresh breath",
+        "Healthy gums"
       ]
     },
     "bookFree": "Book a Free Consultation",
@@ -709,7 +761,23 @@
     "benefitsTitle": "Benefits",
     "contactForQuote": "Contact the clinic for a personal offer",
     "topBrandsLabel": "We work with the world's #1 brands",
-    "heroImageAlt": "Maxillodent dental treatments"
+    "heroImageAlt": "Maxillodent dental treatments",
+    "allOn4": {
+      "metaTitle": "All-on-4 Dental Implants — Tirana, Albania",
+      "metaDesc": "All-on-4 dental implants at Maxillodent. Full arch with only 4 implants. Free consultation.",
+      "heroImageAlt": "All-on-4 dental implants Maxillodent",
+      "badge": "🦷 All-on-4",
+      "title": "All-on-4 — Full Arch",
+      "desc": "The ideal solution for those who have lost most of their teeth. 4 implants support a full arch.",
+      "cardSubtitle": "Full arch · 4 Implants",
+      "priceNote": "Negotiable — after a free phone call with the doctor",
+      "benefits": [
+        "Only 4 implants per full arch",
+        "Fast procedure — within 1 day",
+        "Lower cost than All-on-6",
+        "Normal chewing and speaking function"
+      ]
+    }
   },
   "tourism": {
     "title": "Dental Tourism in Albania",

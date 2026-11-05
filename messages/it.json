@@ -428,7 +428,7 @@
           "href": "/treatments/all-on-6"
         },
         {
-          "label": "Sbiancamento Denti",
+          "label": "All-on-4",
           "href": "/treatments"
         },
         {
@@ -548,25 +548,60 @@
       ],
       "priceNote": "Per i prezzi, contattare la clinica — l'offerta è personalizzata in base al tuo caso.",
       "metaTitle": "Impianti Dentali Straumann & Neodent - Tirana, Albania",
-      "metaDesc": "Impianti dentali Straumann & Neodent di classe mondiale a Tirana, Albania. Prezzi convenienti, garanzia a vita."
+      "metaDesc": "Impianti dentali Straumann & Neodent di classe mondiale a Tirana, Albania. Prezzi convenienti, garanzia a vita.",
+      "straumannPrice": "da £800 / impianto",
+      "neodentPrice": "da £500 / impianto",
+      "title": "Impianti Dentali",
+      "desc": "Impianti Straumann & Neodent di classe mondiale. Sostituzione permanente dei denti mancanti.",
+      "benefits": [
+        "Risultato naturale e permanente",
+        "Procedura entro 1 giorno",
+        "Garanzia a vita",
+        "Marchi #1 al mondo: Straumann & Neodent"
+      ]
     },
     "crowns": {
       "badge": "👑 Corone Dentali",
       "metaTitle": "Corone e Ponti Dentali - Tirana, Albania",
       "metaDesc": "Corone e ponti dentali di alta qualità da Maxillodent, Tirana. Materiali premium, risultati naturali.",
-      "cardTitle": "Corone in Porcellana"
+      "cardTitle": "Corone in Porcellana",
+      "title": "Corone e Ponti Dentali",
+      "desc": "Corone e ponti in porcellana di alta qualità. Risultati naturali ed estetici.",
+      "benefits": [
+        "Materiali premium: E-Max, Zirconia, PFM",
+        "Resistenti ed estetici",
+        "Procedura rapida",
+        "Risultati duraturi"
+      ]
     },
     "veneers": {
       "badge": "✨ Faccette Emax",
       "cardTitle": "Faccette in Porcellana",
       "metaTitle": "Faccette Dentali - Tirana, Albania",
-      "metaDesc": "Faccette in porcellana da Maxillodent. Trasforma il tuo sorriso con faccette ultra-sottili E-Max."
+      "metaDesc": "Faccette in porcellana da Maxillodent. Trasforma il tuo sorriso con faccette ultra-sottili E-Max.",
+      "title": "Faccette Dentali",
+      "desc": "Faccette in porcellana ultra-sottili. Trasforma il tuo sorriso con minima invasività.",
+      "benefits": [
+        "Ultra-sottili — preservano il dente naturale",
+        "Risultati immediati",
+        "E-Max e Lumineers",
+        "Durata 10-15 anni"
+      ]
     },
     "allOn6": {
       "badge": "🦷 All-on-6",
       "metaTitle": "Impianti All-on-6 - Tirana, Albania",
       "metaDesc": "Impianti All-on-6 da Maxillodent. Nuovi denti in 3 giorni. Consulenza gratuita.",
-      "cardSubtitle": "Arcata completa · Nuovi denti"
+      "cardSubtitle": "Arcata completa · Nuovi denti",
+      "priceNote": "Trattabile — dopo una telefonata gratuita con il medico",
+      "title": "All-on-6 — Nuovi Denti",
+      "desc": "La soluzione definitiva per la perdita totale dei denti. 6 impianti supportano un'arcata completa.",
+      "benefits": [
+        "6 impianti per la massima stabilità",
+        "Procedura rapida — entro 1 giorno",
+        "Denti dall'aspetto naturale e funzionali",
+        "Garanzia a lungo termine"
+      ]
     },
     "learnMore": "Scopri di Più",
     "badge": "🦷 I Nostri Trattamenti",
@@ -604,7 +639,8 @@
           "title": "Aligner Trasparenti",
           "desc": "Quasi invisibili. Rimovibili durante i pasti e la pulizia."
         }
-      ]
+      ],
+      "title": "Denti Perfettamente Allineati"
     },
     "whitening": {
       "badge": "✨ Sbiancamento Denti",
@@ -653,6 +689,14 @@
           "q": "Posso farlo se ho corone?",
           "a": "Lo sbiancamento non influisce su corone o faccette. Vi consiglieremo durante la consulenza."
         }
+      ],
+      "title": "Sorriso Luminoso in 1 Ora",
+      "desc": "Sbiancamento professionale con tecnologia LED e gel certificato. Risultati immediati e sicuri.",
+      "benefits": [
+        "Risultati immediati",
+        "Senza dolore",
+        "Sicuro ed efficace",
+        "Effetto fino a 2 anni"
       ]
     },
     "cleaning": {
@@ -702,6 +746,14 @@
           "label": "Prezzo",
           "value": "Contattaci"
         }
+      ],
+      "title": "Igiene Orale di Alto Livello",
+      "desc": "Pulizia professionale dei denti ogni 6 mesi — la migliore protezione contro carie e malattie gengivali.",
+      "benefits": [
+        "Rimozione di tartaro e placca",
+        "Previene le carie",
+        "Alito fresco",
+        "Gengive sane"
       ]
     },
     "bookFree": "Prenota una Consulenza Gratuita",
@@ -709,7 +761,23 @@
     "benefitsTitle": "Vantaggi",
     "contactForQuote": "Contatta la clinica per un'offerta personalizzata",
     "topBrandsLabel": "Lavoriamo con i brand #1 al mondo",
-    "heroImageAlt": "Trattamenti dentali Maxillodent"
+    "heroImageAlt": "Trattamenti dentali Maxillodent",
+    "allOn4": {
+      "metaTitle": "Impianti All-on-4 — Tirana, Albania",
+      "metaDesc": "Impianti All-on-4 da Maxillodent. Arcata completa con soli 4 impianti. Consulenza gratuita.",
+      "heroImageAlt": "Impianti All-on-4 Maxillodent",
+      "badge": "🦷 All-on-4",
+      "title": "All-on-4 — Arcata Completa",
+      "desc": "La soluzione ideale per chi ha perso la maggior parte dei denti. 4 impianti supportano un'arcata completa.",
+      "cardSubtitle": "Arcata completa · 4 Impianti",
+      "priceNote": "Trattabile — dopo una telefonata gratuita con il medico",
+      "benefits": [
+        "Solo 4 impianti per arcata completa",
+        "Procedura rapida — entro 1 giorno",
+        "Costo inferiore rispetto all'All-on-6",
+        "Normale funzione di masticazione e fonazione"
+      ]
+    }
   },
   "tourism": {
     "title": "Turismo Dentale in Albania",

@@ -1,0 +1,77 @@
+import { getTranslations, setRequestLocale } from "next-intl/server";
+import type { Metadata } from "next";
+import PageHero from "@/components/layout/PageHero";
+
+type Props = {
+  params: Promise<{ locale: string }>;
+};
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "treatments" });
+  return {
+    title: t("allOn4.metaTitle"),
+    description: t("allOn4.metaDesc"),
+  };
+}
+
+export default async function AllOn4Page({ params }: Props) {
+  const { locale } = await params;
+  setRequestLocale(locale);
+  const t = await getTranslations("treatments");
+
+  const benefits = [0, 1, 2, 3].map((i) => (t as any)(`allOn4.benefits.${i}`));
+
+  return (
+    <>
+      <PageHero
+        imageSrc="/clinic/clinic-0122.jpg"
+        imageAlt={t("allOn4.heroImageAlt")}
+        badge={t("allOn4.badge")}
+        title={t("allOn4.title")}
+        subtitle={t("allOn4.desc")}
+        variant={1}
+        cta={{ label: t("bookFree"), href: "#contact" }}
+      />
+
+      <section className="py-16 bg-white">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
+            <div>
+              <h2 className="text-2xl font-bold text-gray-900 mb-5">{t("benefitsTitle")}</h2>
+              <ul className="space-y-3">
+                {benefits.map((b) => (
+                  <li key={b} className="flex items-center gap-3 p-3 bg-[#f0fdfa] rounded-xl">
+                    <div className="w-6 h-6 bg-[#0284c7] rounded-full flex items-center justify-center shrink-0">
+                      <svg className="w-3.5 h-3.5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
+                      </svg>
+                    </div>
+                    <span className="text-gray-700 font-medium text-sm">{b}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <div className="bg-gradient-to-br from-[#0284c7] to-[#0369a1] rounded-3xl p-10 text-center">
+              <span className="text-8xl block mb-4">🦷</span>
+              <h3 className="text-white text-xl font-bold mb-2">All-on-4</h3>
+              <p className="text-[#bae6fd] text-sm">{t("allOn4.cardSubtitle")}</p>
+              <div className="mt-6 bg-white/20 rounded-xl p-4">
+                <p className="text-[#bae6fd] text-sm">{t("allOn4.priceNote")}</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="mt-12 text-center">
+            <a
+              href={`/${locale}/contact`}
+              className="inline-flex items-center gap-2 px-8 py-4 bg-[#0284c7] hover:bg-[#0369a1] text-white font-bold text-base rounded-xl transition-all duration-300 hover:-translate-y-0.5 shadow-lg"
+            >
+              {t("bookFree")}
+            </a>
+          </div>
+        </div>
+      </section>
+    </>
+  );
+}

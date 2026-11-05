@@ -15,7 +15,7 @@ export default async function Footer({ locale }: FooterProps) {
     { label: t("treatments.links.1.label"), href: `/${locale}/treatments/crowns` },
     { label: t("treatments.links.2.label"), href: `/${locale}/treatments/veneers` },
     { label: t("treatments.links.3.label"), href: `/${locale}/treatments/all-on-6` },
-    { label: t("treatments.links.4.label"), href: `/${locale}/treatments` },
+    { label: t("treatments.links.4.label"), href: `/${locale}/treatments/all-on-4` },
     { label: t("treatments.links.5.label"), href: `/${locale}/treatments` },
   ];
 
@@ -66,7 +66,7 @@ export default async function Footer({ locale }: FooterProps) {
                 </svg>
               </a>
               <a
-                href="https://facebook.com/maxillodent.al"
+                href="https://www.facebook.com/profile.php?id=61596250434364"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-9 h-9 rounded-full bg-white/10 hover:bg-[#0284c7] flex items-center justify-center transition-colors"
