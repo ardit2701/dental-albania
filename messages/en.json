@@ -186,7 +186,7 @@
     "cta": "Book Free Consultation",
     "stats": [
       {
-        "value": "5,200+",
+        "value": "1,000+",
         "label": "Happy Patients"
       },
       {
@@ -347,7 +347,11 @@
     "phoneAL": "",
     "phoneALLabel": "Inside Albania",
     "phoneALPlaceholder": "Coming soon",
-    "infoTitle": "Contact Information"
+    "infoTitle": "Contact Information",
+    "badge": "Contact",
+    "addressLabel": "Address",
+    "emailLabel": "Email",
+    "hoursLabel": "Hours"
   },
   "footer": {
     "tagline": "Your perfect smile, crafted with care.",
@@ -422,7 +426,29 @@
     "title": "About the Clinic",
     "subtitle": "15 years of experience in international-level dental care",
     "story": "Maxillodent was founded in 2009 with a clear mission: to offer Albanian and international patients world-class dental care. Today, with over 5,000 satisfied patients and a team of 12 specialist doctors, we are the leading dental clinic in Albania.",
-    "mission": "Our mission is to transform the smiles and lives of our patients by offering excellent dental care, the latest technology and personalised service."
+    "mission": "Our mission is to transform the smiles and lives of our patients by offering excellent dental care, the latest technology and personalised service.",
+    "badge": "🏥 About Us",
+    "storyTitle": "Our Story",
+    "missionTitle": "Our Mission",
+    "galleryTitle": "The Clinic",
+    "stats": [
+      {
+        "value": "1,000+",
+        "label": "Satisfied Patients"
+      },
+      {
+        "value": "15+",
+        "label": "Years of Experience"
+      },
+      {
+        "value": "98%",
+        "label": "Success Rate"
+      },
+      {
+        "value": "4.9★",
+        "label": "Google Reviews"
+      }
+    ]
   },
   "treatments": {
     "title": "Our Treatments",
@@ -500,7 +526,9 @@
         "Fluoride application",
         "Oral hygiene guidance"
       ]
-    }
+    },
+    "bookFree": "Book a Free Consultation",
+    "bookNow": "Book Now"
   },
   "tourism": {
     "title": "Dental Tourism in Albania",
@@ -516,7 +544,9 @@
         "Tour of historic Tirana",
         "Optional beach trip to Albanian Riviera"
       ]
-    }
+    },
+    "badge": "✈️ Dental Tourism",
+    "cta": "Book Your Package"
   },
   "howItWorks": {
     "meta": {
@@ -687,5 +717,10 @@
         ]
       }
     ]
+  },
+  "common": {
+    "bookFree": "Book a Free Consultation",
+    "bookNow": "Book Now",
+    "bookAppointment": "Book an Appointment"
   }
 }

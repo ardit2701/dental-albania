@@ -186,7 +186,7 @@
     "cta": "Cakto Konsultim Falas",
     "stats": [
       {
-        "value": "5,200+",
+        "value": "1,000+",
         "label": "Pacientë të Kënaqur"
       },
       {
@@ -347,7 +347,11 @@
     "phoneAL": "",
     "phoneALLabel": "Brenda Shqipërisë",
     "phoneALPlaceholder": "Së shpejti",
-    "infoTitle": "Informacion Kontakti"
+    "infoTitle": "Informacion Kontakti",
+    "badge": "Kontakti",
+    "addressLabel": "Adresa",
+    "emailLabel": "Email",
+    "hoursLabel": "Orari"
   },
   "footer": {
     "tagline": "Buzëqeshja juaj e përsosur, e krijuar me kujdes.",
@@ -422,7 +426,29 @@
     "title": "Rreth Klinikës",
     "subtitle": "15 vjet eksperiencë në shërbimin dentar të nivelit ndërkombëtar",
     "story": "Maxillodent u themelua në vitin 2009 me një mision të qartë: t'u ofrojë pacientëve shqiptarë dhe ndërkombëtarë kujdes dentar të nivelit botëror. Sot, me mbi 5,000 pacientë të kënaqur dhe një ekip prej 12 mjekësh specialistë, jemi klinika dentare kryesore në Shqipëri.",
-    "mission": "Misioni ynë është të transformojmë buzëqeshjet dhe jetët e pacientëve tanë duke ofruar kujdes dentar të shkëlqyer, teknologji të fundit dhe shërbim të personalizuar."
+    "mission": "Misioni ynë është të transformojmë buzëqeshjet dhe jetët e pacientëve tanë duke ofruar kujdes dentar të shkëlqyer, teknologji të fundit dhe shërbim të personalizuar.",
+    "badge": "🏥 Rreth Nesh",
+    "storyTitle": "Historia Jonë",
+    "missionTitle": "Misioni Ynë",
+    "galleryTitle": "Ambientet e Klinikes",
+    "stats": [
+      {
+        "value": "1,000+",
+        "label": "Pacientë të Kënaqur"
+      },
+      {
+        "value": "15+",
+        "label": "Vjet Eksperiencë"
+      },
+      {
+        "value": "98%",
+        "label": "Shkallë Suksesi"
+      },
+      {
+        "value": "4.9★",
+        "label": "Google Reviews"
+      }
+    ]
   },
   "treatments": {
     "title": "Trajtimet Tona",
@@ -500,7 +526,9 @@
         "Aplikim fluoridi",
         "Udhëzime higjiena orale"
       ]
-    }
+    },
+    "bookFree": "Cakto Konsultim Falas",
+    "bookNow": "Rezervo Tani"
   },
   "tourism": {
     "title": "Turizëm Dentar në Shqipëri",
@@ -516,7 +544,9 @@
         "Tur i Tiranës historike",
         "Opsion plazhi në Rivierën Shqiptare"
       ]
-    }
+    },
+    "badge": "✈️ Turizëm Dentar",
+    "cta": "Rezervo Paketën Tënde"
   },
   "howItWorks": {
     "meta": {
@@ -687,5 +717,10 @@
         ]
       }
     ]
+  },
+  "common": {
+    "bookFree": "Cakto Konsultim Falas",
+    "bookNow": "Rezervo Tani",
+    "bookAppointment": "Rezervo Takimin"
   }
 }

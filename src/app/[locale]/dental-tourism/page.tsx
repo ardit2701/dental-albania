@@ -6,10 +6,12 @@ type Props = {
   params: Promise<{ locale: string }>;
 };
 
-export async function generateMetadata(): Promise<Metadata> {
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "tourism" });
   return {
-    title: "Turizëm Dentar",
-    description: "Turizëm dentar në Shqipëri - kombinoni trajtimin dentar me pushim.",
+    title: t("title"),
+    description: t("subtitle"),
   };
 }
 
@@ -32,7 +34,7 @@ export default async function DentalTourismPage({ params }: Props) {
       <PageHero
         imageSrc="/clinic/clinic-0121.jpg"
         imageAlt="Klinika Maxillodent - Kabinet modern"
-        badge="✈️ Turizëm Dentar"
+        badge={t("badge")}
         title={t("title")}
         subtitle={t("subtitle")}
         variant={2}
@@ -65,7 +67,7 @@ export default async function DentalTourismPage({ params }: Props) {
               href={`/${locale}/contact`}
               className="inline-flex items-center gap-2 px-8 py-4 bg-[#0284c7] hover:bg-[#0369a1] text-white font-bold text-base rounded-xl transition-all duration-300 hover:-translate-y-0.5 shadow-lg"
             >
-              Rezervo Paketën Tënde
+              {t("cta")}
             </a>
           </div>
         </div>

@@ -1,4 +1,4 @@
-import { setRequestLocale } from "next-intl/server";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 import type { Metadata } from "next";
 import PageHero from "@/components/layout/PageHero";
 
@@ -14,6 +14,7 @@ export async function generateMetadata(): Promise<Metadata> {
 export default async function WhiteningPage({ params }: Props) {
   const { locale } = await params;
   setRequestLocale(locale);
+  const t = await getTranslations("treatments");
 
   const faqs = [
     { q: "Sa kohë zgjat efekti?", a: "Efekti zgjat 1-3 vjet me mirëmbajtje të duhur dhe pastrim të rregullt." },
@@ -31,7 +32,7 @@ export default async function WhiteningPage({ params }: Props) {
         title="Buzëqeshje e Ndritshme në 1 Orë"
         subtitle="Zbardhim profesional me teknologji LED dhe gel të certifikuar. Rezultate të menjëhershme dhe të sigurta."
         variant={1}
-        cta={{ label: "Rezervo Tani", href: "#contact" }}
+        cta={{ label: t("bookNow"), href: "#contact" }}
       />
 
       <section className="py-16 bg-white">
@@ -94,7 +95,7 @@ export default async function WhiteningPage({ params }: Props) {
               href={`/${locale}/contact`}
               className="inline-flex items-center gap-2 px-8 py-4 bg-[#0284c7] hover:bg-[#0369a1] text-white font-bold text-base rounded-xl transition-all duration-300 hover:-translate-y-0.5 shadow-lg"
             >
-              Cakto Konsultim Falas
+              {t("bookFree")}
             </a>
           </div>
         </div>

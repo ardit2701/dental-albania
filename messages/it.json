@@ -186,7 +186,7 @@
     "cta": "Prenota Consulenza Gratuita",
     "stats": [
       {
-        "value": "5.200+",
+        "value": "1,000+",
         "label": "Pazienti Soddisfatti"
       },
       {
@@ -347,7 +347,11 @@
     "phoneAL": "",
     "phoneALLabel": "In Albania",
     "phoneALPlaceholder": "Prossimamente",
-    "infoTitle": "Informazioni di Contatto"
+    "infoTitle": "Informazioni di Contatto",
+    "badge": "Contatti",
+    "addressLabel": "Indirizzo",
+    "emailLabel": "Email",
+    "hoursLabel": "Orari"
   },
   "footer": {
     "tagline": "Il tuo sorriso perfetto, realizzato con cura.",
@@ -422,7 +426,29 @@
     "title": "Sulla Clinica",
     "subtitle": "15 anni di esperienza nelle cure dentali di livello internazionale",
     "story": "Maxillodent è stata fondata nel 2009 con una missione chiara: offrire ai pazienti albanesi e internazionali cure dentali di livello mondiale. Oggi, con oltre 5.000 pazienti soddisfatti e un team di 12 medici specialisti, siamo la clinica dentale leader in Albania.",
-    "mission": "La nostra missione è trasformare i sorrisi e le vite dei nostri pazienti offrendo eccellenti cure dentali, la tecnologia più recente e un servizio personalizzato."
+    "mission": "La nostra missione è trasformare i sorrisi e le vite dei nostri pazienti offrendo eccellenti cure dentali, la tecnologia più recente e un servizio personalizzato.",
+    "badge": "🏥 Chi Siamo",
+    "storyTitle": "La Nostra Storia",
+    "missionTitle": "La Nostra Missione",
+    "galleryTitle": "La Clinica",
+    "stats": [
+      {
+        "value": "1,000+",
+        "label": "Pazienti Soddisfatti"
+      },
+      {
+        "value": "15+",
+        "label": "Anni di Esperienza"
+      },
+      {
+        "value": "98%",
+        "label": "Tasso di Successo"
+      },
+      {
+        "value": "4.9★",
+        "label": "Google Reviews"
+      }
+    ]
   },
   "treatments": {
     "title": "I Nostri Trattamenti",
@@ -500,7 +526,9 @@
         "Applicazione di fluoro",
         "Guida all'igiene orale"
       ]
-    }
+    },
+    "bookFree": "Prenota una Consulenza Gratuita",
+    "bookNow": "Prenota Ora"
   },
   "tourism": {
     "title": "Turismo Dentale in Albania",
@@ -516,7 +544,9 @@
         "Tour della storica Tirana",
         "Opzione spiaggia sulla Riviera Albanese"
       ]
-    }
+    },
+    "badge": "✈️ Turismo Dentale",
+    "cta": "Prenota il Tuo Pacchetto"
   },
   "howItWorks": {
     "meta": {
@@ -687,5 +717,10 @@
         ]
       }
     ]
+  },
+  "common": {
+    "bookFree": "Prenota una Consulenza Gratuita",
+    "bookNow": "Prenota Ora",
+    "bookAppointment": "Prenota un Appuntamento"
   }
 }

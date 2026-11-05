@@ -1,4 +1,4 @@
-import { setRequestLocale } from "next-intl/server";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 import type { Metadata } from "next";
 import PageHero from "@/components/layout/PageHero";
 
@@ -14,6 +14,7 @@ export async function generateMetadata(): Promise<Metadata> {
 export default async function CleaningPage({ params }: Props) {
   const { locale } = await params;
   setRequestLocale(locale);
+  const t = await getTranslations("treatments");
 
   const steps = [
     { num: "01", title: "Ekzaminim i Plotë", desc: "Kontrollohet gjendja e dhëmbëve dhe mishrave para procedurës." },
@@ -31,7 +32,7 @@ export default async function CleaningPage({ params }: Props) {
         title="Higjienë Orale e Nivelit të Lartë"
         subtitle="Pastrim profesional i dhëmbëve çdo 6 muaj — mbrojtja më e mirë kundër karijes dhe sëmundjeve të mishrave."
         variant={3}
-        cta={{ label: "Rezervo Tani", href: "#contact" }}
+        cta={{ label: t("bookNow"), href: "#contact" }}
       />
 
       <section className="py-16 bg-white">
@@ -77,7 +78,7 @@ export default async function CleaningPage({ params }: Props) {
               href={`/${locale}/contact`}
               className="inline-flex items-center gap-2 px-8 py-4 bg-[#0284c7] hover:bg-[#0369a1] text-white font-bold text-base rounded-xl transition-all duration-300 hover:-translate-y-0.5 shadow-lg"
             >
-              Rezervo Takimin
+              {t("bookFree")}
             </a>
           </div>
         </div>

@@ -4,16 +4,18 @@ import Image from "next/image";
 import type { Metadata } from "next";
 import PageHero from "@/components/layout/PageHero";
 
-export async function generateMetadata(): Promise<Metadata> {
-  return {
-    title: "Trajtimet",
-    description: "Gama e plotë e trajtimeve dentare në Maxillodent Dental and Maxillofacial Clinic.",
-  };
-}
-
 type Props = {
   params: Promise<{ locale: string }>;
 };
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "treatments" });
+  return {
+    title: t("title"),
+    description: t("subtitle"),
+  };
+}
 
 const TREATMENT_IMAGES = [
   "https://images.unsplash.com/photo-1606265752439-1f18756aa5fc?auto=format&fit=crop&w=600&q=70",

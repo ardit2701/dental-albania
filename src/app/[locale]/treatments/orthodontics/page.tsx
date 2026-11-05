@@ -1,4 +1,4 @@
-import { setRequestLocale } from "next-intl/server";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 import type { Metadata } from "next";
 import PageHero from "@/components/layout/PageHero";
 
@@ -14,6 +14,7 @@ export async function generateMetadata(): Promise<Metadata> {
 export default async function OrthodonticsPage({ params }: Props) {
   const { locale } = await params;
   setRequestLocale(locale);
+  const t = await getTranslations("treatments");
 
   const benefits = [
     "Rreshtim i përsosur i dhëmbëve",
@@ -81,7 +82,7 @@ export default async function OrthodonticsPage({ params }: Props) {
               href={`/${locale}/contact`}
               className="inline-flex items-center gap-2 px-8 py-4 bg-[#0284c7] hover:bg-[#0369a1] text-white font-bold text-base rounded-xl transition-all duration-300 hover:-translate-y-0.5 shadow-lg"
             >
-              Cakto Konsultim Falas
+              {t("bookFree")}
             </a>
           </div>
         </div>
