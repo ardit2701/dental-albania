@@ -28,7 +28,7 @@
     "subtitle": "Specializuar në implante, faseta dhe rehabilitim të plotë oral. Rezervoni konsultimin tuaj falas sot.",
     "ctaPrimary": "Cakto Takim Falas",
     "ctaSecondary": "Shiko Rezultatet",
-    "stat1Value": "5,000+",
+    "stat1Value": "1,000+",
     "stat1Label": "Pacientë të Kënaqur",
     "stat2Value": "15+",
     "stat2Label": "Vjet Eksperiencë",
@@ -425,7 +425,7 @@
   "about": {
     "title": "Rreth Klinikës",
     "subtitle": "15 vjet eksperiencë në shërbimin dentar të nivelit ndërkombëtar",
-    "story": "Maxillodent u themelua në vitin 2009 me një mision të qartë: t'u ofrojë pacientëve shqiptarë dhe ndërkombëtarë kujdes dentar të nivelit botëror. Sot, me mbi 5,000 pacientë të kënaqur dhe një ekip prej 12 mjekësh specialistë, jemi klinika dentare kryesore në Shqipëri.",
+    "story": "Maxillodent u themelua në vitin 2009 me një mision të qartë: t'u ofrojë pacientëve shqiptarë dhe ndërkombëtarë kujdes dentar të nivelit botëror. Sot, me mbi 1,000 pacientë të kënaqur dhe një ekip prej 12 mjekësh specialistë, jemi klinika dentare kryesore në Shqipëri.",
     "mission": "Misioni ynë është të transformojmë buzëqeshjet dhe jetët e pacientëve tanë duke ofruar kujdes dentar të shkëlqyer, teknologji të fundit dhe shërbim të personalizuar.",
     "badge": "🏥 Rreth Nesh",
     "storyTitle": "Historia Jonë",
@@ -624,7 +624,7 @@
           },
           {
             "icon": "🏛️",
-            "label": "Mbi 5,000 pacientë të trajtuar me sukses"
+            "label": "Mbi 1,000 pacientë të trajtuar me sukses"
           },
           {
             "icon": "🌍",

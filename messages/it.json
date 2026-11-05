@@ -28,7 +28,7 @@
     "subtitle": "Specializzati in impianti, faccette e riabilitazione orale completa. Prenota oggi la tua consulenza gratuita.",
     "ctaPrimary": "Prenota Consulenza Gratuita",
     "ctaSecondary": "Vedi i Risultati",
-    "stat1Value": "5.000+",
+    "stat1Value": "1.000+",
     "stat1Label": "Pazienti Soddisfatti",
     "stat2Value": "15+",
     "stat2Label": "Anni di Esperienza",
@@ -425,7 +425,7 @@
   "about": {
     "title": "Sulla Clinica",
     "subtitle": "15 anni di esperienza nelle cure dentali di livello internazionale",
-    "story": "Maxillodent è stata fondata nel 2009 con una missione chiara: offrire ai pazienti albanesi e internazionali cure dentali di livello mondiale. Oggi, con oltre 5.000 pazienti soddisfatti e un team di 12 medici specialisti, siamo la clinica dentale leader in Albania.",
+    "story": "Maxillodent è stata fondata nel 2009 con una missione chiara: offrire ai pazienti albanesi e internazionali cure dentali di livello mondiale. Oggi, con oltre 1.000 pazienti soddisfatti e un team di 12 medici specialisti, siamo la clinica dentale leader in Albania.",
     "mission": "La nostra missione è trasformare i sorrisi e le vite dei nostri pazienti offrendo eccellenti cure dentali, la tecnologia più recente e un servizio personalizzato.",
     "badge": "🏥 Chi Siamo",
     "storyTitle": "La Nostra Storia",
@@ -624,7 +624,7 @@
           },
           {
             "icon": "🏛️",
-            "label": "Oltre 5.000 pazienti trattati con successo"
+            "label": "Oltre 1.000 pazienti trattati con successo"
           },
           {
             "icon": "🌍",

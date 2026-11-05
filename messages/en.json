@@ -28,7 +28,7 @@
     "subtitle": "Specializing in implants, veneers, and full oral rehabilitation. Book your free consultation today.",
     "ctaPrimary": "Book Free Consultation",
     "ctaSecondary": "See Results",
-    "stat1Value": "5,000+",
+    "stat1Value": "1,000+",
     "stat1Label": "Happy Patients",
     "stat2Value": "15+",
     "stat2Label": "Years Experience",
@@ -425,7 +425,7 @@
   "about": {
     "title": "About the Clinic",
     "subtitle": "15 years of experience in international-level dental care",
-    "story": "Maxillodent was founded in 2009 with a clear mission: to offer Albanian and international patients world-class dental care. Today, with over 5,000 satisfied patients and a team of 12 specialist doctors, we are the leading dental clinic in Albania.",
+    "story": "Maxillodent was founded in 2009 with a clear mission: to offer Albanian and international patients world-class dental care. Today, with over 1,000 satisfied patients and a team of 12 specialist doctors, we are the leading dental clinic in Albania.",
     "mission": "Our mission is to transform the smiles and lives of our patients by offering excellent dental care, the latest technology and personalised service.",
     "badge": "🏥 About Us",
     "storyTitle": "Our Story",
@@ -624,7 +624,7 @@
           },
           {
             "icon": "🏛️",
-            "label": "Over 5,000 patients successfully treated"
+            "label": "Over 1,000 patients successfully treated"
           },
           {
             "icon": "🌍",

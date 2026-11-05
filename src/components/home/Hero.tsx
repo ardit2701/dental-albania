@@ -124,7 +124,7 @@ export default function Hero({ locale }: HeroProps) {
   const [statsActive, setStatsActive] = useState(false);
   const statsRef = useRef<HTMLDivElement>(null);
 
-  const patients = useCountUp(5200, 2000, statsActive);
+  const patients = useCountUp(1000, 2000, statsActive);
   const years    = useCountUp(15,   1500, statsActive);
   const success  = useCountUp(98,   1800, statsActive);
 
