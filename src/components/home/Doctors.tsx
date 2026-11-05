@@ -10,13 +10,13 @@ const DOCTOR_STATIC: { name: string; title: string; photo: string | null; gradie
   {
     name: 'Dr. Arlind Myftari',
     title: 'DMD, MD',
-    photo: '/doctors/arlind-myftari.png',
+    photo: '/doctors/arlind-myftari.jpg',
     gradient: { from: '#0284c7', to: '#0c4a6e' },
   },
   {
     name: 'Dr. Odeta Shehu',
     title: 'DMD',
-    photo: null,
+    photo: '/doctors/odeta-shehu-new.jpg',
     gradient: { from: '#0c4a6e', to: '#0369a1' },
   },
 ];
@@ -64,7 +64,7 @@ export default async function Doctors({ locale }: DoctorsProps) {
             >
               {/* Photo area */}
               <div
-                className="h-64 relative overflow-hidden"
+                className="h-80 relative overflow-hidden"
                 style={{ background: `linear-gradient(135deg, ${doc.gradient.from} 0%, ${doc.gradient.to} 100%)` }}
               >
                 {doc.photo && (
@@ -72,7 +72,8 @@ export default async function Doctors({ locale }: DoctorsProps) {
                     src={doc.photo}
                     alt={doc.name}
                     fill
-                    className="object-cover object-top"
+                    className="object-cover"
+                    style={{ objectPosition: '50% 12%' }}
                     sizes="(max-width: 640px) 100vw, 50vw"
                   />
                 )}

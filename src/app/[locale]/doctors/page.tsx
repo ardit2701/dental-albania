@@ -18,7 +18,7 @@ const DOCTOR_STATIC = [
   {
     name: "Dr. Arlind Myftari",
     title: "DMD, MD",
-    photo: "/doctors/arlind-myftari.png",
+    photo: "/doctors/arlind-myftari.jpg",
     accent: "#003087",
     tagClass: "bg-blue-50 text-blue-700 border-blue-100",
     educationCount: 5,
@@ -26,7 +26,7 @@ const DOCTOR_STATIC = [
   {
     name: "Dr. Odeta Shehu",
     title: "DMD",
-    photo: null,
+    photo: '/doctors/odeta-shehu-new.jpg',
     accent: "#0284c7",
     tagClass: "bg-sky-50 text-sky-700 border-sky-100",
     educationCount: 4,
