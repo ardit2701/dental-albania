@@ -558,7 +558,8 @@
         "Procedura entro 1 giorno",
         "Garanzia a vita",
         "Marchi #1 al mondo: Straumann & Neodent"
-      ]
+      ],
+      "priceLabel": "A partire da"
     },
     "crowns": {
       "badge": "👑 Corone Dentali",

@@ -558,7 +558,8 @@
         "Procedure within 1 day",
         "Lifetime warranty",
         "World's #1 brands: Straumann & Neodent"
-      ]
+      ],
+      "priceLabel": "Starting from"
     },
     "crowns": {
       "badge": "👑 Dental Crowns",

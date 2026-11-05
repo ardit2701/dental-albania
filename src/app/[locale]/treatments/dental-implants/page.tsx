@@ -93,14 +93,16 @@ export default async function DentalImplantsPage({ params }: Props) {
                     <circle cx="12" cy="12" r="2" fill="white" />
                   </svg>
                 </div>
-                <div>
+                <div className="flex-1">
                   <h3 className="font-extrabold text-gray-900 text-base">Straumann®</h3>
                   <p className="text-blue-600 text-xs font-semibold">{t("implants.straumannSubtitle")}</p>
                 </div>
-                <div className="ml-auto flex flex-col items-end gap-1">
-                  <span className="bg-blue-100 text-blue-700 text-[10px] font-bold px-2 py-0.5 rounded-full">{t("implants.worldNo1")}</span>
-                  <span className="bg-blue-600 text-white text-[11px] font-extrabold px-2 py-0.5 rounded-full">{t("implants.straumannPrice")}</span>
-                </div>
+                <span className="bg-blue-100 text-blue-700 text-[10px] font-bold px-2 py-0.5 rounded-full shrink-0">{t("implants.worldNo1")}</span>
+              </div>
+              {/* Price banner */}
+              <div className="bg-[#003087] rounded-xl px-4 py-3 mb-4 flex items-center justify-between">
+                <span className="text-blue-200 text-xs font-medium">{t("implants.priceLabel")}</span>
+                <span className="text-white font-extrabold text-lg">{t("implants.straumannPrice")}</span>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
                 {straumannFeatures.map((f) => (
@@ -122,14 +124,16 @@ export default async function DentalImplantsPage({ params }: Props) {
                     <path d="M7 17 L7 7 L12 15 L17 7 L17 17" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" fill="none" />
                   </svg>
                 </div>
-                <div>
+                <div className="flex-1 min-w-0">
                   <h3 className="font-extrabold text-gray-900 text-base">Neodent®</h3>
-                  <p className="text-green-600 text-xs font-semibold">Straumann Group · {t("implants.neodentQuality")}</p>
+                  <p className="text-green-600 text-xs font-semibold truncate">Straumann Group · {t("implants.neodentQuality")}</p>
                 </div>
-                <div className="ml-auto flex flex-col items-end gap-1">
-                  <span className="bg-green-100 text-green-700 text-[10px] font-bold px-2 py-0.5 rounded-full">Best Value</span>
-                  <span className="bg-green-600 text-white text-[11px] font-extrabold px-2 py-0.5 rounded-full">{t("implants.neodentPrice")}</span>
-                </div>
+                <span className="bg-green-100 text-green-700 text-[10px] font-bold px-2 py-0.5 rounded-full shrink-0">Best Value</span>
+              </div>
+              {/* Price banner */}
+              <div className="bg-[#00843D] rounded-xl px-4 py-3 mb-4 flex items-center justify-between">
+                <span className="text-green-200 text-xs font-medium">{t("implants.priceLabel")}</span>
+                <span className="text-white font-extrabold text-lg">{t("implants.neodentPrice")}</span>
               </div>
               <ul className="space-y-2 text-sm text-gray-600">
                 {neodentFeatures.map((f) => (
