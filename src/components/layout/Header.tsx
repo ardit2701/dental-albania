@@ -195,7 +195,7 @@ export default function Header({ locale }: HeaderProps) {
             </div>
 
             <Link
-              href="#contact"
+              href={`/${locale}/contact`}
               className="ml-3 px-4 py-2 bg-[#0284c7] hover:bg-[#0369a1] text-white text-sm font-semibold rounded-lg transition-colors"
             >
               {t("appointment")}
@@ -318,7 +318,7 @@ export default function Header({ locale }: HeaderProps) {
 
             <div className="pt-2 pb-1 space-y-2">
               <Link
-                href="#contact"
+                href={`/${locale}/contact`}
                 onClick={closeMobile}
                 className="block w-full text-center px-4 py-3 bg-[#0284c7] hover:bg-[#0369a1] text-white font-semibold rounded-xl transition-colors"
               >
