@@ -2,10 +2,8 @@
 
 import { useState, useEffect, useRef } from "react";
 
-const WHATSAPP_OPTIONS = [
-  { flag: "🇦🇱", lang: "Shqip", number: "355695000000" },
+const WHATSAPP_ACTIVE = [
   { flag: "🇬🇧", lang: "English", number: "447459296228" },
-  { flag: "🇮🇹", lang: "Italiano", number: "355675022335" },
 ];
 
 export default function WhatsAppButton() {
@@ -32,7 +30,16 @@ export default function WhatsAppButton() {
             <p className="text-[#bae6fd] text-xs mt-0.5">Zgjidhni gjuhën</p>
           </div>
           <div className="p-2">
-            {WHATSAPP_OPTIONS.map((opt) => (
+            {/* Albanian - coming soon */}
+            <div className="flex items-center gap-3 px-3 py-3 rounded-xl opacity-50 cursor-not-allowed">
+              <span className="text-2xl">🇦🇱</span>
+              <div>
+                <p className="text-sm font-medium text-gray-800">Shqip</p>
+                <p className="text-xs text-gray-400">Së shpejti · Coming soon</p>
+              </div>
+            </div>
+            {/* Active options */}
+            {WHATSAPP_ACTIVE.map((opt) => (
               <a
                 key={opt.lang}
                 href={`https://wa.me/${opt.number}?text=Hello%2C%20I%20would%20like%20to%20book%20a%20consultation.`}
