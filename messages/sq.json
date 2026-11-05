@@ -97,7 +97,7 @@
       {
         "treatment": "All-on-6",
         "before": "Dhëmbë të dëmtuar",
-        "after": "Arkadë e re"
+        "after": "Hark dentar i ri"
       },
       {
         "treatment": "Kurora Dentare",
@@ -593,10 +593,10 @@
       "badge": "🦷 All-on-6",
       "metaTitle": "All-on-6 Implante Dentare - Tiranë",
       "metaDesc": "All-on-6 implante dentare në Maxillodent. Dhëmbë të rinj në 3 ditë. Konsultim falas.",
-      "cardSubtitle": "Arkadë e plotë · Dhëmbë të rinj",
+      "cardSubtitle": "Hark dentar i plotë · Dhëmbë të rinj",
       "priceNote": "E diskutueshme — pas një telefonatë falas me doktorin",
       "title": "All-on-6 — Dhëmbë të Rinj",
-      "desc": "Zgjidhja përfundimtare për humbjen totale të dhëmbëve. 6 implante mbajnë një arkadë të plotë.",
+      "desc": "Zgjidhja përfundimtare për humbjen totale të dhëmbëve. 6 implante mbajnë një hark dentar të plotë.",
       "benefits": [
         "6 implante për stabilitet maksimal",
         "Procedurë e shpejtë — brenda 1 dite",
@@ -664,7 +664,7 @@
           "icon": "🏠",
           "title": "Kit për Shtëpi",
           "desc": "Kallëpe të personalizuara + gel profesional. Trajtim 2-javësh.",
-          "badge": null
+          "badge": ""
         },
         {
           "icon": "⚡",
@@ -765,15 +765,15 @@
     "heroImageAlt": "Trajtimet dentare Maxillodent",
     "allOn4": {
       "metaTitle": "All-on-4 Implante Dentare — Tiranë",
-      "metaDesc": "All-on-4 implante dentare në Maxillodent. Arcade e plotë me vetëm 4 implante. Konsultim falas.",
+      "metaDesc": "All-on-4 implante dentare në Maxillodent. Hark dentar i plotë me vetëm 4 implante. Konsultim falas.",
       "heroImageAlt": "All-on-4 implante dentare Maxillodent",
       "badge": "🦷 All-on-4",
-      "title": "All-on-4 — Arcade e Plotë",
-      "desc": "Zgjidhja ideale për ata që kanë humbur shumicën e dhëmbëve. 4 implante mbajnë një arkadë të plotë.",
-      "cardSubtitle": "Arkadë e plotë · 4 Implante",
+      "title": "All-on-4 — Hark Dentar i Plotë",
+      "desc": "Zgjidhja ideale për ata që kanë humbur shumicën e dhëmbëve. 4 implante mbajnë një hark dentar të plotë.",
+      "cardSubtitle": "Hark dentar i plotë · 4 Implante",
       "priceNote": "E diskutueshme — pas një telefonatë falas me doktorin",
       "benefits": [
-        "Vetëm 4 implante për arkadë të plotë",
+        "Vetëm 4 implante për hark dentar të plotë",
         "Procedurë e shpejtë — brenda 1 dite",
         "Kosto më e ulët se All-on-6",
         "Funksion normal i kafshimit dhe të folurit"
