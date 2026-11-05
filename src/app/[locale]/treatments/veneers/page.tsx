@@ -9,7 +9,7 @@ type Props = {
 export async function generateMetadata(): Promise<Metadata> {
   return {
     title: "Faseta Dentare",
-    description: "Faseta porcelani në KOKONA Dental and Maxillofacial Clinic. Transformoni buzëqeshjen tuaj.",
+    description: "Faseta porcelani në Maxillodent. Transformoni buzëqeshjen tuaj.",
   };
 }
 

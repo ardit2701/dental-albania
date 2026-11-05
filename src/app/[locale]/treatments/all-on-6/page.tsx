@@ -9,7 +9,7 @@ type Props = {
 export async function generateMetadata(): Promise<Metadata> {
   return {
     title: "All-on-6 Implante",
-    description: "All-on-6 implante dentare në KOKONA Dental and Maxillofacial Clinic. Dhëmbë të rinj në 3 ditë.",
+    description: "All-on-6 implante dentare në Maxillodent. Dhëmbë të rinj në 3 ditë.",
   };
 }
 
