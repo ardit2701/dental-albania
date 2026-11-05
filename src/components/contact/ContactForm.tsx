@@ -261,16 +261,6 @@ export default function ContactForm() {
                     {
                       icon: (
                         <svg className="w-5 h-5 text-sky-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                        </svg>
-                      ),
-                      label: t("phoneALLabel"),
-                      value: t("phoneAL") || t("phoneALPlaceholder"),
-                      href: t("phoneAL") ? `tel:${t("phoneAL").replace(/\s/g, "")}` : undefined,
-                    },
-                    {
-                      icon: (
-                        <svg className="w-5 h-5 text-sky-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                         </svg>
                       ),
@@ -311,14 +301,14 @@ export default function ContactForm() {
             {/* Map */}
             <div className="rounded-2xl overflow-hidden border border-gray-100 shadow-sm h-64 lg:h-72">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2996.0!2d19.8167!3d41.3317!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13503102fd577cbb%3A0x3d628b7f5e6fce1c!2sRruga+e+Barrikadave%2C+Tirana%2C+Albania!5e0!3m2!1sen!2sal!4v1700000000000"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2994.5!2d19.8179999!3d41.3346314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDHCsDIwJzA0LjciTiAxOcKwNDknMDQuOCJF!5e0!3m2!1sen!2sal!4v1700000000001"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="KOKONA Dental and Maxillofacial Clinic Location"
+                title="Maxillodent Dental Clinic Location"
               />
             </div>
           </div>

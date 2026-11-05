@@ -44,7 +44,7 @@ export default async function Footer({ locale }: FooterProps) {
             </p>
             <div className="flex items-center gap-3">
               <a
-                href="https://instagram.com"
+                href="https://instagram.com/maxillodent.al"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-9 h-9 rounded-full bg-white/10 hover:bg-[#0284c7] flex items-center justify-center transition-colors"
@@ -55,7 +55,18 @@ export default async function Footer({ locale }: FooterProps) {
                 </svg>
               </a>
               <a
-                href="https://facebook.com"
+                href="https://www.tripadvisor.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-9 h-9 rounded-full bg-white/10 hover:bg-[#00aa6c] flex items-center justify-center transition-colors"
+                aria-label="TripAdvisor"
+              >
+                <svg className="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm0 3.5a2.5 2.5 0 110 5 2.5 2.5 0 010-5zm-5.5 7a2.5 2.5 0 110 5 2.5 2.5 0 010-5zm11 0a2.5 2.5 0 110 5 2.5 2.5 0 010-5zm-5.5 1.5a1 1 0 100 2 1 1 0 000-2z"/>
+                </svg>
+              </a>
+              <a
+                href="https://facebook.com/maxillodent.al"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-9 h-9 rounded-full bg-white/10 hover:bg-[#0284c7] flex items-center justify-center transition-colors"
@@ -123,14 +134,9 @@ export default async function Footer({ locale }: FooterProps) {
                 <svg className="w-4 h-4 text-[#0284c7] shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                 </svg>
-                <div className="space-y-1">
-                  <a href="tel:+447459296228" className="flex items-center gap-1.5 text-[#bae6fd] hover:text-white text-sm transition-colors">
-                    <span className="text-xs opacity-70">🇬🇧</span> +44 7459 296228
-                  </a>
-                  <span className="flex items-center gap-1.5 text-[#bae6fd]/50 text-sm">
-                    <span className="text-xs opacity-70">🇦🇱</span> {t("contact.phoneALPlaceholder")}
-                  </span>
-                </div>
+                <a href="tel:+447459296228" className="text-[#bae6fd] hover:text-white text-sm transition-colors">
+                  +44 7459 296228
+                </a>
               </li>
               <li className="flex items-center gap-2.5">
                 <svg className="w-4 h-4 text-[#0284c7] shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
