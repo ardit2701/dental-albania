@@ -3,7 +3,7 @@
 import { useTranslations } from 'next-intl';
 
 const GOOGLE_MAPS_URL = "https://www.google.com/maps/place/Maxillodent.al+by+Arlind+Myftari/@41.3348619,19.8156074,762m/data=!3m2!1e3!4b1!4m6!3m5!1s0x13503195940a8843:0x1fcca5530d50ae8f!8m2!3d41.3348579!4d19.818177!16s%2Fg%2F11z_7xybs_?entry=ttu";
-const GOOGLE_REVIEW_URL = "https://search.google.com/local/writereview?placeid=ChIJQ4gKlJUxUxMRj64wDVM1zB8";
+const GOOGLE_REVIEW_URL = "https://www.google.com/maps/place/Maxillodent.al+by+Arlind+Myftari/@41.3348619,19.8156074,762m/data=!3m2!1e3!4b1!4m6!3m5!1s0x13503195940a8843:0x1fcca5530d50ae8f!8m2!3d41.3348579!4d19.818177!16s%2Fg%2F11z_7xybs_?entry=ttu";
 
 function StarRating({ count = 5, size = 'md' }: { count?: number; size?: 'sm' | 'md' | 'lg' }) {
   const sz = size === 'lg' ? 'w-8 h-8' : size === 'sm' ? 'w-4 h-4' : 'w-6 h-6';
