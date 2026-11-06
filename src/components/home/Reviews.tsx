@@ -22,7 +22,7 @@ const STATS = [
   { value: '15+', labelKey: 'stats.years' },
   { value: '1000+', labelKey: 'stats.patients' },
   { value: '98%', labelKey: 'stats.satisfaction' },
-  { value: '12', labelKey: 'stats.reviews' },
+  { value: '5.0★', labelKey: 'stats.reviews' },
 ];
 
 export default function Reviews() {
@@ -64,7 +64,6 @@ export default function Reviews() {
 
             <div className="text-8xl font-extrabold text-white leading-none">5.0</div>
             <StarRating count={5} size="lg" />
-            <p className="text-sky-200 text-lg font-medium">{t('basedOn')}</p>
           </div>
 
           {/* CTA buttons */}
