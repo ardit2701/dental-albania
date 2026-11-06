@@ -306,43 +306,18 @@
     ]
   },
   "reviews": {
-    "title": "What Patients Say",
-    "rating": "4.9",
-    "ratingLabel": "Excellent Rating",
-    "basedOn": "Based on 320+ reviews",
-    "items": [
-      {
-        "text": "Exceptional service! I came from London for implants and I'll never regret it. I saved a lot of money and received much higher quality. The staff was very professional and friendly.",
-        "name": "Sarah Johnson",
-        "date": "October 2024"
-      },
-      {
-        "text": "Ho fatto le faccette qui e sono assolutamente soddisfatto. Il Dr. Elira è stata fantastica, molto professionale e attenta ai dettagli. Il risultato è spettacolare. Tornerò sicuramente.",
-        "name": "Marco Bianchi",
-        "date": "September 2024"
-      },
-      {
-        "text": "The whole team was wonderful. The implant was placed painlessly and healing was very quick. I recommend wholeheartedly. The price was also very reasonable.",
-        "name": "Blerina Çela",
-        "date": "August 2024"
-      },
-      {
-        "text": "Excellent clinic! I flew from Germany for veneers and the results exceeded my expectations. The team speaks perfect English and made me feel completely at ease throughout the process.",
-        "name": "Thomas Müller",
-        "date": "July 2024"
-      },
-      {
-        "text": "I had All-on-6 and the transformation is phenomenal. I feel like a new person. The doctor explained every step and was very caring. The clinic is clean and modern. Thank you so much!",
-        "name": "Fatmir Basha",
-        "date": "June 2024"
-      },
-      {
-        "text": "Service impeccable et résultats magnifiques! Je suis venu de Paris pour les implants dentaires. Le prix était incroyable comparé à la France. Je recommande vivement cette clinique.",
-        "name": "Pierre Dubois",
-        "date": "May 2024"
-      }
-    ],
-    "badge": "Reviews"
+    "title": "What Our Patients Say",
+    "basedOn": "12 reviews on Google",
+    "badge": "⭐ Reviews",
+    "subtitle": "Real reviews from our patients on Google",
+    "readReviews": "Read all reviews",
+    "leaveReview": "Leave a review",
+    "stats": {
+      "years": "Years Experience",
+      "patients": "Patients Treated",
+      "satisfaction": "Satisfaction",
+      "reviews": "Google Reviews"
+    }
   },
   "contact": {
     "title": "Contact Us",

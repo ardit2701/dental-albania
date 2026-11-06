@@ -306,43 +306,18 @@
     ]
   },
   "reviews": {
-    "title": "Cosa Dicono i Pazienti",
-    "rating": "4.9",
-    "ratingLabel": "Valutazione Eccellente",
-    "basedOn": "Basato su 320+ recensioni",
-    "items": [
-      {
-        "text": "Servizio eccezionale! Sono venuta da Londra per gli impianti e non me ne pentirò mai. Ho risparmiato molti soldi e ho ricevuto una qualità molto più alta. Il personale era molto professionale e cordiale.",
-        "name": "Sarah Johnson",
-        "date": "Ottobre 2024"
-      },
-      {
-        "text": "Ho fatto le faccette qui e sono assolutamente soddisfatto. Il Dr. Elira è stata fantastica, molto professionale e attenta ai dettagli. Il risultato è spettacolare. Tornerò sicuramente.",
-        "name": "Marco Bianchi",
-        "date": "Settembre 2024"
-      },
-      {
-        "text": "L'intero team è stato meraviglioso. L'impianto è stato posizionato senza dolore e la guarigione è stata molto rapida. Lo consiglio di cuore. Il prezzo era anche molto ragionevole.",
-        "name": "Blerina Çela",
-        "date": "Agosto 2024"
-      },
-      {
-        "text": "Clinica eccellente! Sono volato dalla Germania per le faccette e i risultati hanno superato le mie aspettative. Il team parla perfettamente italiano e mi ha messo completamente a mio agio.",
-        "name": "Thomas Müller",
-        "date": "Luglio 2024"
-      },
-      {
-        "text": "Ho fatto l'All-on-6 e la trasformazione è fenomenale. Mi sento una persona nuova. Il medico ha spiegato ogni passaggio ed è stato molto premuroso. La clinica è pulita e moderna.",
-        "name": "Fatmir Basha",
-        "date": "Giugno 2024"
-      },
-      {
-        "text": "Service impeccable et résultats magnifiques! Je suis venu de Paris pour les implants dentaires. Le prix était incroyable comparé à la France. Je recommande vivement cette clinique.",
-        "name": "Pierre Dubois",
-        "date": "Maggio 2024"
-      }
-    ],
-    "badge": "Recensioni"
+    "title": "Cosa Dicono i Nostri Pazienti",
+    "basedOn": "12 recensioni su Google",
+    "badge": "⭐ Recensioni",
+    "subtitle": "Recensioni reali dei nostri pazienti su Google",
+    "readReviews": "Leggi le recensioni",
+    "leaveReview": "Lascia una recensione",
+    "stats": {
+      "years": "Anni di Esperienza",
+      "patients": "Pazienti Trattati",
+      "satisfaction": "Soddisfazione",
+      "reviews": "Recensioni Google"
+    }
   },
   "contact": {
     "title": "Contattaci",

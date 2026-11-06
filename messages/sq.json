@@ -306,43 +306,18 @@
     ]
   },
   "reviews": {
-    "title": "Çfarë Thonë Pacientët",
-    "rating": "4.9",
-    "ratingLabel": "Vlerësim i Shkëlqyer",
-    "basedOn": "Bazuar në 320+ vlerësime",
-    "items": [
-      {
-        "text": "Shërbim i jashtëzakonshëm! Erdha nga Londra për implante dhe kurrë nuk do të pendohem. Kurseva shumë para dhe mora cilësi shumë më të lartë. Stafi ishte shumë profesional dhe i miqësishëm.",
-        "name": "Sarah Johnson",
-        "date": "Tetor 2024"
-      },
-      {
-        "text": "Ho fatto le faccette qui e sono assolutamente soddisfatto. Il Dr. Elira è stata fantastica, molto professionale e attenta ai dettagli. Il risultato è spettacolare. Tornerò sicuramente.",
-        "name": "Marco Bianchi",
-        "date": "Shtator 2024"
-      },
-      {
-        "text": "Gjithë ekipi ishte i mrekullueshëm. Implanti u vendos pa dhimbje dhe shërimi ishte shumë i shpejtë. Rekomandoj me gjithë zemër. Çmimi ishte edhe shumë i arsyeshëm.",
-        "name": "Blerina Çela",
-        "date": "Gusht 2024"
-      },
-      {
-        "text": "Excellent clinic! I flew from Germany for veneers and the results exceeded my expectations. The team speaks perfect English and made me feel completely at ease throughout the process.",
-        "name": "Thomas Müller",
-        "date": "Korrik 2024"
-      },
-      {
-        "text": "Bëra All-on-6 dhe transformimi është fenomenal. Ndihem njeri tjetër. Mjeku shpjegoi çdo hap dhe ishte shumë i kujdesshëm. Klinika është e pastër dhe moderne. Faleminderit shumë!",
-        "name": "Fatmir Basha",
-        "date": "Qershor 2024"
-      },
-      {
-        "text": "Service impeccable et résultats magnifiques! Je suis venu de Paris pour les implants dentaires. Le prix était incroyable comparé à la France. Je recommande vivement cette clinique.",
-        "name": "Pierre Dubois",
-        "date": "Maj 2024"
-      }
-    ],
-    "badge": "Vlerësimet"
+    "title": "Çfarë Thonë Pacientët Tanë",
+    "basedOn": "12 vlerësime në Google",
+    "badge": "⭐ Vlerësimet",
+    "subtitle": "Vlerësimet reale nga pacientët tanë në Google",
+    "readReviews": "Lexo vlerësimet",
+    "leaveReview": "Lër vlerësimin tënd",
+    "stats": {
+      "years": "Vjet Eksperiencë",
+      "patients": "Pacientë të Trajtuar",
+      "satisfaction": "Kënaqësi",
+      "reviews": "Recensione Google"
+    }
   },
   "contact": {
     "title": "Na Kontaktoni",
