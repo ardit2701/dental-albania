@@ -15,6 +15,7 @@ const ROUTES = [
   '/treatments/dental-implants',
   '/treatments/veneers',
   '/treatments/crowns',
+  '/treatments/all-on-4',
   '/treatments/all-on-6',
   '/treatments/orthodontics',
   '/treatments/whitening',

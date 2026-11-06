@@ -26,26 +26,35 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const tHero = await getTranslations({ locale, namespace: "hero" });
   const tLayout = await getTranslations({ locale, namespace: "layout" });
 
+  const baseUrl = "https://www.maxillodent.al";
+
   return {
     title: {
-      default: `Maxillodent Dental and Maxillofacial Clinic - ${tLayout("siteTagline")}`,
-      template: "%s | Maxillodent Dental and Maxillofacial Clinic",
+      default: `Maxillodent - ${tLayout("siteTagline")}`,
+      template: "%s | Maxillodent",
     },
     description: tHero("subtitle"),
     keywords: [
       "Maxillodent",
-      "Maxillodent klinik",
       "Maxillodent Albania",
       "dental clinic Albania",
       "implante dentare",
       "faseta dentare",
       "dental tourism Albania",
       "klinika dentare Tiranë",
-      "klinika maxillodent",
     ],
+    alternates: {
+      canonical: `${baseUrl}/${locale}`,
+      languages: {
+        "sq": `${baseUrl}/sq`,
+        "en": `${baseUrl}/en`,
+        "it": `${baseUrl}/it`,
+      },
+    },
     openGraph: {
-      siteName: "Maxillodent Dental and Maxillofacial Clinic",
+      siteName: "Maxillodent",
       locale: locale,
+      url: `${baseUrl}/${locale}`,
     },
     icons: {
       icon: "/logo-icon.png",
