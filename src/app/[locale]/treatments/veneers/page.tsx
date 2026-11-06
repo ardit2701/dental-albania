@@ -1,5 +1,6 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import type { Metadata } from "next";
+import Image from "next/image";
 import PageHero from "@/components/layout/PageHero";
 
 type Props = {
@@ -57,12 +58,27 @@ export default async function VeneersPage({ params }: Props) {
                 ))}
               </ul>
             </div>
-            <div className="bg-gradient-to-br from-[#0369a1] to-[#0284c7] rounded-3xl p-10 text-center">
-              <span className="text-8xl block mb-4">✨</span>
-              <h3 className="text-white text-xl font-bold mb-2">{t("veneers.cardTitle")}</h3>
-              <p className="text-[#bae6fd] text-sm">Ultra-thin · E-Max · Lumineers</p>
-              <div className="mt-6 bg-white/20 rounded-xl p-4">
-                <p className="text-[#bae6fd] text-sm">{t("contactForQuote")}</p>
+            <div className="rounded-3xl overflow-hidden shadow-xl">
+              {/* Photo header */}
+              <div className="relative h-52">
+                <Image
+                  src="https://images.unsplash.com/photo-1607613009820-a29f7bb81c04?auto=format&fit=crop&w=600&q=80"
+                  alt="Dental veneers"
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 1024px) 100vw, 50vw"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-[#0284c7]/90 to-[#0284c7]/20" />
+                <div className="absolute bottom-4 left-0 right-0 text-center">
+                  <h3 className="text-white text-xl font-bold">{t("veneers.cardTitle")}</h3>
+                  <p className="text-sky-200 text-sm mt-1">Ultra-thin · E-Max · Lumineers</p>
+                </div>
+              </div>
+              {/* Info section */}
+              <div className="bg-gradient-to-br from-[#0369a1] to-[#0284c7] p-6 text-center">
+                <div className="bg-white/20 rounded-xl p-4">
+                  <p className="text-[#bae6fd] text-sm">{t("contactForQuote")}</p>
+                </div>
               </div>
             </div>
           </div>

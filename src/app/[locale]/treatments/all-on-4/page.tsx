@@ -1,5 +1,6 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import type { Metadata } from "next";
+import Image from "next/image";
 import PageHero from "@/components/layout/PageHero";
 
 type Props = {
@@ -52,12 +53,27 @@ export default async function AllOn4Page({ params }: Props) {
                 ))}
               </ul>
             </div>
-            <div className="bg-gradient-to-br from-[#0284c7] to-[#0369a1] rounded-3xl p-10 text-center">
-              <span className="text-8xl block mb-4">🦷</span>
-              <h3 className="text-white text-xl font-bold mb-2">All-on-4</h3>
-              <p className="text-[#bae6fd] text-sm">{t("allOn4.cardSubtitle")}</p>
-              <div className="mt-6 bg-white/20 rounded-xl p-4">
-                <p className="text-[#bae6fd] text-sm">{t("allOn4.priceNote")}</p>
+            <div className="rounded-3xl overflow-hidden shadow-xl">
+              {/* Photo header */}
+              <div className="relative h-52">
+                <Image
+                  src="https://images.unsplash.com/photo-1606265752439-1f18756aa5fc?auto=format&fit=crop&w=600&q=80"
+                  alt="All-on-4"
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 1024px) 100vw, 50vw"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-[#0284c7]/90 to-[#0284c7]/20" />
+                <div className="absolute bottom-4 left-0 right-0 text-center">
+                  <h3 className="text-white text-xl font-bold">All-on-4</h3>
+                  <p className="text-sky-200 text-sm mt-1">{t("allOn4.cardSubtitle")}</p>
+                </div>
+              </div>
+              {/* Info section */}
+              <div className="bg-gradient-to-br from-[#0284c7] to-[#0369a1] p-6 text-center">
+                <div className="bg-white/20 rounded-xl p-4">
+                  <p className="text-[#bae6fd] text-sm">{t("allOn4.priceNote")}</p>
+                </div>
               </div>
             </div>
           </div>

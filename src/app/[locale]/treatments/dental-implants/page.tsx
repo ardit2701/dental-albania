@@ -1,5 +1,6 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import type { Metadata } from "next";
+import Image from "next/image";
 import PageHero from "@/components/layout/PageHero";
 
 type Props = {
@@ -165,19 +166,34 @@ export default async function DentalImplantsPage({ params }: Props) {
                 ))}
               </ul>
             </div>
-            <div className="bg-gradient-to-br from-[#0284c7] to-[#0c4a6e] rounded-3xl p-8 text-center">
-              <span className="text-7xl block mb-4">🦷</span>
-              <h3 className="text-white text-xl font-bold mb-1">{t("implants.cardTitle")}</h3>
-              <p className="text-sky-200 text-sm mb-4">{t("implants.cardSubtitle")}</p>
-              <div className="space-y-2 text-sm text-left">
-                {infoRows.map((r) => (
-                  <div key={r.label} className="flex justify-between bg-white/10 rounded-lg px-3 py-2">
-                    <span className="text-sky-200">{r.label}</span>
-                    <span className="text-white font-bold">{r.val}</span>
-                  </div>
-                ))}
+            <div className="rounded-3xl overflow-hidden shadow-xl">
+              {/* Photo header */}
+              <div className="relative h-52">
+                <Image
+                  src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&w=600&q=80"
+                  alt="Dental implants"
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 1024px) 100vw, 50vw"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-[#0284c7]/90 to-[#0284c7]/20" />
+                <div className="absolute bottom-4 left-0 right-0 text-center">
+                  <h3 className="text-white text-xl font-bold">{t("implants.cardTitle")}</h3>
+                  <p className="text-sky-200 text-sm mt-1">{t("implants.cardSubtitle")}</p>
+                </div>
               </div>
-              <p className="text-sky-200 text-xs mt-4">{t("implants.priceNote")}</p>
+              {/* Info section */}
+              <div className="bg-gradient-to-br from-[#0284c7] to-[#0c4a6e] p-6 text-center">
+                <div className="space-y-2 text-sm text-left">
+                  {infoRows.map((r) => (
+                    <div key={r.label} className="flex justify-between bg-white/10 rounded-lg px-3 py-2">
+                      <span className="text-sky-200">{r.label}</span>
+                      <span className="text-white font-bold">{r.val}</span>
+                    </div>
+                  ))}
+                </div>
+                <p className="text-sky-200 text-xs mt-4">{t("implants.priceNote")}</p>
+              </div>
             </div>
           </div>
 
