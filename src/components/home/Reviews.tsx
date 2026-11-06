@@ -20,7 +20,7 @@ function StarRating({ count = 5, size = 'md' }: { count?: number; size?: 'sm' | 
 
 const STATS = [
   { value: '15+', labelKey: 'stats.years' },
-  { value: '5000+', labelKey: 'stats.patients' },
+  { value: '1000+', labelKey: 'stats.patients' },
   { value: '98%', labelKey: 'stats.satisfaction' },
   { value: '12', labelKey: 'stats.reviews' },
 ];
