@@ -626,8 +626,16 @@
       "faqTitle": "Frequently Asked Questions",
       "popular": "Most Popular",
       "maxResult": "Max Result",
-      "metaTitle": "Teeth Whitening",
-      "metaDesc": "Professional teeth whitening. Bright smile within 1 hour in Tirana, Albania.",
+      "metaTitle": "Teeth Whitening with Zoom Bleaching - Tirana",
+      "metaDesc": "Professional whitening with Philips ZOOM Bleaching at Maxillodent, Tirana. Bright smile in 1 hour.",
+      "zoomTitle": "Philips ZOOM Bleaching",
+      "zoomSubtitle": "The World's #1 Professional Whitening System",
+      "zoomDesc": "Maxillodent uses Philips ZOOM — the professional whitening system most recommended by dentists worldwide. With advanced LED technology and certified gel, teeth are brightened by up to 8 shades in just 45 minutes.",
+      "zoomFeature1": "Up to 8 shades brighter",
+      "zoomFeature2": "Only 45 minutes",
+      "zoomFeature3": "Anti-Sensitivity Formula",
+      "zoomFeature4": "FDA Certified",
+      "zoomLearnMore": "Learn More About ZOOM",
       "options": [
         {
           "icon": "💡",
