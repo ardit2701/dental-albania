@@ -84,7 +84,7 @@ export default async function WhiteningPage({ params }: Props) {
             </div>
             <div className="relative rounded-3xl overflow-hidden shadow-2xl h-80 lg:h-96">
               <Image
-                src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&w=800&q=85"
+                src="/zoom-bleaching.jpg"
                 alt="Philips ZOOM Bleaching"
                 fill
                 className="object-cover"
