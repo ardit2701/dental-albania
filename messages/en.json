@@ -479,7 +479,32 @@
     ],
     "heroImageAlt": "Maxillodent Clinic - Waiting Room",
     "storyImageAlt": "Maxillodent dental office",
-    "galleryImageAlt": "Maxillodent Clinic"
+    "galleryImageAlt": "Maxillodent Clinic",
+    "techTitle": "Brands & Technology",
+    "techSubtitle": "Some of the brands and technologies we use.",
+    "brands": [
+      {
+        "name": "Straumann",
+        "category": "Premium Implants",
+        "desc": "The world's #1 Swiss company for dental implants. Over 70 years of scientific research, the gold standard of the industry.",
+        "badge": "Swiss Made",
+        "url": "https://www.straumann.com"
+      },
+      {
+        "name": "Neodent",
+        "category": "Quality/Value Implants",
+        "desc": "Part of the Straumann Group. Identical technology with premium standards, excellent quality/value ratio.",
+        "badge": "Straumann Group",
+        "url": "https://www.neodent.com"
+      },
+      {
+        "name": "Philips ZOOM",
+        "category": "Professional Whitening",
+        "desc": "The world's #1 professional whitening system. Results up to 8 shades in 45 minutes, FDA certified.",
+        "badge": "FDA Certified",
+        "url": "https://www.philipszoom.com"
+      }
+    ]
   },
   "treatments": {
     "title": "Our Treatments",

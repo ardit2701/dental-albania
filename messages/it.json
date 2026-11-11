@@ -479,7 +479,32 @@
     ],
     "heroImageAlt": "Clinica Maxillodent - Sala d'attesa",
     "storyImageAlt": "Studio dentistico Maxillodent",
-    "galleryImageAlt": "Clinica Maxillodent"
+    "galleryImageAlt": "Clinica Maxillodent",
+    "techTitle": "Marchi & Tecnologia",
+    "techSubtitle": "Alcuni dei marchi e delle tecnologie che utilizziamo.",
+    "brands": [
+      {
+        "name": "Straumann",
+        "category": "Impianti Premium",
+        "desc": "L'azienda svizzera nr.1 al mondo per impianti dentali. Oltre 70 anni di ricerca scientifica, lo standard d'oro del settore.",
+        "badge": "Swiss Made",
+        "url": "https://www.straumann.com"
+      },
+      {
+        "name": "Neodent",
+        "category": "Impianti Qualità/Prezzo",
+        "desc": "Parte del Gruppo Straumann. Tecnologia identica con standard premium, eccellente rapporto qualità/valore.",
+        "badge": "Gruppo Straumann",
+        "url": "https://www.neodent.com"
+      },
+      {
+        "name": "Philips ZOOM",
+        "category": "Sbiancamento Professionale",
+        "desc": "Il sistema di sbiancamento professionale nr.1 al mondo. Risultati fino a 8 tonalità in 45 minuti, certificato FDA.",
+        "badge": "FDA Certified",
+        "url": "https://www.philipszoom.com"
+      }
+    ]
   },
   "treatments": {
     "title": "I Nostri Trattamenti",

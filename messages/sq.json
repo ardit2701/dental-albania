@@ -479,7 +479,32 @@
     ],
     "heroImageAlt": "Klinika Maxillodent - Sallë Pritje",
     "storyImageAlt": "Kabineti dentar Maxillodent",
-    "galleryImageAlt": "Klinika Maxillodent"
+    "galleryImageAlt": "Klinika Maxillodent",
+    "techTitle": "Markat & Teknologjia",
+    "techSubtitle": "Disa nga markat dhe teknologjitë që përdorim.",
+    "brands": [
+      {
+        "name": "Straumann",
+        "category": "Implante Premium",
+        "desc": "Kompania zvicerane nr.1 në botë për implante dentare. Mbi 70 vjet kërkime shkencore, standard i artë i industrisë.",
+        "badge": "Swiss Made",
+        "url": "https://www.straumann.com"
+      },
+      {
+        "name": "Neodent",
+        "category": "Implante Cilësi/Çmim",
+        "desc": "Pjesë e grupit Straumann. Teknologji identike me standarde premium, raport i shkëlqyer cilësi/vlerë.",
+        "badge": "Grupi Straumann",
+        "url": "https://www.neodent.com"
+      },
+      {
+        "name": "Philips ZOOM",
+        "category": "Zbardhim Profesional",
+        "desc": "Sistemi nr.1 i zbardhimit profesional në botë. Rezultate deri 8 tone brenda 45 minutave, certifikuar nga FDA.",
+        "badge": "FDA Certified",
+        "url": "https://www.philipszoom.com"
+      }
+    ]
   },
   "treatments": {
     "title": "Trajtimet Tona",

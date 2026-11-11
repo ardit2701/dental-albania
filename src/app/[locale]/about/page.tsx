@@ -3,6 +3,12 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import PageHero from "@/components/layout/PageHero";
 
+const BRAND_IMAGES = [
+  "https://images.unsplash.com/photo-1609840114035-3c981b782dfe?auto=format&fit=crop&w=600&q=80",
+  "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&w=600&q=80",
+  "/zoom-bleaching.jpg",
+];
+
 type Props = { params: Promise<{ locale: string }> };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
@@ -71,6 +77,53 @@ export default async function AboutPage({ params }: Props) {
                 <Image src={src} alt={`${t("galleryImageAlt")} ${i + 1}`} width={600} height={450} className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Brands & Technology */}
+      <section className="py-16 bg-white">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <div className="inline-flex items-center gap-2 bg-sky-50 border border-sky-200 text-[#0284c7] px-4 py-1.5 rounded-full text-sm font-semibold mb-4">
+              {t("techTitle")}
+            </div>
+            <p className="text-gray-500 text-base max-w-2xl mx-auto">{t("techSubtitle")}</p>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {[0,1,2].map((i) => {
+              const brand = {
+                name: (t as any)(`brands.${i}.name`),
+                category: (t as any)(`brands.${i}.category`),
+                desc: (t as any)(`brands.${i}.desc`),
+                badge: (t as any)(`brands.${i}.badge`),
+                url: (t as any)(`brands.${i}.url`),
+              };
+              return (
+                <a key={i} href={brand.url} target="_blank" rel="noopener noreferrer" className="relative rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all group block">
+                  <div className="relative h-40">
+                    <Image
+                      src={BRAND_IMAGES[i]}
+                      alt={brand.name}
+                      fill
+                      className="object-cover group-hover:scale-105 transition-transform duration-500"
+                      sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-[#071e2e] via-[#071e2e]/50 to-transparent" />
+                    <div className="absolute top-3 right-3">
+                      <span className="bg-white/90 text-[#0284c7] text-[10px] font-bold px-2 py-1 rounded-lg">{brand.badge}</span>
+                    </div>
+                    <div className="absolute bottom-3 left-4">
+                      <p className="text-sky-300 text-[10px] font-semibold uppercase tracking-wider">{brand.category}</p>
+                      <h3 className="text-white text-lg font-extrabold">{brand.name}</h3>
+                    </div>
+                  </div>
+                  <div className="bg-white p-4 border border-gray-100">
+                    <p className="text-gray-500 text-sm leading-relaxed">{brand.desc}</p>
+                  </div>
+                </a>
+              );
+            })}
           </div>
         </div>
       </section>
