@@ -96,7 +96,11 @@ export default async function LocaleLayout({ children, params }: Props) {
     telephone: "+355",
     priceRange: "$$",
     medicalSpecialty: "Dentistry",
-    sameAs: ["https://www.maxillodent.al"],
+    sameAs: [
+      "https://www.maxillodent.al",
+      "https://www.facebook.com/profile.php?id=61596250434364",
+      "https://www.instagram.com/maxillodent.al",
+    ],
   };
 
   return (
