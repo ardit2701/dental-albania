@@ -323,7 +323,7 @@
     "title": "Contattaci",
     "subtitle": "Siamo qui per aiutare. Prenota una consulenza gratuita oggi.",
     "address": "Rruga e Barrikadave, Tirana, Albania",
-    "phone": "+355 69 5XX XXXX",
+    "phone": "+44 7700 199000",
     "email": "info@maxillodent.al",
     "hours": "Lunedì - Sabato: 09:00 - 19:00",
     "formTitle": "Prenota Consulenza Gratuita",
@@ -356,7 +356,7 @@
     "submitting": "Invio in corso...",
     "successMsg": "Grazie! Ti contatteremo entro 24 ore.",
     "errorMsg": "Si è verificato un errore. Riprova o chiamaci.",
-    "phoneUK": "+44 7459 296228",
+    "phoneUK": "+44 7700 199000",
     "phoneUKLabel": "Fuori dall'Albania (UK)",
     "phoneAL": "",
     "phoneALLabel": "In Albania",
@@ -444,7 +444,7 @@
     "contact": {
       "title": "Contatto",
       "address": "Rruga e Barrikadave, Tirana, Albania",
-      "phone": "+355 69 5XX XXXX",
+      "phone": "+44 7700 199000",
       "email": "info@maxillodent.al",
       "phoneALPlaceholder": "Prossimamente"
     },

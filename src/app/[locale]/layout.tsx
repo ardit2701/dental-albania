@@ -95,7 +95,7 @@ export default async function LocaleLayout({ children, params }: Props) {
       addressLocality: "Tiranë",
       addressCountry: "AL",
     },
-    telephone: "+355",
+    telephone: "+447700199000",
     priceRange: "$$",
     medicalSpecialty: "Dentistry",
     sameAs: [

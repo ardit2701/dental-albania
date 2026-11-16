@@ -168,7 +168,7 @@ export default function ContactForm() {
                     <input
                       {...register("phone")}
                       type="tel"
-                      placeholder="+355..."
+                      placeholder="+44..."
                       className={inputClass}
                     />
                   </div>
@@ -279,7 +279,7 @@ export default function ContactForm() {
                       ),
                       label: t("phoneUKLabel"),
                       value: t("phoneUK"),
-                      href: "tel:+447459296228",
+                      href: "tel:+447700199000",
                     },
                     {
                       icon: (

@@ -323,7 +323,7 @@
     "title": "Na Kontaktoni",
     "subtitle": "Jemi këtu për të ndihmuar. Caktoni një konsultim falas sot.",
     "address": "Rruga e Barrikadave, Tiranë, Shqipëri",
-    "phone": "+355 69 5XX XXXX",
+    "phone": "+44 7700 199000",
     "email": "info@maxillodent.al",
     "hours": "E Hënë - E Shtunë: 09:00 - 19:00",
     "formTitle": "Cakto Konsultim Falas",
@@ -356,7 +356,7 @@
     "submitting": "Duke dërguar...",
     "successMsg": "Faleminderit! Do t'ju kontaktojmë brenda 24 orëve.",
     "errorMsg": "Ndodhi një gabim. Ju lutem provoni sërish ose na telefononi.",
-    "phoneUK": "+44 7459 296228",
+    "phoneUK": "+44 7700 199000",
     "phoneUKLabel": "Jashtë Shqipërisë (UK)",
     "phoneAL": "",
     "phoneALLabel": "Brenda Shqipërisë",
@@ -444,7 +444,7 @@
     "contact": {
       "title": "Kontakt",
       "address": "Rruga e Barrikadave, Tiranë, Shqipëri",
-      "phone": "+355 69 5XX XXXX",
+      "phone": "+44 7700 199000",
       "email": "info@maxillodent.al",
       "phoneALPlaceholder": "Së shpejti"
     },

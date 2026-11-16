@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useRef } from "react";
 import { useTranslations } from "next-intl";
+import { hasAnsweredConsent } from "@/lib/consent";
 
 const WHATSAPP_ACTIVE = [
   { flag: "🇬🇧", lang: "English", number: "447459296228" },
@@ -10,7 +11,15 @@ const WHATSAPP_ACTIVE = [
 export default function WhatsAppButton() {
   const t = useTranslations("whatsapp");
   const [open, setOpen] = useState(false);
+  const [bannerVisible, setBannerVisible] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    setBannerVisible(!hasAnsweredConsent());
+    const handler = () => setBannerVisible(!hasAnsweredConsent());
+    window.addEventListener('consentchange', handler);
+    return () => window.removeEventListener('consentchange', handler);
+  }, []);
 
   useEffect(() => {
     const handleClickOutside = (e: MouseEvent) => {
@@ -23,7 +32,7 @@ export default function WhatsAppButton() {
   }, []);
 
   return (
-    <div ref={ref} className="fixed bottom-6 right-6 z-50 flex flex-col items-end gap-3">
+    <div ref={ref} className={`fixed right-6 z-50 flex flex-col items-end gap-3 transition-all duration-300 ${bannerVisible ? 'bottom-24' : 'bottom-6'}`}>
       {/* Popup */}
       {open && (
         <div className="bg-white rounded-2xl shadow-2xl border border-gray-100 overflow-hidden w-56 sm:w-64 animate-in slide-in-from-bottom-4 duration-200">
