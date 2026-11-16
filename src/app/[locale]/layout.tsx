@@ -8,6 +8,8 @@ import "../globals.css";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import WhatsAppButton from "@/components/layout/WhatsAppButton";
+import MetaPixel from "@/components/MetaPixel";
+import CookieConsent from "@/components/CookieConsent";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -117,6 +119,8 @@ export default async function LocaleLayout({ children, params }: Props) {
           <main className="flex-1">{children}</main>
           <Footer locale={locale} />
           <WhatsAppButton />
+          <MetaPixel />
+          <CookieConsent />
         </NextIntlClientProvider>
       </body>
     </html>

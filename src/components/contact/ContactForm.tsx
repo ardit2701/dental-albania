@@ -72,6 +72,9 @@ export default function ContactForm() {
       if (!res.ok) throw new Error('Failed');
       setStatus("success");
       reset();
+      if (typeof window !== 'undefined' && typeof (window as any).fbq === 'function') {
+        (window as any).fbq('track', 'Lead');
+      }
     } catch {
       setStatus("error");
     }
