@@ -13,7 +13,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: t("metaTitle"),
     description: t("metaDesc"),
-  };
+    alternates: {
+      canonical: `https://www.maxillodent.al/${locale}/contact`,
+      languages: {
+        sq: `https://www.maxillodent.al/sq/contact`,
+        en: `https://www.maxillodent.al/en/contact`,
+        it: `https://www.maxillodent.al/it/contact`,
+      },
+    },
+      };
 }
 
 export default async function ContactPage({ params }: Props) {

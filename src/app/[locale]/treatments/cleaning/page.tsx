@@ -10,7 +10,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: t("cleaning.metaTitle"),
     description: t("cleaning.metaDesc"),
-  };
+    alternates: {
+      canonical: `https://www.maxillodent.al/${locale}/treatments/cleaning`,
+      languages: {
+        sq: `https://www.maxillodent.al/sq/treatments/cleaning`,
+        en: `https://www.maxillodent.al/en/treatments/cleaning`,
+        it: `https://www.maxillodent.al/it/treatments/cleaning`,
+      },
+    },
+      };
 }
 
 export default async function CleaningPage({ params }: Props) {

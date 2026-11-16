@@ -13,7 +13,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: t("implants.metaTitle"),
     description: t("implants.metaDesc"),
-  };
+    alternates: {
+      canonical: `https://www.maxillodent.al/${locale}/treatments/dental-implants`,
+      languages: {
+        sq: `https://www.maxillodent.al/sq/treatments/dental-implants`,
+        en: `https://www.maxillodent.al/en/treatments/dental-implants`,
+        it: `https://www.maxillodent.al/it/treatments/dental-implants`,
+      },
+    },
+      };
 }
 
 export default async function DentalImplantsPage({ params }: Props) {

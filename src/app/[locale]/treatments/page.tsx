@@ -14,7 +14,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: t("title"),
     description: t("subtitle"),
-  };
+    alternates: {
+      canonical: `https://www.maxillodent.al/${locale}/treatments`,
+      languages: {
+        sq: `https://www.maxillodent.al/sq/treatments`,
+        en: `https://www.maxillodent.al/en/treatments`,
+        it: `https://www.maxillodent.al/it/treatments`,
+      },
+    },
+      };
 }
 
 const TREATMENT_IMAGES = [

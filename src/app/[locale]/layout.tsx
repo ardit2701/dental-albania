@@ -46,7 +46,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       "klinika dentare Tiranë",
     ],
     alternates: {
-      canonical: `${baseUrl}/${locale}`,
       languages: {
         "sq": `${baseUrl}/sq`,
         "en": `${baseUrl}/en`,

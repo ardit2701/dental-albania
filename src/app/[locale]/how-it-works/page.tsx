@@ -8,7 +8,17 @@ type Props = { params: Promise<{ locale: string }> };
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "howItWorks" });
-  return { title: t("meta.title"), description: t("meta.desc") };
+  return {
+     title: t("meta.title"), description: t("meta.desc") ,
+    alternates: {
+      canonical: `https://www.maxillodent.al/${locale}/how-it-works`,
+      languages: {
+        sq: `https://www.maxillodent.al/sq/how-it-works`,
+        en: `https://www.maxillodent.al/en/how-it-works`,
+        it: `https://www.maxillodent.al/it/how-it-works`,
+      },
+    },
+  };
 }
 
 export default async function HowItWorksPage({ params }: Props) {

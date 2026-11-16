@@ -13,7 +13,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: t("veneers.metaTitle"),
     description: t("veneers.metaDesc"),
-  };
+    alternates: {
+      canonical: `https://www.maxillodent.al/${locale}/treatments/veneers`,
+      languages: {
+        sq: `https://www.maxillodent.al/sq/treatments/veneers`,
+        en: `https://www.maxillodent.al/en/treatments/veneers`,
+        it: `https://www.maxillodent.al/it/treatments/veneers`,
+      },
+    },
+      };
 }
 
 export default async function VeneersPage({ params }: Props) {

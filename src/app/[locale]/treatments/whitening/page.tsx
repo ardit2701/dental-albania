@@ -11,7 +11,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: t("whitening.metaTitle"),
     description: t("whitening.metaDesc"),
-  };
+    alternates: {
+      canonical: `https://www.maxillodent.al/${locale}/treatments/whitening`,
+      languages: {
+        sq: `https://www.maxillodent.al/sq/treatments/whitening`,
+        en: `https://www.maxillodent.al/en/treatments/whitening`,
+        it: `https://www.maxillodent.al/it/treatments/whitening`,
+      },
+    },
+      };
 }
 
 export default async function WhiteningPage({ params }: Props) {

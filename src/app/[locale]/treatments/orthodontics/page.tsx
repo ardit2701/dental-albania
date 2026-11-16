@@ -10,7 +10,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: t("orthodontics.metaTitle"),
     description: t("orthodontics.metaDesc"),
-  };
+    alternates: {
+      canonical: `https://www.maxillodent.al/${locale}/treatments/orthodontics`,
+      languages: {
+        sq: `https://www.maxillodent.al/sq/treatments/orthodontics`,
+        en: `https://www.maxillodent.al/en/treatments/orthodontics`,
+        it: `https://www.maxillodent.al/it/treatments/orthodontics`,
+      },
+    },
+      };
 }
 
 export default async function OrthodonticsPage({ params }: Props) {

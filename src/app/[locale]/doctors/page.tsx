@@ -11,7 +11,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: t("title"),
     description: t("subtitle"),
-  };
+    alternates: {
+      canonical: `https://www.maxillodent.al/${locale}/doctors`,
+      languages: {
+        sq: `https://www.maxillodent.al/sq/doctors`,
+        en: `https://www.maxillodent.al/en/doctors`,
+        it: `https://www.maxillodent.al/it/doctors`,
+      },
+    },
+      };
 }
 
 const DOCTOR_STATIC = [

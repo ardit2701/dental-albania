@@ -12,7 +12,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: t("metaTitle"),
     description: t("metaDesc"),
-  };
+    alternates: {
+      canonical: `https://www.maxillodent.al/${locale}/before-after`,
+      languages: {
+        sq: `https://www.maxillodent.al/sq/before-after`,
+        en: `https://www.maxillodent.al/en/before-after`,
+        it: `https://www.maxillodent.al/it/before-after`,
+      },
+    },
+      };
 }
 
 const CASE_EMOJIS = ["🦷", "✨", "🏆", "👑", "😁", "⭐"];

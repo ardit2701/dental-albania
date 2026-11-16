@@ -13,7 +13,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: t("crowns.metaTitle"),
     description: t("crowns.metaDesc"),
-  };
+    alternates: {
+      canonical: `https://www.maxillodent.al/${locale}/treatments/crowns`,
+      languages: {
+        sq: `https://www.maxillodent.al/sq/treatments/crowns`,
+        en: `https://www.maxillodent.al/en/treatments/crowns`,
+        it: `https://www.maxillodent.al/it/treatments/crowns`,
+      },
+    },
+      };
 }
 
 export default async function CrownsPage({ params }: Props) {

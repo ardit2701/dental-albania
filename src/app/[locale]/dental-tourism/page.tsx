@@ -12,7 +12,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: t("title"),
     description: t("subtitle"),
-  };
+    alternates: {
+      canonical: `https://www.maxillodent.al/${locale}/dental-tourism`,
+      languages: {
+        sq: `https://www.maxillodent.al/sq/dental-tourism`,
+        en: `https://www.maxillodent.al/en/dental-tourism`,
+        it: `https://www.maxillodent.al/it/dental-tourism`,
+      },
+    },
+      };
 }
 
 export default async function DentalTourismPage({ params }: Props) {

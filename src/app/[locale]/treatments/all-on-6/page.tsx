@@ -13,7 +13,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: t("allOn6.metaTitle"),
     description: t("allOn6.metaDesc"),
-  };
+    alternates: {
+      canonical: `https://www.maxillodent.al/${locale}/treatments/all-on-6`,
+      languages: {
+        sq: `https://www.maxillodent.al/sq/treatments/all-on-6`,
+        en: `https://www.maxillodent.al/en/treatments/all-on-6`,
+        it: `https://www.maxillodent.al/it/treatments/all-on-6`,
+      },
+    },
+      };
 }
 
 export default async function AllOn6Page({ params }: Props) {
