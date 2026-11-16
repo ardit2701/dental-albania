@@ -41,14 +41,6 @@ export default function WhatsAppButton() {
             <p className="text-[#bae6fd] text-xs mt-0.5">{t("subtitle")}</p>
           </div>
           <div className="p-2">
-            {/* Albanian - coming soon */}
-            <div className="flex items-center gap-3 px-3 py-3 rounded-xl opacity-50 cursor-not-allowed">
-              <span className="text-2xl">🇦🇱</span>
-              <div>
-                <p className="text-sm font-medium text-gray-800">Shqip</p>
-                <p className="text-xs text-gray-400">{t("comingSoon")}</p>
-              </div>
-            </div>
             {/* Active options */}
             {WHATSAPP_ACTIVE.map((opt) => (
               <a

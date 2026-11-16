@@ -188,10 +188,6 @@ export default function Header({ locale }: HeaderProps) {
                 <span className="text-[10px] bg-gray-100 rounded px-1 py-0.5 text-gray-500">🇬🇧 UK</span>
                 +44 7700 199000
               </a>
-              <span className="flex items-center gap-1.5 text-xs text-gray-400 font-medium">
-                <span className="text-[10px] bg-gray-100 rounded px-1 py-0.5 text-gray-400">🇦🇱 AL</span>
-                {t("phoneALPlaceholder")}
-              </span>
             </div>
 
             <Link
@@ -331,9 +327,6 @@ export default function Header({ locale }: HeaderProps) {
               >
                 🇬🇧 +44 7700 199000
               </a>
-              <div className="flex items-center justify-center gap-2 w-full px-4 py-3 border border-gray-200 text-gray-400 rounded-xl text-sm">
-                🇦🇱 {t("phoneALPlaceholder")}
-              </div>
             </div>
           </div>
         </div>
