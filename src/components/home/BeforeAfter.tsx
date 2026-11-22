@@ -60,10 +60,10 @@ export default function BeforeAfter() {
   }));
 
   return (
-    <section id="results" className="py-20 lg:py-28 bg-white overflow-hidden">
+    <section id="results" className="py-10 lg:py-14 bg-white overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
-        <div className="text-center mb-14 reveal">
+        <div className="text-center mb-8 reveal">
           <div className="inline-flex items-center gap-2 bg-sky-50 border border-sky-200 text-sky-700 px-4 py-1.5 rounded-full text-sm font-semibold mb-4 shadow-sm">
             {t('badge')}
           </div>
