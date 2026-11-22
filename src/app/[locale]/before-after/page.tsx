@@ -48,7 +48,7 @@ export default async function BeforeAfterPage({ params }: Props) {
   return (
     <>
       <PageHero
-        imageSrc="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=1600&q=85"
+        imageSrc="/clinic/clinic-0121.jpg"
         imageAlt={t("metaTitle")}
         badge={t("heroBadge")}
         title={t("heroTitle")}
