@@ -67,7 +67,7 @@ export default function TreatmentProcess() {
 
   useEffect(() => {
     if (showSwipeHint) {
-      const timer = setTimeout(() => setShowSwipeHint(false), 3000);
+      const timer = setTimeout(() => setShowSwipeHint(false), 6000);
       return () => clearTimeout(timer);
     }
   }, [showSwipeHint]);
