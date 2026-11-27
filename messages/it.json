@@ -124,6 +124,7 @@
   "process": {
     "badge": "Il Processo",
     "step": "Passo",
+    "swipeHint": "per i prossimi passi",
     "photos": [
       {
         "label": "Impianto Premium",

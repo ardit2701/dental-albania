@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useRef } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -62,7 +62,15 @@ export default function TreatmentProcess() {
   const t = useTranslations('process');
   const [activeTab, setActiveTab] = useState(0);
   const [activeStep, setActiveStep] = useState(0);
+  const [showSwipeHint, setShowSwipeHint] = useState(true);
   const swiperRef = useRef<SwiperType | null>(null);
+
+  useEffect(() => {
+    if (showSwipeHint) {
+      const timer = setTimeout(() => setShowSwipeHint(false), 3000);
+      return () => clearTimeout(timer);
+    }
+  }, [showSwipeHint]);
 
   const tabs = [0, 1, 2].map((ti) => ({
     label: t(`tabs.${ti}.label`),
@@ -121,7 +129,8 @@ export default function TreatmentProcess() {
             spaceBetween={0}
             slidesPerView={1}
             onSwiper={(swiper) => { swiperRef.current = swiper; }}
-            onSlideChange={(swiper) => setActiveStep(swiper.activeIndex)}
+            onSlideChange={(swiper) => { setActiveStep(swiper.activeIndex); setShowSwipeHint(false); }}
+          onTouchStart={() => setShowSwipeHint(false)}
             className="rounded-3xl overflow-hidden shadow-2xl"
           >
             {tabs[activeTab].steps.map((step, idx) => (
@@ -157,6 +166,26 @@ export default function TreatmentProcess() {
                       />
                     ))}
                   </div>
+
+                  {/* Swipe hint — mobile only, first slide only */}
+                  {idx === 0 && showSwipeHint && (
+                    <div className="absolute inset-0 flex items-center justify-center z-20 pointer-events-none sm:hidden">
+                      <div className="flex flex-col items-center gap-2 animate-pulse">
+                        <div className="bg-black/50 backdrop-blur-sm rounded-2xl px-5 py-3 flex items-center gap-3">
+                          <svg className="w-7 h-7 text-white animate-[swipeLeft_1.2s_ease-in-out_infinite]" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M9.5 4.5C9.5 3.4 10.4 2.5 11.5 2.5s2 .9 2 2v5.17l1.03-.36c.4-.14.82-.21 1.24-.21.96 0 1.87.37 2.56 1.04l.17.17c.5.5.84 1.12 1 1.8l.5 2c.2.84.3 1.7.3 2.56C20.3 19.3 17.6 22 14.27 22H11c-2.76 0-5-2.24-5-5V9.5c0-1.1.9-2 2-2 .36 0 .69.1.98.27C9.21 7.11 9.5 6.33 9.5 5.5v-1z"/>
+                          </svg>
+                          <div>
+                            <p className="text-white text-sm font-bold leading-none">Swipe</p>
+                            <p className="text-white/70 text-xs mt-0.5">{t('swipeHint')}</p>
+                          </div>
+                          <svg className="w-5 h-5 text-white/80" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M9 5l7 7-7 7"/>
+                          </svg>
+                        </div>
+                      </div>
+                    </div>
+                  )}
 
                   {/* Text overlay bottom */}
                   <div className="absolute bottom-0 left-0 right-0 p-5 sm:p-8 lg:p-10">

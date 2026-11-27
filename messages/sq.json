@@ -124,6 +124,7 @@
   "process": {
     "badge": "Procesi",
     "step": "Hapi",
+    "swipeHint": "për hapat tjera",
     "photos": [
       {
         "label": "Implant Premium",

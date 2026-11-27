@@ -124,6 +124,7 @@
   "process": {
     "badge": "The Process",
     "step": "Step",
+    "swipeHint": "to see next steps",
     "photos": [
       {
         "label": "Premium Implant",
