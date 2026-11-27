@@ -155,7 +155,12 @@ export default async function Footer({ locale }: FooterProps) {
 
         <div className="mt-12 pt-6 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-3">
           <p className="text-[#bae6fd] text-sm">{t("copyright")}</p>
-          <p className="text-[#bae6fd] text-sm">{t("tagline")}</p>
+          <div className="flex items-center gap-4">
+            <Link href="/en/privacy-policy" className="text-[#bae6fd] hover:text-white text-sm transition-colors">
+              Privacy Policy
+            </Link>
+            <p className="text-[#bae6fd] text-sm">{t("tagline")}</p>
+          </div>
         </div>
       </div>
     </footer>
