@@ -124,7 +124,6 @@ export default function TreatmentProcess() {
             slidesPerView={1}
             onSwiper={(swiper) => { swiperRef.current = swiper; }}
             onSlideChange={(swiper) => { setActiveStep(swiper.activeIndex); setShowSwipeHint(false); }}
-          onTouchStart={() => setShowSwipeHint(false)}
             className="rounded-3xl overflow-hidden shadow-2xl"
           >
             {tabs[activeTab].steps.map((step, idx) => (
