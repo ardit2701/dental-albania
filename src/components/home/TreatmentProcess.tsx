@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useRef, useEffect } from 'react';
+import { useState, useRef } from 'react';
 import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -65,12 +65,6 @@ export default function TreatmentProcess() {
   const [showSwipeHint, setShowSwipeHint] = useState(true);
   const swiperRef = useRef<SwiperType | null>(null);
 
-  useEffect(() => {
-    if (showSwipeHint) {
-      const timer = setTimeout(() => setShowSwipeHint(false), 6000);
-      return () => clearTimeout(timer);
-    }
-  }, [showSwipeHint]);
 
   const tabs = [0, 1, 2].map((ti) => ({
     label: t(`tabs.${ti}.label`),
