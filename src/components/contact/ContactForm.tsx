@@ -6,6 +6,7 @@ import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
 import { useTranslations } from "next-intl";
+import Link from "next/link";
 
 const COUNTRIES = [
   "Albania", "Austria", "Belgium", "Bosnia", "Bulgaria", "Croatia", "Czech Republic",
@@ -224,7 +225,8 @@ export default function ContactForm() {
                     />
                     <span className="text-sm text-gray-600">
                       {t("fields.privacy")}{" "}
-                      <span className="text-red-500">*</span>
+                      <Link href="/en/privacy-policy" target="_blank" className="text-[#0284c7] underline hover:text-[#0369a1]">Privacy Policy</Link>
+                      <span className="text-red-500"> *</span>
                     </span>
                   </label>
                   {errors.privacy && <p className={errorClass}>{errors.privacy.message}</p>}
